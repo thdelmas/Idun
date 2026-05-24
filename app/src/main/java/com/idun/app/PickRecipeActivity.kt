@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
+import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityMainBinding
 import java.util.Locale
 
@@ -74,11 +75,14 @@ class PickRecipeActivity : AppCompatActivity() {
     private fun applyFilter() {
         val q = query.trim().lowercase(Locale.getDefault())
         val filtered = if (q.isEmpty()) allRecipes else allRecipes.filter { r ->
-            r.nameEn.lowercase(Locale.getDefault()).contains(q) ||
+            r.searchableNames().any { it.lowercase(Locale.getDefault()).contains(q) } ||
                 r.tags.any { it.lowercase(Locale.getDefault()).contains(q) }
         }
         adapter.setRecipes(filtered)
     }
+
+    private fun Recipe.searchableNames(): Sequence<String> =
+        sequenceOf(nameEn) + nameByLocale.values.asSequence()
 
     companion object {
         const val RESULT_RECIPE_ID = "recipe_id"
@@ -149,7 +153,7 @@ private class PickAdapter(
         private val title: TextView = v.findViewById(R.id.pick_title)
         private val meta: TextView = v.findViewById(R.id.pick_meta)
         fun bind(recipe: Recipe, onPick: (Recipe) -> Unit) {
-            title.text = recipe.nameEn
+            title.text = recipe.displayName()
             val ctx = itemView.context
             val parts = mutableListOf<String>()
             parts.add(ctx.resources.getQuantityString(R.plurals.ingredients_count, recipe.ingredients.size, recipe.ingredients.size))

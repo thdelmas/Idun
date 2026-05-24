@@ -1,6 +1,7 @@
 package com.idun.app.data
 
 import android.content.Context
+import org.json.JSONArray
 import org.json.JSONObject
 import java.io.BufferedReader
 
@@ -8,6 +9,12 @@ import java.io.BufferedReader
  * Loads the bundled recipe corpus from app assets. JSON layout:
  *
  *   { "recipes": [ { "id": ..., "source": "blueprint"|"longo", ... }, ... ] }
+ *
+ * Recipe and ingredient text fields follow the `*_en` / `*_es` / `*_ca` / `*_fr`
+ * pattern (e.g. `name_en` is required, `name_es` is an optional override).
+ * Cooking steps use a top-level `steps` array (EN canonical) plus optional
+ * `steps_es` / `steps_ca` / `steps_fr` arrays. Missing locales fall back to
+ * EN at render time.
  *
  * Two files (`recipes_blueprint.json`, `recipes_longo.json`) are read and
  * merged into a single in-memory list. No DB persistence — the corpus is
@@ -52,6 +59,8 @@ class RecipeRepository(private val context: Context) {
                                 ing.optString("category", "OTHER").uppercase()
                             )
                         }.getOrDefault(IngredientCategory.OTHER),
+                        nameByLocale = readLocaleStringMap(ing, "name"),
+                        noteByLocale = readLocaleStringMap(ing, "note"),
                     )
                 )
             }
@@ -69,9 +78,38 @@ class RecipeRepository(private val context: Context) {
                         ?.let { tagsArr -> (0 until tagsArr.length()).map { tagsArr.getString(it) } }
                         ?: emptyList(),
                     notesEn = r.optString("notes_en", null),
+                    nameByLocale = readLocaleStringMap(r, "name"),
+                    notesByLocale = readLocaleStringMap(r, "notes"),
+                    stepsByLocale = readLocaleStepsMap(r),
                 )
             )
         }
         return out
+    }
+
+    /** Collect non-EN overrides for a given prefix (e.g. `name` → `name_es`, `name_ca`, `name_fr`). */
+    private fun readLocaleStringMap(obj: JSONObject, prefix: String): Map<String, String> {
+        val map = HashMap<String, String>(3)
+        for (lang in LOCALIZED_LANGS) {
+            val key = "${prefix}_$lang"
+            if (!obj.has(key) || obj.isNull(key)) continue
+            val v = obj.optString(key)
+            if (v.isNotBlank()) map[lang] = v
+        }
+        return map
+    }
+
+    private fun readLocaleStepsMap(obj: JSONObject): Map<String, List<String>> {
+        val map = HashMap<String, List<String>>(3)
+        for (lang in LOCALIZED_LANGS) {
+            val arr: JSONArray = obj.optJSONArray("steps_$lang") ?: continue
+            val list = (0 until arr.length()).map { arr.getString(it) }
+            if (list.isNotEmpty()) map[lang] = list
+        }
+        return map
+    }
+
+    private companion object {
+        val LOCALIZED_LANGS = listOf("es", "ca", "fr")
     }
 }

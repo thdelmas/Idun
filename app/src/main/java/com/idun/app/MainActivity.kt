@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
+import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityMainBinding
 import java.util.Locale
 
@@ -76,11 +77,14 @@ class MainActivity : AppCompatActivity() {
     private fun applyFilter() {
         val q = query.trim().lowercase(Locale.getDefault())
         val filtered = if (q.isEmpty()) allRecipes else allRecipes.filter { r ->
-            r.nameEn.lowercase(Locale.getDefault()).contains(q) ||
+            r.searchableNames().any { it.lowercase(Locale.getDefault()).contains(q) } ||
                 r.tags.any { it.lowercase(Locale.getDefault()).contains(q) }
         }
         adapter.setRecipes(filtered)
     }
+
+    private fun Recipe.searchableNames(): Sequence<String> =
+        sequenceOf(nameEn) + nameByLocale.values.asSequence()
 
     private fun updateFab() {
         if (selected.isEmpty()) binding.fabShoppingList.hide()
@@ -199,7 +203,7 @@ private class RecipeListAdapter(
             onSelectionChanged: () -> Unit,
             onClick: (Recipe) -> Unit,
         ) {
-            title.text = recipe.nameEn
+            title.text = recipe.displayName()
             meta.text = buildMeta(recipe)
             if (recipe.tags.isEmpty()) {
                 tags.visibility = View.GONE

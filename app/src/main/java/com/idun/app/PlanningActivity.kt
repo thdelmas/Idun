@@ -20,6 +20,7 @@ import com.idun.app.data.MealLogEntry
 import com.idun.app.data.PlanEntry
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
+import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityPlanningBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -191,7 +192,7 @@ class PlanningActivity : AppCompatActivity() {
         val meta = row.findViewById<TextView>(R.id.meal_meta)
         val eatenCheck = row.findViewById<TextView>(R.id.meal_eaten_check)
 
-        main.text = recipe?.nameEn ?: getString(R.string.planning_missing_recipe)
+        main.text = recipe?.displayName() ?: getString(R.string.planning_missing_recipe)
 
         val parts = mutableListOf<String>()
         parts.add(resources.getQuantityString(R.plurals.servings_count, entry.servings, entry.servings))
@@ -287,7 +288,7 @@ class PlanningActivity : AppCompatActivity() {
         actions += { removeEntry(entry) }
 
         AlertDialog.Builder(this)
-            .setTitle(recipe?.nameEn ?: getString(R.string.planning_missing_recipe))
+            .setTitle(recipe?.displayName() ?: getString(R.string.planning_missing_recipe))
             .setItems(labels.toTypedArray()) { _, which -> actions[which]() }
             .show()
     }

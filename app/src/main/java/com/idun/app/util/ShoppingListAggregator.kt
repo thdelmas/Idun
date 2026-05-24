@@ -3,14 +3,20 @@ package com.idun.app.util
 import com.idun.app.data.Ingredient
 import com.idun.app.data.IngredientCategory
 import com.idun.app.data.Recipe
+import com.idun.app.data.currentLanguage
 
 /**
  * Aggregates ingredient lines across a selected set of recipes into a
  * shopping list grouped by category.
  *
- * Aggregation rule: ingredients with identical normalized name + unit
+ * Aggregation rule: ingredients with identical normalized EN name + unit
  * are summed. Ingredients with conflicting units (e.g. "1 onion" vs
  * "75 g onion") are kept as separate lines — sum-by-unit only.
+ *
+ * The EN name is the canonical dedup key so the same line is recognized
+ * across locale switches; localized variants are carried on the line so
+ * the UI can render in the current locale (with EN fallback when a
+ * translation is missing).
  *
  * This is the v1 lead feature. Keep it tight, deterministic, and
  * unit-test-friendly (no Android dependencies in this file).
@@ -23,7 +29,11 @@ object ShoppingListAggregator {
         val unit: String?,
         val category: IngredientCategory,
         val sourceRecipeIds: List<String>,
-    )
+        val nameByLocale: Map<String, String> = emptyMap(),
+    ) {
+        fun displayName(lang: String = currentLanguage()): String =
+            nameByLocale[lang] ?: nameEn
+    }
 
     data class ShoppingList(
         val byCategory: Map<IngredientCategory, List<ShoppingLine>>,
@@ -32,12 +42,13 @@ object ShoppingListAggregator {
     )
 
     fun aggregate(recipes: List<Recipe>): ShoppingList {
-        // Bucket: (normalizedName, unit) -> running totals
+        // Bucket: (normalizedEnName, unit) -> running totals
         data class Bucket(
             var quantity: Double?,
             val unit: String?,
             val category: IngredientCategory,
             val displayName: String,
+            val nameByLocale: MutableMap<String, String> = mutableMapOf(),
             val sourceIds: MutableList<String> = mutableListOf(),
         )
 
@@ -55,6 +66,11 @@ object ShoppingListAggregator {
                     )
                 }
                 bucket.sourceIds.add(recipe.id)
+                // First non-blank localized value per locale wins. If two recipes
+                // disagree, the corpus is inconsistent — fix upstream in the KB.
+                for ((lang, name) in ing.nameByLocale) {
+                    if (name.isNotBlank()) bucket.nameByLocale.putIfAbsent(lang, name)
+                }
                 val q = ing.quantity
                 if (q != null) {
                     bucket.quantity = (bucket.quantity ?: 0.0) + q
@@ -71,6 +87,7 @@ object ShoppingListAggregator {
                 unit = it.unit,
                 category = it.category,
                 sourceRecipeIds = it.sourceIds.toList(),
+                nameByLocale = it.nameByLocale.toMap(),
             )
         }
 
