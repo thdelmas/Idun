@@ -1,11 +1,12 @@
 package com.idun.app
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.chip.Chip
 import com.idun.app.bios.BiosClient
 import com.idun.app.data.IdunDatabase
 import com.idun.app.data.Ingredient
@@ -44,6 +45,7 @@ class RecipeDetailActivity : AppCompatActivity() {
         title = recipe.nameEn
 
         binding.recipeMeta.text = buildMeta(recipe)
+        renderTags(recipe.tags)
         renderIngredients(recipe.ingredients)
         renderSteps(recipe.steps)
         renderNotes(recipe.notesEn)
@@ -60,16 +62,47 @@ class RecipeDetailActivity : AppCompatActivity() {
                 RecipeSource.LONGO -> R.string.source_longo
             }
         )
-        val servings = recipe.servings
-            ?.let { " · ${getString(R.string.recipe_servings)}: $it" }
-            ?: ""
-        return "$source$servings"
+        val parts = mutableListOf(source)
+        recipe.servings?.let {
+            parts.add(resources.getQuantityString(R.plurals.servings_count, it, it))
+        }
+        parts.add(resources.getQuantityString(
+            R.plurals.ingredients_count,
+            recipe.ingredients.size,
+            recipe.ingredients.size,
+        ))
+        return parts.joinToString("  ·  ")
+    }
+
+    private fun renderTags(tags: List<String>) {
+        if (tags.isEmpty()) {
+            binding.recipeTags.visibility = View.GONE
+            return
+        }
+        binding.recipeTags.visibility = View.VISIBLE
+        binding.recipeTags.removeAllViews()
+        for (tag in tags) {
+            val chip = Chip(this).apply {
+                text = tag.replace('_', ' ')
+                isClickable = false
+                isCheckable = false
+            }
+            binding.recipeTags.addView(chip)
+        }
     }
 
     private fun renderIngredients(ingredients: List<Ingredient>) {
+        val inflater = LayoutInflater.from(this)
         binding.ingredientsContainer.removeAllViews()
         for (ing in ingredients) {
-            binding.ingredientsContainer.addView(makeBulletLine(formatIngredient(ing)))
+            val row = inflater.inflate(
+                R.layout.item_recipe_ingredient,
+                binding.ingredientsContainer,
+                false,
+            )
+            row.findViewById<TextView>(R.id.ingredient_quantity).text = formatQuantity(ing)
+            row.findViewById<TextView>(R.id.ingredient_name).text = formatName(ing)
+            binding.ingredientsContainer.addView(row)
         }
     }
 
@@ -79,9 +112,13 @@ class RecipeDetailActivity : AppCompatActivity() {
             binding.stepsContainer.visibility = View.GONE
             return
         }
+        val inflater = LayoutInflater.from(this)
         binding.stepsContainer.removeAllViews()
         for ((index, step) in steps.withIndex()) {
-            binding.stepsContainer.addView(makeStepLine(index + 1, step))
+            val row = inflater.inflate(R.layout.item_recipe_step, binding.stepsContainer, false)
+            row.findViewById<TextView>(R.id.step_number).text = (index + 1).toString()
+            row.findViewById<TextView>(R.id.step_text).text = step
+            binding.stepsContainer.addView(row)
         }
     }
 
@@ -92,40 +129,15 @@ class RecipeDetailActivity : AppCompatActivity() {
         binding.recipeNotes.text = notes
     }
 
-    private fun formatIngredient(ing: Ingredient): String {
-        val parts = mutableListOf<String>()
-        ing.quantity?.let { q ->
-            val pretty = if (q % 1.0 == 0.0) q.toInt().toString() else q.toString()
-            parts.add(pretty)
-        }
-        ing.unit?.takeIf { it.isNotBlank() }?.let { parts.add(it) }
-        parts.add(ing.nameEn)
-        val base = parts.joinToString(" ")
-        return ing.noteEn?.takeIf { it.isNotBlank() }?.let { "$base ($it)" } ?: base
+    private fun formatQuantity(ing: Ingredient): String {
+        val q = ing.quantity ?: return ""
+        val pretty = if (q % 1.0 == 0.0) q.toInt().toString() else q.toString()
+        return ing.unit?.takeIf { it.isNotBlank() }?.let { "$pretty $it" } ?: pretty
     }
 
-    private fun makeBulletLine(text: String): TextView {
-        return TextView(this).apply {
-            this.text = "•  $text"
-            textSize = 14f
-            setPadding(0, 6, 0, 6)
-            layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-            )
-        }
-    }
-
-    private fun makeStepLine(number: Int, text: String): TextView {
-        return TextView(this).apply {
-            this.text = "$number.  $text"
-            textSize = 14f
-            setPadding(0, 6, 0, 6)
-            layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-            )
-        }
+    private fun formatName(ing: Ingredient): String {
+        val base = ing.nameEn
+        return ing.noteEn?.takeIf { it.isNotBlank() }?.let { "$base  ($it)" } ?: base
     }
 
     private fun logEaten(recipeId: String, servings: Double = 1.0) {
