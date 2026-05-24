@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idun</string>
+
+    <string name="recipes_title">Recettes</string>
+    <string name="source_blueprint">Blueprint</string>
+    <string name="source_longo">Longo</string>
+    <string name="fab_shopping_list">Liste de courses</string>
+
+    <string name="recipe_detail_title">Recette</string>
+    <string name="recipe_ingredients">Ingrédients</string>
+    <string name="recipe_steps">Étapes</string>
+    <string name="recipe_notes">Notes</string>
+    <string name="recipe_servings">Portions</string>
+    <string name="mark_as_eaten">Marquer comme mangé</string>
+    <string name="recipe_eaten_logged">Enregistré</string>
+
+    <string name="shopping_list_title">Liste de courses</string>
+    <string name="shopping_list_empty">Sélectionne d\'abord des recettes.</string>
+    <string name="shopping_list_summary">%1$d recettes · %2$d portions</string>
+    <string name="category_produce">Fruits et légumes</string>
+    <string name="category_herbs">Herbes</string>
+    <string name="category_fruit">Fruits</string>
+    <string name="category_legumes_grains_pasta">Légumineuses, céréales, pâtes</string>
+    <string name="category_flours_bread">Farines et pain</string>
+    <string name="category_nuts_seeds">Fruits secs et graines</string>
+    <string name="category_dairy_eggs">Produits laitiers et œufs</string>
+    <string name="category_seafood">Poisson et fruits de mer</string>
+    <string name="category_oils_vinegars_wine">Huiles, vinaigres, vin</string>
+    <string name="category_milks_broths">Laits et bouillons</string>
+    <string name="category_pantry_sweets">Épicerie et sucré</string>
+    <string name="category_spices">Épices</string>
+    <string name="category_other">Autres</string>
+
+    <string name="settings_title">Réglages</string>
+    <string name="settings_bios_section">Intégration Bios</string>
+    <string name="settings_bios_toggle">Envoyer les repas à Bios</string>
+    <string name="settings_bios_status_not_installed">Bios non installé</string>
+    <string name="settings_bios_status_not_enabled">Désactivé</string>
+    <string name="settings_bios_status_connected">Connecté</string>
+    <string name="settings_bios_pending_approval">En attente d\'approbation dans Bios → Apps compagnes</string>
+    <string name="bios_open_app">Ouvrir Bios</string>
+
+    <string name="search_hint">Rechercher recettes ou tags</string>
+    <string name="section_count_label">%d recettes</string>
+
+    <string name="planning_title">Planifier</string>
+    <string name="planning_today_badge">Aujourd\'hui</string>
+    <string name="planning_add_first_meal">Ajouter le premier repas du jour</string>
+    <string name="planning_add_another_meal">Ajouter un autre repas</string>
+    <string name="planning_shopping_list">Liste de courses</string>
+    <string name="planning_missing_recipe">(recette introuvable)</string>
+    <string name="planning_view_recipe">Voir la recette</string>
+    <string name="planning_mark_eaten">Marquer comme mangé</string>
+    <string name="planning_change_time">Heure</string>
+    <string name="planning_change_servings">Portions</string>
+    <string name="planning_change_guests">Invités</string>
+    <string name="planning_change_recipe">Changer de recette</string>
+    <string name="planning_remove">Supprimer</string>
+    <string name="planning_window_summary">%1$s à manger · %2$s à jeun</string>
+
+    <string name="pick_recipe_title">Choisir une recette</string>
+
+    <string name="credits_title">Crédits</string>
+    <string name="credits_intro">Les recettes d\'Idun reflètent le travail publié publiquement par deux chercheurs. Leurs sites, chaînes et fondations sont ici pour que tu puisses les consulter directement.</string>
+    <string name="credits_johnson_name">Bryan Johnson</string>
+    <string name="credits_johnson_role">Fondateur · Protocole Blueprint</string>
+    <string name="credits_johnson_bio">Entrepreneur américain à la tête de Blueprint, un protocole de longévité open source qu\'il teste sur lui-même. Ses repas quotidiens — Super Veggie, Nutty Pudding, Longevity Mix — forment la base du corpus de recettes Blueprint d\'Idun.</string>
+    <string name="credits_johnson_link_protocol">Protocole Blueprint</string>
+    <string name="credits_johnson_link_website">bryanjohnson.com</string>
+    <string name="credits_johnson_link_youtube">YouTube</string>
+    <string name="credits_johnson_link_x">X / Twitter</string>
+    <string name="credits_longo_name">Dr. Valter Longo</string>
+    <string name="credits_longo_role">Biogérontologue · USC Longevity Institute</string>
+    <string name="credits_longo_bio">Biogérontologue italo-américain, directeur du USC Longevity Institute. Son Régime de longévité — un schéma pesco-méditerranéen à dominante végétale couplé à une fenêtre alimentaire quotidienne — ancre le corpus de recettes Longo d\'Idun.</string>
+    <string name="credits_longo_link_website">valterlongo.com</string>
+    <string name="credits_longo_link_foundation">Create Cures Foundation</string>
+    <string name="credits_longo_link_institute">USC Longevity Institute</string>
+    <string name="credits_disclaimer">Idun est un projet indépendant, sans affiliation ni approbation d\'aucun des deux chercheurs.</string>
+    <string name="credits_no_browser">Aucun navigateur disponible</string>
+</resources>

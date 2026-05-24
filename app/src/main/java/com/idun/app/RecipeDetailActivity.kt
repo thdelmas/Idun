@@ -14,6 +14,10 @@ import com.idun.app.data.MealLogEntry
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
+import com.idun.app.data.displayName
+import com.idun.app.data.displayNote
+import com.idun.app.data.displayNotes
+import com.idun.app.data.displaySteps
 import com.idun.app.databinding.ActivityRecipeDetailBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -42,13 +46,13 @@ class RecipeDetailActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding.toolbar.setNavigationOnClickListener { finish() }
-        title = recipe.nameEn
+        title = recipe.displayName()
 
         binding.recipeMeta.text = buildMeta(recipe)
         renderTags(recipe.tags)
         renderIngredients(recipe.ingredients)
-        renderSteps(recipe.steps)
-        renderNotes(recipe.notesEn)
+        renderSteps(recipe.displaySteps())
+        renderNotes(recipe.displayNotes())
 
         binding.fabMarkEaten.setOnClickListener {
             logEaten(recipe.id)
@@ -136,8 +140,8 @@ class RecipeDetailActivity : AppCompatActivity() {
     }
 
     private fun formatName(ing: Ingredient): String {
-        val base = ing.nameEn
-        return ing.noteEn?.takeIf { it.isNotBlank() }?.let { "$base  ($it)" } ?: base
+        val base = ing.displayName()
+        return ing.displayNote()?.takeIf { it.isNotBlank() }?.let { "$base  ($it)" } ?: base
     }
 
     private fun logEaten(recipeId: String, servings: Double = 1.0) {

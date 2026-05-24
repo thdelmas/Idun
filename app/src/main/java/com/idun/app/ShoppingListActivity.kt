@@ -120,7 +120,7 @@ class ShoppingListActivity : AppCompatActivity() {
         val name = row.findViewById<TextView>(R.id.line_name)
 
         quantity.text = formatQuantity(line)
-        name.text = line.nameEn
+        name.text = line.displayName()
         applyStrike(check, name, quantity, ticked.contains(key))
 
         row.setOnClickListener {

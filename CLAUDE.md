@@ -13,7 +13,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 ## Locked design constraints
 
 - **No cloud, no auth, no sync.** Local-first. Bios is the only external integration.
-- **i18n from commit 1:** EN / ES / CA / IT in `res/values*/strings.xml`. Don't hardcode UI strings.
+- **i18n from commit 1:** EN / ES / CA / FR in `res/values*/strings.xml`. Don't hardcode UI strings. Recipe data (ingredient names, notes, cooking steps) is localized via parallel `*_es` / `*_ca` / `*_fr` fields in the JSON corpus, with English as the canonical fallback when a locale's translation hasn't landed yet. Translations land KB-first (see seed-data discipline). FR replaced IT on 2026-05-24.
 - **Both recipe sets equal-weight in UI.** Blueprint and Longo are surfaced equally; don't lead with one.
 - **Shopping-list generation is the v1 lead feature.** Not cost estimation, not recipe authoring, not community.
 - **Planning is the v1.1 layer.** Week-view planner backed by a `plan_entry` table; the shopping list learns to aggregate from a date range alongside the existing multi-select path. Routines (recurring templates) and household/guest social land on top of the same plan table.
