@@ -3,13 +3,20 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Iðunn's apples — deep red, Norse-gold accent, parchment background -->
+    <!-- Iðunn's apples — deep red, Norse-gold accent, parchment background. -->
     <color name="accent_apple_red">#B33A3A</color>
+    <color name="accent_apple_red_dark">#5C1A1A</color>
+    <color name="accent_apple_red_soft">#F4D5D5</color>
     <color name="accent_norse_gold">#D4A24C</color>
+    <color name="accent_norse_gold_dark">#5C401A</color>
+    <color name="accent_norse_gold_soft">#F4E6CC</color>
+
     <color name="background">#FAF6EE</color>
+    <color name="surface_variant">#F0EAD8</color>
     <color name="text_primary">#1A1A1A</color>
     <color name="text_secondary">#5C5C5C</color>
     <color name="divider">#E0DACE</color>
+
     <color name="banner_pending">#FFF4DA</color>
     <color name="card_background">#FFFCF6</color>
 </resources>
