@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idun</string>
+
+    <string name="recipes_title">Recetas</string>
+    <string name="source_blueprint">Blueprint</string>
+    <string name="source_longo">Longo</string>
+    <string name="fab_shopping_list">Lista de la compra</string>
+
+    <string name="recipe_detail_title">Receta</string>
+    <string name="recipe_ingredients">Ingredientes</string>
+    <string name="recipe_steps">Pasos</string>
+    <string name="recipe_notes">Notas</string>
+    <string name="recipe_servings">Raciones</string>
+    <string name="mark_as_eaten">Marcar como comido</string>
+
+    <string name="shopping_list_title">Lista de la compra</string>
+    <string name="shopping_list_empty">Selecciona recetas primero.</string>
+    <string name="category_produce">Frutas y verduras</string>
+    <string name="category_herbs">Hierbas</string>
+    <string name="category_fruit">Fruta</string>
+    <string name="category_legumes_grains_pasta">Legumbres, cereales, pasta</string>
+    <string name="category_flours_bread">Harinas y pan</string>
+    <string name="category_nuts_seeds">Frutos secos y semillas</string>
+    <string name="category_dairy_eggs">Lácteos y huevos</string>
+    <string name="category_seafood">Pescado y marisco</string>
+    <string name="category_oils_vinegars_wine">Aceites, vinagres, vino</string>
+    <string name="category_milks_broths">Leches y caldos</string>
+    <string name="category_pantry_sweets">Despensa y dulces</string>
+    <string name="category_spices">Especias</string>
+    <string name="category_other">Otros</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_bios_section">Integración con Bios</string>
+    <string name="settings_bios_toggle">Enviar comidas a Bios</string>
+    <string name="settings_bios_status_not_installed">Bios no instalado</string>
+    <string name="settings_bios_status_not_enabled">Desactivado</string>
+    <string name="settings_bios_status_connected">Conectado</string>
+    <string name="settings_bios_pending_approval">Pendiente de aprobación en Bios → Apps compañeras</string>
+</resources>

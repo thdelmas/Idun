@@ -1,0 +1,625 @@
+{
+  "_meta": {
+    "source_doc": "Miam/miam-knowledge-base/docs/life/longo-recipes.md",
+    "source_url": "https://valterlongo.com/recipes-of-longevity/",
+    "fetched": "2026-05-24",
+    "recipe_count": 39
+  },
+  "recipes": [
+    {
+      "id": "lo-01-panzanella",
+      "source": "longo",
+      "name_en": "Panzanella (Tuscan Bread Salad)",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "stale bread", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
+        {"name_en": "fresh onion or spring onion, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
+        {"name_en": "salad tomatoes, cubed", "quantity": null, "unit": null, "category": "PRODUCE"},
+        {"name_en": "cucumber, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
+        {"name_en": "celery, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
+        {"name_en": "basil leaves, torn", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "red wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ],
+      "notes_en": "Soak bread 30 min in cold water, squeeze 3-4 times, rest 30 min before serving."
+    },
+    {
+      "id": "lo-02-stuffed-artichokes",
+      "source": "longo",
+      "name_en": "Stuffed Artichokes",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "artichokes", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "breadcrumbs", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "garlic clove, chopped", "quantity": 3, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-03-ciaudedda",
+      "source": "longo",
+      "name_en": "Ciaudedda",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "potatoes", "quantity": 3, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "cherry tomatoes", "quantity": 200, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "zucchini", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "eggplants", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "bell peppers", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-04-pici-potatoes",
+      "source": "longo",
+      "name_en": "Pici and Potatoes",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "bell peppers", "quantity": 800, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "potatoes", "quantity": 800, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "small tomatoes", "quantity": 10, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-05-squid-cuttlefish",
+      "source": "longo",
+      "name_en": "Squid and Cuttlefish Casserole",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "squid", "quantity": 500, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "cuttlefish", "quantity": 300, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "cherry tomatoes, chopped", "quantity": 500, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "garlic clove, chopped", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 40, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-06-anchovies-endive",
+      "source": "longo",
+      "name_en": "Anchovies with Endive",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "fresh anchovies", "quantity": 400, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "escarole endive", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "parsley sprig", "quantity": 1, "unit": "sprig", "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-07-onions-walnut-sauce",
+      "source": "longo",
+      "name_en": "Onions in Walnut Sauce",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "white onions", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "walnuts", "quantity": 120, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "garlic clove, chopped", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "lemons", "quantity": 2, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-08-cabbage-patties",
+      "source": "longo",
+      "name_en": "Cabbage Patties",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "cabbage", "quantity": 1, "unit": "small head", "category": "PRODUCE"},
+        {"name_en": "tomatoes", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "onion, chopped", "quantity": 0.25, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "sandwich bread", "quantity": 200, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "thin corn flour", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
+        {"name_en": "tomato paste", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-09-comaut",
+      "source": "longo",
+      "name_en": "Comaut",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "pumpkin (cleaned)", "quantity": 800, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "potatoes", "quantity": 3, "unit": "medium", "category": "PRODUCE"},
+        {"name_en": "white leeks or onions", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "sage leaves", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-10-snapper-tarantina",
+      "source": "longo",
+      "name_en": "Snapper Tarantina",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "whole snapper", "quantity": 1000, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "black olives", "quantity": 200, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "tomatoes", "quantity": 150, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "dry white wine", "quantity": 200, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-11-chickpeas-spelt",
+      "source": "longo",
+      "name_en": "Chickpeas and Spelt",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "dried chickpeas", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "spelt", "quantity": 150, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "carrot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "celery rib", "quantity": 1, "unit": "rib", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-12-sarde-saor",
+      "source": "longo",
+      "name_en": "Sweet and Sour Sardines (Sarde in Saor)",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "sardines", "quantity": 2000, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "sweet white onions, sliced", "quantity": 2000, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "pine nuts", "quantity": 40, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "raisins", "quantity": 80, "unit": "g", "category": "FRUIT"},
+        {"name_en": "Italian 00 wheat flour", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
+        {"name_en": "white wine vinegar", "quantity": 600, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-13-couscous-trapani",
+      "source": "longo",
+      "name_en": "Couscous Trapani-Style with Mixed Fish",
+      "servings": 8,
+      "ingredients": [
+        {"name_en": "durum-wheat semolina", "quantity": 800, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "wheat flour", "quantity": 200, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "mixed fish for stew", "quantity": 1000, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "peeled tomatoes", "quantity": 300, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "onions", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 6, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "bay leaves", "quantity": 2, "unit": "leaf", "category": "SPICES"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "peeled almonds", "quantity": 200, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "extra virgin olive oil", "quantity": 100, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-14-hummus",
+      "source": "longo",
+      "name_en": "Hummus",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "dried chickpeas", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "tahini paste", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
+        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "parsley, minced", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "paprika", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-15-roasted-yellow-peppers",
+      "source": "longo",
+      "name_en": "Roasted Yellow Peppers with Anchovies, Capers, Garlic, Basil, Herbs",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "large yellow peppers", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "salt-preserved anchovy filets", "quantity": 12, "unit": "whole", "category": "SEAFOOD"},
+        {"name_en": "garlic clove", "quantity": 4, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "capers", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
+        {"name_en": "basil", "quantity": 1, "unit": "bunch", "category": "HERBS"},
+        {"name_en": "aromatic herbs mix (parsley, sage, marjoram, mint, summer savory, thyme, celery leaves, arugula, tarragon)", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+      ]
+    },
+    {
+      "id": "lo-16-anchovy-egg-salad",
+      "source": "longo",
+      "name_en": "Salad with Anchovies, Hardboiled Eggs, Tomatoes, Cucumber, Peppers, Olives",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "salt-preserved anchovies", "quantity": 100, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "white wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "chili pepper (peperoncino)", "quantity": 1, "unit": "whole", "category": "SPICES"},
+        {"name_en": "taralli", "quantity": 4, "unit": "whole", "category": "FLOURS_BREAD"},
+        {"name_en": "hardboiled eggs", "quantity": 2, "unit": "whole", "category": "DAIRY_EGGS"},
+        {"name_en": "firm tomatoes", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "cucumber", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "green and black olives", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
+        {"name_en": "large pepper", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "celery rib", "quantity": 2, "unit": "rib", "category": "PRODUCE"},
+        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "extra virgin olive oil", "quantity": 100, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-17-nettle-gnocchi",
+      "source": "longo",
+      "name_en": "Nettle Gnocchi with Porcini Sauce",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "potatoes", "quantity": 200, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "whole wheat flour", "quantity": 40, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "nettles (ortiche)", "quantity": null, "unit": "small bunch", "category": "PRODUCE"},
+        {"name_en": "egg yolk", "quantity": 1, "unit": "whole", "category": "DAIRY_EGGS"},
+        {"name_en": "porcini mushrooms", "quantity": 400, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-18-octopus-salad",
+      "source": "longo",
+      "name_en": "Octopus Salad with Potatoes and Green Beans",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "green string beans", "quantity": 500, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "potatoes", "quantity": 500, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "boiled octopus", "quantity": 500, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-19-baked-anchovies-endive",
+      "source": "longo",
+      "name_en": "Baked Anchovies with Endive Escarole",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "fresh anchovies", "quantity": 400, "unit": "g", "category": "SEAFOOD"},
+        {"name_en": "endive escarole", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "parsley", "quantity": null, "unit": "small bunch", "category": "HERBS"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-20-linguine-fava-pesto",
+      "source": "longo",
+      "name_en": "Linguine with Fava Bean Pesto",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "linguine", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "fresh fava beans (shelled)", "quantity": 300, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "fresh mint", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 120, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+      ]
+    },
+    {
+      "id": "lo-21-fava-garlic-mint",
+      "source": "longo",
+      "name_en": "Fava Beans with Garlic, Mint, and Chili Pepper",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "shelled fava beans", "quantity": 400, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "Roman mint", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "peperoncino", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-22-gelo-mellone",
+      "source": "longo",
+      "name_en": "Gelo di Mellone",
+      "servings": 6,
+      "ingredients": [
+        {"name_en": "watermelon juice", "quantity": 1000, "unit": "ml", "category": "FRUIT"},
+        {"name_en": "corn starch", "quantity": 90, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "sugar", "quantity": 40, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "dark chocolate chips", "quantity": 100, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "pistachio granules", "quantity": 100, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "vanilla extract", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "cinnamon", "quantity": null, "unit": "pinch", "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-23-sicilian-pasta-eggplant",
+      "source": "longo",
+      "name_en": "Traditional Sicilian Pasta with Eggplant and Tomato Sauce",
+      "servings": 6,
+      "ingredients": [
+        {"name_en": "rigatoni or maccheroni", "quantity": 500, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "sauce tomatoes", "quantity": 1500, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "eggplants", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "ricotta salata", "quantity": 100, "unit": "g", "category": "DAIRY_EGGS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-24-chocolate-almond-delights",
+      "source": "longo",
+      "name_en": "Chocolate Almond Delights",
+      "servings": 20,
+      "ingredients": [
+        {"name_en": "shelled unpeeled almonds", "quantity": 500, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "dark chocolate", "quantity": 500, "unit": "g", "category": "PANTRY_SWEETS"}
+      ]
+    },
+    {
+      "id": "lo-25-pasta-beans",
+      "source": "longo",
+      "name_en": "Pasta and Beans",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "fresh Lamon beans (or 250g dried)", "quantity": 500, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "kosher salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "whole cloves", "quantity": 7, "unit": "whole", "category": "SPICES"},
+        {"name_en": "tagliolini or ditalini pasta", "quantity": 100, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"}
+      ]
+    },
+    {
+      "id": "lo-26-polenta-mushrooms",
+      "source": "longo",
+      "name_en": "Polenta and Mushrooms",
+      "servings": 1,
+      "ingredients": [
+        {"name_en": "whole wheat flour", "quantity": 80, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "mushrooms", "quantity": 100, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "parsley sprig", "quantity": 1, "unit": "sprig", "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-27-baked-pumpkin",
+      "source": "longo",
+      "name_en": "Baked Pumpkin",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "pumpkin pulp", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "rosemary", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "sage", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "honey", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-28-chickpeas-chestnuts",
+      "source": "longo",
+      "name_en": "Chickpeas and Chestnuts with Rosemary and Garlic",
+      "servings": 6,
+      "ingredients": [
+        {"name_en": "chickpeas", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "dry chestnuts", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "garlic clove", "quantity": 3, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "bay leaf", "quantity": 1, "unit": "leaf", "category": "SPICES"},
+        {"name_en": "rosemary", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-29-rice-leeks-herbs",
+      "source": "longo",
+      "name_en": "Rice, Leeks, and Herbs",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "semi-brown rice", "quantity": 150, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "mixed herbs", "quantity": 400, "unit": "g", "category": "HERBS"},
+        {"name_en": "small leeks", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "Grana Padano", "quantity": 40, "unit": "g", "category": "DAIRY_EGGS"},
+        {"name_en": "parsley", "quantity": null, "unit": "small tuft", "category": "HERBS"},
+        {"name_en": "vegetable broth", "quantity": 1000, "unit": "ml", "category": "MILKS_BROTHS"}
+      ]
+    },
+    {
+      "id": "lo-30-pears-red-wine",
+      "source": "longo",
+      "name_en": "Pears Simmered in Spiced Red Wine",
+      "servings": 8,
+      "ingredients": [
+        {"name_en": "firm pears", "quantity": 8, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "red wine", "quantity": 1000, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "sugar", "quantity": 50, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "whole cloves", "quantity": 4, "unit": "whole", "category": "SPICES"},
+        {"name_en": "cinnamon stick", "quantity": 1, "unit": "small", "category": "SPICES"},
+        {"name_en": "lemon rind", "quantity": 2.5, "unit": "ml", "category": "FRUIT"}
+      ]
+    },
+    {
+      "id": "lo-31-cornmeal-porridge-cavolo",
+      "source": "longo",
+      "name_en": "Corn Meal Porridge with Tuscan Black Cabbage",
+      "servings": 6,
+      "ingredients": [
+        {"name_en": "maize flour", "quantity": 600, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "cavolo nero (black cabbage)", "quantity": 3, "unit": "bunch", "category": "PRODUCE"},
+        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
+        {"name_en": "Parmigiano Reggiano, grated", "quantity": 50, "unit": "g", "category": "DAIRY_EGGS"},
+        {"name_en": "extra virgin olive oil", "quantity": 240, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-32-three-flour-cake",
+      "source": "longo",
+      "name_en": "3-Flour Cake with Citrus Rind and Dried Fruit",
+      "servings": 8,
+      "ingredients": [
+        {"name_en": "soft wheat flour", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "corn meal", "quantity": 80, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "chickpea flour", "quantity": 40, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "natural cane sugar", "quantity": 100, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "breadcrumbs", "quantity": 70, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "plant-based milk", "quantity": 300, "unit": "ml", "category": "MILKS_BROTHS"},
+        {"name_en": "apples", "quantity": 2, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "dried figs", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "lemon rind", "quantity": 0.5, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "orange rind", "quantity": 0.5, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "extra virgin olive oil", "quantity": 50, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "sunflower oil", "quantity": 50, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "powdered sugar (optional)", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"}
+      ]
+    },
+    {
+      "id": "lo-33-spiced-cake-nuts",
+      "source": "longo",
+      "name_en": "Spiced Cake with Nuts, Chocolate, and Raisins",
+      "servings": 8,
+      "ingredients": [
+        {"name_en": "soft wheat flour 00", "quantity": 50, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "peeled almonds", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "peeled hazelnuts", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "walnut pieces", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "dark chocolate", "quantity": 80, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "natural cane sugar", "quantity": 50, "unit": "g", "category": "PANTRY_SWEETS"},
+        {"name_en": "cinnamon", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "nutmeg", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "black pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-34-cauliflower-salad",
+      "source": "longo",
+      "name_en": "Cauliflower Salad",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "cauliflower head", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "black olives", "quantity": 12, "unit": "whole", "category": "PANTRY_SWEETS"},
+        {"name_en": "capers", "quantity": 15, "unit": "ml", "category": "PANTRY_SWEETS"},
+        {"name_en": "vinegar-preserved pepper", "quantity": 1, "unit": "whole", "category": "PANTRY_SWEETS"},
+        {"name_en": "white wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-35-cornmeal-cookies",
+      "source": "longo",
+      "name_en": "Corn Meal Cookies with Raisins, Dried Figs, and Nuts",
+      "servings": 8,
+      "ingredients": [
+        {"name_en": "corn meal", "quantity": 250, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "sugar", "quantity": 22, "unit": "ml", "category": "PANTRY_SWEETS"},
+        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "pine nuts", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "walnut pieces", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "shelled almonds", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "dried figs", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-36-radicchio-polenta-stew",
+      "source": "longo",
+      "name_en": "Radicchio and Polenta Stew",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "winter radicchio heads", "quantity": 3, "unit": "head", "category": "PRODUCE"},
+        {"name_en": "dry beans", "quantity": 10, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
+        {"name_en": "vegetable broth", "quantity": 1500, "unit": "ml", "category": "MILKS_BROTHS"},
+        {"name_en": "corn meal", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
+        {"name_en": "carrot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "small onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "celery rib", "quantity": 1, "unit": "rib", "category": "PRODUCE"},
+        {"name_en": "bay leaf", "quantity": 1, "unit": "leaf", "category": "SPICES"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-37-crostini-artichoke",
+      "source": "longo",
+      "name_en": "Crostini with Artichoke-Stems and Shallot, Mint, Basil Sauce",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "artichoke stems", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "shallot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "mint", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
+        {"name_en": "toasted homemade bread slices", "quantity": 4, "unit": "slice", "category": "FLOURS_BREAD"},
+        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-38-orange-oregano-chive-salad",
+      "source": "longo",
+      "name_en": "Orange, Oregano, and Chive Salad",
+      "servings": 4,
+      "ingredients": [
+        {"name_en": "oranges", "quantity": 5, "unit": "whole", "category": "FRUIT"},
+        {"name_en": "chive bulb", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
+        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    },
+    {
+      "id": "lo-39-carrots-pinenuts-raisins",
+      "source": "longo",
+      "name_en": "Carrots with Pine Nuts and Wine-Seeped Raisins",
+      "servings": 6,
+      "ingredients": [
+        {"name_en": "tender young carrots (novelle)", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
+        {"name_en": "pine nuts", "quantity": 25, "unit": "g", "category": "NUTS_SEEDS"},
+        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
+        {"name_en": "wine", "quantity": 120, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
+        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+      ]
+    }
+  ]
+}

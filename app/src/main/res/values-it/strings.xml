@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idun</string>
+
+    <string name="recipes_title">Ricette</string>
+    <string name="source_blueprint">Blueprint</string>
+    <string name="source_longo">Longo</string>
+    <string name="fab_shopping_list">Lista della spesa</string>
+
+    <string name="recipe_detail_title">Ricetta</string>
+    <string name="recipe_ingredients">Ingredienti</string>
+    <string name="recipe_steps">Passaggi</string>
+    <string name="recipe_notes">Note</string>
+    <string name="recipe_servings">Porzioni</string>
+    <string name="mark_as_eaten">Segna come mangiato</string>
+
+    <string name="shopping_list_title">Lista della spesa</string>
+    <string name="shopping_list_empty">Seleziona prima le ricette.</string>
+    <string name="category_produce">Frutta e verdura</string>
+    <string name="category_herbs">Erbe aromatiche</string>
+    <string name="category_fruit">Frutta</string>
+    <string name="category_legumes_grains_pasta">Legumi, cereali, pasta</string>
+    <string name="category_flours_bread">Farine e pane</string>
+    <string name="category_nuts_seeds">Frutta secca e semi</string>
+    <string name="category_dairy_eggs">Latticini e uova</string>
+    <string name="category_seafood">Pesce e frutti di mare</string>
+    <string name="category_oils_vinegars_wine">Oli, aceti, vino</string>
+    <string name="category_milks_broths">Latti e brodi</string>
+    <string name="category_pantry_sweets">Dispensa e dolci</string>
+    <string name="category_spices">Spezie</string>
+    <string name="category_other">Altro</string>
+
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_bios_section">Integrazione con Bios</string>
+    <string name="settings_bios_toggle">Invia i pasti a Bios</string>
+    <string name="settings_bios_status_not_installed">Bios non installato</string>
+    <string name="settings_bios_status_not_enabled">Disattivato</string>
+    <string name="settings_bios_status_connected">Connesso</string>
+    <string name="settings_bios_pending_approval">In attesa di approvazione in Bios → App compagne</string>
+</resources>

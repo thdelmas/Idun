@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idun</string>
+
+    <string name="recipes_title">Receptes</string>
+    <string name="source_blueprint">Blueprint</string>
+    <string name="source_longo">Longo</string>
+    <string name="fab_shopping_list">Llista de la compra</string>
+
+    <string name="recipe_detail_title">Recepta</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_steps">Passos</string>
+    <string name="recipe_notes">Notes</string>
+    <string name="recipe_servings">Racions</string>
+    <string name="mark_as_eaten">Marcar com a menjat</string>
+
+    <string name="shopping_list_title">Llista de la compra</string>
+    <string name="shopping_list_empty">Selecciona receptes primer.</string>
+    <string name="category_produce">Fruites i verdures</string>
+    <string name="category_herbs">Herbes</string>
+    <string name="category_fruit">Fruita</string>
+    <string name="category_legumes_grains_pasta">Llegums, cereals, pasta</string>
+    <string name="category_flours_bread">Farines i pa</string>
+    <string name="category_nuts_seeds">Fruits secs i llavors</string>
+    <string name="category_dairy_eggs">Lactis i ous</string>
+    <string name="category_seafood">Peix i marisc</string>
+    <string name="category_oils_vinegars_wine">Olis, vinagres, vi</string>
+    <string name="category_milks_broths">Llets i brous</string>
+    <string name="category_pantry_sweets">Rebost i dolços</string>
+    <string name="category_spices">Espècies</string>
+    <string name="category_other">Altres</string>
+
+    <string name="settings_title">Configuració</string>
+    <string name="settings_bios_section">Integració amb Bios</string>
+    <string name="settings_bios_toggle">Enviar àpats a Bios</string>
+    <string name="settings_bios_status_not_installed">Bios no instal·lat</string>
+    <string name="settings_bios_status_not_enabled">Desactivat</string>
+    <string name="settings_bios_status_connected">Connectat</string>
+    <string name="settings_bios_pending_approval">Pendent d&apos;aprovació a Bios → Apps acompanyants</string>
+</resources>

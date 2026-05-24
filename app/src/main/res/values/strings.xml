@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idun</string>
+
+    <!-- Main screen -->
+    <string name="recipes_title">Recipes</string>
+    <string name="source_blueprint">Blueprint</string>
+    <string name="source_longo">Longo</string>
+    <string name="fab_shopping_list">Shopping list</string>
+
+    <!-- Recipe detail -->
+    <string name="recipe_detail_title">Recipe</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_steps">Steps</string>
+    <string name="recipe_notes">Notes</string>
+    <string name="recipe_servings">Servings</string>
+    <string name="mark_as_eaten">Mark as eaten</string>
+
+    <!-- Shopping list -->
+    <string name="shopping_list_title">Shopping list</string>
+    <string name="shopping_list_empty">Select recipes first.</string>
+    <string name="category_produce">Produce</string>
+    <string name="category_herbs">Herbs</string>
+    <string name="category_fruit">Fruit</string>
+    <string name="category_legumes_grains_pasta">Legumes, grains, pasta</string>
+    <string name="category_flours_bread">Flours &amp; bread</string>
+    <string name="category_nuts_seeds">Nuts &amp; seeds</string>
+    <string name="category_dairy_eggs">Dairy &amp; eggs</string>
+    <string name="category_seafood">Seafood</string>
+    <string name="category_oils_vinegars_wine">Oils, vinegars, wine</string>
+    <string name="category_milks_broths">Milks &amp; broths</string>
+    <string name="category_pantry_sweets">Pantry &amp; sweets</string>
+    <string name="category_spices">Spices</string>
+    <string name="category_other">Other</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_bios_section">Bios integration</string>
+    <string name="settings_bios_toggle">Send meal events to Bios</string>
+    <string name="settings_bios_status_not_installed">Bios not installed</string>
+    <string name="settings_bios_status_not_enabled">Disabled</string>
+    <string name="settings_bios_status_connected">Connected</string>
+    <string name="settings_bios_pending_approval">Pending approval in Bios → Companion Apps</string>
+</resources>
