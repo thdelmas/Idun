@@ -11,4 +11,5 @@
     <color name="text_secondary">#5C5C5C</color>
     <color name="divider">#E0DACE</color>
     <color name="banner_pending">#FFF4DA</color>
+    <color name="card_background">#FFFCF6</color>
 </resources>

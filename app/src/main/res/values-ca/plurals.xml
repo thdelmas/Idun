@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ingredients_count">
+        <item quantity="one">%d ingredient</item>
+        <item quantity="other">%d ingredients</item>
+    </plurals>
+    <plurals name="servings_count">
+        <item quantity="one">%d ració</item>
+        <item quantity="other">%d racions</item>
+    </plurals>
+</resources>

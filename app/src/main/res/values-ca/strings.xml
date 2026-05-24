@@ -38,6 +38,9 @@
     <string name="settings_bios_status_not_installed">Bios no instal·lat</string>
     <string name="settings_bios_status_not_enabled">Desactivat</string>
     <string name="settings_bios_status_connected">Connectat</string>
-    <string name="settings_bios_pending_approval">Pendent d&apos;aprovació a Bios → Apps acompanyants</string>
+    <string name="settings_bios_pending_approval">Pendent d\'aprovació a Bios → Apps acompanyants</string>
     <string name="bios_open_app">Obrir Bios</string>
+
+    <string name="search_hint">Cerca receptes o etiquetes</string>
+    <string name="section_count_label">%d receptes</string>
 </resources>

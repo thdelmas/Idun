@@ -40,4 +40,7 @@
     <string name="settings_bios_status_connected">Connesso</string>
     <string name="settings_bios_pending_approval">In attesa di approvazione in Bios → App compagne</string>
     <string name="bios_open_app">Apri Bios</string>
+
+    <string name="search_hint">Cerca ricette o tag</string>
+    <string name="section_count_label">%d ricette</string>
 </resources>
