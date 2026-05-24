@@ -15,79 +15,92 @@
           "name_en": "onion, thinly sliced",
           "quantity": 75,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla en láminas finas"
         },
         {
           "name_en": "red cabbage, shredded",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "col lombarda rallada"
         },
         {
           "name_en": "white cabbage, shredded",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "col blanca rallada"
         },
         {
           "name_en": "mung bean sprouts",
           "quantity": 200,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "brotes de soja verde"
         },
         {
           "name_en": "broccoli, chopped",
           "quantity": 200,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "brócoli picado"
         },
         {
           "name_en": "shiitake mushrooms, sliced",
           "quantity": 225,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "setas shiitake en láminas"
         },
         {
           "name_en": "sugar snap peas",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tirabeques"
         },
         {
           "name_en": "ginger powder",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "jengibre en polvo"
         },
         {
           "name_en": "garlic powder",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "ajo en polvo"
         },
         {
           "name_en": "gluten-free low-sodium tamari",
           "quantity": 30,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "tamari sin gluten bajo en sodio"
         },
         {
           "name_en": "cauliflower rice",
           "quantity": 600,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "arroz de coliflor"
         },
         {
           "name_en": "olive oil",
           "quantity": 15,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "hemp seeds (optional, garnish)",
           "quantity": 7,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "semillas de cáñamo (opcional, para decorar)"
         }
       ],
       "steps": [
@@ -97,6 +110,15 @@
         "Add cauliflower rice and stir-fry 3–4 minutes until heated through.",
         "Season with ginger powder, garlic powder, and tamari; toss to combine.",
         "Garnish with hemp seeds and serve."
+      ],
+      "name_es": "Salteado de verduras con arroz de coliflor",
+      "steps_es": [
+        "Calienta el aceite de oliva en un wok o sartén grande a fuego medio-alto.",
+        "Añade la cebolla, el brócoli y las dos coles; saltea 3–4 minutos hasta que empiecen a ablandarse.",
+        "Incorpora las setas shiitake, los tirabeques y los brotes de soja; saltea 2 minutos más.",
+        "Añade el arroz de coliflor y saltea 3–4 minutos hasta que se caliente bien.",
+        "Sazona con jengibre en polvo, ajo en polvo y tamari; remueve para mezclar.",
+        "Decora con semillas de cáñamo y sirve."
       ]
     },
     {
@@ -108,67 +130,78 @@
           "name_en": "olive oil",
           "quantity": 22,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "carrots, peeled and sliced",
           "quantity": 360,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias peladas y en rodajas"
         },
         {
           "name_en": "celery, chopped",
           "quantity": 180,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "apio picado"
         },
         {
           "name_en": "yellow onion, diced",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla amarilla en dados"
         },
         {
           "name_en": "garlic clove, minced",
           "quantity": 4,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "vegetable stock",
           "quantity": 1500,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "caldo de verduras"
         },
         {
           "name_en": "red lentils",
           "quantity": 225,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "lentejas rojas"
         },
         {
           "name_en": "bay leaves",
           "quantity": 2,
           "unit": "leaf",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "hojas de laurel"
         },
         {
           "name_en": "turmeric",
           "quantity": 2.5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "cúrcuma"
         },
         {
           "name_en": "cumin",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino"
         },
         {
           "name_en": "lemon (juice + optional zest)",
           "quantity": 1,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "limón (zumo + ralladura opcional)"
         }
       ],
       "steps": [
@@ -177,6 +210,14 @@
         "Add vegetable stock, red lentils, and bay leaves; bring to a boil.",
         "Reduce heat and simmer 25–30 minutes until the lentils are tender and broken down.",
         "Remove bay leaves; stir in lemon juice and zest. Season with salt and serve."
+      ],
+      "name_es": "Sopa de lentejas rojas al limón",
+      "steps_es": [
+        "Calienta el aceite de oliva en una olla grande a fuego medio; sofríe la cebolla, las zanahorias y el apio 5–7 minutos hasta que se ablanden.",
+        "Añade el ajo, la cúrcuma y el comino; cocina 1 minuto hasta que desprendan aroma.",
+        "Incorpora el caldo de verduras, las lentejas rojas y las hojas de laurel; lleva a ebullición.",
+        "Baja el fuego y cuece a fuego lento 25–30 minutos hasta que las lentejas estén tiernas y deshechas.",
+        "Retira las hojas de laurel; añade el zumo y la ralladura de limón. Sazona con sal y sirve."
       ]
     },
     {
@@ -188,79 +229,92 @@
           "name_en": "chickpea flour",
           "quantity": 240,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de garbanzos"
         },
         {
           "name_en": "water",
           "quantity": 360,
           "unit": "ml",
-          "category": "OTHER"
+          "category": "OTHER",
+          "name_es": "agua"
         },
         {
           "name_en": "onion, finely chopped",
           "quantity": 0.5,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla finamente picada"
         },
         {
           "name_en": "red peppers, diced",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimientos rojos en dados"
         },
         {
           "name_en": "zucchini, diced",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabacín en dados"
         },
         {
           "name_en": "parsley, chopped",
           "quantity": 1,
           "unit": "bunch",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil picado"
         },
         {
           "name_en": "chives, chopped",
           "quantity": 1,
           "unit": "bunch",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "cebollino picado"
         },
         {
           "name_en": "garlic clove, minced",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "garlic powder",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "ajo en polvo"
         },
         {
           "name_en": "ground cumin",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino molido"
         },
         {
           "name_en": "Roma tomato, diced",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomate pera en dados"
         },
         {
           "name_en": "sliced mushrooms",
           "quantity": 225,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "champiñones en láminas"
         },
         {
           "name_en": "olive oil",
           "quantity": 15,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         }
       ],
       "steps": [
@@ -270,6 +324,15 @@
         "Pour the chickpea batter evenly over the vegetables; cook undisturbed 4–5 minutes until the edges set.",
         "Transfer to a 200 °C / 400 °F oven and bake 12–15 minutes until firm and golden.",
         "Rest 5 minutes; slice into wedges and serve."
+      ],
+      "name_es": "Tortilla de garbanzos con verduras",
+      "steps_es": [
+        "Bate la harina de garbanzos con el agua, el ajo en polvo y el comino molido hasta que quede una mezcla lisa; deja reposar 10 minutos.",
+        "Calienta el aceite de oliva en una sartén apta para horno a fuego medio; sofríe la cebolla, los pimientos rojos, el calabacín, los champiñones y el ajo hasta que se ablanden.",
+        "Incorpora el tomate, el perejil y el cebollino.",
+        "Vierte la masa de garbanzo de manera uniforme sobre las verduras; cocina sin remover 4–5 minutos hasta que los bordes cuajen.",
+        "Pasa la sartén al horno precalentado a 200 °C / 400 °F y hornea 12–15 minutos hasta que esté firme y dorada.",
+        "Deja reposar 5 minutos; corta en porciones y sirve."
       ]
     },
     {
@@ -281,61 +344,71 @@
           "name_en": "garlic clove, chopped",
           "quantity": 5,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "cumin",
           "quantity": 7,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "tomato paste",
           "quantity": 30,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "concentrado de tomate"
         },
         {
           "name_en": "paprika",
           "quantity": 7,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimentón"
         },
         {
           "name_en": "red pepper flakes",
           "quantity": 3,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "copos de chile rojo"
         },
         {
           "name_en": "cooked chickpeas",
           "quantity": 500,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "garbanzos cocidos"
         },
         {
           "name_en": "za'atar",
           "quantity": 6,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "za'atar"
         },
         {
           "name_en": "bay leaves",
           "quantity": 2,
           "unit": "leaf",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "hojas de laurel"
         },
         {
           "name_en": "roasted bell pepper",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimiento asado"
         }
       ],
       "steps": [
@@ -344,6 +417,14 @@
         "Add tomato paste; cook 1 minute to caramelise.",
         "Add the cooked chickpeas, bay leaves, sliced roasted bell pepper, and enough water (~200 ml) to loosen; simmer 15–20 minutes.",
         "Remove bay leaves; season with salt and finish with a drizzle of olive oil before serving."
+      ],
+      "name_es": "Estofado de garbanzos",
+      "steps_es": [
+        "Calienta el aceite de oliva en una cazuela honda a fuego medio; sofríe el ajo hasta que desprenda aroma.",
+        "Incorpora el comino, el pimentón, los copos de chile y el za'atar; tuesta 30 segundos.",
+        "Añade el concentrado de tomate; cocina 1 minuto para caramelizar.",
+        "Añade los garbanzos cocidos, las hojas de laurel, el pimiento asado en tiras y agua suficiente (~200 ml) para soltar la salsa; cuece a fuego lento 15–20 minutos.",
+        "Retira las hojas de laurel; sazona con sal y termina con un chorro de aceite de oliva antes de servir."
       ]
     },
     {
@@ -355,79 +436,92 @@
           "name_en": "cooked lentils",
           "quantity": 200,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "lentejas cocidas"
         },
         {
           "name_en": "riced cauliflower",
           "quantity": 300,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "coliflor rallada"
         },
         {
           "name_en": "chopped onion",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla picada"
         },
         {
           "name_en": "mushrooms",
           "quantity": 227,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "champiñones"
         },
         {
           "name_en": "nutritional yeast",
           "quantity": 30,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "levadura nutricional"
         },
         {
           "name_en": "minced garlic",
           "quantity": 5,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "ajo picado"
         },
         {
           "name_en": "Dijon mustard",
           "quantity": 5,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "mostaza de Dijon"
         },
         {
           "name_en": "smoked paprika",
           "quantity": 2.5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimentón ahumado"
         },
         {
           "name_en": "cumin",
           "quantity": 2.5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino"
         },
         {
           "name_en": "black pepper",
           "quantity": 1.5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta negra"
         },
         {
           "name_en": "chipotle powder",
           "quantity": 1.5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "chipotle en polvo"
         },
         {
           "name_en": "unsweetened ketchup (glaze)",
           "quantity": 80,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "kétchup sin azúcar (para glasear)"
         },
         {
           "name_en": "liquid smoke (glaze)",
           "quantity": 5,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "humo líquido (para glasear)"
         }
       ],
       "steps": [
@@ -436,6 +530,14 @@
         "Press the mixture firmly into the loaf pan.",
         "Whisk ketchup with liquid smoke and brush evenly over the top.",
         "Bake 45–50 minutes until set and the glaze is darkened. Rest 10 minutes before slicing."
+      ],
+      "name_es": "Pastel de coliflor y lentejas",
+      "steps_es": [
+        "Precalienta el horno a 190 °C / 375 °F y forra un molde rectangular con papel de horno.",
+        "En un bol grande mezcla las lentejas cocidas, la coliflor rallada, la cebolla picada, los champiñones, la levadura nutricional, el ajo, la mostaza Dijon, el pimentón ahumado, el comino, la pimienta negra y el chipotle. Mezcla bien; la textura debe mantenerse al presionar.",
+        "Presiona la mezcla firmemente dentro del molde.",
+        "Mezcla el kétchup con el humo líquido y unta uniformemente por encima.",
+        "Hornea 45–50 minutos hasta que esté cuajado y el glaseado se haya oscurecido. Deja reposar 10 minutos antes de cortar."
       ]
     },
     {
@@ -447,85 +549,99 @@
           "name_en": "cremini mushrooms, chopped",
           "quantity": 225,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "champiñones cremini picados"
         },
         {
           "name_en": "onion, chopped",
           "quantity": 40,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla picada"
         },
         {
           "name_en": "carrots, chopped",
           "quantity": 40,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias picadas"
         },
         {
           "name_en": "celery, chopped",
           "quantity": 40,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "apio picado"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "walnuts, chopped",
           "quantity": 60,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "nueces picadas"
         },
         {
           "name_en": "garlic powder",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "ajo en polvo"
         },
         {
           "name_en": "Italian seasoning",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "mezcla de hierbas italianas"
         },
         {
           "name_en": "tomato paste",
           "quantity": 15,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "concentrado de tomate"
         },
         {
           "name_en": "tomato sauce",
           "quantity": 340,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "salsa de tomate"
         },
         {
           "name_en": "gluten-free tamari",
           "quantity": 30,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "tamari sin gluten"
         },
         {
           "name_en": "balsamic vinegar",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre balsámico"
         },
         {
           "name_en": "spaghetti squash",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabaza espagueti"
         },
         {
           "name_en": "olive oil",
           "quantity": 5,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         }
       ],
       "steps": [
@@ -535,6 +651,15 @@
         "Stir in garlic powder, Italian seasoning, and tomato paste; cook 1 minute.",
         "Add tomato sauce, tamari, and balsamic; simmer 15–20 minutes until thickened.",
         "Spoon the sauce over the warm squash strands and serve."
+      ],
+      "name_es": "Boloñesa de champiñones y nueces con calabaza espagueti",
+      "steps_es": [
+        "Asa las mitades de calabaza espagueti con el corte hacia abajo a 200 °C / 400 °F durante 35–40 minutos; rasca para sacar los hilos y reserva.",
+        "Calienta el aceite de oliva en una sartén grande; sofríe la cebolla, la zanahoria, el apio y el ajo hasta que se ablanden.",
+        "Añade los champiñones cremini y las nueces; cocina 5–7 minutos hasta que los champiñones suelten el agua y se doren.",
+        "Incorpora el ajo en polvo, las hierbas italianas y el concentrado de tomate; cocina 1 minuto.",
+        "Añade la salsa de tomate, el tamari y el vinagre balsámico; cuece a fuego lento 15–20 minutos hasta que espese.",
+        "Sirve la salsa sobre los hilos de calabaza calientes."
       ]
     },
     {
@@ -546,79 +671,92 @@
           "name_en": "cauliflower head",
           "quantity": 1,
           "unit": "large",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "coliflor entera"
         },
         {
           "name_en": "olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "garlic powder",
           "quantity": 15,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "ajo en polvo"
         },
         {
           "name_en": "onion powder",
           "quantity": 10,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "cebolla en polvo"
         },
         {
           "name_en": "smoked paprika",
           "quantity": 10,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimentón ahumado"
         },
         {
           "name_en": "dried thyme",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "tomillo seco"
         },
         {
           "name_en": "dried rosemary",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "romero seco"
         },
         {
           "name_en": "nutritional yeast",
           "quantity": 15,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "levadura nutricional"
         },
         {
           "name_en": "vegetable broth",
           "quantity": 100,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "caldo de verduras"
         },
         {
           "name_en": "sweet potatoes",
           "quantity": 800,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "boniatos"
         },
         {
           "name_en": "almond milk",
           "quantity": 45,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "leche de almendras"
         },
         {
           "name_en": "ground cinnamon",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "canela molida"
         },
         {
           "name_en": "green beans, trimmed",
           "quantity": 400,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "judías verdes despuntadas"
         }
       ],
       "steps": [
@@ -628,6 +766,15 @@
         "Peel and boil sweet potatoes until fork-tender; mash with almond milk, garlic powder, and cinnamon.",
         "Blanch green beans 2–3 minutes in salted boiling water; shock in ice water, drain.",
         "Slice the cauliflower into wedges and plate with the mash and beans."
+      ],
+      "name_es": "«Pavo» de coliflor a las hierbas con puré de boniato y judías verdes",
+      "steps_es": [
+        "Precalienta el horno a 200 °C / 400 °F.",
+        "Mezcla el aceite de oliva con el ajo en polvo, la cebolla en polvo, el pimentón ahumado, el tomillo, el romero y la levadura nutricional; unta toda la coliflor entera.",
+        "Coloca la coliflor en una fuente de horno, vierte el caldo de verduras en el fondo y asa 50–60 minutos hasta que esté tierna y bien dorada.",
+        "Pela y hierve los boniatos hasta que estén tiernos; chafa con la leche de almendras, el ajo en polvo y la canela.",
+        "Escalda las judías verdes 2–3 minutos en agua hirviendo con sal; refresca en agua con hielo y escurre.",
+        "Corta la coliflor en porciones y emplata con el puré y las judías."
       ]
     },
     {
@@ -639,97 +786,113 @@
           "name_en": "large carrots, sliced",
           "quantity": 3,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias grandes en rodajas"
         },
         {
           "name_en": "shallot, thinly sliced",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "chalota en láminas finas"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "maple syrup",
           "quantity": 15,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "sirope de arce"
         },
         {
           "name_en": "smoked paprika",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimentón ahumado"
         },
         {
           "name_en": "ground cumin",
           "quantity": 5,
           "unit": "g",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino molido"
         },
         {
           "name_en": "black lentils, rinsed",
           "quantity": 200,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "lentejas beluga enjuagadas"
         },
         {
           "name_en": "water or vegetable broth",
           "quantity": 480,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "agua o caldo de verduras"
         },
         {
           "name_en": "red wine vinegar",
           "quantity": 15,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre de vino tinto"
         },
         {
           "name_en": "Dijon mustard",
           "quantity": 5,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "mostaza de Dijon"
         },
         {
           "name_en": "black currants",
           "quantity": 40,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "grosellas negras"
         },
         {
           "name_en": "castelvetrano olives, pitted and chopped",
           "quantity": 80,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "aceitunas castelvetrano deshuesadas y picadas"
         },
         {
           "name_en": "roasted almonds, chopped",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "almendras tostadas picadas"
         },
         {
           "name_en": "flat-leaf parsley, chopped",
           "quantity": 0.25,
           "unit": "cup",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil de hoja plana picado"
         },
         {
           "name_en": "fresh mint, chopped",
           "quantity": 30,
           "unit": "ml",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "menta fresca picada"
         },
         {
           "name_en": "sun-dried tomato hummus",
           "quantity": 120,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "hummus de tomate seco"
         }
       ],
       "steps": [
@@ -738,6 +901,14 @@
         "Whisk red wine vinegar with Dijon as a dressing.",
         "Toss the warm lentils with the dressing, currants, olives, almonds, parsley, and mint.",
         "Plate the salad alongside the roasted carrots and a generous spoon of sun-dried tomato hummus."
+      ],
+      "name_es": "Ensalada de lentejas beluga y aceitunas con zanahorias asadas y hummus de tomate seco",
+      "steps_es": [
+        "Mezcla las zanahorias y la chalota con aceite de oliva, sirope de arce, pimentón ahumado, comino y sal; asa a 200 °C / 400 °F durante 25–30 minutos hasta caramelizar.",
+        "Mientras tanto, cuece las lentejas beluga en agua o caldo durante 20–25 minutos hasta que estén tiernas; escurre.",
+        "Bate el vinagre de vino tinto con la mostaza Dijon para hacer el aliño.",
+        "Mezcla las lentejas calientes con el aliño, las grosellas, las aceitunas, las almendras, el perejil y la menta.",
+        "Emplata la ensalada junto a las zanahorias asadas y una buena cucharada de hummus de tomate seco."
       ]
     },
     {
@@ -749,73 +920,85 @@
           "name_en": "shredded fresh cabbage",
           "quantity": 2,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "col fresca rallada"
         },
         {
           "name_en": "sweet potato, diced",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "boniato en dados"
         },
         {
           "name_en": "onion, finely chopped",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla finamente picada"
         },
         {
           "name_en": "olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "cumin seeds",
           "quantity": 5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "semillas de comino"
         },
         {
           "name_en": "dry red chili, broken",
           "quantity": 1,
           "unit": "whole",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "chile rojo seco troceado"
         },
         {
           "name_en": "turmeric powder",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "cúrcuma en polvo"
         },
         {
           "name_en": "coriander powder",
           "quantity": 5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "cilantro en polvo"
         },
         {
           "name_en": "red chili powder",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "chile rojo en polvo"
         },
         {
           "name_en": "cilantro, chopped",
           "quantity": 0.25,
           "unit": "cup",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "cilantro picado"
         },
         {
           "name_en": "lime juice",
           "quantity": 15,
           "unit": "ml",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "zumo de lima"
         },
         {
           "name_en": "cauliflower rice",
           "quantity": 2,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "arroz de coliflor"
         }
       ],
       "steps": [
@@ -824,6 +1007,14 @@
         "Stir in turmeric, coriander, red chili powder, and salt.",
         "Add diced sweet potato and shredded cabbage; toss to coat, cover, and cook 15–20 minutes, stirring occasionally, until the sweet potato is tender.",
         "Finish with lime juice and cilantro; serve over warm cauliflower rice."
+      ],
+      "name_es": "Curry de boniato y col con arroz de coliflor",
+      "steps_es": [
+        "Calienta el aceite de oliva en una sartén grande a fuego medio; añade las semillas de comino y el chile rojo seco y tuesta brevemente.",
+        "Añade la cebolla y sofríe hasta que esté translúcida.",
+        "Incorpora la cúrcuma, el cilantro, el chile en polvo y la sal.",
+        "Añade el boniato en dados y la col rallada; remueve para mezclar, tapa y cocina 15–20 minutos, removiendo de vez en cuando, hasta que el boniato esté tierno.",
+        "Termina con zumo de lima y cilantro; sirve sobre el arroz de coliflor caliente."
       ]
     },
     {
@@ -836,55 +1027,64 @@
           "name_en": "macadamia nut milk",
           "quantity": 250,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "leche de macadamia"
         },
         {
           "name_en": "almond flour",
           "quantity": 30,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de almendra"
         },
         {
           "name_en": "hemp seeds",
           "quantity": 15,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "semillas de cáñamo"
         },
         {
           "name_en": "chia seeds",
           "quantity": 10,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "semillas de chía"
         },
         {
           "name_en": "ground flax",
           "quantity": 10,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "lino molido"
         },
         {
           "name_en": "vanilla extract",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "extracto de vainilla"
         },
         {
           "name_en": "butterfly pea flower powder",
           "quantity": 5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "flor de guisante mariposa en polvo"
         },
         {
           "name_en": "cardamom",
           "quantity": 1.25,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "cardamomo"
         },
         {
           "name_en": "fresh berries (topping)",
           "quantity": null,
           "unit": "handful",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "frutos rojos frescos (para coronar)"
         }
       ],
       "steps": [
@@ -892,6 +1092,13 @@
         "Blend until smooth.",
         "Top with fresh berries.",
         "Serve."
+      ],
+      "name_es": "Porridge sin cereales con flor de guisante mariposa",
+      "steps_es": [
+        "Añade todos los ingredientes a la batidora.",
+        "Tritura hasta obtener una mezcla lisa.",
+        "Corona con frutos rojos frescos.",
+        "Sirve."
       ]
     },
     {
@@ -903,43 +1110,50 @@
           "name_en": "acorn squash, halved",
           "quantity": 2,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabaza bellota cortada por la mitad"
         },
         {
           "name_en": "olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "cremini mushrooms",
           "quantity": 454,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "champiñones cremini"
         },
         {
           "name_en": "chopped walnuts",
           "quantity": 60,
           "unit": "ml",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "nueces picadas"
         },
         {
           "name_en": "unsweetened dried cranberries",
           "quantity": 60,
           "unit": "ml",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "arándanos rojos secos sin azúcar"
         },
         {
           "name_en": "honey",
           "quantity": 15,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "miel"
         },
         {
           "name_en": "cinnamon",
           "quantity": 7,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "canela"
         }
       ],
       "steps": [
@@ -948,6 +1162,14 @@
         "Stir in walnuts, dried cranberries, honey, and cinnamon; cook 2 minutes more.",
         "Flip the squash cut-side up, fill the cavities with the mushroom mixture, and return to the oven for 10 minutes.",
         "Serve warm."
+      ],
+      "name_es": "Calabaza bellota rellena de champiñones y nueces",
+      "steps_es": [
+        "Precalienta el horno a 200 °C / 400 °F; unta las caras cortadas de las calabazas con aceite de oliva y ásalas con el corte hacia abajo sobre una bandeja durante 30–35 minutos hasta que estén tiernas.",
+        "Calienta aceite de oliva en una sartén; saltea los champiñones cremini hasta que estén dorados y se haya evaporado el líquido.",
+        "Incorpora las nueces, los arándanos secos, la miel y la canela; cocina 2 minutos más.",
+        "Gira las calabazas con el corte hacia arriba, rellena las cavidades con la mezcla de champiñones y vuelve a meter en el horno 10 minutos.",
+        "Sirve caliente."
       ]
     },
     {
@@ -960,61 +1182,71 @@
           "name_en": "onion, diced",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla en dados"
         },
         {
           "name_en": "garlic, minced",
           "quantity": 3,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "ajo picado"
         },
         {
           "name_en": "butternut squash, cubed",
           "quantity": 1,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabaza moscada en dados"
         },
         {
           "name_en": "Honeycrisp apples, diced",
           "quantity": 2,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "manzanas Honeycrisp en dados"
         },
         {
           "name_en": "large carrots, chopped",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias grandes picadas"
         },
         {
           "name_en": "garam masala",
           "quantity": 5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "garam masala"
         },
         {
           "name_en": "ginger powder",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "jengibre en polvo"
         },
         {
           "name_en": "vegetable broth",
           "quantity": 960,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "caldo de verduras"
         },
         {
           "name_en": "coconut milk",
           "quantity": 240,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "leche de coco"
         },
         {
           "name_en": "olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         }
       ],
       "steps": [
@@ -1024,6 +1256,15 @@
         "Add the roasted vegetables and vegetable broth; simmer 10 minutes.",
         "Blend smooth (immersion or upright blender); stir in coconut milk and warm through.",
         "Season to taste and serve."
+      ],
+      "name_es": "Crema de calabaza con manzanas y zanahorias asadas",
+      "steps_es": [
+        "Precalienta el horno a 200 °C / 400 °F; mezcla la calabaza moscada, las manzanas y las zanahorias con 1 cucharada de aceite de oliva y asa 30–35 minutos hasta que estén tiernas.",
+        "Calienta el resto del aceite en una olla; sofríe la cebolla y el ajo hasta que se ablanden.",
+        "Incorpora el garam masala y el jengibre en polvo; tuesta 30 segundos.",
+        "Añade las verduras asadas y el caldo de verduras; cuece 10 minutos a fuego lento.",
+        "Tritura hasta obtener una crema fina (con batidora de mano o de vaso); incorpora la leche de coco y calienta.",
+        "Rectifica de sal y sirve."
       ]
     },
     {
@@ -1036,85 +1277,99 @@
           "name_en": "black beans, drained and rinsed",
           "quantity": 425,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "alubias negras escurridas y enjuagadas"
         },
         {
           "name_en": "cherry tomatoes, halved",
           "quantity": 1,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates cherry partidos por la mitad"
         },
         {
           "name_en": "onion, diced",
           "quantity": 0.5,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla en dados"
         },
         {
           "name_en": "oyster mushrooms, chopped",
           "quantity": 1,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "setas de ostra picadas"
         },
         {
           "name_en": "umami seasoning",
           "quantity": 5,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "condimento umami"
         },
         {
           "name_en": "cumin",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "comino"
         },
         {
           "name_en": "garlic powder",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "ajo en polvo"
         },
         {
           "name_en": "olive oil",
           "quantity": 15,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva"
         },
         {
           "name_en": "pickled red onions",
           "quantity": 0.25,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla roja encurtida"
         },
         {
           "name_en": "fresh spinach",
           "quantity": 1,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "espinacas frescas"
         },
         {
           "name_en": "shredded carrots",
           "quantity": 0.5,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias ralladas"
         },
         {
           "name_en": "sliced radish",
           "quantity": 0.5,
           "unit": "cup",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "rabanitos en rodajas"
         },
         {
           "name_en": "chopped cilantro",
           "quantity": 0.25,
           "unit": "cup",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "cilantro picado"
         },
         {
           "name_en": "cooked chickpea rice",
           "quantity": 1.5,
           "unit": "cup",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "arroz de garbanzos cocido"
         }
       ],
       "steps": [
@@ -1123,6 +1378,14 @@
         "Warm the cooked chickpea rice.",
         "Plate the chickpea rice as a base; top with the bean–mushroom mixture, then arrange pickled red onions, spinach, shredded carrots, sliced radish, and cilantro on top.",
         "Serve."
+      ],
+      "name_es": "Bol de alubias negras y setas con arroz de garbanzos",
+      "steps_es": [
+        "Calienta el aceite de oliva en una sartén; sofríe la cebolla hasta que esté translúcida, luego añade las setas de ostra y cocina hasta que se doren.",
+        "Añade las alubias negras, los tomates cherry, el condimento umami, el comino y el ajo en polvo; cocina 3–4 minutos hasta que esté todo caliente y los tomates empiecen a deshacerse.",
+        "Calienta el arroz de garbanzos cocido.",
+        "Emplata el arroz de garbanzos como base; cubre con la mezcla de alubias y setas, y reparte por encima la cebolla encurtida, las espinacas, la zanahoria rallada, los rabanitos en rodajas y el cilantro.",
+        "Sirve."
       ]
     },
     {
@@ -1135,61 +1398,76 @@
           "name_en": "strawberries",
           "quantity": 0.5,
           "unit": "cup",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "fresas"
         },
         {
           "name_en": "blueberries",
           "quantity": 0.5,
           "unit": "cup",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "arándanos"
         },
         {
           "name_en": "pomegranate arils",
           "quantity": 0.25,
           "unit": "cup",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "granos de granada"
         },
         {
           "name_en": "dark cherries, pitted",
           "quantity": 0.5,
           "unit": "cup",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "cerezas oscuras deshuesadas"
         },
         {
           "name_en": "almond milk",
           "quantity": 1,
           "unit": "cup",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "leche de almendras"
         },
         {
           "name_en": "flax seeds",
           "quantity": 15,
           "unit": "ml",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "semillas de lino"
         },
         {
           "name_en": "macadamia nuts",
           "quantity": 5,
           "unit": "whole",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "nueces de macadamia"
         },
         {
           "name_en": "chia seeds",
           "quantity": 5,
           "unit": "ml",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "semillas de chía"
         },
         {
           "name_en": "Blueprint cacao",
           "quantity": 5,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "cacao Blueprint"
         }
       ],
       "steps": [
         "Add all ingredients into a blender.",
         "Blend until smooth.",
         "Serve."
+      ],
+      "name_es": "Batido superfoods",
+      "steps_es": [
+        "Añade todos los ingredientes a la batidora.",
+        "Tritura hasta obtener una mezcla lisa.",
+        "Sirve."
       ]
     }
   ]
