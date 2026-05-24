@@ -44,6 +44,14 @@
     <string name="settings_bios_status_connected">Connected</string>
     <string name="settings_bios_pending_approval">Pending approval in Bios → Companion Apps</string>
     <string name="bios_open_app">Open Bios</string>
+    <string name="settings_language_section">Language</string>
+    <string name="settings_language_label">App language</string>
+    <string name="settings_language_dialog_title">Choose language</string>
+    <string name="settings_language_system_default">System default</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_spanish">Español</string>
+    <string name="settings_language_catalan">Català</string>
+    <string name="settings_language_french">Français</string>
 
     <!-- Browse list -->
     <string name="search_hint">Search recipes or tags</string>
