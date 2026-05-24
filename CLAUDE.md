@@ -20,6 +20,10 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 - **No fixed meal slots.** A day holds 0..N meal entries at arbitrary times (`time_minutes` 0..1439), not breakfast / lunch / dinner. Longo's 12h-window guidance and Johnson's 1-2-meal patterns both need variable meal counts at arbitrary times — fixed slots would have made one of the two corpuses awkward to follow. The day card shows an eating-window summary when there are 2+ meals so the user can see their own time-restricted-eating pattern.
 - **PreuJust integration is out of scope for v1.** Cost estimation lands when PreuJust-as-service revives (decision 2026-08-11).
 
+## Design system
+
+Idun follows the [Bios Ecosystem Design System](../Bios/docs/DESIGN_SYSTEM.md). Identity palette = Apple-red `#B33A3A` + W2F-cyan `#00BCD4` on parchment `#FAF6EE`, locked Light. The W2F-cyan secondary is the ecosystem kinship marker — keep it. Don't invent color roles or component anatomy outside the canonical [design-tokens/](../Bios/docs/design-tokens/) 14-role set; raise it to the canonical doc instead.
+
 ## Bios integration
 
 - Writes `meal_intake` events via `content://com.bios.app.health/companion/meal_intake`

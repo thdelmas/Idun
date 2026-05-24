@@ -160,7 +160,7 @@ class ShoppingListActivity : AppCompatActivity() {
     private fun stripeColor(category: IngredientCategory): Int = getColor(
         when (category) {
             IngredientCategory.PRODUCE, IngredientCategory.HERBS, IngredientCategory.FRUIT ->
-                R.color.accent_norse_gold
+                R.color.accent_cyan
             IngredientCategory.SEAFOOD, IngredientCategory.DAIRY_EGGS ->
                 R.color.accent_apple_red
             else -> R.color.text_secondary

@@ -26,23 +26,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp"
-            android:paddingBottom="120dp">
+            android:paddingBottom="96dp">
 
             <TextView
                 android:id="@+id/recipe_meta"
+                style="@style/TextAppearance.Idun.Instrument.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="13sp"
-                android:textColor="@color/text_secondary"
                 android:layout_marginBottom="12dp" />
 
             <com.google.android.material.chip.ChipGroup
                 android:id="@+id/recipe_tags"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:chipSpacingHorizontal="6dp"
+                app:chipSpacingHorizontal="4dp"
                 app:chipSpacingVertical="4dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="24dp"
                 android:visibility="gone" />
 
             <!-- Ingredients section -->
@@ -51,13 +50,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="12dp">
 
                 <View
                     android:layout_width="3dp"
                     android:layout_height="14dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@color/accent_norse_gold" />
+                    android:layout_marginEnd="12dp"
+                    android:background="@color/accent_cyan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -84,12 +83,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="12dp">
 
                 <View
                     android:layout_width="3dp"
                     android:layout_height="14dp"
-                    android:layout_marginEnd="10dp"
+                    android:layout_marginEnd="12dp"
                     android:background="@color/accent_apple_red" />
 
                 <TextView
@@ -117,13 +116,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="12dp"
                 android:visibility="gone">
 
                 <View
                     android:layout_width="3dp"
                     android:layout_height="14dp"
-                    android:layout_marginEnd="10dp"
+                    android:layout_marginEnd="12dp"
                     android:background="@color/text_secondary" />
 
                 <TextView

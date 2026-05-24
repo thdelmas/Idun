@@ -2,24 +2,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!--
-        Cockpit dark — kin to W2F's instrument panel. Deep navy surfaces,
-        light text, apple-red and Norse-gold reserved for accents (FAB,
-        step circles, section stripes, today badge).
+        Locked to Light: the parchment / apple / cyan aesthetic is Idun's
+        identity. Bios-family resemblance to W2F lives in the cyan accent
+        (W2F's exact Flow #00BCD4) and the instrument-readout monospace
+        style below — not in palette inversion. Dark support deferred to v2.
     -->
-    <style name="Base.Theme.Idun" parent="Theme.Material3.Dark.NoActionBar">
-        <!-- Primary — apple red. -->
+    <style name="Base.Theme.Idun" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary — apple red, used for toolbars, the FAB, step circles, etc. -->
         <item name="colorPrimary">@color/accent_apple_red</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorPrimaryContainer">@color/accent_apple_red_soft</item>
         <item name="colorOnPrimaryContainer">@color/accent_apple_red_dark</item>
 
-        <!-- Secondary — Norse gold. -->
-        <item name="colorSecondary">@color/accent_norse_gold</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <item name="colorSecondaryContainer">@color/accent_norse_gold_soft</item>
-        <item name="colorOnSecondaryContainer">@color/accent_norse_gold_dark</item>
+        <!-- Secondary — W2F flow cyan, used for tonal buttons, section stripes. -->
+        <item name="colorSecondary">@color/accent_cyan</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/accent_cyan_soft</item>
+        <item name="colorOnSecondaryContainer">@color/accent_cyan_dark</item>
 
-        <!-- Surface — cockpit navy. -->
+        <!-- Surface — parchment. -->
         <item name="android:colorBackground">@color/background</item>
         <item name="colorSurface">@color/background</item>
         <item name="colorOnSurface">@color/text_primary</item>
@@ -28,9 +29,27 @@
         <item name="colorOutline">@color/divider</item>
         <item name="colorOutlineVariant">@color/divider</item>
 
-        <!-- Status bar matches the cockpit surface; light icons on dark bar. -->
+        <!-- Status bar matches the parchment surface; dark icons on light bar. -->
         <item name="android:statusBarColor">@color/background</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!--
+        Instrument readout — monospace, slightly tracked. Borrowed from W2F's
+        cockpit typography. Apply to data-bearing text only: times,
+        quantities, the eating-window summary, durations. Don't apply to body
+        copy or recipe names — the warmth of the default face is part of the
+        Idun identity.
+    -->
+    <style name="TextAppearance.Idun.Instrument" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.Idun.Instrument.Small" parent="TextAppearance.Idun.Instrument">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
     </style>
 
     <style name="Theme.Idun" parent="Base.Theme.Idun" />
