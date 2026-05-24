@@ -43,4 +43,21 @@
 
     <string name="search_hint">Cerca ricette o tag</string>
     <string name="section_count_label">%d ricette</string>
+
+    <string name="planning_title">Pianifica</string>
+    <string name="planning_today_badge">Oggi</string>
+    <string name="planning_add_meal">Aggiungi un pasto</string>
+    <string name="planning_shopping_list">Lista della spesa</string>
+    <string name="planning_missing_recipe">(ricetta non trovata)</string>
+    <string name="planning_view_recipe">Vedi ricetta</string>
+    <string name="planning_mark_eaten">Segna come mangiato</string>
+    <string name="planning_change_servings">Porzioni</string>
+    <string name="planning_change_guests">Ospiti</string>
+    <string name="planning_change_recipe">Cambia ricetta</string>
+    <string name="planning_remove">Elimina</string>
+    <string name="slot_breakfast">Colazione</string>
+    <string name="slot_lunch">Pranzo</string>
+    <string name="slot_dinner">Cena</string>
+
+    <string name="pick_recipe_title">Scegli ricetta</string>
 </resources>

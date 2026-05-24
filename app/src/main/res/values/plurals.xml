@@ -8,4 +8,8 @@
         <item quantity="one">%d serving</item>
         <item quantity="other">%d servings</item>
     </plurals>
+    <plurals name="guests_count">
+        <item quantity="one">%d guest</item>
+        <item quantity="other">%d guests</item>
+    </plurals>
 </resources>

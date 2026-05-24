@@ -16,6 +16,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 - **i18n from commit 1:** EN / ES / CA / IT in `res/values*/strings.xml`. Don't hardcode UI strings.
 - **Both recipe sets equal-weight in UI.** Blueprint and Longo are surfaced equally; don't lead with one.
 - **Shopping-list generation is the v1 lead feature.** Not cost estimation, not recipe authoring, not community.
+- **Planning is the v1.1 layer.** Week-view planner backed by a `plan_entry` table; the shopping list learns to aggregate from a date range alongside the existing multi-select path. Routines (recurring templates) and household/guest social land on top of the same plan table.
 - **PreuJust integration is out of scope for v1.** Cost estimation lands when PreuJust-as-service revives (decision 2026-08-11).
 
 ## Bios integration
@@ -45,5 +46,6 @@ Never edit the JSON in isolation — the KB is source of truth.
 - Recipe authoring / community submissions
 - Recipe import from URLs (schema.org)
 - Cloud sync / accounts
-- Notifications / reminders (Smokeless owns reminder patterns)
 - Nutrition scoring (Nutri-Score, NOVA) — deferred to v2
+
+Notifications / reminders are now in-scope for Idun (decision 2026-05-24, overrides the earlier "Smokeless owns reminder patterns" lock). Reminder wiring for planned meals lands in a follow-up; for now the planning data layer ships without notifications.

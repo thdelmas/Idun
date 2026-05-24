@@ -7,16 +7,29 @@ import android.view.View
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import com.idun.app.data.IdunDatabase
 import com.idun.app.data.IngredientCategory
+import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.databinding.ActivityShoppingListBinding
 import com.idun.app.util.ShoppingListAggregator
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 /**
- * Consolidated shopping list for a selected set of recipes — v1 lead feature.
- * Renders [ShoppingListAggregator] output as category-grouped sections,
- * each line a checkbox; ticking strikes through and dims the row to model
- * "got it already". Tick state survives rotation via savedInstanceState.
+ * Consolidated shopping list — v1 lead feature.
+ *
+ * Two entry paths:
+ *   - EXTRA_RECIPE_IDS: aggregate the explicit list of recipes (the
+ *     multi-select path from MainActivity).
+ *   - EXTRA_FROM_ISO / EXTRA_TO_ISO: aggregate every recipe planned within
+ *     the given date range (the "what do I need to buy for the next N days"
+ *     path from PlanningActivity). Recipes are repeated once per plan entry,
+ *     so two dinners of the same recipe will double its ingredients.
+ *
+ * Tick state survives rotation via savedInstanceState.
  */
 class ShoppingListActivity : AppCompatActivity() {
 
@@ -36,15 +49,37 @@ class ShoppingListActivity : AppCompatActivity() {
             ticked.addAll(it)
         }
 
-        val recipeIds = intent.getStringArrayListExtra(EXTRA_RECIPE_IDS).orEmpty()
-        val recipes = RecipeRepository(this).let { repo -> recipeIds.mapNotNull { repo.byId(it) } }
-        val result = ShoppingListAggregator.aggregate(recipes)
+        val fromIso = intent.getStringExtra(EXTRA_FROM_ISO)
+        val toIso = intent.getStringExtra(EXTRA_TO_ISO)
+        if (fromIso != null && toIso != null) {
+            loadFromPlan(fromIso, toIso)
+        } else {
+            val recipeIds = intent.getStringArrayListExtra(EXTRA_RECIPE_IDS).orEmpty()
+            val recipes = RecipeRepository(this).let { repo -> recipeIds.mapNotNull { repo.byId(it) } }
+            renderResult(ShoppingListAggregator.aggregate(recipes))
+        }
+    }
 
+    private fun loadFromPlan(fromIso: String, toIso: String) {
+        val repo = RecipeRepository(this)
+        lifecycleScope.launch {
+            val entries = withContext(Dispatchers.IO) {
+                IdunDatabase.get(this@ShoppingListActivity).planDao().inRange(fromIso, toIso)
+            }
+            val recipes: List<Recipe> = entries.mapNotNull { repo.byId(it.recipeId) }
+            renderResult(ShoppingListAggregator.aggregate(recipes))
+        }
+    }
+
+    private fun renderResult(result: ShoppingListAggregator.ShoppingList) {
+        binding.listContainer.removeAllViews()
         if (result.byCategory.isEmpty()) {
             binding.summary.visibility = View.GONE
             binding.emptyState.visibility = View.VISIBLE
             return
         }
+        binding.summary.visibility = View.VISIBLE
+        binding.emptyState.visibility = View.GONE
 
         binding.summary.text = getString(
             R.string.shopping_list_summary,
@@ -150,6 +185,8 @@ class ShoppingListActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_RECIPE_IDS = "recipe_ids"
+        const val EXTRA_FROM_ISO = "from_iso"
+        const val EXTRA_TO_ISO = "to_iso"
         private const val STATE_TICKED = "ticked"
     }
 }

@@ -2,14 +2,10 @@ package com.idun.app.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Dao
-import androidx.room.Database
 import androidx.room.Entity
 import androidx.room.Insert
 import androidx.room.PrimaryKey
 import androidx.room.Query
-import androidx.room.Room
-import androidx.room.RoomDatabase
-import android.content.Context
 
 /**
  * Local meal log. One row per eaten meal. The Bios write is fire-and-forget
@@ -35,21 +31,4 @@ interface MealLogDao {
 
     @Query("SELECT * FROM meal_log WHERE timestamp_ms BETWEEN :startMs AND :endMs ORDER BY timestamp_ms DESC")
     suspend fun inRange(startMs: Long, endMs: Long): List<MealLogEntry>
-}
-
-@Database(entities = [MealLogEntry::class], version = 1, exportSchema = false)
-abstract class IdunDatabase : RoomDatabase() {
-    abstract fun mealLogDao(): MealLogDao
-
-    companion object {
-        @Volatile private var INSTANCE: IdunDatabase? = null
-
-        fun get(context: Context): IdunDatabase = INSTANCE ?: synchronized(this) {
-            INSTANCE ?: Room.databaseBuilder(
-                context.applicationContext,
-                IdunDatabase::class.java,
-                "idun.db"
-            ).build().also { INSTANCE = it }
-        }
-    }
 }

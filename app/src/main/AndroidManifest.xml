@@ -44,5 +44,15 @@
             android:label="@string/settings_title"
             android:parentActivityName=".MainActivity" />
 
+        <activity
+            android:name=".PlanningActivity"
+            android:label="@string/planning_title"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".PickRecipeActivity"
+            android:label="@string/pick_recipe_title"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 </manifest>
