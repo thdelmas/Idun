@@ -17,6 +17,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 - **Both recipe sets equal-weight in UI.** Blueprint and Longo are surfaced equally; don't lead with one.
 - **Shopping-list generation is the v1 lead feature.** Not cost estimation, not recipe authoring, not community.
 - **Planning is the v1.1 layer.** Week-view planner backed by a `plan_entry` table; the shopping list learns to aggregate from a date range alongside the existing multi-select path. Routines (recurring templates) and household/guest social land on top of the same plan table.
+- **No fixed meal slots.** A day holds 0..N meal entries at arbitrary times (`time_minutes` 0..1439), not breakfast / lunch / dinner. Longo's 12h-window guidance and Johnson's 1-2-meal patterns both need variable meal counts at arbitrary times — fixed slots would have made one of the two corpuses awkward to follow. The day card shows an eating-window summary when there are 2+ meals so the user can see their own time-restricted-eating pattern.
 - **PreuJust integration is out of scope for v1.** Cost estimation lands when PreuJust-as-service revives (decision 2026-08-11).
 
 ## Bios integration

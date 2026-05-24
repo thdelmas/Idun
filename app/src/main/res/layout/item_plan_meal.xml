@@ -8,14 +8,14 @@
     android:background="?attr/selectableItemBackground">
 
     <TextView
-        android:id="@+id/slot_label"
-        android:layout_width="84dp"
+        android:id="@+id/meal_time"
+        android:layout_width="64dp"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        android:textAllCaps="true"
-        android:letterSpacing="0.08"
-        android:textColor="@color/text_secondary" />
+        android:textColor="@color/text_primary"
+        android:fontFamily="monospace"
+        android:gravity="start" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -24,14 +24,14 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/slot_main"
+            android:id="@+id/meal_recipe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_primary" />
 
         <TextView
-            android:id="@+id/slot_meta"
+            android:id="@+id/meal_meta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -41,7 +41,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/slot_eaten_check"
+        android:id="@+id/meal_eaten_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="✓"

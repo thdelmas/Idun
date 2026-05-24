@@ -46,18 +46,18 @@
 
     <string name="planning_title">Planificar</string>
     <string name="planning_today_badge">Avui</string>
-    <string name="planning_add_meal">Afegir un àpat</string>
+    <string name="planning_add_first_meal">Afegeix el primer àpat del dia</string>
+    <string name="planning_add_another_meal">Afegeix un altre àpat</string>
     <string name="planning_shopping_list">Llista de la compra</string>
     <string name="planning_missing_recipe">(recepta no trobada)</string>
     <string name="planning_view_recipe">Veure recepta</string>
     <string name="planning_mark_eaten">Marcar com a menjat</string>
+    <string name="planning_change_time">Hora</string>
     <string name="planning_change_servings">Racions</string>
     <string name="planning_change_guests">Convidats</string>
     <string name="planning_change_recipe">Canviar recepta</string>
     <string name="planning_remove">Eliminar</string>
-    <string name="slot_breakfast">Esmorzar</string>
-    <string name="slot_lunch">Dinar</string>
-    <string name="slot_dinner">Sopar</string>
+    <string name="planning_window_summary">%1$s menjant · %2$s dejunant</string>
 
     <string name="pick_recipe_title">Triar recepta</string>
 </resources>

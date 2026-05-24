@@ -1,10 +1,13 @@
 package com.idun.app
 
 import android.app.Activity
+import android.app.TimePickerDialog
 import android.content.Intent
 import android.os.Bundle
+import android.text.format.DateFormat
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -15,7 +18,6 @@ import com.idun.app.bios.BiosClient
 import com.idun.app.data.IdunDatabase
 import com.idun.app.data.MealLogEntry
 import com.idun.app.data.PlanEntry
-import com.idun.app.data.PlanSlot
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.databinding.ActivityPlanningBinding
@@ -23,26 +25,38 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
 import java.time.format.TextStyle
 import java.util.Locale
 
 /**
- * Week view planner. Days run in natural chronological order from today out
- * for [DAYS_AHEAD] days. Each day card holds three slot rows (breakfast /
- * lunch / dinner). Empty slot → tap to pick a recipe. Filled slot → tap to
- * open an edit dialog (change / guests / mark eaten / remove).
+ * Week-view planner with no fixed meal slots.
  *
- * The FAB jumps to the shopping list aggregated across the visible window,
- * which is the practical answer to "what do I need to buy for the next N
- * days".
+ * Each day holds a chronological list of meal entries (0..N). Empty day shows
+ * a single "+ Add the day's first meal" CTA; otherwise the meals render in
+ * time order with a small "+ Add another meal" row at the bottom. A
+ * monospace subtitle on each day card shows the eating window when there are
+ * 2+ meals — useful for Longo's 12h-window guidance and the broader
+ * time-restricted-eating crowd.
+ *
+ * Tapping an empty CTA opens a TimePicker, then routes to the recipe picker.
+ * Tapping a filled meal opens an edit dialog: view recipe / mark eaten /
+ * servings / guests / time / change recipe / remove.
+ *
+ * The FAB jumps to the shopping list aggregated across the visible window.
  */
 class PlanningActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPlanningBinding
     private lateinit var pickLauncher: ActivityResultLauncher<Intent>
     private lateinit var recipeRepo: RecipeRepository
-    private var pendingPick: Pair<LocalDate, PlanSlot>? = null
+
+    /** When non-null, [pickLauncher]'s next result lands on this date at this time. */
+    private var pendingPick: Pair<LocalDate, Int>? = null
+    /** When non-null, [pickLauncher]'s next result replaces this entry's recipe. */
+    private var pendingReplace: PlanEntry? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,9 +73,14 @@ class PlanningActivity : AppCompatActivity() {
         ) { result ->
             if (result.resultCode != Activity.RESULT_OK) return@registerForActivityResult
             val recipeId = result.data?.getStringExtra(PickRecipeActivity.RESULT_RECIPE_ID) ?: return@registerForActivityResult
-            val target = pendingPick ?: return@registerForActivityResult
+            val replace = pendingReplace
+            val add = pendingPick
+            pendingReplace = null
             pendingPick = null
-            assignRecipe(target.first, target.second, recipeId)
+            when {
+                replace != null -> updateEntry(replace.copy(recipeId = recipeId))
+                add != null -> createMeal(add.first, add.second, recipeId)
+            }
         }
 
         binding.fabShoppingList.setOnClickListener {
@@ -85,7 +104,8 @@ class PlanningActivity : AppCompatActivity() {
             val from = today()
             val to = from.plusDays(DAYS_AHEAD - 1L)
             val plans = withContext(Dispatchers.IO) {
-                IdunDatabase.get(this@PlanningActivity).planDao().inRange(from.toString(), to.toString())
+                IdunDatabase.get(this@PlanningActivity)
+                    .planDao().inRange(from.toString(), to.toString())
             }
             val plansByDate = plans.groupBy { it.dateIso }
             val recipesById = recipeRepo.all().associateBy { it.id }
@@ -94,7 +114,7 @@ class PlanningActivity : AppCompatActivity() {
             val inflater = LayoutInflater.from(this@PlanningActivity)
             for (i in 0 until DAYS_AHEAD) {
                 val date = from.plusDays(i.toLong())
-                val dayPlans = plansByDate[date.toString()].orEmpty().associateBy { it.slot }
+                val dayPlans = plansByDate[date.toString()].orEmpty().sortedBy { it.timeMinutes }
                 binding.daysContainer.addView(buildDayCard(inflater, date, dayPlans, recipesById))
             }
         }
@@ -103,7 +123,7 @@ class PlanningActivity : AppCompatActivity() {
     private fun buildDayCard(
         inflater: LayoutInflater,
         date: LocalDate,
-        plansBySlot: Map<PlanSlot, PlanEntry>,
+        meals: List<PlanEntry>,
         recipesById: Map<String, Recipe>,
     ): View {
         val card = inflater.inflate(R.layout.item_plan_day, binding.daysContainer, false)
@@ -114,57 +134,117 @@ class PlanningActivity : AppCompatActivity() {
         card.findViewById<TextView>(R.id.day_today_badge).visibility =
             if (date == today()) View.VISIBLE else View.GONE
 
-        val slotsContainer = card.findViewById<android.widget.LinearLayout>(R.id.slots_container)
-        for (slot in PlanSlot.values()) {
-            slotsContainer.addView(
-                buildSlotRow(inflater, slotsContainer, date, slot, plansBySlot[slot], recipesById),
+        renderWindowSummary(card.findViewById(R.id.day_window_summary), meals)
+
+        val slots = card.findViewById<LinearLayout>(R.id.slots_container)
+        if (meals.isEmpty()) {
+            slots.addView(makeAddMealRow(inflater, slots, date, isFirst = true, lastTime = null))
+        } else {
+            for (meal in meals) {
+                slots.addView(makeMealRow(inflater, slots, meal, recipesById[meal.recipeId]))
+            }
+            slots.addView(
+                makeAddMealRow(
+                    inflater,
+                    slots,
+                    date,
+                    isFirst = false,
+                    lastTime = meals.last().timeMinutes,
+                )
             )
         }
         return card
     }
 
-    private fun buildSlotRow(
+    private fun renderWindowSummary(view: TextView, meals: List<PlanEntry>) {
+        if (meals.size < 2) {
+            view.visibility = View.GONE
+            return
+        }
+        val first = meals.minOf { it.timeMinutes }
+        val last = meals.maxOf { it.timeMinutes }
+        val windowMinutes = last - first
+        val fastingMinutes = 1440 - windowMinutes
+        view.visibility = View.VISIBLE
+        view.text = getString(
+            R.string.planning_window_summary,
+            formatDuration(windowMinutes),
+            formatDuration(fastingMinutes),
+        )
+    }
+
+    private fun formatDuration(minutes: Int): String {
+        val h = minutes / 60
+        val m = minutes % 60
+        return if (m == 0) "${h}h" else "${h}h${m.toString().padStart(2, '0')}"
+    }
+
+    private fun makeMealRow(
         inflater: LayoutInflater,
-        parent: android.widget.LinearLayout,
-        date: LocalDate,
-        slot: PlanSlot,
-        entry: PlanEntry?,
-        recipesById: Map<String, Recipe>,
+        parent: LinearLayout,
+        entry: PlanEntry,
+        recipe: Recipe?,
     ): View {
-        val row = inflater.inflate(R.layout.item_plan_slot, parent, false)
-        val label = row.findViewById<TextView>(R.id.slot_label)
-        val main = row.findViewById<TextView>(R.id.slot_main)
-        val meta = row.findViewById<TextView>(R.id.slot_meta)
-        val eatenCheck = row.findViewById<TextView>(R.id.slot_eaten_check)
+        val row = inflater.inflate(R.layout.item_plan_meal, parent, false)
+        row.findViewById<TextView>(R.id.meal_time).text = formatTimeOfDay(entry.timeMinutes)
+        val main = row.findViewById<TextView>(R.id.meal_recipe)
+        val meta = row.findViewById<TextView>(R.id.meal_meta)
+        val eatenCheck = row.findViewById<TextView>(R.id.meal_eaten_check)
 
-        label.setText(slotLabel(slot))
+        main.text = recipe?.nameEn ?: getString(R.string.planning_missing_recipe)
 
-        if (entry == null) {
-            main.text = getString(R.string.planning_add_meal)
-            main.setTextColor(getColor(R.color.text_secondary))
-            meta.visibility = View.GONE
-            eatenCheck.visibility = View.GONE
-            row.setOnClickListener {
-                pendingPick = date to slot
+        val parts = mutableListOf<String>()
+        parts.add(resources.getQuantityString(R.plurals.servings_count, entry.servings, entry.servings))
+        if (entry.guestCount > 0) {
+            parts.add(resources.getQuantityString(R.plurals.guests_count, entry.guestCount, entry.guestCount))
+        }
+        meta.text = parts.joinToString("  ·  ")
+        meta.visibility = View.VISIBLE
+        eatenCheck.visibility = if (entry.eatenAtMs != null) View.VISIBLE else View.GONE
+
+        row.setOnClickListener { openEditDialog(entry, recipe) }
+        return row
+    }
+
+    private fun makeAddMealRow(
+        inflater: LayoutInflater,
+        parent: LinearLayout,
+        date: LocalDate,
+        isFirst: Boolean,
+        lastTime: Int?,
+    ): View {
+        val row = inflater.inflate(R.layout.item_plan_add_meal, parent, false)
+        val label = row.findViewById<TextView>(R.id.add_meal_label)
+        label.setText(
+            if (isFirst) R.string.planning_add_first_meal
+            else R.string.planning_add_another_meal,
+        )
+        row.setOnClickListener {
+            val defaultTime = nextDefaultTime(lastTime)
+            promptTimePicker(defaultTime) { picked ->
+                pendingPick = date to picked
                 pickLauncher.launch(Intent(this, PickRecipeActivity::class.java))
             }
-        } else {
-            val recipe = recipesById[entry.recipeId]
-            main.text = recipe?.nameEn ?: getString(R.string.planning_missing_recipe)
-            main.setTextColor(getColor(R.color.text_primary))
-
-            val parts = mutableListOf<String>()
-            parts.add(resources.getQuantityString(R.plurals.servings_count, entry.servings, entry.servings))
-            if (entry.guestCount > 0) {
-                parts.add(resources.getQuantityString(R.plurals.guests_count, entry.guestCount, entry.guestCount))
-            }
-            meta.text = parts.joinToString("  ·  ")
-            meta.visibility = View.VISIBLE
-            eatenCheck.visibility = if (entry.eatenAtMs != null) View.VISIBLE else View.GONE
-
-            row.setOnClickListener { openEditDialog(entry, recipe) }
         }
         return row
+    }
+
+    private fun nextDefaultTime(lastTime: Int?): Int = when {
+        lastTime == null -> DEFAULT_FIRST_TIME
+        else -> (lastTime + 4 * 60).coerceAtMost(22 * 60)
+    }
+
+    private fun promptTimePicker(initialMinutes: Int, onPicked: (Int) -> Unit) {
+        val hour = initialMinutes / 60
+        val minute = initialMinutes % 60
+        val is24h = DateFormat.is24HourFormat(this)
+        TimePickerDialog(
+            this,
+            { _, pickedHour, pickedMinute -> onPicked(pickedHour * 60 + pickedMinute) },
+            hour,
+            minute,
+            is24h,
+        ).show()
     }
 
     private fun openEditDialog(entry: PlanEntry, recipe: Recipe?) {
@@ -184,18 +264,25 @@ class PlanningActivity : AppCompatActivity() {
             labels += getString(R.string.planning_mark_eaten)
             actions += { markEaten(entry) }
         }
+        labels += getString(R.string.planning_change_time)
+        actions += {
+            promptTimePicker(entry.timeMinutes) { newMinutes ->
+                updateEntry(entry.copy(timeMinutes = newMinutes))
+            }
+        }
         labels += getString(R.string.planning_change_servings)
-        actions += { promptServings(entry) }
-
+        actions += { promptIntStepper(R.string.planning_change_servings, entry.servings, 1) {
+            updateEntry(entry.copy(servings = it))
+        } }
         labels += getString(R.string.planning_change_guests)
-        actions += { promptGuests(entry) }
-
+        actions += { promptIntStepper(R.string.planning_change_guests, entry.guestCount, 0) {
+            updateEntry(entry.copy(guestCount = it))
+        } }
         labels += getString(R.string.planning_change_recipe)
         actions += {
-            pendingPick = LocalDate.parse(entry.dateIso) to entry.slot
+            pendingReplace = entry
             pickLauncher.launch(Intent(this, PickRecipeActivity::class.java))
         }
-
         labels += getString(R.string.planning_remove)
         actions += { removeEntry(entry) }
 
@@ -203,26 +290,6 @@ class PlanningActivity : AppCompatActivity() {
             .setTitle(recipe?.nameEn ?: getString(R.string.planning_missing_recipe))
             .setItems(labels.toTypedArray()) { _, which -> actions[which]() }
             .show()
-    }
-
-    private fun promptServings(entry: PlanEntry) {
-        promptIntStepper(
-            title = R.string.planning_change_servings,
-            initial = entry.servings,
-            min = 1,
-        ) { newValue ->
-            updateEntry(entry.copy(servings = newValue))
-        }
-    }
-
-    private fun promptGuests(entry: PlanEntry) {
-        promptIntStepper(
-            title = R.string.planning_change_guests,
-            initial = entry.guestCount,
-            min = 0,
-        ) { newValue ->
-            updateEntry(entry.copy(guestCount = newValue))
-        }
     }
 
     private fun promptIntStepper(
@@ -242,25 +309,19 @@ class PlanningActivity : AppCompatActivity() {
             .show()
     }
 
-    private fun assignRecipe(date: LocalDate, slot: PlanSlot, recipeId: String) {
+    private fun createMeal(date: LocalDate, timeMinutes: Int, recipeId: String) {
         lifecycleScope.launch {
-            val dao = IdunDatabase.get(this@PlanningActivity).planDao()
             val recipe = recipeRepo.byId(recipeId)
             val defaultServings = recipe?.servings ?: 1
             withContext(Dispatchers.IO) {
-                val existing = dao.forDate(date.toString()).firstOrNull { it.slot == slot }
-                if (existing == null) {
-                    dao.upsert(
-                        PlanEntry(
-                            dateIso = date.toString(),
-                            slot = slot,
-                            recipeId = recipeId,
-                            servings = defaultServings,
-                        )
+                IdunDatabase.get(this@PlanningActivity).planDao().upsert(
+                    PlanEntry(
+                        dateIso = date.toString(),
+                        timeMinutes = timeMinutes,
+                        recipeId = recipeId,
+                        servings = defaultServings,
                     )
-                } else {
-                    dao.update(existing.copy(recipeId = recipeId))
-                }
+                )
             }
             render()
         }
@@ -304,16 +365,18 @@ class PlanningActivity : AppCompatActivity() {
         }
     }
 
-    private fun slotLabel(slot: PlanSlot): Int = when (slot) {
-        PlanSlot.BREAKFAST -> R.string.slot_breakfast
-        PlanSlot.LUNCH -> R.string.slot_lunch
-        PlanSlot.DINNER -> R.string.slot_dinner
+    private fun formatTimeOfDay(minutes: Int): String {
+        val local = LocalTime.of(minutes / 60, minutes % 60)
+        val formatter = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)
+            .withLocale(Locale.getDefault())
+        return local.format(formatter)
     }
 
     private fun today(): LocalDate = LocalDate.now()
 
     companion object {
         const val DAYS_AHEAD = 7
+        private const val DEFAULT_FIRST_TIME = 8 * 60
         private val DATE_FORMATTER: DateTimeFormatter = DateTimeFormatter.ofPattern("d MMM")
     }
 }

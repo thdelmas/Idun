@@ -46,18 +46,18 @@
 
     <string name="planning_title">Planificar</string>
     <string name="planning_today_badge">Hoy</string>
-    <string name="planning_add_meal">Añadir una comida</string>
+    <string name="planning_add_first_meal">Añadir la primera comida del día</string>
+    <string name="planning_add_another_meal">Añadir otra comida</string>
     <string name="planning_shopping_list">Lista de la compra</string>
     <string name="planning_missing_recipe">(receta no encontrada)</string>
     <string name="planning_view_recipe">Ver receta</string>
     <string name="planning_mark_eaten">Marcar como comida</string>
+    <string name="planning_change_time">Hora</string>
     <string name="planning_change_servings">Raciones</string>
     <string name="planning_change_guests">Invitados</string>
     <string name="planning_change_recipe">Cambiar receta</string>
     <string name="planning_remove">Eliminar</string>
-    <string name="slot_breakfast">Desayuno</string>
-    <string name="slot_lunch">Comida</string>
-    <string name="slot_dinner">Cena</string>
+    <string name="planning_window_summary">%1$s comiendo · %2$s en ayuno</string>
 
     <string name="pick_recipe_title">Elegir receta</string>
 </resources>

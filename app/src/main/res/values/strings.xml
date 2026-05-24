@@ -52,18 +52,18 @@
     <!-- Planning -->
     <string name="planning_title">Plan</string>
     <string name="planning_today_badge">Today</string>
-    <string name="planning_add_meal">Add a meal</string>
+    <string name="planning_add_first_meal">Add the day\'s first meal</string>
+    <string name="planning_add_another_meal">Add another meal</string>
     <string name="planning_shopping_list">Shopping list</string>
     <string name="planning_missing_recipe">(recipe missing)</string>
     <string name="planning_view_recipe">View recipe</string>
     <string name="planning_mark_eaten">Mark as eaten</string>
+    <string name="planning_change_time">Time</string>
     <string name="planning_change_servings">Servings</string>
     <string name="planning_change_guests">Guests</string>
     <string name="planning_change_recipe">Change recipe</string>
     <string name="planning_remove">Remove</string>
-    <string name="slot_breakfast">Breakfast</string>
-    <string name="slot_lunch">Lunch</string>
-    <string name="slot_dinner">Dinner</string>
+    <string name="planning_window_summary">%1$s eating · %2$s fasting</string>
 
     <!-- Pick recipe -->
     <string name="pick_recipe_title">Pick a recipe</string>
