@@ -1,10 +1,10 @@
 package com.idun.app
 
+import android.graphics.Paint
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.CheckBox
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.idun.app.data.IngredientCategory
@@ -14,12 +14,14 @@ import com.idun.app.util.ShoppingListAggregator
 
 /**
  * Consolidated shopping list for a selected set of recipes — v1 lead feature.
- * Renders the [ShoppingListAggregator] output as category-grouped sections,
- * each line a checkbox that strikes through when ticked ("have it").
+ * Renders [ShoppingListAggregator] output as category-grouped sections,
+ * each line a checkbox; ticking strikes through and dims the row to model
+ * "got it already". Tick state survives rotation via savedInstanceState.
  */
 class ShoppingListActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityShoppingListBinding
+    private val ticked = HashSet<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,9 +31,13 @@ class ShoppingListActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding.toolbar.setNavigationOnClickListener { finish() }
 
+        savedInstanceState?.getStringArrayList(STATE_TICKED)?.let {
+            ticked.clear()
+            ticked.addAll(it)
+        }
+
         val recipeIds = intent.getStringArrayListExtra(EXTRA_RECIPE_IDS).orEmpty()
-        val repo = RecipeRepository(this)
-        val recipes = recipeIds.mapNotNull { repo.byId(it) }
+        val recipes = RecipeRepository(this).let { repo -> recipeIds.mapNotNull { repo.byId(it) } }
         val result = ShoppingListAggregator.aggregate(recipes)
 
         if (result.byCategory.isEmpty()) {
@@ -46,67 +52,85 @@ class ShoppingListActivity : AppCompatActivity() {
             result.totalServings,
         )
 
+        val inflater = LayoutInflater.from(this)
         for ((category, lines) in result.byCategory) {
-            binding.listContainer.addView(makeCategoryHeader(category))
+            val header = inflater.inflate(
+                R.layout.item_shopping_category,
+                binding.listContainer,
+                false,
+            )
+            header.findViewById<TextView>(R.id.category_label).setText(categoryLabel(category))
+            header.findViewById<View>(R.id.category_stripe).setBackgroundColor(stripeColor(category))
+            binding.listContainer.addView(header)
+
             for (line in lines) {
-                binding.listContainer.addView(makeLineRow(line))
+                binding.listContainer.addView(makeLineRow(inflater, line))
             }
         }
     }
 
-    private fun makeCategoryHeader(category: IngredientCategory): TextView {
-        return TextView(this).apply {
-            text = getString(categoryLabel(category))
-            textSize = 13f
-            setTypeface(typeface, android.graphics.Typeface.BOLD)
-            isAllCaps = true
-            alpha = 0.7f
-            setPadding(0, 24, 0, 8)
-            layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-            )
-        }
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putStringArrayList(STATE_TICKED, ArrayList(ticked))
     }
 
-    private fun makeLineRow(line: ShoppingListAggregator.ShoppingLine): View {
-        val row = LinearLayout(this).apply {
-            orientation = LinearLayout.HORIZONTAL
-            setPadding(0, 4, 0, 4)
-            layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-            )
+    private fun makeLineRow(
+        inflater: LayoutInflater,
+        line: ShoppingListAggregator.ShoppingLine,
+    ): View {
+        val row = inflater.inflate(R.layout.item_shopping_line, binding.listContainer, false)
+        val key = lineKey(line)
+        val check = row.findViewById<CheckBox>(R.id.line_check)
+        val quantity = row.findViewById<TextView>(R.id.line_quantity)
+        val name = row.findViewById<TextView>(R.id.line_name)
+
+        quantity.text = formatQuantity(line)
+        name.text = line.nameEn
+        applyStrike(check, name, quantity, ticked.contains(key))
+
+        row.setOnClickListener {
+            val newChecked = !check.isChecked
+            if (newChecked) ticked.add(key) else ticked.remove(key)
+            applyStrike(check, name, quantity, newChecked)
         }
-        val checkbox = CheckBox(this)
-        val label = TextView(this).apply {
-            text = formatLine(line)
-            textSize = 14f
-            layoutParams = LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f)
-        }
-        checkbox.setOnCheckedChangeListener { _, checked ->
-            label.paintFlags = if (checked) {
-                label.paintFlags or android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
-            } else {
-                label.paintFlags and android.graphics.Paint.STRIKE_THRU_TEXT_FLAG.inv()
-            }
-            label.alpha = if (checked) 0.5f else 1f
-        }
-        row.addView(checkbox)
-        row.addView(label)
         return row
     }
 
-    private fun formatLine(line: ShoppingListAggregator.ShoppingLine): String {
-        val parts = mutableListOf<String>()
-        line.quantity?.let { q ->
-            val pretty = if (q % 1.0 == 0.0) q.toInt().toString() else q.toString()
-            parts.add(pretty)
+    private fun applyStrike(
+        check: CheckBox,
+        name: TextView,
+        quantity: TextView,
+        struck: Boolean,
+    ) {
+        check.isChecked = struck
+        listOf(name, quantity).forEach { tv ->
+            tv.paintFlags = if (struck) {
+                tv.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
+            } else {
+                tv.paintFlags and Paint.STRIKE_THRU_TEXT_FLAG.inv()
+            }
+            tv.alpha = if (struck) 0.4f else 1f
         }
-        line.unit?.takeIf { it.isNotBlank() }?.let { parts.add(it) }
-        parts.add(line.nameEn)
-        return parts.joinToString(" ")
     }
+
+    private fun lineKey(line: ShoppingListAggregator.ShoppingLine): String =
+        "${line.category.name}|${line.nameEn}|${line.unit ?: ""}"
+
+    private fun formatQuantity(line: ShoppingListAggregator.ShoppingLine): String {
+        val q = line.quantity ?: return ""
+        val pretty = if (q % 1.0 == 0.0) q.toInt().toString() else q.toString()
+        return line.unit?.takeIf { it.isNotBlank() }?.let { "$pretty $it" } ?: pretty
+    }
+
+    private fun stripeColor(category: IngredientCategory): Int = getColor(
+        when (category) {
+            IngredientCategory.PRODUCE, IngredientCategory.HERBS, IngredientCategory.FRUIT ->
+                R.color.accent_norse_gold
+            IngredientCategory.SEAFOOD, IngredientCategory.DAIRY_EGGS ->
+                R.color.accent_apple_red
+            else -> R.color.text_secondary
+        }
+    )
 
     private fun categoryLabel(category: IngredientCategory): Int = when (category) {
         IngredientCategory.PRODUCE -> R.string.category_produce
@@ -126,5 +150,6 @@ class ShoppingListActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_RECIPE_IDS = "recipe_ids"
+        private const val STATE_TICKED = "ticked"
     }
 }
