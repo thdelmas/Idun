@@ -40,6 +40,10 @@
     <string name="settings_bios_status_connected">Connecté</string>
     <string name="settings_bios_pending_approval">En attente d\'approbation dans Bios → Apps compagnes</string>
     <string name="bios_open_app">Ouvrir Bios</string>
+    <string name="settings_language_section">Langue</string>
+    <string name="settings_language_label">Langue de l\'app</string>
+    <string name="settings_language_dialog_title">Choisir la langue</string>
+    <string name="settings_language_system_default">Par défaut du système</string>
 
     <string name="search_hint">Rechercher recettes ou tags</string>
     <string name="section_count_label">%d recettes</string>

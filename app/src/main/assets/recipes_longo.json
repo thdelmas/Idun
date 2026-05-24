@@ -16,55 +16,64 @@
           "name_en": "stale bread",
           "quantity": null,
           "unit": null,
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "pan duro"
         },
         {
           "name_en": "fresh onion or spring onion, sliced",
           "quantity": null,
           "unit": null,
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla fresca o cebolleta en láminas"
         },
         {
           "name_en": "salad tomatoes, cubed",
           "quantity": null,
           "unit": null,
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates de ensalada en dados"
         },
         {
           "name_en": "cucumber, sliced",
           "quantity": null,
           "unit": null,
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pepino en rodajas"
         },
         {
           "name_en": "celery, sliced",
           "quantity": null,
           "unit": null,
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "apio en láminas"
         },
         {
           "name_en": "basil leaves, torn",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "hojas de albahaca troceadas"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "red wine vinegar",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre de vino tinto"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -73,6 +82,14 @@
         "Place in a large serving bowl and cover with all the other ingredients.",
         "Dress with salt, oil, and a little vinegar; mix well.",
         "Let rest for half an hour; taste and adjust oil or vinegar before serving."
+      ],
+      "name_es": "Panzanella (ensalada toscana de pan)",
+      "steps_es": [
+        "Pon el pan en remojo en un bol con agua fría — debe ser pan toscano, idealmente cocido en horno de leña y un poco duro; deja reposar 30 minutos en la nevera para que se rehidrate.",
+        "Escurre el pan apretando bien; repite 3 o 4 veces.",
+        "Pásalo a una fuente grande y cúbrelo con el resto de ingredientes.",
+        "Aliña con sal, aceite y un poco de vinagre; mezcla bien.",
+        "Deja reposar media hora; prueba y ajusta de aceite o vinagre antes de servir."
       ]
     },
     {
@@ -85,49 +102,57 @@
           "name_en": "artichokes",
           "quantity": 8,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "alcachofas"
         },
         {
           "name_en": "breadcrumbs",
           "quantity": 100,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "pan rallado"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 3,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "lemon",
           "quantity": 1,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "limón"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -136,6 +161,14 @@
         "Prepare the filling by mixing the breadcrumbs with garlic, parsley, salt, pepper, and oil.",
         "Fill the artichokes with the stuffing; place them in a pan with a little oil and two glasses of water.",
         "Cover and cook on the stovetop for 30–40 minutes."
+      ],
+      "name_es": "Alcachofas rellenas",
+      "steps_es": [
+        "Retira las hojas exteriores más duras, el tallo y las puntas de las alcachofas.",
+        "Abre las hojas y mete las alcachofas en un bol con agua y zumo de limón.",
+        "Prepara el relleno mezclando el pan rallado con ajo, perejil, sal, pimienta y aceite.",
+        "Rellena las alcachofas con el preparado; colócalas en una cazuela con un poco de aceite y dos vasos de agua.",
+        "Tapa y cocina al fuego 30–40 minutos."
       ]
     },
     {
@@ -148,61 +181,71 @@
           "name_en": "potatoes",
           "quantity": 3,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "patatas"
         },
         {
           "name_en": "cherry tomatoes",
           "quantity": 200,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates cherry"
         },
         {
           "name_en": "zucchini",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabacines"
         },
         {
           "name_en": "eggplants",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "berenjenas"
         },
         {
           "name_en": "bell peppers",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimientos"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "basil",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "albahaca"
         },
         {
           "name_en": "oregano",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "orégano"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -211,6 +254,14 @@
         "Add eggplants and bell peppers; cook for 5 minutes.",
         "Add tomatoes, potatoes, and zucchini; season with salt, oregano, and basil leaves.",
         "Simmer, stirring occasionally; if needed, add water or vegetable broth."
+      ],
+      "name_es": "Ciaudedda",
+      "steps_es": [
+        "Pela las verduras y córtalas en trozos.",
+        "En una cazuela, sofríe el ajo con 2 cucharadas de aceite y un poco de agua.",
+        "Añade las berenjenas y los pimientos; cocina 5 minutos.",
+        "Incorpora los tomates, las patatas y los calabacines; sazona con sal, orégano y hojas de albahaca.",
+        "Cuece a fuego lento, removiendo de vez en cuando; si hace falta, añade agua o caldo de verduras."
       ]
     },
     {
@@ -223,31 +274,36 @@
           "name_en": "bell peppers",
           "quantity": 800,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimientos"
         },
         {
           "name_en": "potatoes",
           "quantity": 800,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "patatas"
         },
         {
           "name_en": "small tomatoes",
           "quantity": 10,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates pequeños"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -257,6 +313,15 @@
         "With fresh oil, cook the tomatoes cut into pieces.",
         "When the tomato juices have evaporated, add the bell peppers and potatoes; cook uncovered.",
         "Season with salt and serve warm."
+      ],
+      "name_es": "Pici con patatas",
+      "steps_es": [
+        "Pela las patatas, córtalas en rodajas y escáldalas en agua con sal hasta que estén medio hechas.",
+        "Corta los pimientos en trozos grandes y dóralos en una sartén con 2 cucharadas de aceite.",
+        "Retira los pimientos y desecha el aceite usado.",
+        "Con aceite nuevo, cocina los tomates cortados en trozos.",
+        "Cuando los jugos del tomate se hayan evaporado, añade los pimientos y las patatas; cocina sin tapar.",
+        "Sazona con sal y sirve templado."
       ]
     },
     {
@@ -269,49 +334,57 @@
           "name_en": "squid",
           "quantity": 500,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "calamares"
         },
         {
           "name_en": "cuttlefish",
           "quantity": 300,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "sepia"
         },
         {
           "name_en": "cherry tomatoes, chopped",
           "quantity": 500,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates cherry picados"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 40,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -319,6 +392,13 @@
         "Fry the garlic in the oil; add the squid and cuttlefish and sauté on medium heat.",
         "Add tomatoes cut in small pieces, salt, and pepper; cook a few more minutes.",
         "Sprinkle with parsley and serve."
+      ],
+      "name_es": "Cazuela de calamares y sepia",
+      "steps_es": [
+        "Limpia los calamares y la sepia, córtalos en trozos pequeños y déjalos escurrir.",
+        "Sofríe el ajo en el aceite; añade los calamares y la sepia y saltea a fuego medio.",
+        "Incorpora los tomates en trozos pequeños, sal y pimienta; cocina unos minutos más.",
+        "Espolvorea con perejil y sirve."
       ]
     },
     {
@@ -331,43 +411,50 @@
           "name_en": "fresh anchovies",
           "quantity": 400,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "boquerones frescos"
         },
         {
           "name_en": "escarole endive",
           "quantity": 1000,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "escarola"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "parsley sprig",
           "quantity": 1,
           "unit": "sprig",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "ramita de perejil"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 90,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -378,6 +465,16 @@
         "Continue with a second layer of endive and the rest of the anchovies; season; top with the remaining endive.",
         "Bake at 200 °C / 400 °F for 30 minutes.",
         "Serve warm, sprinkled with chopped parsley."
+      ],
+      "name_es": "Boquerones con escarola",
+      "steps_es": [
+        "Pela la escarola, córtala en tiras y déjala en remojo en agua unos minutos.",
+        "Retira las cabezas de los boquerones y límpialos, abriéndolos como un libro; lávalos y sécalos.",
+        "Escurre la escarola y coloca un tercio en una fuente de horno.",
+        "Cubre con la mitad de los boquerones y sazona con aceite, ajo, sal y pimienta.",
+        "Sigue con una segunda capa de escarola y el resto de los boquerones; sazona; cubre con la escarola restante.",
+        "Hornea a 200 °C / 400 °F durante 30 minutos.",
+        "Sirve templado, espolvoreado con perejil picado."
       ]
     },
     {
@@ -390,43 +487,50 @@
           "name_en": "white onions",
           "quantity": 8,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebollas blancas"
         },
         {
           "name_en": "walnuts",
           "quantity": 120,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "nueces"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "lemons",
           "quantity": 2,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "limones"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 60,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -435,6 +539,14 @@
         "Add the oil and lemon juice gradually.",
         "Finish the sauce with chopped parsley.",
         "Serve the onions in large pieces, topped with the sauce."
+      ],
+      "name_es": "Cebollas en salsa de nueces",
+      "steps_es": [
+        "Cuece las cebollas en agua con sal; escurre y reserva.",
+        "Machaca las nueces y el ajo en un mortero con una pizca de sal hasta obtener una pasta.",
+        "Añade el aceite y el zumo de limón poco a poco.",
+        "Termina la salsa con perejil picado.",
+        "Sirve las cebollas en trozos grandes, cubiertas con la salsa."
       ]
     },
     {
@@ -447,67 +559,78 @@
           "name_en": "cabbage",
           "quantity": 1,
           "unit": "small head",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "col"
         },
         {
           "name_en": "tomatoes",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates"
         },
         {
           "name_en": "garlic clove, chopped",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo picado"
         },
         {
           "name_en": "onion, chopped",
           "quantity": 0.25,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla picada"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "sandwich bread",
           "quantity": 200,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "pan de molde"
         },
         {
           "name_en": "thin corn flour",
           "quantity": null,
           "unit": null,
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina fina de maíz"
         },
         {
           "name_en": "tomato paste",
           "quantity": null,
           "unit": null,
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "concentrado de tomate"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -518,6 +641,16 @@
         "Dredge the patties in corn flour and bake in a hot oven for 20 minutes.",
         "Prepare a sauce with chopped garlic and onion, then add tomato and the rest of the cabbage cut into strips.",
         "After a few minutes, add the patties; cook briefly and serve. Remove the toothpicks before serving."
+      ],
+      "name_es": "Hamburguesas de col",
+      "steps_es": [
+        "Escalda brevemente las hojas exteriores de la col en agua hirviendo con sal y escurre.",
+        "Pon el pan en remojo en agua, escúrrelo bien y mézclalo con el perejil picado, sal, pimienta y un poco de aceite.",
+        "Amasa y divide la mezcla de pan en porciones aplanadas.",
+        "Envuelve cada porción con hojas de col y sujeta con un palillo.",
+        "Reboza las hamburguesas en harina de maíz y hornea en horno fuerte 20 minutos.",
+        "Prepara una salsa con ajo y cebolla picados, después añade el tomate y el resto de la col cortada en tiras.",
+        "Tras unos minutos, añade las hamburguesas; cocina poco y sirve. Retira los palillos antes de servir."
       ]
     },
     {
@@ -530,49 +663,62 @@
           "name_en": "pumpkin (cleaned)",
           "quantity": 800,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "calabaza (limpia)"
         },
         {
           "name_en": "potatoes",
           "quantity": 3,
           "unit": "medium",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "patatas"
         },
         {
           "name_en": "white leeks or onions",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "puerros blancos o cebollas"
         },
         {
           "name_en": "sage leaves",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "hojas de salvia"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
         "Cut the vegetables into large pieces and cook at low heat with a little water, adding salt as desired.",
         "After 30 minutes, pass the mixture through a vegetable mill or use an immersion blender; the soup should be thick.",
         "Serve hot, seasoned with olive oil, pepper, and sage."
+      ],
+      "name_es": "Comaut",
+      "steps_es": [
+        "Corta las verduras en trozos grandes y cocina a fuego suave con un poco de agua, salando al gusto.",
+        "A los 30 minutos, pasa la mezcla por un pasapurés o usa una batidora de mano; la sopa debe quedar espesa.",
+        "Sirve caliente, sazonada con aceite de oliva, pimienta y salvia."
       ]
     },
     {
@@ -585,37 +731,43 @@
           "name_en": "whole snapper",
           "quantity": 1000,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "pargo entero"
         },
         {
           "name_en": "black olives",
           "quantity": 200,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "aceitunas negras"
         },
         {
           "name_en": "tomatoes",
           "quantity": 150,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates"
         },
         {
           "name_en": "dry white wine",
           "quantity": 200,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vino blanco seco"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -623,6 +775,13 @@
         "Place in an oiled baking dish.",
         "Add pepper, olives, and tomatoes previously crushed by hand.",
         "Bake at 160 °C / 320 °F for 30 minutes, basting with the wine halfway through cooking."
+      ],
+      "name_es": "Pargo a la tarantina",
+      "steps_es": [
+        "Limpia el pescado, retirando las escamas y las vísceras. Lávalo y sécalo bien.",
+        "Colócalo en una bandeja de horno aceitada.",
+        "Añade pimienta, aceitunas y los tomates previamente aplastados con la mano.",
+        "Hornea a 160 °C / 320 °F durante 30 minutos, rociando con el vino a mitad de cocción."
       ]
     },
     {
@@ -635,49 +794,57 @@
           "name_en": "dried chickpeas",
           "quantity": 200,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "garbanzos secos"
         },
         {
           "name_en": "spelt",
           "quantity": 150,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "espelta"
         },
         {
           "name_en": "onion",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla"
         },
         {
           "name_en": "carrot",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahoria"
         },
         {
           "name_en": "celery rib",
           "quantity": 1,
           "unit": "rib",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "rama de apio"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -687,6 +854,15 @@
         "Add the drained chickpeas, drained spelt, and 2 liters of the chickpea cooking water.",
         "Finish cooking at medium heat for 40 minutes, stirring occasionally.",
         "Salt to taste; serve with olive oil and fresh ground pepper."
+      ],
+      "name_es": "Garbanzos con espelta",
+      "steps_es": [
+        "Pon los garbanzos en remojo toda la noche y la espelta un par de horas.",
+        "Cuece los garbanzos; escúrrelos reservando el agua de cocción.",
+        "En una cazuela, sofríe en aceite la cebolla, la zanahoria y el apio picados.",
+        "Añade los garbanzos y la espelta escurridos, y 2 litros del agua de cocción de los garbanzos.",
+        "Termina la cocción a fuego medio durante 40 minutos, removiendo de vez en cuando.",
+        "Sazona con sal; sirve con aceite de oliva y pimienta recién molida."
       ]
     },
     {
@@ -699,55 +875,64 @@
           "name_en": "sardines",
           "quantity": 2000,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "sardinas"
         },
         {
           "name_en": "sweet white onions, sliced",
           "quantity": 2000,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebollas blancas dulces en láminas"
         },
         {
           "name_en": "pine nuts",
           "quantity": 40,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "piñones"
         },
         {
           "name_en": "raisins",
           "quantity": 80,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "Italian 00 wheat flour",
           "quantity": null,
           "unit": null,
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de trigo italiana 00"
         },
         {
           "name_en": "white wine vinegar",
           "quantity": 600,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre de vino blanco"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -757,6 +942,15 @@
         "Add vinegar, raisins, and pine nuts; cook for 10 minutes.",
         "Arrange the sardines alternating with onions in a bowl; cover with the cooking liquid and store in a cool place.",
         "After two days, the sardines are ready to eat and will keep for up to a week."
+      ],
+      "name_es": "Sardinas en saor (agridulces)",
+      "steps_es": [
+        "Retira las cabezas, las escamas y las vísceras de las sardinas.",
+        "Enharina las sardinas y fríelas unos minutos.",
+        "Dora las cebollas en una taza de agua y una cucharada de aceite.",
+        "Añade el vinagre, las pasas y los piñones; cocina 10 minutos.",
+        "Coloca las sardinas en capas alternadas con las cebollas en un recipiente; cubre con el líquido de cocción y guarda en un lugar fresco.",
+        "Tras dos días las sardinas están listas para comer y se conservan hasta una semana."
       ]
     },
     {
@@ -769,73 +963,85 @@
           "name_en": "durum-wheat semolina",
           "quantity": 800,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "sémola de trigo duro"
         },
         {
           "name_en": "wheat flour",
           "quantity": 200,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de trigo"
         },
         {
           "name_en": "mixed fish for stew",
           "quantity": 1000,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "pescado variado para guiso"
         },
         {
           "name_en": "peeled tomatoes",
           "quantity": 300,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates pelados"
         },
         {
           "name_en": "onions",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebollas"
         },
         {
           "name_en": "garlic clove",
           "quantity": 6,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "bay leaves",
           "quantity": 2,
           "unit": "leaf",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "hojas de laurel"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "peeled almonds",
           "quantity": 200,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "almendras peladas"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 100,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -849,6 +1055,19 @@
         "Remove the fish and keep hot; filter the broth through a fine sieve.",
         "Place the couscous in a large bowl, ladle in some of the broth, and let rest covered for 30 minutes.",
         "Serve in individual shallow bowls with pieces of fish on top; serve the remaining broth on the side as a condiment."
+      ],
+      "name_es": "Cuscús a la trapanesa con pescado variado",
+      "steps_es": [
+        "Vierte la sémola en una fuente honda y humedécela con un poco de agua fría; mezcla bien, haciendo girar la masa con la mano en un sentido y en otro hasta que se formen granos.",
+        "Añade sal, pimienta, aceite y una cebolla muy picada; deja reposar unos 10 minutos.",
+        "Llena una olla con agua; añade las hojas de laurel, un trozo de cebolla, perejil y sal. Encima coloca la cuscusera con la sémola sazonada.",
+        "Haz una lámina de masa con agua y la harina de trigo; colócala entre la olla y la cuscusera para sellar.",
+        "Cocina a fuego suave durante una hora y media.",
+        "Prepara el guiso de pescado: calienta el aceite; añade los ajos chafados, la cebolla restante picada, las almendras y el perejil.",
+        "Tras unos minutos añade los tomates y 2 litros de agua ligeramente salada; cuando el caldo hierva, añade el pescado y cuece 30 minutos.",
+        "Retira el pescado y mantenlo caliente; cuela el caldo con un colador fino.",
+        "Pasa el cuscús a una fuente grande, vierte parte del caldo y deja reposar tapado 30 minutos.",
+        "Sirve en platos hondos individuales con trozos de pescado encima; ofrece el caldo restante aparte como condimento."
       ]
     },
     {
@@ -861,49 +1080,57 @@
           "name_en": "dried chickpeas",
           "quantity": 200,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "garbanzos secos"
         },
         {
           "name_en": "tahini paste",
           "quantity": 30,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "pasta de tahini"
         },
         {
           "name_en": "lemon",
           "quantity": 1,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "limón"
         },
         {
           "name_en": "garlic clove",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "parsley, minced",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil picado"
         },
         {
           "name_en": "paprika",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimentón"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -913,6 +1140,15 @@
         "Add the tahini and garlic; continue to blend, adding a bit of salt.",
         "Transfer to a bowl; drizzle with oil and dust with paprika and parsley.",
         "To make tahini at home: toast sesame seeds 5 minutes in a non-stick pan, stirring carefully; transfer to a food processor with oil and puree until smooth."
+      ],
+      "name_es": "Hummus",
+      "steps_es": [
+        "Pon los garbanzos en remojo toda la noche, luego cuécelos; reserva el agua de cocción.",
+        "Tritura los garbanzos hasta obtener un puré cremoso.",
+        "Añade el zumo de limón y 2 cucharadas del agua de cocción, poco a poco, mientras trituras.",
+        "Incorpora el tahini y el ajo; sigue triturando y añade un poco de sal.",
+        "Pasa a un bol; riega con aceite y espolvorea con pimentón y perejil.",
+        "Para hacer tahini en casa: tuesta semillas de sésamo 5 minutos en una sartén antiadherente, removiendo con cuidado; pásalas a un robot de cocina con aceite y tritura hasta obtener una pasta lisa."
       ]
     },
     {
@@ -925,43 +1161,50 @@
           "name_en": "large yellow peppers",
           "quantity": 4,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimientos amarillos grandes"
         },
         {
           "name_en": "salt-preserved anchovy filets",
           "quantity": 12,
           "unit": "whole",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "filetes de anchoa en salazón"
         },
         {
           "name_en": "garlic clove",
           "quantity": 4,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "capers",
           "quantity": 30,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "alcaparras"
         },
         {
           "name_en": "basil",
           "quantity": 1,
           "unit": "bunch",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "albahaca"
         },
         {
           "name_en": "aromatic herbs mix (parsley, sage, marjoram, mint, summer savory, thyme, celery leaves, arugula, tarragon)",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "mezcla de hierbas aromáticas (perejil, salvia, mejorana, menta, ajedrea, tomillo, hojas de apio, rúcula, estragón)"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 90,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         }
       ],
       "steps": [
@@ -971,6 +1214,15 @@
         "Mince the herbs and mix with the minced garlic.",
         "Remove the garlic from the peppers and cover with the herb mixture.",
         "Spread torn basil leaves over the peppers and serve."
+      ],
+      "name_es": "Pimientos amarillos asados con anchoas, alcaparras, ajo, albahaca y hierbas",
+      "steps_es": [
+        "Asa los pimientos a la llama, pélalos y córtalos en cuartos; sécalos y colócalos en una bandeja.",
+        "Enjuaga las anchoas y las alcaparras para retirar la sal.",
+        "Sobre cada tira de pimiento coloca 2 filetes de anchoa, 2 láminas de ajo y luego las alcaparras.",
+        "Pica las hierbas y mézclalas con el ajo picado.",
+        "Retira el ajo de los pimientos y cúbrelos con la mezcla de hierbas.",
+        "Reparte hojas de albahaca troceadas sobre los pimientos y sirve."
       ]
     },
     {
@@ -983,85 +1235,99 @@
           "name_en": "salt-preserved anchovies",
           "quantity": 100,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "anchoas en salazón"
         },
         {
           "name_en": "white wine vinegar",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre de vino blanco"
         },
         {
           "name_en": "garlic clove",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "chili pepper (peperoncino)",
           "quantity": 1,
           "unit": "whole",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "guindilla (peperoncino)"
         },
         {
           "name_en": "taralli",
           "quantity": 4,
           "unit": "whole",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "taralli"
         },
         {
           "name_en": "hardboiled eggs",
           "quantity": 2,
           "unit": "whole",
-          "category": "DAIRY_EGGS"
+          "category": "DAIRY_EGGS",
+          "name_es": "huevos duros"
         },
         {
           "name_en": "firm tomatoes",
           "quantity": 4,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates firmes"
         },
         {
           "name_en": "cucumber",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pepino"
         },
         {
           "name_en": "green and black olives",
           "quantity": null,
           "unit": null,
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "aceitunas verdes y negras"
         },
         {
           "name_en": "large pepper",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pimiento grande"
         },
         {
           "name_en": "celery rib",
           "quantity": 2,
           "unit": "rib",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "rama de apio"
         },
         {
           "name_en": "oregano",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "orégano"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 100,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -1073,6 +1339,17 @@
         "Mix and spoon onto the taralli on the plate.",
         "Add wedges of hardboiled egg, the anchovies, and the olives.",
         "Drizzle generously with oil and rest in the fridge 30 minutes before serving."
+      ],
+      "name_es": "Ensalada de anchoas, huevo duro, tomate, pepino, pimientos y aceitunas",
+      "steps_es": [
+        "Enjuaga las anchoas para retirar la sal, desespina y déjalas 10 minutos en un bol con vinagre.",
+        "Sécalas con un paño y colócalas en un plato con aceite, junto a un diente de ajo chafado y un poco de guindilla.",
+        "Moja los taralli ligeramente en agua con sal; rocíalos con vinagre y sécalos 5 minutos con un paño.",
+        "Lava y seca los tomates, el apio, el pimiento grande y los pepinos; córtalos en trocitos.",
+        "Ponlos en un bol grande y aliña con aceite, orégano y una pizca de sal.",
+        "Mezcla y reparte sobre los taralli en el plato.",
+        "Añade gajos de huevo duro, las anchoas y las aceitunas.",
+        "Riega generosamente con aceite y deja reposar 30 minutos en la nevera antes de servir."
       ]
     },
     {
@@ -1085,55 +1362,64 @@
           "name_en": "potatoes",
           "quantity": 200,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "patatas"
         },
         {
           "name_en": "whole wheat flour",
           "quantity": 40,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina integral"
         },
         {
           "name_en": "nettles (ortiche)",
           "quantity": null,
           "unit": "small bunch",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "ortigas"
         },
         {
           "name_en": "egg yolk",
           "quantity": 1,
           "unit": "whole",
-          "category": "DAIRY_EGGS"
+          "category": "DAIRY_EGGS",
+          "name_es": "yema de huevo"
         },
         {
           "name_en": "porcini mushrooms",
           "quantity": 400,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "boletus (porcini)"
         },
         {
           "name_en": "garlic clove",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -1145,6 +1431,17 @@
         "Clean the porcini with a damp cloth and cut into small chunks; sauté garlic in oil, add the porcini with salt, pepper, and a few tablespoons of water; cook on a low flame for 5 minutes.",
         "Boil the gnocchi in lightly salted water; remove with a slotted spoon as soon as they float.",
         "Toss with the porcini sauce and serve."
+      ],
+      "name_es": "Ñoquis de ortiga con salsa de boletus",
+      "steps_es": [
+        "Cuece las patatas con piel; escurre, pela cuando se templen y pásalas por el pasapurés.",
+        "Cuece las ortigas, escurre y enfría; estruja el agua, pícalas y mézclalas con el puré de patata.",
+        "Añade la yema de huevo y una pizca de sal; mezcla bien.",
+        "Incorpora la harina hasta que la masa sea uniforme.",
+        "Forma cilindros de unos 5 mm de diámetro y córtalos en trozos de 1,5 cm.",
+        "Limpia los boletus con un paño húmedo y córtalos en trocitos; sofríe el ajo en aceite, añade los boletus con sal, pimienta y unas cucharadas de agua; cocina a fuego suave 5 minutos.",
+        "Cuece los ñoquis en agua ligeramente salada; retíralos con espumadera en cuanto floten.",
+        "Mezcla con la salsa de boletus y sirve."
       ]
     },
     {
@@ -1157,49 +1454,57 @@
           "name_en": "green string beans",
           "quantity": 500,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "judías verdes"
         },
         {
           "name_en": "potatoes",
           "quantity": 500,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "patatas"
         },
         {
           "name_en": "boiled octopus",
           "quantity": 500,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "pulpo cocido"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "garlic clove",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 60,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -1207,6 +1512,13 @@
         "In a deep pan coated in oil, heat the parsley minced with the garlic; add salt and pepper.",
         "Drain the beans and potatoes while still firm and combine with the octopus cut into small pieces.",
         "Dress with the sauce and serve warm."
+      ],
+      "name_es": "Ensalada de pulpo con patatas y judías verdes",
+      "steps_es": [
+        "Despunta y limpia las judías verdes; pela las patatas; cuece ambas en agua con sal.",
+        "En una sartén honda con aceite, calienta el perejil picado con el ajo; añade sal y pimienta.",
+        "Escurre las judías y las patatas mientras aún están firmes y combínalas con el pulpo cortado en trocitos.",
+        "Aliña con la salsa y sirve templado."
       ]
     },
     {
@@ -1219,43 +1531,50 @@
           "name_en": "fresh anchovies",
           "quantity": 400,
           "unit": "g",
-          "category": "SEAFOOD"
+          "category": "SEAFOOD",
+          "name_es": "boquerones frescos"
         },
         {
           "name_en": "endive escarole",
           "quantity": 1000,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "escarola"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 90,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "garlic clove",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": "small bunch",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -1265,6 +1584,15 @@
         "Make a second layer of endive, top with the rest of the anchovies, dress again, then cover with the remaining endive.",
         "Bake at 200 °C for 30 minutes.",
         "Serve warm, sprinkled with minced parsley."
+      ],
+      "name_es": "Boquerones al horno con escarola",
+      "steps_es": [
+        "Prepara la escarola: córtala en tiras y déjala en remojo en agua unos minutos.",
+        "Mientras tanto, retira las cabezas de los boquerones, ábrelos por el centro, enjuágalos y sécalos.",
+        "Escurre la escarola y pon un tercio en una fuente honda de horno; cubre con la mitad de los boquerones y aliña con aceite, ajo, sal y pimienta.",
+        "Haz una segunda capa de escarola, cubre con el resto de los boquerones, aliña de nuevo y termina con la escarola restante.",
+        "Hornea a 200 °C durante 30 minutos.",
+        "Sirve templado, espolvoreado con perejil picado."
       ]
     },
     {
@@ -1277,31 +1605,36 @@
           "name_en": "linguine",
           "quantity": 300,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "linguine"
         },
         {
           "name_en": "fresh fava beans (shelled)",
           "quantity": 300,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "habas frescas desgranadas"
         },
         {
           "name_en": "garlic clove",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "fresh mint",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "menta fresca"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 120,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         }
       ],
       "steps": [
@@ -1309,6 +1642,13 @@
         "Prepare the pesto by mashing the fava beans with the garlic (core removed), a few mint leaves, and a bit of oil.",
         "Cook the linguine in well-salted boiling water; drain al dente, reserving some cooking water.",
         "Toss the pasta with the pesto, loosening with reserved cooking water if too thick; serve."
+      ],
+      "name_es": "Linguine con pesto de habas",
+      "steps_es": [
+        "Retira la piel de las habas.",
+        "Prepara el pesto majando las habas con el ajo (sin el germen), unas hojas de menta y un poco de aceite.",
+        "Cuece la pasta en abundante agua hirviendo con sal; escurre al dente reservando un poco del agua de cocción.",
+        "Mezcla la pasta con el pesto, aflojando con el agua reservada si queda demasiado denso; sirve."
       ]
     },
     {
@@ -1321,43 +1661,55 @@
           "name_en": "shelled fava beans",
           "quantity": 400,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "habas desgranadas"
         },
         {
           "name_en": "garlic clove",
           "quantity": 1,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "Roman mint",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "menta romana"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "peperoncino",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "peperoncino (guindilla)"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
         "Simmer the fava beans in very little unsalted water for 7–8 minutes; they should remain crunchy.",
         "Drain and transfer to a large bowl.",
         "Dress with a sauce made by mixing garlic with minced mint, oil, a dash of chili pepper, and salt."
+      ],
+      "name_es": "Habas con ajo, menta y guindilla",
+      "steps_es": [
+        "Cuece las habas en muy poca agua sin sal durante 7–8 minutos; deben quedar crujientes.",
+        "Escurre y pásalas a un bol grande.",
+        "Aliña con una salsa hecha mezclando ajo con menta picada, aceite, una pizca de guindilla y sal."
       ]
     },
     {
@@ -1370,43 +1722,50 @@
           "name_en": "watermelon juice",
           "quantity": 1000,
           "unit": "ml",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "zumo de sandía"
         },
         {
           "name_en": "corn starch",
           "quantity": 90,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "maicena"
         },
         {
           "name_en": "sugar",
           "quantity": 40,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar"
         },
         {
           "name_en": "dark chocolate chips",
           "quantity": 100,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "pepitas de chocolate negro"
         },
         {
           "name_en": "pistachio granules",
           "quantity": 100,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "pistachos granulados"
         },
         {
           "name_en": "vanilla extract",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "extracto de vainilla"
         },
         {
           "name_en": "cinnamon",
           "quantity": null,
           "unit": "pinch",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "canela"
         }
       ],
       "steps": [
@@ -1417,6 +1776,16 @@
         "Add the vanilla, cinnamon, and almost all the chocolate (reserve a few chips for garnish); mix one last time.",
         "Pour into 6 dessert ramekins; sprinkle the remaining chocolate chips on top; refrigerate overnight.",
         "Just before serving, sprinkle pistachio granules over each dessert."
+      ],
+      "name_es": "Gelo di Mellone (gelatina de sandía)",
+      "steps_es": [
+        "Pon la maicena en un cazo; añade el zumo de sandía poco a poco, removiendo continuamente hasta que quede sin grumos.",
+        "Añade el azúcar y sigue removiendo.",
+        "Cocina a fuego medio, removiendo continuamente, hasta que hierva.",
+        "Baja el fuego y deja espesar unos minutos, removiendo de vez en cuando.",
+        "Añade la vainilla, la canela y casi todo el chocolate (reserva unas pepitas para decorar); remueve una última vez.",
+        "Reparte en 6 boles de postre; espolvorea las pepitas reservadas por encima; refrigera toda la noche.",
+        "Justo antes de servir, espolvorea pistachos granulados sobre cada postre."
       ]
     },
     {
@@ -1429,49 +1798,57 @@
           "name_en": "rigatoni or maccheroni",
           "quantity": 500,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "rigatoni o macarrones"
         },
         {
           "name_en": "sauce tomatoes",
           "quantity": 1500,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tomates para salsa"
         },
         {
           "name_en": "eggplants",
           "quantity": 2,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "berenjenas"
         },
         {
           "name_en": "garlic clove",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "basil",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "albahaca"
         },
         {
           "name_en": "ricotta salata",
           "quantity": 100,
           "unit": "g",
-          "category": "DAIRY_EGGS"
+          "category": "DAIRY_EGGS",
+          "name_es": "ricotta salata"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -1481,6 +1858,15 @@
         "Drain and dry the eggplant slices; grill them.",
         "Cook the pasta in boiling water; drain and toss with the tomato sauce.",
         "Plate with grilled eggplant slices; top with grated ricotta salata and more basil."
+      ],
+      "name_es": "Pasta siciliana con berenjena y salsa de tomate",
+      "steps_es": [
+        "Corta la berenjena en rodajas y ponla en un bol con agua y sal para que suelte el amargor.",
+        "Escalda los tomates, pélalos y pícalos; cocínalos a fuego suave con el ajo en una cazuela de barro.",
+        "Retira del fuego; añade aceite y albahaca.",
+        "Escurre y seca las rodajas de berenjena; ásalas a la plancha.",
+        "Cuece la pasta en agua hirviendo; escurre y mézclala con la salsa de tomate.",
+        "Emplata con las rodajas de berenjena a la plancha; cubre con ricotta salata rallada y más albahaca."
       ]
     },
     {
@@ -1493,13 +1879,15 @@
           "name_en": "shelled unpeeled almonds",
           "quantity": 500,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "almendras crudas sin pelar"
         },
         {
           "name_en": "dark chocolate",
           "quantity": 500,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "chocolate negro"
         }
       ],
       "steps": [
@@ -1507,6 +1895,13 @@
         "Melt the chocolate in a bain-marie; add the almonds and mix.",
         "Spoon the mixture into 20 ramekin dishes.",
         "Let cool until the chocolate has solidified."
+      ],
+      "name_es": "Bocaditos de almendra y chocolate",
+      "steps_es": [
+        "Tuesta las almendras.",
+        "Funde el chocolate al baño maría; añade las almendras y mezcla.",
+        "Reparte la mezcla en 20 moldecitos.",
+        "Deja enfriar hasta que el chocolate se solidifique."
       ]
     },
     {
@@ -1519,31 +1914,36 @@
           "name_en": "fresh Lamon beans (or 250g dried)",
           "quantity": 500,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "alubias Lamon frescas (o 250 g secas)"
         },
         {
           "name_en": "kosher salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal kosher"
         },
         {
           "name_en": "onion",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla"
         },
         {
           "name_en": "whole cloves",
           "quantity": 7,
           "unit": "whole",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "clavos enteros"
         },
         {
           "name_en": "tagliolini or ditalini pasta",
           "quantity": 100,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "pasta tagliolini o ditalini"
         }
       ],
       "steps": [
@@ -1553,6 +1953,15 @@
         "When the water reaches a boil, add the pasta; remove from the heat and stir periodically so the pasta does not stick.",
         "Serve hot or warm; optionally add chopped Treviso red radicchio (bitter, aids digestion) or a tablespoon of trippe alla parmigiana for extra protein.",
         "Finish with a drizzle of extra virgin olive oil, ground pepper, and a pinch of Franco's \"magic powder\" (dried sage, rosemary, thyme, marjoram)."
+      ],
+      "name_es": "Pasta con alubias",
+      "steps_es": [
+        "Cuece las alubias en olla a presión: llena la olla hasta el indicador, añade un puñadito de sal kosher y cocina a fuego fuerte; cuando empiece a silbar, baja al mínimo y cocina 40 minutos.",
+        "Tritura las alubias con pasapurés o batidora de mano y pásalas a una olla grande.",
+        "Lleva a ebullición; añade la cebolla (pinchada con los clavos) y aproximadamente 1 litro de agua.",
+        "Cuando rompa a hervir, añade la pasta; retira del fuego y remueve cada cierto tiempo para que la pasta no se pegue.",
+        "Sirve caliente o templado; opcionalmente añade radicchio rojo de Treviso picado (amargo, ayuda a la digestión) o una cucharada de trippe alla parmigiana para más proteína.",
+        "Termina con un chorro de aceite de oliva virgen extra, pimienta molida y una pizca del «polvo mágico» de Franco (salvia, romero, tomillo y mejorana secos)."
       ]
     },
     {
@@ -1565,31 +1974,36 @@
           "name_en": "whole wheat flour",
           "quantity": 80,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina integral"
         },
         {
           "name_en": "mushrooms",
           "quantity": 100,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "champiñones"
         },
         {
           "name_en": "parsley sprig",
           "quantity": 1,
           "unit": "sprig",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "ramita de perejil"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 30,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -1598,6 +2012,14 @@
         "Cook over moderate heat, stirring often, until tender.",
         "Add the chopped parsley.",
         "Serve the polenta topped with the mushrooms."
+      ],
+      "name_es": "Polenta con setas",
+      "steps_es": [
+        "Cocina la polenta según las instrucciones del envase hasta que esté suave.",
+        "Lava y corta los champiñones; pásalos a una sartén con aceite y un poco de agua.",
+        "Cocina a fuego moderado, removiendo a menudo, hasta que estén tiernos.",
+        "Añade el perejil picado.",
+        "Sirve la polenta con los champiñones por encima."
       ]
     },
     {
@@ -1610,37 +2032,48 @@
           "name_en": "pumpkin pulp",
           "quantity": 1000,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "pulpa de calabaza"
         },
         {
           "name_en": "rosemary",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "romero"
         },
         {
           "name_en": "sage",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "salvia"
         },
         {
           "name_en": "honey",
           "quantity": null,
           "unit": null,
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "miel"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
         "Peel and clean the pumpkin; cut into slices 1 cm thick and place on a baking sheet.",
         "Sprinkle with torn sage, rosemary, salt, and a little honey.",
         "Bake at 140 °C for 30 minutes."
+      ],
+      "name_es": "Calabaza al horno",
+      "steps_es": [
+        "Pela y limpia la calabaza; córtala en rodajas de 1 cm y colócalas en una bandeja de horno.",
+        "Espolvorea con salvia troceada, romero, sal y un poco de miel.",
+        "Hornea a 140 °C durante 30 minutos."
       ]
     },
     {
@@ -1653,43 +2086,50 @@
           "name_en": "chickpeas",
           "quantity": 300,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "garbanzos"
         },
         {
           "name_en": "dry chestnuts",
           "quantity": 300,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "castañas secas"
         },
         {
           "name_en": "garlic clove",
           "quantity": 3,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "bay leaf",
           "quantity": 1,
           "unit": "leaf",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "hoja de laurel"
         },
         {
           "name_en": "rosemary",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "romero"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -1697,6 +2137,13 @@
         "Boil the chickpeas for 2 hours.",
         "Add the drained chestnuts, garlic, bay leaf, rosemary, oil, and a pinch of salt.",
         "Cook for another 10 minutes or so, stirring regularly."
+      ],
+      "name_es": "Garbanzos y castañas con romero y ajo",
+      "steps_es": [
+        "Pon los garbanzos en remojo toda la noche; rehidrata las castañas secas remojándolas en agua tibia 10 horas.",
+        "Cuece los garbanzos 2 horas.",
+        "Añade las castañas escurridas, el ajo, la hoja de laurel, el romero, el aceite y una pizca de sal.",
+        "Cocina otros 10 minutos aproximadamente, removiendo regularmente."
       ]
     },
     {
@@ -1709,37 +2156,43 @@
           "name_en": "semi-brown rice",
           "quantity": 150,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "arroz semiintegral"
         },
         {
           "name_en": "mixed herbs",
           "quantity": 400,
           "unit": "g",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "hierbas variadas"
         },
         {
           "name_en": "small leeks",
           "quantity": 4,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "puerros pequeños"
         },
         {
           "name_en": "Grana Padano",
           "quantity": 40,
           "unit": "g",
-          "category": "DAIRY_EGGS"
+          "category": "DAIRY_EGGS",
+          "name_es": "Grana Padano"
         },
         {
           "name_en": "parsley",
           "quantity": null,
           "unit": "small tuft",
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "perejil"
         },
         {
           "name_en": "vegetable broth",
           "quantity": 1000,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "caldo de verduras"
         }
       ],
       "steps": [
@@ -1749,6 +2202,15 @@
         "Add the broth; when it comes to a boil, stir in the rice.",
         "When the rice is cooked (about 40 minutes), stir in the minced parsley.",
         "Serve, sprinkling with grated Grana Padano."
+      ],
+      "name_es": "Arroz, puerros y hierbas",
+      "steps_es": [
+        "Limpia las hierbas y córtalas en tiras pequeñas.",
+        "Pica fina la parte blanca de los puerros y sofríe a fuego suave con aceite y un poco de agua.",
+        "Añade las hierbas y cocina 10 minutos.",
+        "Añade el caldo; cuando rompa a hervir, incorpora el arroz.",
+        "Cuando el arroz esté cocido (unos 40 minutos), añade el perejil picado.",
+        "Sirve espolvoreado con Grana Padano rallado."
       ]
     },
     {
@@ -1761,43 +2223,50 @@
           "name_en": "firm pears",
           "quantity": 8,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "peras firmes"
         },
         {
           "name_en": "red wine",
           "quantity": 1000,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vino tinto"
         },
         {
           "name_en": "raisins",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "sugar",
           "quantity": 50,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar"
         },
         {
           "name_en": "whole cloves",
           "quantity": 4,
           "unit": "whole",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "clavos enteros"
         },
         {
           "name_en": "cinnamon stick",
           "quantity": 1,
           "unit": "small",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "rama de canela"
         },
         {
           "name_en": "lemon rind",
           "quantity": 2.5,
           "unit": "ml",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "piel de limón"
         }
       ],
       "steps": [
@@ -1805,6 +2274,13 @@
         "Cook for 30–40 minutes until the liquid thickens.",
         "Let cool, then remove the cinnamon stick and cloves.",
         "Slice the pears and spoon the sauce over them; serve."
+      ],
+      "name_es": "Peras en vino tinto especiado",
+      "steps_es": [
+        "Coloca todos los ingredientes en una cazuela; lleva a ebullición.",
+        "Cocina 30–40 minutos hasta que el líquido espese.",
+        "Deja enfriar y retira la canela y los clavos.",
+        "Corta las peras y nápalas con la salsa; sirve."
       ]
     },
     {
@@ -1817,37 +2293,43 @@
           "name_en": "maize flour",
           "quantity": 600,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de maíz"
         },
         {
           "name_en": "cavolo nero (black cabbage)",
           "quantity": 3,
           "unit": "bunch",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cavolo nero (col negra toscana)"
         },
         {
           "name_en": "garlic clove",
           "quantity": 2,
           "unit": "clove",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "diente de ajo"
         },
         {
           "name_en": "Parmigiano Reggiano, grated",
           "quantity": 50,
           "unit": "g",
-          "category": "DAIRY_EGGS"
+          "category": "DAIRY_EGGS",
+          "name_es": "Parmigiano Reggiano rallado"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 240,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -1857,6 +2339,15 @@
         "Add the minced garlic; taste and add salt as needed.",
         "Add the oil and cheese; whisk together. The farinata should be less dense than polenta.",
         "Serve hot, drizzling with raw oil and Parmigiano on the side."
+      ],
+      "name_es": "Farinata de maíz con col negra toscana",
+      "steps_es": [
+        "Limpia la col concienzudamente, retirando los nervios duros; córtala en tiras pequeñas.",
+        "Hierve en unos 5 litros de agua con sal; añade la harina de maíz poco a poco, removiendo constantemente con unas varillas.",
+        "Cocina unos 40 minutos, removiendo de vez en cuando con una cuchara de madera (sin rascar el fondo).",
+        "Añade el ajo picado; prueba y rectifica de sal.",
+        "Añade el aceite y el queso; bate para integrar. La farinata debe quedar menos densa que la polenta.",
+        "Sirve caliente, regando con aceite crudo y con Parmigiano aparte."
       ]
     },
     {
@@ -1869,91 +2360,106 @@
           "name_en": "soft wheat flour",
           "quantity": 100,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de trigo flojo"
         },
         {
           "name_en": "corn meal",
           "quantity": 80,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de maíz"
         },
         {
           "name_en": "chickpea flour",
           "quantity": 40,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de garbanzos"
         },
         {
           "name_en": "natural cane sugar",
           "quantity": 100,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar de caña integral"
         },
         {
           "name_en": "breadcrumbs",
           "quantity": 70,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "pan rallado"
         },
         {
           "name_en": "plant-based milk",
           "quantity": 300,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "bebida vegetal"
         },
         {
           "name_en": "apples",
           "quantity": 2,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "manzanas"
         },
         {
           "name_en": "raisins",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "dried figs",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "higos secos"
         },
         {
           "name_en": "lemon rind",
           "quantity": 0.5,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "piel de limón"
         },
         {
           "name_en": "orange rind",
           "quantity": 0.5,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "piel de naranja"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 50,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "sunflower oil",
           "quantity": 50,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de girasol"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "powdered sugar (optional)",
           "quantity": null,
           "unit": null,
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar glas (opcional)"
         }
       ],
       "steps": [
@@ -1963,6 +2469,15 @@
         "Oil a 24 cm cake pan, dust with flour, and pour in the batter.",
         "Bake at 170 °C for 45–50 minutes.",
         "Let cool; serve, optionally sprinkled with powdered sugar."
+      ],
+      "name_es": "Bizcocho de tres harinas con piel de cítricos y frutos secos",
+      "steps_es": [
+        "Mezcla las tres harinas, el pan rallado, el azúcar y una pizca de sal en un bol.",
+        "Añade la leche vegetal y los dos aceites; trabaja la masa hasta que quede lisa y uniforme.",
+        "Pela las manzanas, córtalas en trocitos y añádelas a la mezcla junto con las ralladuras de cítricos, las pasas y los higos picados.",
+        "Engrasa un molde de 24 cm, espolvorea con harina y vierte la masa.",
+        "Hornea a 170 °C durante 45–50 minutos.",
+        "Deja enfriar; sirve, opcionalmente espolvoreado con azúcar glas."
       ]
     },
     {
@@ -1975,61 +2490,71 @@
           "name_en": "soft wheat flour 00",
           "quantity": 50,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de trigo flojo 00"
         },
         {
           "name_en": "peeled almonds",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "almendras peladas"
         },
         {
           "name_en": "peeled hazelnuts",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "avellanas peladas"
         },
         {
           "name_en": "walnut pieces",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "trozos de nuez"
         },
         {
           "name_en": "raisins",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "dark chocolate",
           "quantity": 80,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "chocolate negro"
         },
         {
           "name_en": "natural cane sugar",
           "quantity": 50,
           "unit": "g",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar de caña integral"
         },
         {
           "name_en": "cinnamon",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "canela"
         },
         {
           "name_en": "nutmeg",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "nuez moscada"
         },
         {
           "name_en": "black pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta negra"
         }
       ],
       "steps": [
@@ -2041,6 +2566,17 @@
         "Spread the mixture on a baking sheet covered with wax paper, shaping into a loaf.",
         "Bake 15 minutes; turn off the oven and leave the cake inside to cool.",
         "The dessert is ready to eat the next day."
+      ],
+      "name_es": "Bizcocho especiado con frutos secos, chocolate y pasas",
+      "steps_es": [
+        "Pon las pasas en remojo en agua tibia; escurre y aprieta para secar.",
+        "Funde el azúcar de caña con una taza de agua a fuego suave.",
+        "Retira del fuego; añade el chocolate negro y remueve hasta que se funda.",
+        "Vierte en un bol; añade la harina, los frutos secos, las pasas, una pizca de canela y nuez moscada, y una buena cantidad de pimienta molida.",
+        "Deja reposar 30 minutos; precalienta el horno a 180 °C.",
+        "Extiende la mezcla sobre una bandeja con papel de horno, dándole forma de pan.",
+        "Hornea 15 minutos; apaga el horno y deja enfriar dentro.",
+        "El bizcocho está listo para comer al día siguiente."
       ]
     },
     {
@@ -2053,49 +2589,62 @@
           "name_en": "cauliflower head",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "coliflor entera"
         },
         {
           "name_en": "black olives",
           "quantity": 12,
           "unit": "whole",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "aceitunas negras"
         },
         {
           "name_en": "capers",
           "quantity": 15,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "alcaparras"
         },
         {
           "name_en": "vinegar-preserved pepper",
           "quantity": 1,
           "unit": "whole",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "pimiento en vinagre"
         },
         {
           "name_en": "white wine vinegar",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vinagre de vino blanco"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": 60,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
         "Clean the cauliflower and separate into florets.",
         "Rinse and simmer in a small amount of water with a pinch of salt; the cauliflower should be al dente.",
         "Drain and dress immediately with vinegar, oil, olives, capers, and the pepper cut into strips."
+      ],
+      "name_es": "Ensalada de coliflor",
+      "steps_es": [
+        "Limpia la coliflor y separa en ramilletes.",
+        "Enjuaga y cuece en poca agua con una pizca de sal; la coliflor debe quedar al dente.",
+        "Escurre y aliña enseguida con vinagre, aceite, aceitunas, alcaparras y el pimiento cortado en tiras."
       ]
     },
     {
@@ -2108,61 +2657,71 @@
           "name_en": "corn meal",
           "quantity": 250,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de maíz"
         },
         {
           "name_en": "sugar",
           "quantity": 22,
           "unit": "ml",
-          "category": "PANTRY_SWEETS"
+          "category": "PANTRY_SWEETS",
+          "name_es": "azúcar"
         },
         {
           "name_en": "raisins",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "pine nuts",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "piñones"
         },
         {
           "name_en": "walnut pieces",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "trozos de nuez"
         },
         {
           "name_en": "shelled almonds",
           "quantity": 50,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "almendras peladas (sin cáscara)"
         },
         {
           "name_en": "dried figs",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "higos secos"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -2172,6 +2731,15 @@
         "Mix well, adding hot water to form a moist consistency.",
         "Shape into balls, then flatten.",
         "Bake at 150 °C; serve cold."
+      ],
+      "name_es": "Galletas de harina de maíz con pasas, higos secos y frutos secos",
+      "steps_es": [
+        "Pon las pasas en remojo en agua tibia.",
+        "Pica las nueces y las almendras con los higos secos.",
+        "Haz un volcán con la harina de maíz; añade unas cucharadas de aceite, las pasas escurridas, los piñones, los higos picados, el azúcar y una pizca de sal y pimienta.",
+        "Mezcla bien, añadiendo agua caliente hasta obtener una consistencia húmeda.",
+        "Forma bolas y aplástalas.",
+        "Hornea a 150 °C; sirve frías."
       ]
     },
     {
@@ -2184,61 +2752,71 @@
           "name_en": "winter radicchio heads",
           "quantity": 3,
           "unit": "head",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "achicorias rojas (radicchio) de invierno"
         },
         {
           "name_en": "dry beans",
           "quantity": 10,
           "unit": "g",
-          "category": "LEGUMES_GRAINS_PASTA"
+          "category": "LEGUMES_GRAINS_PASTA",
+          "name_es": "alubias secas"
         },
         {
           "name_en": "vegetable broth",
           "quantity": 1500,
           "unit": "ml",
-          "category": "MILKS_BROTHS"
+          "category": "MILKS_BROTHS",
+          "name_es": "caldo de verduras"
         },
         {
           "name_en": "corn meal",
           "quantity": 100,
           "unit": "g",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "harina de maíz"
         },
         {
           "name_en": "carrot",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahoria"
         },
         {
           "name_en": "small onion",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "cebolla pequeña"
         },
         {
           "name_en": "celery rib",
           "quantity": 1,
           "unit": "rib",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "rama de apio"
         },
         {
           "name_en": "bay leaf",
           "quantity": 1,
           "unit": "leaf",
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "hoja de laurel"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -2249,6 +2827,16 @@
         "After 10 minutes, add the beans and cook for 15 minutes.",
         "Remove from the heat; stir in the radicchio with a bit of salt and pepper.",
         "Pour into a soup tureen and serve."
+      ],
+      "name_es": "Guiso de radicchio y polenta",
+      "steps_es": [
+        "Pon las alubias en remojo en agua fría toda la noche; enjuaga, escurre y ponlas en una olla con la zanahoria, la cebolla, el apio, la hoja de laurel y abundante agua.",
+        "Cuece una hora, añadiendo sal hacia el final.",
+        "En una cazuela con un poco de agua, cocina el radicchio 5 minutos; escurre el agua y pícalo fino.",
+        "Lleva el caldo a ebullición; añade la harina de maíz a chorro fino sin dejar de remover.",
+        "A los 10 minutos, añade las alubias y cocina 15 minutos más.",
+        "Retira del fuego; incorpora el radicchio con un poco de sal y pimienta.",
+        "Vierte en una sopera y sirve."
       ]
     },
     {
@@ -2261,55 +2849,64 @@
           "name_en": "artichoke stems",
           "quantity": 8,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "tallos de alcachofa"
         },
         {
           "name_en": "shallot",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "chalota"
         },
         {
           "name_en": "mint",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "menta"
         },
         {
           "name_en": "basil",
           "quantity": null,
           "unit": null,
-          "category": "HERBS"
+          "category": "HERBS",
+          "name_es": "albahaca"
         },
         {
           "name_en": "toasted homemade bread slices",
           "quantity": 4,
           "unit": "slice",
-          "category": "FLOURS_BREAD"
+          "category": "FLOURS_BREAD",
+          "name_es": "rebanadas de pan casero tostado"
         },
         {
           "name_en": "lemon",
           "quantity": 1,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "limón"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
@@ -2317,6 +2914,13 @@
         "Soak them in acidified water (with lemon juice); dry and cut into cubes or julienne.",
         "In a large pan with oil, sauté the sliced shallot, mint, basil, salt, and pepper.",
         "Spoon the mixture onto the toasted bread and serve."
+      ],
+      "name_es": "Crostini con tallos de alcachofa y salsa de chalota, menta y albahaca",
+      "steps_es": [
+        "Limpia y prepara los tallos de alcachofa.",
+        "Déjalos en agua acidulada (con zumo de limón); seca y corta en dados o juliana.",
+        "En una sartén grande con aceite, saltea la chalota en láminas con menta, albahaca, sal y pimienta.",
+        "Reparte la mezcla sobre el pan tostado y sirve."
       ]
     },
     {
@@ -2329,43 +2933,55 @@
           "name_en": "oranges",
           "quantity": 5,
           "unit": "whole",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "naranjas"
         },
         {
           "name_en": "chive bulb",
           "quantity": 1,
           "unit": "whole",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "bulbo de cebollino"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "oregano",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "orégano"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         },
         {
           "name_en": "pepper",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "pimienta"
         }
       ],
       "steps": [
         "Peel the oranges; cut into thin slices and then small pieces, removing the seeds.",
         "Transfer to a large bowl and dress with oil, the very thinly sliced chive bulb, a pinch of oregano, pepper, and salt.",
         "Mix and let sit 15 minutes before serving."
+      ],
+      "name_es": "Ensalada de naranja, orégano y cebollino",
+      "steps_es": [
+        "Pela las naranjas; córtalas en láminas finas y luego en trocitos, retirando las pepitas.",
+        "Pásalas a un bol grande y aliña con aceite, el bulbo de cebollino en láminas muy finas, una pizca de orégano, pimienta y sal.",
+        "Mezcla y deja reposar 15 minutos antes de servir."
       ]
     },
     {
@@ -2378,37 +2994,43 @@
           "name_en": "tender young carrots (novelle)",
           "quantity": 1000,
           "unit": "g",
-          "category": "PRODUCE"
+          "category": "PRODUCE",
+          "name_es": "zanahorias tiernas (novelle)"
         },
         {
           "name_en": "pine nuts",
           "quantity": 25,
           "unit": "g",
-          "category": "NUTS_SEEDS"
+          "category": "NUTS_SEEDS",
+          "name_es": "piñones"
         },
         {
           "name_en": "raisins",
           "quantity": 50,
           "unit": "g",
-          "category": "FRUIT"
+          "category": "FRUIT",
+          "name_es": "pasas"
         },
         {
           "name_en": "wine",
           "quantity": 120,
           "unit": "ml",
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "vino"
         },
         {
           "name_en": "extra virgin olive oil",
           "quantity": null,
           "unit": null,
-          "category": "OILS_VINEGARS_WINE"
+          "category": "OILS_VINEGARS_WINE",
+          "name_es": "aceite de oliva virgen extra"
         },
         {
           "name_en": "salt",
           "quantity": null,
           "unit": null,
-          "category": "SPICES"
+          "category": "SPICES",
+          "name_es": "sal"
         }
       ],
       "steps": [
@@ -2417,6 +3039,14 @@
         "Simmer in oil, a small amount of water, and a pinch of salt; cover and cook slowly.",
         "When tender, stir in the pine nuts and the drained raisins.",
         "Mix well; cook until done and serve immediately."
+      ],
+      "name_es": "Zanahorias con piñones y pasas al vino",
+      "steps_es": [
+        "Pon las pasas en remojo en el vino.",
+        "Despunta, pela y limpia las zanahorias; córtalas en rodajas.",
+        "Cocínalas a fuego lento con aceite, un poco de agua y una pizca de sal; tapa y cuece despacio.",
+        "Cuando estén tiernas, incorpora los piñones y las pasas escurridas.",
+        "Mezcla bien; termina la cocción y sirve enseguida."
       ]
     }
   ]

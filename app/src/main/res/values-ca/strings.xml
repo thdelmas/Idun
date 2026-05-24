@@ -40,6 +40,10 @@
     <string name="settings_bios_status_connected">Connectat</string>
     <string name="settings_bios_pending_approval">Pendent d\'aprovació a Bios → Apps acompanyants</string>
     <string name="bios_open_app">Obrir Bios</string>
+    <string name="settings_language_section">Idioma</string>
+    <string name="settings_language_label">Idioma de l\'app</string>
+    <string name="settings_language_dialog_title">Tria l\'idioma</string>
+    <string name="settings_language_system_default">Predeterminat del sistema</string>
 
     <string name="search_hint">Cerca receptes o etiquetes</string>
     <string name="section_count_label">%d receptes</string>
