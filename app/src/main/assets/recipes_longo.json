@@ -12,17 +12,68 @@
       "name_en": "Panzanella (Tuscan Bread Salad)",
       "servings": 4,
       "ingredients": [
-        {"name_en": "stale bread", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
-        {"name_en": "fresh onion or spring onion, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
-        {"name_en": "salad tomatoes, cubed", "quantity": null, "unit": null, "category": "PRODUCE"},
-        {"name_en": "cucumber, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
-        {"name_en": "celery, sliced", "quantity": null, "unit": null, "category": "PRODUCE"},
-        {"name_en": "basil leaves, torn", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "red wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "stale bread",
+          "quantity": null,
+          "unit": null,
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "fresh onion or spring onion, sliced",
+          "quantity": null,
+          "unit": null,
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "salad tomatoes, cubed",
+          "quantity": null,
+          "unit": null,
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "cucumber, sliced",
+          "quantity": null,
+          "unit": null,
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery, sliced",
+          "quantity": null,
+          "unit": null,
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "basil leaves, torn",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "red wine vinegar",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
       ],
-      "notes_en": "Soak bread 30 min in cold water, squeeze 3-4 times, rest 30 min before serving."
+      "steps": [
+        "Soak the bread in a bowl of cold water — it must be Tuscan bread, ideally wood-oven baked and a bit stale; let sit 30 minutes in the refrigerator to reconstitute.",
+        "Squeeze out the water; repeat 3 or 4 times.",
+        "Place in a large serving bowl and cover with all the other ingredients.",
+        "Dress with salt, oil, and a little vinegar; mix well.",
+        "Let rest for half an hour; taste and adjust oil or vinegar before serving."
+      ]
     },
     {
       "id": "lo-02-stuffed-artichokes",
@@ -30,14 +81,61 @@
       "name_en": "Stuffed Artichokes",
       "servings": 4,
       "ingredients": [
-        {"name_en": "artichokes", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "breadcrumbs", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "garlic clove, chopped", "quantity": 3, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "artichokes",
+          "quantity": 8,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "breadcrumbs",
+          "quantity": 100,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 3,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Remove the tough outer leaves, stem, and the tips of the artichokes.",
+        "Spread the leaves and place artichokes in a bowl with water and lemon juice.",
+        "Prepare the filling by mixing the breadcrumbs with garlic, parsley, salt, pepper, and oil.",
+        "Fill the artichokes with the stuffing; place them in a pan with a little oil and two glasses of water.",
+        "Cover and cook on the stovetop for 30–40 minutes."
       ]
     },
     {
@@ -46,16 +144,73 @@
       "name_en": "Ciaudedda",
       "servings": 4,
       "ingredients": [
-        {"name_en": "potatoes", "quantity": 3, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "cherry tomatoes", "quantity": 200, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "zucchini", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "eggplants", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "bell peppers", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "potatoes",
+          "quantity": 3,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "cherry tomatoes",
+          "quantity": 200,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "zucchini",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "eggplants",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "bell peppers",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "basil",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "oregano",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Peel the vegetables and cut into pieces.",
+        "In a saucepan, sauté the garlic with 2 tablespoons of oil and a little water.",
+        "Add eggplants and bell peppers; cook for 5 minutes.",
+        "Add tomatoes, potatoes, and zucchini; season with salt, oregano, and basil leaves.",
+        "Simmer, stirring occasionally; if needed, add water or vegetable broth."
       ]
     },
     {
@@ -64,11 +219,44 @@
       "name_en": "Pici and Potatoes",
       "servings": 4,
       "ingredients": [
-        {"name_en": "bell peppers", "quantity": 800, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "potatoes", "quantity": 800, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "small tomatoes", "quantity": 10, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "bell peppers",
+          "quantity": 800,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "potatoes",
+          "quantity": 800,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "small tomatoes",
+          "quantity": 10,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Peel the potatoes, cut into slices, and blanch them in salted water until half cooked.",
+        "Cut bell peppers into big pieces and brown them in a pan with 2 tablespoons of oil.",
+        "Remove the bell peppers and discard the used oil.",
+        "With fresh oil, cook the tomatoes cut into pieces.",
+        "When the tomato juices have evaporated, add the bell peppers and potatoes; cook uncovered.",
+        "Season with salt and serve warm."
       ]
     },
     {
@@ -77,14 +265,60 @@
       "name_en": "Squid and Cuttlefish Casserole",
       "servings": 4,
       "ingredients": [
-        {"name_en": "squid", "quantity": 500, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "cuttlefish", "quantity": 300, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "cherry tomatoes, chopped", "quantity": 500, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove, chopped", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 40, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "squid",
+          "quantity": 500,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "cuttlefish",
+          "quantity": 300,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "cherry tomatoes, chopped",
+          "quantity": 500,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 40,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Clean the squid and cuttlefish, cut into small pieces, and let drain.",
+        "Fry the garlic in the oil; add the squid and cuttlefish and sauté on medium heat.",
+        "Add tomatoes cut in small pieces, salt, and pepper; cook a few more minutes.",
+        "Sprinkle with parsley and serve."
       ]
     },
     {
@@ -93,13 +327,57 @@
       "name_en": "Anchovies with Endive",
       "servings": 4,
       "ingredients": [
-        {"name_en": "fresh anchovies", "quantity": 400, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "escarole endive", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "parsley sprig", "quantity": 1, "unit": "sprig", "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "fresh anchovies",
+          "quantity": 400,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "escarole endive",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley sprig",
+          "quantity": 1,
+          "unit": "sprig",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 90,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Peel the endive, cut into strips, and soak in water for a few minutes.",
+        "Remove the anchovy heads and clean the fish, opening like a book; wash and dry them.",
+        "Drain the endive and put a third in a casserole dish.",
+        "Cover with half of the anchovies and season with oil, garlic, salt, and pepper.",
+        "Continue with a second layer of endive and the rest of the anchovies; season; top with the remaining endive.",
+        "Bake at 200 °C / 400 °F for 30 minutes.",
+        "Serve warm, sprinkled with chopped parsley."
       ]
     },
     {
@@ -108,13 +386,55 @@
       "name_en": "Onions in Walnut Sauce",
       "servings": 4,
       "ingredients": [
-        {"name_en": "white onions", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "walnuts", "quantity": 120, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "garlic clove, chopped", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "lemons", "quantity": 2, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "white onions",
+          "quantity": 8,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "walnuts",
+          "quantity": 120,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "lemons",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Cook the onions in salted water; drain and set aside.",
+        "Crush the walnuts and garlic in a mortar with a pinch of salt until everything becomes a paste.",
+        "Add the oil and lemon juice gradually.",
+        "Finish the sauce with chopped parsley.",
+        "Serve the onions in large pieces, topped with the sauce."
       ]
     },
     {
@@ -123,17 +443,81 @@
       "name_en": "Cabbage Patties",
       "servings": 4,
       "ingredients": [
-        {"name_en": "cabbage", "quantity": 1, "unit": "small head", "category": "PRODUCE"},
-        {"name_en": "tomatoes", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "garlic clove, chopped", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "onion, chopped", "quantity": 0.25, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "sandwich bread", "quantity": 200, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "thin corn flour", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
-        {"name_en": "tomato paste", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "cabbage",
+          "quantity": 1,
+          "unit": "small head",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "tomatoes",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "onion, chopped",
+          "quantity": 0.25,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "sandwich bread",
+          "quantity": 200,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "thin corn flour",
+          "quantity": null,
+          "unit": null,
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "tomato paste",
+          "quantity": null,
+          "unit": null,
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Briefly blanch the outer leaves of the cabbage in salted boiling water and drain.",
+        "Soak the bread in water, wring it out, and mix in the chopped parsley, salt, pepper, and a little oil.",
+        "Knead and divide the bread mixture into flattened patties.",
+        "Cover each patty with cabbage leaves and fix with a toothpick.",
+        "Dredge the patties in corn flour and bake in a hot oven for 20 minutes.",
+        "Prepare a sauce with chopped garlic and onion, then add tomato and the rest of the cabbage cut into strips.",
+        "After a few minutes, add the patties; cook briefly and serve. Remove the toothpicks before serving."
       ]
     },
     {
@@ -142,13 +526,53 @@
       "name_en": "Comaut",
       "servings": 4,
       "ingredients": [
-        {"name_en": "pumpkin (cleaned)", "quantity": 800, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "potatoes", "quantity": 3, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "white leeks or onions", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "sage leaves", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "pumpkin (cleaned)",
+          "quantity": 800,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "potatoes",
+          "quantity": 3,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "white leeks or onions",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "sage leaves",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Cut the vegetables into large pieces and cook at low heat with a little water, adding salt as desired.",
+        "After 30 minutes, pass the mixture through a vegetable mill or use an immersion blender; the soup should be thick.",
+        "Serve hot, seasoned with olive oil, pepper, and sage."
       ]
     },
     {
@@ -157,12 +581,48 @@
       "name_en": "Snapper Tarantina",
       "servings": 4,
       "ingredients": [
-        {"name_en": "whole snapper", "quantity": 1000, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "black olives", "quantity": 200, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "tomatoes", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "dry white wine", "quantity": 200, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "whole snapper",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "black olives",
+          "quantity": 200,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "tomatoes",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "dry white wine",
+          "quantity": 200,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Clean the fish, removing the scales and entrails. Wash and dry well.",
+        "Place in an oiled baking dish.",
+        "Add pepper, olives, and tomatoes previously crushed by hand.",
+        "Bake at 160 °C / 320 °F for 30 minutes, basting with the wine halfway through cooking."
       ]
     },
     {
@@ -171,14 +631,62 @@
       "name_en": "Chickpeas and Spelt",
       "servings": 4,
       "ingredients": [
-        {"name_en": "dried chickpeas", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "spelt", "quantity": 150, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "carrot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "celery rib", "quantity": 1, "unit": "rib", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "dried chickpeas",
+          "quantity": 200,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "spelt",
+          "quantity": 150,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "carrot",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery rib",
+          "quantity": 1,
+          "unit": "rib",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight and the spelt for a couple of hours.",
+        "Boil the chickpeas; drain them and keep the cooking water.",
+        "In a pan, brown the chopped onion, carrot, and celery in oil.",
+        "Add the drained chickpeas, drained spelt, and 2 liters of the chickpea cooking water.",
+        "Finish cooking at medium heat for 40 minutes, stirring occasionally.",
+        "Salt to taste; serve with olive oil and fresh ground pepper."
       ]
     },
     {
@@ -187,15 +695,68 @@
       "name_en": "Sweet and Sour Sardines (Sarde in Saor)",
       "servings": 4,
       "ingredients": [
-        {"name_en": "sardines", "quantity": 2000, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "sweet white onions, sliced", "quantity": 2000, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "pine nuts", "quantity": 40, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "raisins", "quantity": 80, "unit": "g", "category": "FRUIT"},
-        {"name_en": "Italian 00 wheat flour", "quantity": null, "unit": null, "category": "FLOURS_BREAD"},
-        {"name_en": "white wine vinegar", "quantity": 600, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "sardines",
+          "quantity": 2000,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "sweet white onions, sliced",
+          "quantity": 2000,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "pine nuts",
+          "quantity": 40,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 80,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "Italian 00 wheat flour",
+          "quantity": null,
+          "unit": null,
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "white wine vinegar",
+          "quantity": 600,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Remove the sardine heads, scales, and entrails.",
+        "Flour the sardines and fry them for a few minutes.",
+        "Brown the onions in a cup of water and a tablespoon of oil.",
+        "Add vinegar, raisins, and pine nuts; cook for 10 minutes.",
+        "Arrange the sardines alternating with onions in a bowl; cover with the cooking liquid and store in a cool place.",
+        "After two days, the sardines are ready to eat and will keep for up to a week."
       ]
     },
     {
@@ -204,18 +765,90 @@
       "name_en": "Couscous Trapani-Style with Mixed Fish",
       "servings": 8,
       "ingredients": [
-        {"name_en": "durum-wheat semolina", "quantity": 800, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "wheat flour", "quantity": 200, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "mixed fish for stew", "quantity": 1000, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "peeled tomatoes", "quantity": 300, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "onions", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 6, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "bay leaves", "quantity": 2, "unit": "leaf", "category": "SPICES"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "peeled almonds", "quantity": 200, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "extra virgin olive oil", "quantity": 100, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "durum-wheat semolina",
+          "quantity": 800,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "wheat flour",
+          "quantity": 200,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "mixed fish for stew",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "peeled tomatoes",
+          "quantity": 300,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "onions",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 6,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "bay leaves",
+          "quantity": 2,
+          "unit": "leaf",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "peeled almonds",
+          "quantity": 200,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 100,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Pour the semolina into a deep dish and wet it with a bit of cold water; mix well, rolling the mixture with your hand in one direction and then the other until granules form.",
+        "Add salt, pepper, oil, and one finely minced onion; let rest about 10 minutes.",
+        "Fill a pot with water; add the bay leaves, a small piece of onion, parsley, and salt. On top, place the couscous pot containing the seasoned semolina.",
+        "Make a sheet of dough using water and the wheat flour; place it between the pot and the couscous pot to seal.",
+        "Cook on a low flame for an hour and a half.",
+        "Prepare the fish stew: heat the oil; add the crushed garlic, the remaining minced onion, the almonds, and parsley.",
+        "After a few minutes add the tomatoes and 2 liters of lightly salted water; when the broth boils, add the fish; cook for 30 minutes.",
+        "Remove the fish and keep hot; filter the broth through a fine sieve.",
+        "Place the couscous in a large bowl, ladle in some of the broth, and let rest covered for 30 minutes.",
+        "Serve in individual shallow bowls with pieces of fish on top; serve the remaining broth on the side as a condiment."
       ]
     },
     {
@@ -224,14 +857,62 @@
       "name_en": "Hummus",
       "servings": 4,
       "ingredients": [
-        {"name_en": "dried chickpeas", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "tahini paste", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "parsley, minced", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "paprika", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "dried chickpeas",
+          "quantity": 200,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "tahini paste",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "parsley, minced",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "paprika",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas in water overnight, then boil; keep the cooking liquid.",
+        "Blend the chickpeas to a creamy puree.",
+        "Add the lemon juice and 2 tablespoons of the cooking water a little at a time while blending.",
+        "Add the tahini and garlic; continue to blend, adding a bit of salt.",
+        "Transfer to a bowl; drizzle with oil and dust with paprika and parsley.",
+        "To make tahini at home: toast sesame seeds 5 minutes in a non-stick pan, stirring carefully; transfer to a food processor with oil and puree until smooth."
       ]
     },
     {
@@ -240,13 +921,56 @@
       "name_en": "Roasted Yellow Peppers with Anchovies, Capers, Garlic, Basil, Herbs",
       "servings": 4,
       "ingredients": [
-        {"name_en": "large yellow peppers", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "salt-preserved anchovy filets", "quantity": 12, "unit": "whole", "category": "SEAFOOD"},
-        {"name_en": "garlic clove", "quantity": 4, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "capers", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "basil", "quantity": 1, "unit": "bunch", "category": "HERBS"},
-        {"name_en": "aromatic herbs mix (parsley, sage, marjoram, mint, summer savory, thyme, celery leaves, arugula, tarragon)", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+        {
+          "name_en": "large yellow peppers",
+          "quantity": 4,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "salt-preserved anchovy filets",
+          "quantity": 12,
+          "unit": "whole",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 4,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "capers",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "basil",
+          "quantity": 1,
+          "unit": "bunch",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "aromatic herbs mix (parsley, sage, marjoram, mint, summer savory, thyme, celery leaves, arugula, tarragon)",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 90,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        }
+      ],
+      "steps": [
+        "Roast the peppers over a flame, peel, and cut into quarters; dry and place on a tray.",
+        "Rinse the anchovies and capers of their salt.",
+        "On each pepper strip place 2 anchovy filets, 2 slices of garlic, then the capers.",
+        "Mince the herbs and mix with the minced garlic.",
+        "Remove the garlic from the peppers and cover with the herb mixture.",
+        "Spread torn basil leaves over the peppers and serve."
       ]
     },
     {
@@ -255,20 +979,100 @@
       "name_en": "Salad with Anchovies, Hardboiled Eggs, Tomatoes, Cucumber, Peppers, Olives",
       "servings": 4,
       "ingredients": [
-        {"name_en": "salt-preserved anchovies", "quantity": 100, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "white wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "chili pepper (peperoncino)", "quantity": 1, "unit": "whole", "category": "SPICES"},
-        {"name_en": "taralli", "quantity": 4, "unit": "whole", "category": "FLOURS_BREAD"},
-        {"name_en": "hardboiled eggs", "quantity": 2, "unit": "whole", "category": "DAIRY_EGGS"},
-        {"name_en": "firm tomatoes", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "cucumber", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "green and black olives", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
-        {"name_en": "large pepper", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "celery rib", "quantity": 2, "unit": "rib", "category": "PRODUCE"},
-        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "extra virgin olive oil", "quantity": 100, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "salt-preserved anchovies",
+          "quantity": 100,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "white wine vinegar",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "chili pepper (peperoncino)",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "taralli",
+          "quantity": 4,
+          "unit": "whole",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "hardboiled eggs",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "DAIRY_EGGS"
+        },
+        {
+          "name_en": "firm tomatoes",
+          "quantity": 4,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "cucumber",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "green and black olives",
+          "quantity": null,
+          "unit": null,
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "large pepper",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery rib",
+          "quantity": 2,
+          "unit": "rib",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "oregano",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 100,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Rinse the anchovies of their salt, debone, and soak in a bowl of vinegar for 10 minutes.",
+        "Dry with a cloth and line up on a plate with oil, alongside a clove of crushed garlic and some chili pepper.",
+        "Wet the taralli somewhat in salted water; spray with vinegar and dry for 5 minutes with a dish cloth.",
+        "Wash and dry the tomatoes, celery, large pepper, and cucumbers; chop into little pieces.",
+        "Place in a large bowl and dress with oil, oregano, and a pinch of salt.",
+        "Mix and spoon onto the taralli on the plate.",
+        "Add wedges of hardboiled egg, the anchovies, and the olives.",
+        "Drizzle generously with oil and rest in the fridge 30 minutes before serving."
       ]
     },
     {
@@ -277,15 +1081,70 @@
       "name_en": "Nettle Gnocchi with Porcini Sauce",
       "servings": 4,
       "ingredients": [
-        {"name_en": "potatoes", "quantity": 200, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "whole wheat flour", "quantity": 40, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "nettles (ortiche)", "quantity": null, "unit": "small bunch", "category": "PRODUCE"},
-        {"name_en": "egg yolk", "quantity": 1, "unit": "whole", "category": "DAIRY_EGGS"},
-        {"name_en": "porcini mushrooms", "quantity": 400, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "potatoes",
+          "quantity": 200,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "whole wheat flour",
+          "quantity": 40,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "nettles (ortiche)",
+          "quantity": null,
+          "unit": "small bunch",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "egg yolk",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "DAIRY_EGGS"
+        },
+        {
+          "name_en": "porcini mushrooms",
+          "quantity": 400,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Boil the potatoes with their skin on; drain, peel when cool, and puree with a potato masher.",
+        "Simmer the nettles, drain, and cool; press out the water, mince, and stir into the mashed potatoes.",
+        "Add the egg yolk and a pinch of salt; mix well.",
+        "Stir in the flour until the mixture is uniform.",
+        "Shape the dough into \"ropes\" about 5 mm in diameter, then slice into pieces 1.5 cm long.",
+        "Clean the porcini with a damp cloth and cut into small chunks; sauté garlic in oil, add the porcini with salt, pepper, and a few tablespoons of water; cook on a low flame for 5 minutes.",
+        "Boil the gnocchi in lightly salted water; remove with a slotted spoon as soon as they float.",
+        "Toss with the porcini sauce and serve."
       ]
     },
     {
@@ -294,14 +1153,60 @@
       "name_en": "Octopus Salad with Potatoes and Green Beans",
       "servings": 4,
       "ingredients": [
-        {"name_en": "green string beans", "quantity": 500, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "potatoes", "quantity": 500, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "boiled octopus", "quantity": 500, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "parsley", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "green string beans",
+          "quantity": 500,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "potatoes",
+          "quantity": 500,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "boiled octopus",
+          "quantity": 500,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Trim and clean the string beans; peel the potatoes; boil both in salted water.",
+        "In a deep pan coated in oil, heat the parsley minced with the garlic; add salt and pepper.",
+        "Drain the beans and potatoes while still firm and combine with the octopus cut into small pieces.",
+        "Dress with the sauce and serve warm."
       ]
     },
     {
@@ -310,13 +1215,56 @@
       "name_en": "Baked Anchovies with Endive Escarole",
       "servings": 4,
       "ingredients": [
-        {"name_en": "fresh anchovies", "quantity": 400, "unit": "g", "category": "SEAFOOD"},
-        {"name_en": "endive escarole", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": 90, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "parsley", "quantity": null, "unit": "small bunch", "category": "HERBS"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "fresh anchovies",
+          "quantity": 400,
+          "unit": "g",
+          "category": "SEAFOOD"
+        },
+        {
+          "name_en": "endive escarole",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 90,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": "small bunch",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Prepare the endive: cut into strips and soak in water for a few minutes.",
+        "Meanwhile, remove the heads of the anchovies, open them down the center, rinse, and dry.",
+        "Drain the endive and put a third in a deep pyriform dish; cover with half of the anchovies and dress with oil, garlic, salt, and pepper.",
+        "Make a second layer of endive, top with the rest of the anchovies, dress again, then cover with the remaining endive.",
+        "Bake at 200 °C for 30 minutes.",
+        "Serve warm, sprinkled with minced parsley."
       ]
     },
     {
@@ -325,11 +1273,42 @@
       "name_en": "Linguine with Fava Bean Pesto",
       "servings": 4,
       "ingredients": [
-        {"name_en": "linguine", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "fresh fava beans (shelled)", "quantity": 300, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "fresh mint", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 120, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+        {
+          "name_en": "linguine",
+          "quantity": 300,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "fresh fava beans (shelled)",
+          "quantity": 300,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "fresh mint",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 120,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        }
+      ],
+      "steps": [
+        "Remove the skins of the fava beans.",
+        "Prepare the pesto by mashing the fava beans with the garlic (core removed), a few mint leaves, and a bit of oil.",
+        "Cook the linguine in well-salted boiling water; drain al dente, reserving some cooking water.",
+        "Toss the pasta with the pesto, loosening with reserved cooking water if too thick; serve."
       ]
     },
     {
@@ -338,12 +1317,47 @@
       "name_en": "Fava Beans with Garlic, Mint, and Chili Pepper",
       "servings": 4,
       "ingredients": [
-        {"name_en": "shelled fava beans", "quantity": 400, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 1, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "Roman mint", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "peperoncino", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "shelled fava beans",
+          "quantity": 400,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 1,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "Roman mint",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "peperoncino",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Simmer the fava beans in very little unsalted water for 7–8 minutes; they should remain crunchy.",
+        "Drain and transfer to a large bowl.",
+        "Dress with a sauce made by mixing garlic with minced mint, oil, a dash of chili pepper, and salt."
       ]
     },
     {
@@ -352,13 +1366,57 @@
       "name_en": "Gelo di Mellone",
       "servings": 6,
       "ingredients": [
-        {"name_en": "watermelon juice", "quantity": 1000, "unit": "ml", "category": "FRUIT"},
-        {"name_en": "corn starch", "quantity": 90, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "sugar", "quantity": 40, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "dark chocolate chips", "quantity": 100, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "pistachio granules", "quantity": 100, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "vanilla extract", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "cinnamon", "quantity": null, "unit": "pinch", "category": "SPICES"}
+        {
+          "name_en": "watermelon juice",
+          "quantity": 1000,
+          "unit": "ml",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "corn starch",
+          "quantity": 90,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "sugar",
+          "quantity": 40,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "dark chocolate chips",
+          "quantity": 100,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "pistachio granules",
+          "quantity": 100,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "vanilla extract",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cinnamon",
+          "quantity": null,
+          "unit": "pinch",
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Place the starch in a pot; slowly add the watermelon juice a little at a time, mixing constantly until smooth.",
+        "Add the sugar and continue mixing.",
+        "Cook on a medium flame, mixing constantly, until it comes to a boil.",
+        "Lower the flame and let the mixture thicken for a few minutes, mixing periodically.",
+        "Add the vanilla, cinnamon, and almost all the chocolate (reserve a few chips for garnish); mix one last time.",
+        "Pour into 6 dessert ramekins; sprinkle the remaining chocolate chips on top; refrigerate overnight.",
+        "Just before serving, sprinkle pistachio granules over each dessert."
       ]
     },
     {
@@ -367,14 +1425,62 @@
       "name_en": "Traditional Sicilian Pasta with Eggplant and Tomato Sauce",
       "servings": 6,
       "ingredients": [
-        {"name_en": "rigatoni or maccheroni", "quantity": 500, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "sauce tomatoes", "quantity": 1500, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "eggplants", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "ricotta salata", "quantity": 100, "unit": "g", "category": "DAIRY_EGGS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "rigatoni or maccheroni",
+          "quantity": 500,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "sauce tomatoes",
+          "quantity": 1500,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "eggplants",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "basil",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "ricotta salata",
+          "quantity": 100,
+          "unit": "g",
+          "category": "DAIRY_EGGS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Slice the eggplant and transfer to a bowl of salted water to draw out moisture.",
+        "Simmer the tomatoes, then peel and chop; cook on a low flame with the garlic in a terracotta pot.",
+        "Remove from the heat; stir in oil and basil.",
+        "Drain and dry the eggplant slices; grill them.",
+        "Cook the pasta in boiling water; drain and toss with the tomato sauce.",
+        "Plate with grilled eggplant slices; top with grated ricotta salata and more basil."
       ]
     },
     {
@@ -383,8 +1489,24 @@
       "name_en": "Chocolate Almond Delights",
       "servings": 20,
       "ingredients": [
-        {"name_en": "shelled unpeeled almonds", "quantity": 500, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "dark chocolate", "quantity": 500, "unit": "g", "category": "PANTRY_SWEETS"}
+        {
+          "name_en": "shelled unpeeled almonds",
+          "quantity": 500,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "dark chocolate",
+          "quantity": 500,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        }
+      ],
+      "steps": [
+        "Toast the almonds.",
+        "Melt the chocolate in a bain-marie; add the almonds and mix.",
+        "Spoon the mixture into 20 ramekin dishes.",
+        "Let cool until the chocolate has solidified."
       ]
     },
     {
@@ -393,11 +1515,44 @@
       "name_en": "Pasta and Beans",
       "servings": 4,
       "ingredients": [
-        {"name_en": "fresh Lamon beans (or 250g dried)", "quantity": 500, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "kosher salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "whole cloves", "quantity": 7, "unit": "whole", "category": "SPICES"},
-        {"name_en": "tagliolini or ditalini pasta", "quantity": 100, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"}
+        {
+          "name_en": "fresh Lamon beans (or 250g dried)",
+          "quantity": 500,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "kosher salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "whole cloves",
+          "quantity": 7,
+          "unit": "whole",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "tagliolini or ditalini pasta",
+          "quantity": 100,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        }
+      ],
+      "steps": [
+        "Cook the beans in a pressure pot: fill the pot to the level indicator, add a small handful of kosher salt, cook on the highest flame; once it whistles, lower to minimum and cook for 40 minutes.",
+        "Puree the beans with a vegetable mill or hand blender and transfer to a large pot.",
+        "Bring to a boil; add the onion (pierced with the cloves) and approximately 1 liter of water.",
+        "When the water reaches a boil, add the pasta; remove from the heat and stir periodically so the pasta does not stick.",
+        "Serve hot or warm; optionally add chopped Treviso red radicchio (bitter, aids digestion) or a tablespoon of trippe alla parmigiana for extra protein.",
+        "Finish with a drizzle of extra virgin olive oil, ground pepper, and a pinch of Franco's \"magic powder\" (dried sage, rosemary, thyme, marjoram)."
       ]
     },
     {
@@ -406,11 +1561,43 @@
       "name_en": "Polenta and Mushrooms",
       "servings": 1,
       "ingredients": [
-        {"name_en": "whole wheat flour", "quantity": 80, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "mushrooms", "quantity": 100, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "parsley sprig", "quantity": 1, "unit": "sprig", "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "whole wheat flour",
+          "quantity": 80,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "mushrooms",
+          "quantity": 100,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley sprig",
+          "quantity": 1,
+          "unit": "sprig",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Cook the polenta according to package instructions until soft.",
+        "Wash and cut the mushrooms; transfer to a pan with oil and a little water.",
+        "Cook over moderate heat, stirring often, until tender.",
+        "Add the chopped parsley.",
+        "Serve the polenta topped with the mushrooms."
       ]
     },
     {
@@ -419,11 +1606,41 @@
       "name_en": "Baked Pumpkin",
       "servings": 4,
       "ingredients": [
-        {"name_en": "pumpkin pulp", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "rosemary", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "sage", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "honey", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "pumpkin pulp",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "rosemary",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "sage",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "honey",
+          "quantity": null,
+          "unit": null,
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Peel and clean the pumpkin; cut into slices 1 cm thick and place on a baking sheet.",
+        "Sprinkle with torn sage, rosemary, salt, and a little honey.",
+        "Bake at 140 °C for 30 minutes."
       ]
     },
     {
@@ -432,13 +1649,54 @@
       "name_en": "Chickpeas and Chestnuts with Rosemary and Garlic",
       "servings": 6,
       "ingredients": [
-        {"name_en": "chickpeas", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "dry chestnuts", "quantity": 300, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "garlic clove", "quantity": 3, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "bay leaf", "quantity": 1, "unit": "leaf", "category": "SPICES"},
-        {"name_en": "rosemary", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "chickpeas",
+          "quantity": 300,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "dry chestnuts",
+          "quantity": 300,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 3,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "bay leaf",
+          "quantity": 1,
+          "unit": "leaf",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "rosemary",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight; reconstitute the dried chestnuts by soaking in warm water for 10 hours.",
+        "Boil the chickpeas for 2 hours.",
+        "Add the drained chestnuts, garlic, bay leaf, rosemary, oil, and a pinch of salt.",
+        "Cook for another 10 minutes or so, stirring regularly."
       ]
     },
     {
@@ -447,12 +1705,50 @@
       "name_en": "Rice, Leeks, and Herbs",
       "servings": 4,
       "ingredients": [
-        {"name_en": "semi-brown rice", "quantity": 150, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "mixed herbs", "quantity": 400, "unit": "g", "category": "HERBS"},
-        {"name_en": "small leeks", "quantity": 4, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "Grana Padano", "quantity": 40, "unit": "g", "category": "DAIRY_EGGS"},
-        {"name_en": "parsley", "quantity": null, "unit": "small tuft", "category": "HERBS"},
-        {"name_en": "vegetable broth", "quantity": 1000, "unit": "ml", "category": "MILKS_BROTHS"}
+        {
+          "name_en": "semi-brown rice",
+          "quantity": 150,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "mixed herbs",
+          "quantity": 400,
+          "unit": "g",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "small leeks",
+          "quantity": 4,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "Grana Padano",
+          "quantity": 40,
+          "unit": "g",
+          "category": "DAIRY_EGGS"
+        },
+        {
+          "name_en": "parsley",
+          "quantity": null,
+          "unit": "small tuft",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "vegetable broth",
+          "quantity": 1000,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        }
+      ],
+      "steps": [
+        "Clean the herbs and cut into small strips.",
+        "Finely slice the white part of the leeks and simmer on a low flame with oil and a bit of water.",
+        "Add the herbs and cook for 10 minutes.",
+        "Add the broth; when it comes to a boil, stir in the rice.",
+        "When the rice is cooked (about 40 minutes), stir in the minced parsley.",
+        "Serve, sprinkling with grated Grana Padano."
       ]
     },
     {
@@ -461,13 +1757,54 @@
       "name_en": "Pears Simmered in Spiced Red Wine",
       "servings": 8,
       "ingredients": [
-        {"name_en": "firm pears", "quantity": 8, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "red wine", "quantity": 1000, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "sugar", "quantity": 50, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "whole cloves", "quantity": 4, "unit": "whole", "category": "SPICES"},
-        {"name_en": "cinnamon stick", "quantity": 1, "unit": "small", "category": "SPICES"},
-        {"name_en": "lemon rind", "quantity": 2.5, "unit": "ml", "category": "FRUIT"}
+        {
+          "name_en": "firm pears",
+          "quantity": 8,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "red wine",
+          "quantity": 1000,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "sugar",
+          "quantity": 50,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "whole cloves",
+          "quantity": 4,
+          "unit": "whole",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cinnamon stick",
+          "quantity": 1,
+          "unit": "small",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "lemon rind",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "FRUIT"
+        }
+      ],
+      "steps": [
+        "Place all ingredients in a pot; bring to a boil.",
+        "Cook for 30–40 minutes until the liquid thickens.",
+        "Let cool, then remove the cinnamon stick and cloves.",
+        "Slice the pears and spoon the sauce over them; serve."
       ]
     },
     {
@@ -476,12 +1813,50 @@
       "name_en": "Corn Meal Porridge with Tuscan Black Cabbage",
       "servings": 6,
       "ingredients": [
-        {"name_en": "maize flour", "quantity": 600, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "cavolo nero (black cabbage)", "quantity": 3, "unit": "bunch", "category": "PRODUCE"},
-        {"name_en": "garlic clove", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "Parmigiano Reggiano, grated", "quantity": 50, "unit": "g", "category": "DAIRY_EGGS"},
-        {"name_en": "extra virgin olive oil", "quantity": 240, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "maize flour",
+          "quantity": 600,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "cavolo nero (black cabbage)",
+          "quantity": 3,
+          "unit": "bunch",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "Parmigiano Reggiano, grated",
+          "quantity": 50,
+          "unit": "g",
+          "category": "DAIRY_EGGS"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 240,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Trim and wash the cabbage thoroughly, removing the hard ribs; cut into small strips.",
+        "Boil in about 5 liters of salted water; add the yellow corn meal a little at a time, stirring constantly with a whisk.",
+        "Cook for about 40 minutes, stirring periodically with a wooden spoon (do not scrape the bottom of the pot).",
+        "Add the minced garlic; taste and add salt as needed.",
+        "Add the oil and cheese; whisk together. The farinata should be less dense than polenta.",
+        "Serve hot, drizzling with raw oil and Parmigiano on the side."
       ]
     },
     {
@@ -490,21 +1865,104 @@
       "name_en": "3-Flour Cake with Citrus Rind and Dried Fruit",
       "servings": 8,
       "ingredients": [
-        {"name_en": "soft wheat flour", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "corn meal", "quantity": 80, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "chickpea flour", "quantity": 40, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "natural cane sugar", "quantity": 100, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "breadcrumbs", "quantity": 70, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "plant-based milk", "quantity": 300, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "apples", "quantity": 2, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "dried figs", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "lemon rind", "quantity": 0.5, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "orange rind", "quantity": 0.5, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "extra virgin olive oil", "quantity": 50, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "sunflower oil", "quantity": 50, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "powdered sugar (optional)", "quantity": null, "unit": null, "category": "PANTRY_SWEETS"}
+        {
+          "name_en": "soft wheat flour",
+          "quantity": 100,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "corn meal",
+          "quantity": 80,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "chickpea flour",
+          "quantity": 40,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "natural cane sugar",
+          "quantity": 100,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "breadcrumbs",
+          "quantity": 70,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "plant-based milk",
+          "quantity": 300,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "apples",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "dried figs",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "lemon rind",
+          "quantity": 0.5,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "orange rind",
+          "quantity": 0.5,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 50,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "sunflower oil",
+          "quantity": 50,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "powdered sugar (optional)",
+          "quantity": null,
+          "unit": null,
+          "category": "PANTRY_SWEETS"
+        }
+      ],
+      "steps": [
+        "Combine the three flours, breadcrumbs, sugar, and a pinch of salt in a bowl; mix.",
+        "Add the milk and both oils; work the batter until smooth and uniform.",
+        "Peel the apples, cut into small pieces, and add to the mixture along with the grated rinds, raisins, and chopped figs.",
+        "Oil a 24 cm cake pan, dust with flour, and pour in the batter.",
+        "Bake at 170 °C for 45–50 minutes.",
+        "Let cool; serve, optionally sprinkled with powdered sugar."
       ]
     },
     {
@@ -513,16 +1971,76 @@
       "name_en": "Spiced Cake with Nuts, Chocolate, and Raisins",
       "servings": 8,
       "ingredients": [
-        {"name_en": "soft wheat flour 00", "quantity": 50, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "peeled almonds", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "peeled hazelnuts", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "walnut pieces", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "dark chocolate", "quantity": 80, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "natural cane sugar", "quantity": 50, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "cinnamon", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "nutmeg", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "black pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "soft wheat flour 00",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "peeled almonds",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "peeled hazelnuts",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "walnut pieces",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "dark chocolate",
+          "quantity": 80,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "natural cane sugar",
+          "quantity": 50,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "cinnamon",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "nutmeg",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the raisins in warm water; drain and press dry.",
+        "Melt the cane sugar with a cup of water over a low flame.",
+        "Remove from the heat; add the dark chocolate and stir until melted.",
+        "Pour into a bowl; add the flour, nuts, raisins, a pinch of cinnamon and nutmeg, and a generous bit of ground pepper.",
+        "Let rest 30 minutes; preheat oven to 180 °C.",
+        "Spread the mixture on a baking sheet covered with wax paper, shaping into a loaf.",
+        "Bake 15 minutes; turn off the oven and leave the cake inside to cool.",
+        "The dessert is ready to eat the next day."
       ]
     },
     {
@@ -531,13 +2049,53 @@
       "name_en": "Cauliflower Salad",
       "servings": 4,
       "ingredients": [
-        {"name_en": "cauliflower head", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "black olives", "quantity": 12, "unit": "whole", "category": "PANTRY_SWEETS"},
-        {"name_en": "capers", "quantity": 15, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "vinegar-preserved pepper", "quantity": 1, "unit": "whole", "category": "PANTRY_SWEETS"},
-        {"name_en": "white wine vinegar", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "extra virgin olive oil", "quantity": 60, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "cauliflower head",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "black olives",
+          "quantity": 12,
+          "unit": "whole",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "capers",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "vinegar-preserved pepper",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "white wine vinegar",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Clean the cauliflower and separate into florets.",
+        "Rinse and simmer in a small amount of water with a pinch of salt; the cauliflower should be al dente.",
+        "Drain and dress immediately with vinegar, oil, olives, capers, and the pepper cut into strips."
       ]
     },
     {
@@ -546,16 +2104,74 @@
       "name_en": "Corn Meal Cookies with Raisins, Dried Figs, and Nuts",
       "servings": 8,
       "ingredients": [
-        {"name_en": "corn meal", "quantity": 250, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "sugar", "quantity": 22, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "pine nuts", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "walnut pieces", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "shelled almonds", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "dried figs", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "corn meal",
+          "quantity": 250,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "sugar",
+          "quantity": 22,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "pine nuts",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "walnut pieces",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "shelled almonds",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "dried figs",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the raisins in warm water.",
+        "Mince the walnuts and almonds with the dried figs.",
+        "Make a well with the corn meal; add a few tablespoons of oil, the drained raisins, the pine nuts, the minced figs, the sugar, and a pinch of salt and pepper.",
+        "Mix well, adding hot water to form a moist consistency.",
+        "Shape into balls, then flatten.",
+        "Bake at 150 °C; serve cold."
       ]
     },
     {
@@ -564,16 +2180,75 @@
       "name_en": "Radicchio and Polenta Stew",
       "servings": 4,
       "ingredients": [
-        {"name_en": "winter radicchio heads", "quantity": 3, "unit": "head", "category": "PRODUCE"},
-        {"name_en": "dry beans", "quantity": 10, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "vegetable broth", "quantity": 1500, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "corn meal", "quantity": 100, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "carrot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "small onion", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "celery rib", "quantity": 1, "unit": "rib", "category": "PRODUCE"},
-        {"name_en": "bay leaf", "quantity": 1, "unit": "leaf", "category": "SPICES"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "winter radicchio heads",
+          "quantity": 3,
+          "unit": "head",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "dry beans",
+          "quantity": 10,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "vegetable broth",
+          "quantity": 1500,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "corn meal",
+          "quantity": 100,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "carrot",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "small onion",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery rib",
+          "quantity": 1,
+          "unit": "rib",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "bay leaf",
+          "quantity": 1,
+          "unit": "leaf",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the beans in cold water overnight; rinse, drain, and put in a pot with the carrot, onion, celery, bay leaf, and plenty of water.",
+        "Boil for an hour, adding salt towards the end.",
+        "In a casserole pot with a little water, simmer the radicchio for 5 minutes; drain off the water and chop finely.",
+        "Bring the broth to a boil; slowly sprinkle in the corn meal and mix.",
+        "After 10 minutes, add the beans and cook for 15 minutes.",
+        "Remove from the heat; stir in the radicchio with a bit of salt and pepper.",
+        "Pour into a soup tureen and serve."
       ]
     },
     {
@@ -582,15 +2257,66 @@
       "name_en": "Crostini with Artichoke-Stems and Shallot, Mint, Basil Sauce",
       "servings": 4,
       "ingredients": [
-        {"name_en": "artichoke stems", "quantity": 8, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "shallot", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "mint", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "basil", "quantity": null, "unit": null, "category": "HERBS"},
-        {"name_en": "toasted homemade bread slices", "quantity": 4, "unit": "slice", "category": "FLOURS_BREAD"},
-        {"name_en": "lemon", "quantity": 1, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "artichoke stems",
+          "quantity": 8,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "shallot",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "mint",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "basil",
+          "quantity": null,
+          "unit": null,
+          "category": "HERBS"
+        },
+        {
+          "name_en": "toasted homemade bread slices",
+          "quantity": 4,
+          "unit": "slice",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Clean and prepare the artichoke stems.",
+        "Soak them in acidified water (with lemon juice); dry and cut into cubes or julienne.",
+        "In a large pan with oil, sauté the sliced shallot, mint, basil, salt, and pepper.",
+        "Spoon the mixture onto the toasted bread and serve."
       ]
     },
     {
@@ -599,12 +2325,47 @@
       "name_en": "Orange, Oregano, and Chive Salad",
       "servings": 4,
       "ingredients": [
-        {"name_en": "oranges", "quantity": 5, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "chive bulb", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "oregano", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"},
-        {"name_en": "pepper", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "oranges",
+          "quantity": 5,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "chive bulb",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "oregano",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        },
+        {
+          "name_en": "pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Peel the oranges; cut into thin slices and then small pieces, removing the seeds.",
+        "Transfer to a large bowl and dress with oil, the very thinly sliced chive bulb, a pinch of oregano, pepper, and salt.",
+        "Mix and let sit 15 minutes before serving."
       ]
     },
     {
@@ -613,12 +2374,49 @@
       "name_en": "Carrots with Pine Nuts and Wine-Seeped Raisins",
       "servings": 6,
       "ingredients": [
-        {"name_en": "tender young carrots (novelle)", "quantity": 1000, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "pine nuts", "quantity": 25, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "raisins", "quantity": 50, "unit": "g", "category": "FRUIT"},
-        {"name_en": "wine", "quantity": 120, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "extra virgin olive oil", "quantity": null, "unit": null, "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "salt", "quantity": null, "unit": null, "category": "SPICES"}
+        {
+          "name_en": "tender young carrots (novelle)",
+          "quantity": 1000,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "pine nuts",
+          "quantity": 25,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "raisins",
+          "quantity": 50,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "wine",
+          "quantity": 120,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Soak the raisins in the wine.",
+        "Trim, peel, and clean the carrots; chop into rounds.",
+        "Simmer in oil, a small amount of water, and a pinch of salt; cover and cook slowly.",
+        "When tender, stir in the pine nuts and the drained raisins.",
+        "Mix well; cook until done and serve immediately."
       ]
     }
   ]

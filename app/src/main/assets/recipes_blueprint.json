@@ -10,187 +10,820 @@
       "id": "bp-01-vegetable-stir-fry",
       "source": "blueprint",
       "name_en": "Vegetable Stir Fry with Cauliflower Rice",
-      "servings": null,
       "ingredients": [
-        {"name_en": "onion, thinly sliced", "quantity": 75, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "red cabbage, shredded", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "white cabbage, shredded", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "mung bean sprouts", "quantity": 200, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "broccoli, chopped", "quantity": 200, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "shiitake mushrooms, sliced", "quantity": 225, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "sugar snap peas", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "ginger powder", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "garlic powder", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "gluten-free low-sodium tamari", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "cauliflower rice", "quantity": 600, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 15, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "hemp seeds (optional, garnish)", "quantity": 7, "unit": "g", "category": "NUTS_SEEDS"}
+        {
+          "name_en": "onion, thinly sliced",
+          "quantity": 75,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "red cabbage, shredded",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "white cabbage, shredded",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "mung bean sprouts",
+          "quantity": 200,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "broccoli, chopped",
+          "quantity": 200,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "shiitake mushrooms, sliced",
+          "quantity": 225,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "sugar snap peas",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "ginger powder",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "garlic powder",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "gluten-free low-sodium tamari",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "cauliflower rice",
+          "quantity": 600,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "hemp seeds (optional, garnish)",
+          "quantity": 7,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large wok or skillet over medium-high heat.",
+        "Add onion, broccoli, and both cabbages; stir-fry 3–4 minutes until they begin to soften.",
+        "Add shiitake mushrooms, sugar snap peas, and mung bean sprouts; stir-fry 2 minutes more.",
+        "Add cauliflower rice and stir-fry 3–4 minutes until heated through.",
+        "Season with ginger powder, garlic powder, and tamari; toss to combine.",
+        "Garnish with hemp seeds and serve."
       ]
     },
     {
       "id": "bp-02-lemon-red-lentil-soup",
       "source": "blueprint",
       "name_en": "Lemon Red Lentil Soup",
-      "servings": null,
       "ingredients": [
-        {"name_en": "olive oil", "quantity": 22, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "carrots, peeled and sliced", "quantity": 360, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "celery, chopped", "quantity": 180, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "yellow onion, diced", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove, minced", "quantity": 4, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "vegetable stock", "quantity": 1500, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "red lentils", "quantity": 225, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "bay leaves", "quantity": 2, "unit": "leaf", "category": "SPICES"},
-        {"name_en": "turmeric", "quantity": 2.5, "unit": "g", "category": "SPICES"},
-        {"name_en": "cumin", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "lemon (juice + optional zest)", "quantity": 1, "unit": "whole", "category": "FRUIT"}
+        {
+          "name_en": "olive oil",
+          "quantity": 22,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "carrots, peeled and sliced",
+          "quantity": 360,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery, chopped",
+          "quantity": 180,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "yellow onion, diced",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, minced",
+          "quantity": 4,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "vegetable stock",
+          "quantity": 1500,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "red lentils",
+          "quantity": 225,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "bay leaves",
+          "quantity": 2,
+          "unit": "leaf",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "turmeric",
+          "quantity": 2.5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cumin",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "lemon (juice + optional zest)",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "FRUIT"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large pot over medium heat; sauté onion, carrots, and celery 5–7 minutes until softened.",
+        "Add garlic, turmeric, and cumin; cook 1 minute until fragrant.",
+        "Add vegetable stock, red lentils, and bay leaves; bring to a boil.",
+        "Reduce heat and simmer 25–30 minutes until the lentils are tender and broken down.",
+        "Remove bay leaves; stir in lemon juice and zest. Season with salt and serve."
       ]
     },
     {
       "id": "bp-03-chickpea-frittata",
       "source": "blueprint",
       "name_en": "Chickpea Vegetable Frittata",
-      "servings": null,
       "ingredients": [
-        {"name_en": "chickpea flour", "quantity": 240, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "water", "quantity": 360, "unit": "ml", "category": "OTHER"},
-        {"name_en": "onion, finely chopped", "quantity": 0.5, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "red peppers, diced", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "zucchini, diced", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "parsley, chopped", "quantity": 1, "unit": "bunch", "category": "HERBS"},
-        {"name_en": "chives, chopped", "quantity": 1, "unit": "bunch", "category": "HERBS"},
-        {"name_en": "garlic clove, minced", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "garlic powder", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "ground cumin", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "Roma tomato, diced", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "sliced mushrooms", "quantity": 225, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 15, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+        {
+          "name_en": "chickpea flour",
+          "quantity": 240,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "water",
+          "quantity": 360,
+          "unit": "ml",
+          "category": "OTHER"
+        },
+        {
+          "name_en": "onion, finely chopped",
+          "quantity": 0.5,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "red peppers, diced",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "zucchini, diced",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "parsley, chopped",
+          "quantity": 1,
+          "unit": "bunch",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "chives, chopped",
+          "quantity": 1,
+          "unit": "bunch",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "garlic clove, minced",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic powder",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "ground cumin",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "Roma tomato, diced",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "sliced mushrooms",
+          "quantity": 225,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        }
+      ],
+      "steps": [
+        "Whisk chickpea flour with water, garlic powder, and ground cumin until smooth; rest 10 minutes.",
+        "Heat olive oil in an oven-safe skillet over medium heat; sauté onion, red peppers, zucchini, mushrooms, and garlic until softened.",
+        "Stir in tomato, parsley, and chives.",
+        "Pour the chickpea batter evenly over the vegetables; cook undisturbed 4–5 minutes until the edges set.",
+        "Transfer to a 200 °C / 400 °F oven and bake 12–15 minutes until firm and golden.",
+        "Rest 5 minutes; slice into wedges and serve."
       ]
     },
     {
       "id": "bp-04-chickpea-stew",
       "source": "blueprint",
       "name_en": "Chickpea Stew",
-      "servings": null,
       "ingredients": [
-        {"name_en": "garlic clove, chopped", "quantity": 5, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "cumin", "quantity": 7, "unit": "g", "category": "SPICES"},
-        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "tomato paste", "quantity": 30, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "paprika", "quantity": 7, "unit": "g", "category": "SPICES"},
-        {"name_en": "red pepper flakes", "quantity": 3, "unit": "g", "category": "SPICES"},
-        {"name_en": "cooked chickpeas", "quantity": 500, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "za'atar", "quantity": 6, "unit": "g", "category": "SPICES"},
-        {"name_en": "bay leaves", "quantity": 2, "unit": "leaf", "category": "SPICES"},
-        {"name_en": "roasted bell pepper", "quantity": 1, "unit": "whole", "category": "PRODUCE"}
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 5,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "cumin",
+          "quantity": 7,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "tomato paste",
+          "quantity": 30,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "paprika",
+          "quantity": 7,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "red pepper flakes",
+          "quantity": 3,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cooked chickpeas",
+          "quantity": 500,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "za'atar",
+          "quantity": 6,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "bay leaves",
+          "quantity": 2,
+          "unit": "leaf",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "roasted bell pepper",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a deep pan over medium heat; sauté garlic until fragrant.",
+        "Stir in cumin, paprika, red pepper flakes, and za'atar; toast 30 seconds.",
+        "Add tomato paste; cook 1 minute to caramelise.",
+        "Add the cooked chickpeas, bay leaves, sliced roasted bell pepper, and enough water (~200 ml) to loosen; simmer 15–20 minutes.",
+        "Remove bay leaves; season with salt and finish with a drizzle of olive oil before serving."
       ]
     },
     {
       "id": "bp-05-cauliflower-lentil-loaf",
       "source": "blueprint",
       "name_en": "Cauliflower Lentil Loaf",
-      "servings": null,
       "ingredients": [
-        {"name_en": "cooked lentils", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "riced cauliflower", "quantity": 300, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "chopped onion", "quantity": 150, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "mushrooms", "quantity": 227, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "nutritional yeast", "quantity": 30, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "minced garlic", "quantity": 5, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "Dijon mustard", "quantity": 5, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "smoked paprika", "quantity": 2.5, "unit": "g", "category": "SPICES"},
-        {"name_en": "cumin", "quantity": 2.5, "unit": "g", "category": "SPICES"},
-        {"name_en": "black pepper", "quantity": 1.5, "unit": "g", "category": "SPICES"},
-        {"name_en": "chipotle powder", "quantity": 1.5, "unit": "g", "category": "SPICES"},
-        {"name_en": "unsweetened ketchup (glaze)", "quantity": 80, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "liquid smoke (glaze)", "quantity": 5, "unit": "ml", "category": "PANTRY_SWEETS"}
+        {
+          "name_en": "cooked lentils",
+          "quantity": 200,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "riced cauliflower",
+          "quantity": 300,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "chopped onion",
+          "quantity": 150,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "mushrooms",
+          "quantity": 227,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "nutritional yeast",
+          "quantity": 30,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "minced garlic",
+          "quantity": 5,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "Dijon mustard",
+          "quantity": 5,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "smoked paprika",
+          "quantity": 2.5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cumin",
+          "quantity": 2.5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "black pepper",
+          "quantity": 1.5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "chipotle powder",
+          "quantity": 1.5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "unsweetened ketchup (glaze)",
+          "quantity": 80,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "liquid smoke (glaze)",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 190 °C / 375 °F and line a loaf pan with parchment.",
+        "In a large bowl combine cooked lentils, riced cauliflower, chopped onion, mushrooms, nutritional yeast, garlic, Dijon, smoked paprika, cumin, black pepper, and chipotle powder. Mix well; the texture should hold when pressed.",
+        "Press the mixture firmly into the loaf pan.",
+        "Whisk ketchup with liquid smoke and brush evenly over the top.",
+        "Bake 45–50 minutes until set and the glaze is darkened. Rest 10 minutes before slicing."
       ]
     },
     {
       "id": "bp-06-mushroom-walnut-bolognese",
       "source": "blueprint",
       "name_en": "Mushroom and Walnut Bolognese with Spaghetti Squash",
-      "servings": null,
       "ingredients": [
-        {"name_en": "cremini mushrooms, chopped", "quantity": 225, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "onion, chopped", "quantity": 40, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "carrots, chopped", "quantity": 40, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "celery, chopped", "quantity": 40, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "garlic clove, chopped", "quantity": 2, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "walnuts, chopped", "quantity": 60, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "garlic powder", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "Italian seasoning", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "tomato paste", "quantity": 15, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "tomato sauce", "quantity": 340, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "gluten-free tamari", "quantity": 30, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "balsamic vinegar", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "spaghetti squash", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 5, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+        {
+          "name_en": "cremini mushrooms, chopped",
+          "quantity": 225,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "onion, chopped",
+          "quantity": 40,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "carrots, chopped",
+          "quantity": 40,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "celery, chopped",
+          "quantity": 40,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic clove, chopped",
+          "quantity": 2,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "walnuts, chopped",
+          "quantity": 60,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "garlic powder",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "Italian seasoning",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "tomato paste",
+          "quantity": 15,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "tomato sauce",
+          "quantity": 340,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "gluten-free tamari",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "balsamic vinegar",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "spaghetti squash",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        }
+      ],
+      "steps": [
+        "Roast spaghetti squash halves cut-side down at 200 °C / 400 °F for 35–40 minutes; scrape into strands and reserve.",
+        "Heat olive oil in a large pan; sauté onion, carrot, celery, and garlic until softened.",
+        "Add cremini mushrooms and walnuts; cook 5–7 minutes until mushrooms release their moisture and brown.",
+        "Stir in garlic powder, Italian seasoning, and tomato paste; cook 1 minute.",
+        "Add tomato sauce, tamari, and balsamic; simmer 15–20 minutes until thickened.",
+        "Spoon the sauce over the warm squash strands and serve."
       ]
     },
     {
       "id": "bp-07-cauliflower-turkey",
       "source": "blueprint",
       "name_en": "Herb-Seasoned Cauliflower 'Turkey' with Sweet Potato Mash and Blanched Green Beans",
-      "servings": null,
       "ingredients": [
-        {"name_en": "cauliflower head", "quantity": 1, "unit": "large", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "garlic powder", "quantity": 15, "unit": "g", "category": "SPICES"},
-        {"name_en": "onion powder", "quantity": 10, "unit": "g", "category": "SPICES"},
-        {"name_en": "smoked paprika", "quantity": 10, "unit": "g", "category": "SPICES"},
-        {"name_en": "dried thyme", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "dried rosemary", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "nutritional yeast", "quantity": 15, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "vegetable broth", "quantity": 100, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "sweet potatoes", "quantity": 800, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "almond milk", "quantity": 45, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "ground cinnamon", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "green beans, trimmed", "quantity": 400, "unit": "g", "category": "PRODUCE"}
+        {
+          "name_en": "cauliflower head",
+          "quantity": 1,
+          "unit": "large",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "garlic powder",
+          "quantity": 15,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "onion powder",
+          "quantity": 10,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "smoked paprika",
+          "quantity": 10,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "dried thyme",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "dried rosemary",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "nutritional yeast",
+          "quantity": 15,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "vegetable broth",
+          "quantity": 100,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "sweet potatoes",
+          "quantity": 800,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "almond milk",
+          "quantity": 45,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "ground cinnamon",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "green beans, trimmed",
+          "quantity": 400,
+          "unit": "g",
+          "category": "PRODUCE"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 °C / 400 °F.",
+        "Whisk olive oil with garlic powder, onion powder, smoked paprika, thyme, rosemary, and nutritional yeast; brush over the whole cauliflower head.",
+        "Place cauliflower in a roasting pan, pour vegetable broth into the base, and roast 50–60 minutes until tender and deeply golden.",
+        "Peel and boil sweet potatoes until fork-tender; mash with almond milk, garlic powder, and cinnamon.",
+        "Blanch green beans 2–3 minutes in salted boiling water; shock in ice water, drain.",
+        "Slice the cauliflower into wedges and plate with the mash and beans."
       ]
     },
     {
       "id": "bp-08-black-lentil-olive-salad",
       "source": "blueprint",
       "name_en": "Black Lentil and Olive Salad with Spiced Roasted Carrots and Sundried Tomato Hummus",
-      "servings": null,
       "ingredients": [
-        {"name_en": "large carrots, sliced", "quantity": 3, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "shallot, thinly sliced", "quantity": 1, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "extra virgin olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "maple syrup", "quantity": 15, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "smoked paprika", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "ground cumin", "quantity": 5, "unit": "g", "category": "SPICES"},
-        {"name_en": "black lentils, rinsed", "quantity": 200, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "water or vegetable broth", "quantity": 480, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "red wine vinegar", "quantity": 15, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "Dijon mustard", "quantity": 5, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "black currants", "quantity": 40, "unit": "g", "category": "FRUIT"},
-        {"name_en": "castelvetrano olives, pitted and chopped", "quantity": 80, "unit": "g", "category": "PANTRY_SWEETS"},
-        {"name_en": "roasted almonds, chopped", "quantity": 50, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "flat-leaf parsley, chopped", "quantity": 0.25, "unit": "cup", "category": "HERBS"},
-        {"name_en": "fresh mint, chopped", "quantity": 30, "unit": "ml", "category": "HERBS"},
-        {"name_en": "sun-dried tomato hummus", "quantity": 120, "unit": "g", "category": "PANTRY_SWEETS"}
+        {
+          "name_en": "large carrots, sliced",
+          "quantity": 3,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "shallot, thinly sliced",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "extra virgin olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "maple syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "smoked paprika",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "ground cumin",
+          "quantity": 5,
+          "unit": "g",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "black lentils, rinsed",
+          "quantity": 200,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "water or vegetable broth",
+          "quantity": 480,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "red wine vinegar",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "Dijon mustard",
+          "quantity": 5,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "black currants",
+          "quantity": 40,
+          "unit": "g",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "castelvetrano olives, pitted and chopped",
+          "quantity": 80,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "roasted almonds, chopped",
+          "quantity": 50,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "flat-leaf parsley, chopped",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "fresh mint, chopped",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "sun-dried tomato hummus",
+          "quantity": 120,
+          "unit": "g",
+          "category": "PANTRY_SWEETS"
+        }
+      ],
+      "steps": [
+        "Toss carrots and shallot with olive oil, maple syrup, smoked paprika, cumin, and salt; roast at 200 °C / 400 °F for 25–30 minutes until caramelised.",
+        "Meanwhile, simmer black lentils in water or broth for 20–25 minutes until tender; drain.",
+        "Whisk red wine vinegar with Dijon as a dressing.",
+        "Toss the warm lentils with the dressing, currants, olives, almonds, parsley, and mint.",
+        "Plate the salad alongside the roasted carrots and a generous spoon of sun-dried tomato hummus."
       ]
     },
     {
       "id": "bp-09-sweet-potato-cabbage-curry",
       "source": "blueprint",
       "name_en": "Sweet Potato and Cabbage Curry with Cauliflower Rice",
-      "servings": null,
       "ingredients": [
-        {"name_en": "shredded fresh cabbage", "quantity": 2, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "sweet potato, diced", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "onion, finely chopped", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "cumin seeds", "quantity": 5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "dry red chili, broken", "quantity": 1, "unit": "whole", "category": "SPICES"},
-        {"name_en": "turmeric powder", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "coriander powder", "quantity": 5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "red chili powder", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "cilantro, chopped", "quantity": 0.25, "unit": "cup", "category": "HERBS"},
-        {"name_en": "lime juice", "quantity": 15, "unit": "ml", "category": "FRUIT"},
-        {"name_en": "cauliflower rice", "quantity": 2, "unit": "cup", "category": "PRODUCE"}
+        {
+          "name_en": "shredded fresh cabbage",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "sweet potato, diced",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "onion, finely chopped",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "cumin seeds",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "dry red chili, broken",
+          "quantity": 1,
+          "unit": "whole",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "turmeric powder",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "coriander powder",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "red chili powder",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cilantro, chopped",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "lime juice",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "cauliflower rice",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "PRODUCE"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large pan over medium heat; add cumin seeds and the dry red chili and toast briefly.",
+        "Add onion and sauté until translucent.",
+        "Stir in turmeric, coriander, red chili powder, and salt.",
+        "Add diced sweet potato and shredded cabbage; toss to coat, cover, and cook 15–20 minutes, stirring occasionally, until the sweet potato is tender.",
+        "Finish with lime juice and cilantro; serve over warm cauliflower rice."
       ]
     },
     {
@@ -199,31 +832,122 @@
       "name_en": "Grain-Free Porridge with Butterfly Pea Flower",
       "servings": 1,
       "ingredients": [
-        {"name_en": "macadamia nut milk", "quantity": 250, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "almond flour", "quantity": 30, "unit": "g", "category": "FLOURS_BREAD"},
-        {"name_en": "hemp seeds", "quantity": 15, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "chia seeds", "quantity": 10, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "ground flax", "quantity": 10, "unit": "g", "category": "NUTS_SEEDS"},
-        {"name_en": "vanilla extract", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "butterfly pea flower powder", "quantity": 5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "cardamom", "quantity": 1.25, "unit": "ml", "category": "SPICES"},
-        {"name_en": "fresh berries (topping)", "quantity": null, "unit": "handful", "category": "FRUIT"}
+        {
+          "name_en": "macadamia nut milk",
+          "quantity": 250,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "almond flour",
+          "quantity": 30,
+          "unit": "g",
+          "category": "FLOURS_BREAD"
+        },
+        {
+          "name_en": "hemp seeds",
+          "quantity": 15,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "chia seeds",
+          "quantity": 10,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "ground flax",
+          "quantity": 10,
+          "unit": "g",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "vanilla extract",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "butterfly pea flower powder",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "cardamom",
+          "quantity": 1.25,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "fresh berries (topping)",
+          "quantity": null,
+          "unit": "handful",
+          "category": "FRUIT"
+        }
       ],
-      "notes_en": "Blend all ingredients until smooth, top with berries, serve."
+      "steps": [
+        "Add all ingredients into a blender.",
+        "Blend until smooth.",
+        "Top with fresh berries.",
+        "Serve."
+      ]
     },
     {
       "id": "bp-11-acorn-squash-stuffed",
       "source": "blueprint",
       "name_en": "Mushroom Walnut Stuffed Acorn Squash",
-      "servings": null,
       "ingredients": [
-        {"name_en": "acorn squash, halved", "quantity": 2, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "cremini mushrooms", "quantity": 454, "unit": "g", "category": "PRODUCE"},
-        {"name_en": "chopped walnuts", "quantity": 60, "unit": "ml", "category": "NUTS_SEEDS"},
-        {"name_en": "unsweetened dried cranberries", "quantity": 60, "unit": "ml", "category": "FRUIT"},
-        {"name_en": "honey", "quantity": 15, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "cinnamon", "quantity": 7, "unit": "ml", "category": "SPICES"}
+        {
+          "name_en": "acorn squash, halved",
+          "quantity": 2,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "cremini mushrooms",
+          "quantity": 454,
+          "unit": "g",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "chopped walnuts",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "unsweetened dried cranberries",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "honey",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "cinnamon",
+          "quantity": 7,
+          "unit": "ml",
+          "category": "SPICES"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 °C / 400 °F; brush the cut sides of the squash halves with olive oil and roast cut-side down on a sheet pan for 30–35 minutes until tender.",
+        "Heat olive oil in a pan; sauté cremini mushrooms until browned and any liquid has evaporated.",
+        "Stir in walnuts, dried cranberries, honey, and cinnamon; cook 2 minutes more.",
+        "Flip the squash cut-side up, fill the cavities with the mushroom mixture, and return to the oven for 10 minutes.",
+        "Serve warm."
       ]
     },
     {
@@ -232,16 +956,74 @@
       "name_en": "Butternut Squash Soup with Roasted Apples and Carrots",
       "servings": 5,
       "ingredients": [
-        {"name_en": "onion, diced", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "garlic, minced", "quantity": 3, "unit": "clove", "category": "PRODUCE"},
-        {"name_en": "butternut squash, cubed", "quantity": 1, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "Honeycrisp apples, diced", "quantity": 2, "unit": "whole", "category": "FRUIT"},
-        {"name_en": "large carrots, chopped", "quantity": 2, "unit": "whole", "category": "PRODUCE"},
-        {"name_en": "garam masala", "quantity": 5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "ginger powder", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "vegetable broth", "quantity": 960, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "coconut milk", "quantity": 240, "unit": "ml", "category": "MILKS_BROTHS"},
-        {"name_en": "olive oil", "quantity": 30, "unit": "ml", "category": "OILS_VINEGARS_WINE"}
+        {
+          "name_en": "onion, diced",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garlic, minced",
+          "quantity": 3,
+          "unit": "clove",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "butternut squash, cubed",
+          "quantity": 1,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "Honeycrisp apples, diced",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "large carrots, chopped",
+          "quantity": 2,
+          "unit": "whole",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "garam masala",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "ginger powder",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "vegetable broth",
+          "quantity": 960,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "coconut milk",
+          "quantity": 240,
+          "unit": "ml",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 °C / 400 °F; toss butternut squash, apples, and carrots with 1 tbsp of the olive oil and roast 30–35 minutes until tender.",
+        "Heat the remaining oil in a soup pot; sauté onion and garlic until soft.",
+        "Stir in garam masala and ginger powder; toast 30 seconds.",
+        "Add the roasted vegetables and vegetable broth; simmer 10 minutes.",
+        "Blend smooth (immersion or upright blender); stir in coconut milk and warm through.",
+        "Season to taste and serve."
       ]
     },
     {
@@ -250,20 +1032,97 @@
       "name_en": "Black Bean and Mushroom Bowl with Chickpea Rice",
       "servings": 3,
       "ingredients": [
-        {"name_en": "black beans, drained and rinsed", "quantity": 425, "unit": "g", "category": "LEGUMES_GRAINS_PASTA"},
-        {"name_en": "cherry tomatoes, halved", "quantity": 1, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "onion, diced", "quantity": 0.5, "unit": "medium", "category": "PRODUCE"},
-        {"name_en": "oyster mushrooms, chopped", "quantity": 1, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "umami seasoning", "quantity": 5, "unit": "ml", "category": "PANTRY_SWEETS"},
-        {"name_en": "cumin", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "garlic powder", "quantity": 2.5, "unit": "ml", "category": "SPICES"},
-        {"name_en": "olive oil", "quantity": 15, "unit": "ml", "category": "OILS_VINEGARS_WINE"},
-        {"name_en": "pickled red onions", "quantity": 0.25, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "fresh spinach", "quantity": 1, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "shredded carrots", "quantity": 0.5, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "sliced radish", "quantity": 0.5, "unit": "cup", "category": "PRODUCE"},
-        {"name_en": "chopped cilantro", "quantity": 0.25, "unit": "cup", "category": "HERBS"},
-        {"name_en": "cooked chickpea rice", "quantity": 1.5, "unit": "cup", "category": "LEGUMES_GRAINS_PASTA"}
+        {
+          "name_en": "black beans, drained and rinsed",
+          "quantity": 425,
+          "unit": "g",
+          "category": "LEGUMES_GRAINS_PASTA"
+        },
+        {
+          "name_en": "cherry tomatoes, halved",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "onion, diced",
+          "quantity": 0.5,
+          "unit": "medium",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "oyster mushrooms, chopped",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "umami seasoning",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        },
+        {
+          "name_en": "cumin",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "garlic powder",
+          "quantity": 2.5,
+          "unit": "ml",
+          "category": "SPICES"
+        },
+        {
+          "name_en": "olive oil",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "OILS_VINEGARS_WINE"
+        },
+        {
+          "name_en": "pickled red onions",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "fresh spinach",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "shredded carrots",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "sliced radish",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "PRODUCE"
+        },
+        {
+          "name_en": "chopped cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "HERBS"
+        },
+        {
+          "name_en": "cooked chickpea rice",
+          "quantity": 1.5,
+          "unit": "cup",
+          "category": "LEGUMES_GRAINS_PASTA"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a pan; sauté onion until translucent, then add oyster mushrooms and cook until browned.",
+        "Add black beans, cherry tomatoes, umami seasoning, cumin, and garlic powder; cook 3–4 minutes until heated through and the tomatoes begin to break down.",
+        "Warm the cooked chickpea rice.",
+        "Plate the chickpea rice as a base; top with the bean–mushroom mixture, then arrange pickled red onions, spinach, shredded carrots, sliced radish, and cilantro on top.",
+        "Serve."
       ]
     },
     {
@@ -272,17 +1131,66 @@
       "name_en": "Superfood Smoothie",
       "servings": 1,
       "ingredients": [
-        {"name_en": "strawberries", "quantity": 0.5, "unit": "cup", "category": "FRUIT"},
-        {"name_en": "blueberries", "quantity": 0.5, "unit": "cup", "category": "FRUIT"},
-        {"name_en": "pomegranate arils", "quantity": 0.25, "unit": "cup", "category": "FRUIT"},
-        {"name_en": "dark cherries, pitted", "quantity": 0.5, "unit": "cup", "category": "FRUIT"},
-        {"name_en": "almond milk", "quantity": 1, "unit": "cup", "category": "MILKS_BROTHS"},
-        {"name_en": "flax seeds", "quantity": 15, "unit": "ml", "category": "NUTS_SEEDS"},
-        {"name_en": "macadamia nuts", "quantity": 5, "unit": "whole", "category": "NUTS_SEEDS"},
-        {"name_en": "chia seeds", "quantity": 5, "unit": "ml", "category": "NUTS_SEEDS"},
-        {"name_en": "Blueprint cacao", "quantity": 5, "unit": "ml", "category": "PANTRY_SWEETS"}
+        {
+          "name_en": "strawberries",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "blueberries",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "pomegranate arils",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "dark cherries, pitted",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "FRUIT"
+        },
+        {
+          "name_en": "almond milk",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "MILKS_BROTHS"
+        },
+        {
+          "name_en": "flax seeds",
+          "quantity": 15,
+          "unit": "ml",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "macadamia nuts",
+          "quantity": 5,
+          "unit": "whole",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "chia seeds",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "NUTS_SEEDS"
+        },
+        {
+          "name_en": "Blueprint cacao",
+          "quantity": 5,
+          "unit": "ml",
+          "category": "PANTRY_SWEETS"
+        }
       ],
-      "notes_en": "Blend all ingredients until smooth, serve."
+      "steps": [
+        "Add all ingredients into a blender.",
+        "Blend until smooth.",
+        "Serve."
+      ]
     }
   ]
 }
