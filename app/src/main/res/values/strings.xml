@@ -67,4 +67,23 @@
 
     <!-- Pick recipe -->
     <string name="pick_recipe_title">Pick a recipe</string>
+
+    <!-- Credits -->
+    <string name="credits_title">Credits</string>
+    <string name="credits_intro">Idun\'s recipes are mirrored from work shared publicly by two researchers. Their sites, channels, and foundations are here so you can read them directly.</string>
+    <string name="credits_johnson_name">Bryan Johnson</string>
+    <string name="credits_johnson_role">Founder · Blueprint protocol</string>
+    <string name="credits_johnson_bio">American entrepreneur running Blueprint, an open-source longevity protocol he\'s tested on himself. His daily meals — Super Veggie, Nutty Pudding, the Longevity Mix — are the basis of Idun\'s Blueprint recipe set.</string>
+    <string name="credits_johnson_link_protocol">Blueprint protocol</string>
+    <string name="credits_johnson_link_website">bryanjohnson.com</string>
+    <string name="credits_johnson_link_youtube">YouTube</string>
+    <string name="credits_johnson_link_x">X / Twitter</string>
+    <string name="credits_longo_name">Dr. Valter Longo</string>
+    <string name="credits_longo_role">Biogerontologist · USC Longevity Institute</string>
+    <string name="credits_longo_bio">Italian-American biogerontologist directing the USC Longevity Institute. His Longevity Diet — a pesco-Mediterranean, plant-leaning pattern paired with a daily eating window — anchors Idun\'s Longo recipe set.</string>
+    <string name="credits_longo_link_website">valterlongo.com</string>
+    <string name="credits_longo_link_foundation">Create Cures Foundation</string>
+    <string name="credits_longo_link_institute">USC Longevity Institute</string>
+    <string name="credits_disclaimer">Idun is an independent project, not affiliated with or endorsed by either researcher.</string>
+    <string name="credits_no_browser">No browser available</string>
 </resources>

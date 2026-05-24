@@ -13,6 +13,10 @@
         android:icon="@android:drawable/ic_menu_my_calendar"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/action_credits"
+        android:title="@string/credits_title"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_settings"
         android:title="@string/settings_title"
         app:showAsAction="never" />
