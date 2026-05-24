@@ -15,10 +15,12 @@
     <string name="recipe_notes">Notes</string>
     <string name="recipe_servings">Servings</string>
     <string name="mark_as_eaten">Mark as eaten</string>
+    <string name="recipe_eaten_logged">Logged</string>
 
     <!-- Shopping list -->
     <string name="shopping_list_title">Shopping list</string>
     <string name="shopping_list_empty">Select recipes first.</string>
+    <string name="shopping_list_summary">%1$d recipes · %2$d servings</string>
     <string name="category_produce">Produce</string>
     <string name="category_herbs">Herbs</string>
     <string name="category_fruit">Fruit</string>
@@ -41,4 +43,5 @@
     <string name="settings_bios_status_not_enabled">Disabled</string>
     <string name="settings_bios_status_connected">Connected</string>
     <string name="settings_bios_pending_approval">Pending approval in Bios → Companion Apps</string>
+    <string name="bios_open_app">Open Bios</string>
 </resources>

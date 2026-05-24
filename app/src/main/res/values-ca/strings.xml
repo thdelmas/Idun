@@ -13,9 +13,11 @@
     <string name="recipe_notes">Notes</string>
     <string name="recipe_servings">Racions</string>
     <string name="mark_as_eaten">Marcar com a menjat</string>
+    <string name="recipe_eaten_logged">Registrat</string>
 
     <string name="shopping_list_title">Llista de la compra</string>
     <string name="shopping_list_empty">Selecciona receptes primer.</string>
+    <string name="shopping_list_summary">%1$d receptes · %2$d racions</string>
     <string name="category_produce">Fruites i verdures</string>
     <string name="category_herbs">Herbes</string>
     <string name="category_fruit">Fruita</string>
@@ -37,4 +39,5 @@
     <string name="settings_bios_status_not_enabled">Desactivat</string>
     <string name="settings_bios_status_connected">Connectat</string>
     <string name="settings_bios_pending_approval">Pendent d&apos;aprovació a Bios → Apps acompanyants</string>
+    <string name="bios_open_app">Obrir Bios</string>
 </resources>

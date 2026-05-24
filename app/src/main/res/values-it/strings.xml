@@ -13,9 +13,11 @@
     <string name="recipe_notes">Note</string>
     <string name="recipe_servings">Porzioni</string>
     <string name="mark_as_eaten">Segna come mangiato</string>
+    <string name="recipe_eaten_logged">Registrato</string>
 
     <string name="shopping_list_title">Lista della spesa</string>
     <string name="shopping_list_empty">Seleziona prima le ricette.</string>
+    <string name="shopping_list_summary">%1$d ricette · %2$d porzioni</string>
     <string name="category_produce">Frutta e verdura</string>
     <string name="category_herbs">Erbe aromatiche</string>
     <string name="category_fruit">Frutta</string>
@@ -37,4 +39,5 @@
     <string name="settings_bios_status_not_enabled">Disattivato</string>
     <string name="settings_bios_status_connected">Connesso</string>
     <string name="settings_bios_pending_approval">In attesa di approvazione in Bios → App compagne</string>
+    <string name="bios_open_app">Apri Bios</string>
 </resources>
