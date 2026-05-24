@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--
+        Cockpit palette — Bios-family resemblance to W2F (deep navy surfaces,
+        light text), Idun's identity preserved through apple-red and Norse-gold
+        accents instead of W2F's cyan/orange.
+    -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Iðunn's apples — deep red, Norse-gold accent, parchment background. -->
-    <color name="accent_apple_red">#B33A3A</color>
-    <color name="accent_apple_red_dark">#5C1A1A</color>
-    <color name="accent_apple_red_soft">#F4D5D5</color>
-    <color name="accent_norse_gold">#D4A24C</color>
-    <color name="accent_norse_gold_dark">#5C401A</color>
-    <color name="accent_norse_gold_soft">#F4E6CC</color>
+    <!-- Iðunn's apples — brightened for legibility on dark navy. -->
+    <color name="accent_apple_red">#E25555</color>
+    <color name="accent_apple_red_dark">#F4D5D5</color>
+    <color name="accent_apple_red_soft">#4A1F1F</color>
+    <color name="accent_norse_gold">#E2B86A</color>
+    <color name="accent_norse_gold_dark">#F4E6CC</color>
+    <color name="accent_norse_gold_soft">#3A2E18</color>
 
-    <color name="background">#FAF6EE</color>
-    <color name="surface_variant">#F0EAD8</color>
-    <color name="text_primary">#1A1A1A</color>
-    <color name="text_secondary">#5C5C5C</color>
-    <color name="divider">#E0DACE</color>
+    <!-- Cockpit surfaces — deep navy background, navy card elevation. -->
+    <color name="background">#0D1B2A</color>
+    <color name="surface_variant">#1B2838</color>
+    <color name="card_background">#152230</color>
+    <color name="text_primary">#ECEFF1</color>
+    <color name="text_secondary">#8FA3B3</color>
+    <color name="divider">#2A3A4A</color>
 
-    <color name="banner_pending">#FFF4DA</color>
-    <color name="card_background">#FFFCF6</color>
+    <color name="banner_pending">#2E2618</color>
 </resources>
