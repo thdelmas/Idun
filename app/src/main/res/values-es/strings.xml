@@ -60,4 +60,22 @@
     <string name="planning_window_summary">%1$s comiendo · %2$s en ayuno</string>
 
     <string name="pick_recipe_title">Elegir receta</string>
+
+    <string name="credits_title">Créditos</string>
+    <string name="credits_intro">Las recetas de Idun están reflejadas del trabajo compartido públicamente por dos investigadores. Sus sitios, canales y fundaciones están aquí para que puedas leerlos directamente.</string>
+    <string name="credits_johnson_name">Bryan Johnson</string>
+    <string name="credits_johnson_role">Fundador · Protocolo Blueprint</string>
+    <string name="credits_johnson_bio">Empresario estadounidense que dirige Blueprint, un protocolo de longevidad de código abierto que prueba en sí mismo. Sus comidas diarias — Super Veggie, Nutty Pudding, Longevity Mix — son la base del conjunto de recetas Blueprint de Idun.</string>
+    <string name="credits_johnson_link_protocol">Protocolo Blueprint</string>
+    <string name="credits_johnson_link_website">bryanjohnson.com</string>
+    <string name="credits_johnson_link_youtube">YouTube</string>
+    <string name="credits_johnson_link_x">X / Twitter</string>
+    <string name="credits_longo_name">Dr. Valter Longo</string>
+    <string name="credits_longo_role">Biogerontólogo · USC Longevity Institute</string>
+    <string name="credits_longo_bio">Biogerontólogo italoestadounidense, director del USC Longevity Institute. Su Dieta de la Longevidad — un patrón pesco-mediterráneo de base vegetal con una ventana diaria de alimentación — es el eje del conjunto de recetas Longo de Idun.</string>
+    <string name="credits_longo_link_website">valterlongo.com</string>
+    <string name="credits_longo_link_foundation">Create Cures Foundation</string>
+    <string name="credits_longo_link_institute">USC Longevity Institute</string>
+    <string name="credits_disclaimer">Idun es un proyecto independiente, sin afiliación ni respaldo de ninguno de los dos investigadores.</string>
+    <string name="credits_no_browser">No hay navegador disponible</string>
 </resources>

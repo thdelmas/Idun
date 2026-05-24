@@ -54,5 +54,10 @@
             android:label="@string/pick_recipe_title"
             android:parentActivityName=".MainActivity" />
 
+        <activity
+            android:name=".CreditsActivity"
+            android:label="@string/credits_title"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 </manifest>

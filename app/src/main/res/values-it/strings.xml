@@ -60,4 +60,22 @@
     <string name="planning_window_summary">%1$s mangiando · %2$s a digiuno</string>
 
     <string name="pick_recipe_title">Scegli ricetta</string>
+
+    <string name="credits_title">Riconoscimenti</string>
+    <string name="credits_intro">Le ricette di Idun sono mutuate dal lavoro condiviso pubblicamente da due ricercatori. I loro siti, canali e fondazioni sono qui perché tu possa leggerli direttamente.</string>
+    <string name="credits_johnson_name">Bryan Johnson</string>
+    <string name="credits_johnson_role">Fondatore · Protocollo Blueprint</string>
+    <string name="credits_johnson_bio">Imprenditore americano che porta avanti Blueprint, un protocollo di longevità open source che testa su se stesso. I suoi pasti quotidiani — Super Veggie, Nutty Pudding, Longevity Mix — sono la base dell\'insieme di ricette Blueprint di Idun.</string>
+    <string name="credits_johnson_link_protocol">Protocollo Blueprint</string>
+    <string name="credits_johnson_link_website">bryanjohnson.com</string>
+    <string name="credits_johnson_link_youtube">YouTube</string>
+    <string name="credits_johnson_link_x">X / Twitter</string>
+    <string name="credits_longo_name">Dr. Valter Longo</string>
+    <string name="credits_longo_role">Biogerontologo · USC Longevity Institute</string>
+    <string name="credits_longo_bio">Biogerontologo italo-americano, direttore del USC Longevity Institute. La sua Dieta della Longevità — un modello pesco-mediterraneo di base vegetale con una finestra alimentare giornaliera — è alla base dell\'insieme di ricette Longo di Idun.</string>
+    <string name="credits_longo_link_website">valterlongo.com</string>
+    <string name="credits_longo_link_foundation">Create Cures Foundation</string>
+    <string name="credits_longo_link_institute">USC Longevity Institute</string>
+    <string name="credits_disclaimer">Idun è un progetto indipendente, senza affiliazione né patrocinio di nessuno dei due ricercatori.</string>
+    <string name="credits_no_browser">Nessun browser disponibile</string>
 </resources>

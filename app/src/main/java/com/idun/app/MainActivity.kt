@@ -109,6 +109,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, PlanningActivity::class.java))
                 true
             }
+            R.id.action_credits -> {
+                startActivity(Intent(this, CreditsActivity::class.java))
+                true
+            }
             R.id.action_settings -> {
                 startActivity(Intent(this, SettingsActivity::class.java))
                 true

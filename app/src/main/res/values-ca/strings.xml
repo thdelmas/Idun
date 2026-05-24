@@ -60,4 +60,22 @@
     <string name="planning_window_summary">%1$s menjant · %2$s dejunant</string>
 
     <string name="pick_recipe_title">Triar recepta</string>
+
+    <string name="credits_title">Crèdits</string>
+    <string name="credits_intro">Les receptes d\'Idun estan reflectides del treball compartit públicament per dos investigadors. Els seus llocs, canals i fundacions són aquí perquè els puguis llegir directament.</string>
+    <string name="credits_johnson_name">Bryan Johnson</string>
+    <string name="credits_johnson_role">Fundador · Protocol Blueprint</string>
+    <string name="credits_johnson_bio">Empresari estatunidenc que dirigeix Blueprint, un protocol de longevitat de codi obert que prova en si mateix. Els seus àpats diaris — Super Veggie, Nutty Pudding, Longevity Mix — són la base del conjunt de receptes Blueprint d\'Idun.</string>
+    <string name="credits_johnson_link_protocol">Protocol Blueprint</string>
+    <string name="credits_johnson_link_website">bryanjohnson.com</string>
+    <string name="credits_johnson_link_youtube">YouTube</string>
+    <string name="credits_johnson_link_x">X / Twitter</string>
+    <string name="credits_longo_name">Dr. Valter Longo</string>
+    <string name="credits_longo_role">Biogerontòleg · USC Longevity Institute</string>
+    <string name="credits_longo_bio">Biogerontòleg italoamericà, director del USC Longevity Institute. La seva Dieta de la Longevitat — un patró pesco-mediterrani de base vegetal amb una finestra diària d\'alimentació — és l\'eix del conjunt de receptes Longo d\'Idun.</string>
+    <string name="credits_longo_link_website">valterlongo.com</string>
+    <string name="credits_longo_link_foundation">Create Cures Foundation</string>
+    <string name="credits_longo_link_institute">USC Longevity Institute</string>
+    <string name="credits_disclaimer">Idun és un projecte independent, sense afiliació ni suport de cap dels dos investigadors.</string>
+    <string name="credits_no_browser">No hi ha navegador disponible</string>
 </resources>
