@@ -53,4 +53,14 @@
     </style>
 
     <style name="Theme.Idun" parent="Base.Theme.Idun" />
+
+    <style name="ShapeAppearance.Idun.FoodThumb" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Idun.FoodHero" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
 </resources>

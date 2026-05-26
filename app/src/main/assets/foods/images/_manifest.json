@@ -1,0 +1,996 @@
+{
+  "garlic-powder": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Garlic_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/960px-Garlic_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
+    "file_title": "File:Garlic Powder, Penzeys Spices, Arlington Heights MA.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "John Phelan",
+    "resolved_via": "commons-search"
+  },
+  "onion-powder": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/960px-Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
+    "file_title": "File:Onion Powder, Penzeys Spices, Arlington Heights MA.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "John Phelan",
+    "resolved_via": "commons-search"
+  },
+  "ginger-powder": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/960px-Koeh-146-no_text.jpg",
+    "file_title": "File:Koeh-146-no text.jpg",
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "resolved_via": "commons-search"
+  },
+  "flour-chickpea": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gram_flour_AvL.jpg/960px-Gram_flour_AvL.jpg",
+    "file_title": "File:Gram flour AvL.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "AlexanderVanLoon",
+    "resolved_via": "commons-search"
+  },
+  "flour-almond": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Almond_meal_by_hand.jpg/960px-Almond_meal_by_hand.jpg",
+    "file_title": "File:Almond meal by hand.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Yun Huang Yong",
+    "resolved_via": "commons-search"
+  },
+  "tomato-paste": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tomato_paste_on_spoon.jpg/960px-Tomato_paste_on_spoon.jpg",
+    "file_title": "File:Tomato paste on spoon.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "SKopp",
+    "resolved_via": "commons-search"
+  },
+  "tomato-sauce": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tomatoes_plain_and_sliced.jpg",
+    "file_title": "File:Tomatoes plain and sliced.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "© 2005 User:FoeNyx",
+    "resolved_via": "commons-search"
+  },
+  "hummus-sundried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flickr_-_cyclonebill_-_Semi-dried_tomater%2C_oliventapenade%2C_hummus%2C_grillet_peberfrugt_og_laks.jpg/960px-Flickr_-_cyclonebill_-_Semi-dried_tomater%2C_oliventapenade%2C_hummus%2C_grillet_peberfrugt_og_laks.jpg",
+    "file_title": "File:Flickr - cyclonebill - Semi-dried tomater, oliventapenade, hummus, grillet peberfrugt og laks.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "cyclonebill",
+    "resolved_via": "commons-search"
+  },
+  "cavolo-nero": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Lacinato_Kale_and_Collard_Greens.jpg/960px-Lacinato_Kale_and_Collard_Greens.jpg",
+    "file_title": "File:Lacinato Kale and Collard Greens.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Quadell",
+    "resolved_via": "commons-search"
+  },
+  "sweet-potato": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ipomoea_batatas_%28Sweet_Potato%29_Flower.jpg/960px-Ipomoea_batatas_%28Sweet_Potato%29_Flower.jpg",
+    "file_title": "File:Ipomoea batatas (Sweet Potato) Flower.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Earth100",
+    "resolved_via": "commons-search"
+  },
+  "milk-almond": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Home-made_almond_milk%2C_November_2012.jpg/500px-Home-made_almond_milk%2C_November_2012.jpg",
+    "file_title": "File:Home-made almond milk, November 2012.jpg",
+    "license": "CC BY 2.0",
+    "author": "Amazing Almonds",
+    "resolved_via": "commons-search"
+  },
+  "milk-macadamia": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Macadamia_nut_milk_2.jpg/960px-Macadamia_nut_milk_2.jpg",
+    "file_title": "File:Macadamia nut milk 2.jpg",
+    "license": "CC0",
+    "author": "Mx. Granger",
+    "resolved_via": "commons-search"
+  },
+  "macadamia-nut": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Macadamia_nut_kernels.jpg/960px-Macadamia_nut_kernels.jpg",
+    "file_title": "File:Macadamia nut kernels.jpg",
+    "license": "CC0",
+    "author": "Fumikas Sagisavas",
+    "resolved_via": "commons-search"
+  },
+  "spring-onion": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Food_Market_in_Bizerte_03.jpg/960px-Food_Market_in_Bizerte_03.jpg",
+    "file_title": "File:Food Market in Bizerte 03.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kritzolina",
+    "resolved_via": "commons-search"
+  },
+  "shallot": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Shallots.jpg",
+    "file_title": "File:Shallots.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": null,
+    "resolved_via": "commons-search"
+  },
+  "leek": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Fleur_de_poireau_de_pr%C3%A8s.jpg/960px-Fleur_de_poireau_de_pr%C3%A8s.jpg",
+    "file_title": "File:Fleur de poireau de près.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "WikiLucas00",
+    "resolved_via": "commons-search"
+  },
+  "garlic": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Garlic_bulbs_and_cloves.jpg/960px-Garlic_bulbs_and_cloves.jpg",
+    "file_title": "File:Garlic bulbs and cloves.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "chives": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Allium_schoenoprasum_%28Bieslook%29._actm.jpg/960px-Allium_schoenoprasum_%28Bieslook%29._actm.jpg",
+    "file_title": "File:Allium schoenoprasum (Bieslook). actm.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Agnes Monkelbaan",
+    "resolved_via": "commons-search"
+  },
+  "onion": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/960px-Mixed_onions.jpg",
+    "file_title": "File:Mixed onions.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Colin",
+    "resolved_via": "commons-search"
+  },
+  "broccoli": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/960px-Broccoli_and_cross_section_edit.jpg",
+    "file_title": "File:Broccoli and cross section edit.jpg",
+    "license": "GFDL 1.2",
+    "author": "Fir0002",
+    "resolved_via": "commons-search"
+  },
+  "cauliflower": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Brassica_oleracea_var._botrytis_%28Coliflor%29.jpg/960px-Brassica_oleracea_var._botrytis_%28Coliflor%29.jpg",
+    "file_title": "File:Brassica oleracea var. botrytis (Coliflor).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rjcastillo",
+    "resolved_via": "commons-search"
+  },
+  "cabbage": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chou_cabus_blanc_01.jpg/960px-Chou_cabus_blanc_01.jpg",
+    "file_title": "File:Chou cabus blanc 01.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Coyau",
+    "resolved_via": "commons-search"
+  },
+  "radish": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/960px-Radish_3371103037_4ab07db0bf_o.jpg",
+    "file_title": "File:Radish 3371103037 4ab07db0bf o.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Self, en:User:Jengod",
+    "resolved_via": "commons-search"
+  },
+  "carrot": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Carrots_of_many_colors.jpg/960px-Carrots_of_many_colors.jpg",
+    "file_title": "File:Carrots of many colors.jpg",
+    "license": "Public domain",
+    "author": "Stephen Ausmus",
+    "resolved_via": "commons-search"
+  },
+  "celery": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Horstrissea_dolinicola%2C_Mount_Ida%2C_Crete%2C_Greece.jpg/960px-Horstrissea_dolinicola%2C_Mount_Ida%2C_Crete%2C_Greece.jpg",
+    "file_title": "File:Horstrissea dolinicola, Mount Ida, Crete, Greece.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kalliopi Bormpoudaki",
+    "resolved_via": "commons-search"
+  },
+  "potato": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Potato_flowers_2016_G1.jpg/960px-Potato_flowers_2016_G1.jpg",
+    "file_title": "File:Potato flowers 2016 G1.jpg",
+    "license": "Public domain",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "butternut-squash": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg/960px-Cucurbita_moschata_Butternut_2012_G2.jpg",
+    "file_title": "File:Cucurbita moschata Butternut 2012 G2.jpg",
+    "license": "Public domain",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "acorn-squash": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Acorn_squash_and_gorgonzola_pizza.jpg/960px-Acorn_squash_and_gorgonzola_pizza.jpg",
+    "file_title": "File:Acorn squash and gorgonzola pizza.jpg",
+    "license": "CC BY 2.0",
+    "author": "Richard Rutter",
+    "resolved_via": "commons-search"
+  },
+  "spaghetti-squash": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Starr_070730-7822_Cucurbita_pepo.jpg/960px-Starr_070730-7822_Cucurbita_pepo.jpg",
+    "file_title": "File:Starr 070730-7822 Cucurbita pepo.jpg",
+    "license": "CC BY 3.0",
+    "author": "Forest &amp; Kim Starr",
+    "resolved_via": "commons-search"
+  },
+  "pumpkin": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cucurbita_2011_G1.jpg/960px-Cucurbita_2011_G1.jpg",
+    "file_title": "File:Cucurbita 2011 G1.jpg",
+    "license": "Public domain",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "tomato": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/960px-Tomato_je.jpg",
+    "file_title": "File:Tomato je.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Softeis",
+    "resolved_via": "commons-search"
+  },
+  "bell-pepper": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Baby_Bell_pepper_%27%27Capsicum_annuum%27%27_.jpg/960px-Baby_Bell_pepper_%27%27Capsicum_annuum%27%27_.jpg",
+    "file_title": "File:Baby Bell pepper ''Capsicum annuum'' .jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Brocken Inaglory",
+    "resolved_via": "commons-search"
+  },
+  "eggplant": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/960px-Solanum_melongena_24_08_2012_%281%29.JPG",
+    "file_title": "File:Solanum melongena 24 08 2012 (1).JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Joydeep",
+    "resolved_via": "commons-search"
+  },
+  "zucchini": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Calabac%C3%ADn%2C_M%C3%BAnich%2C_Alemania%2C_2013-03-30%2C_DD_01.JPG/960px-Calabac%C3%ADn%2C_M%C3%BAnich%2C_Alemania%2C_2013-03-30%2C_DD_01.JPG",
+    "file_title": "File:Calabacín, Múnich, Alemania, 2013-03-30, DD 01.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Diego Delso",
+    "resolved_via": "commons-search"
+  },
+  "cucumber": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cucumber_in_jaffna.JPG/960px-Cucumber_in_jaffna.JPG",
+    "file_title": "File:Cucumber in jaffna.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Maathavan",
+    "resolved_via": "commons-search"
+  },
+  "spinach": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg",
+    "file_title": "File:Spinacia oleracea Spinazie bloeiend.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Rasbak",
+    "resolved_via": "commons-search"
+  },
+  "nettle": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Peacock_%28Aglais_io%29_caterpillars_on_stinging_nettle_%28Urtica_dioica%29_Ruggeller_Riet.jpg/960px-Peacock_%28Aglais_io%29_caterpillars_on_stinging_nettle_%28Urtica_dioica%29_Ruggeller_Riet.jpg",
+    "file_title": "File:Peacock (Aglais io) caterpillars on stinging nettle (Urtica dioica) Ruggeller Riet.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Charles J. Sharp",
+    "resolved_via": "commons-search"
+  },
+  "escarole-endive": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cichorium_endivia_field.jpg",
+    "file_title": "File:Cichorium endivia field.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Montréalais",
+    "resolved_via": "commons-search"
+  },
+  "radicchio": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Market_at_Hildegardplatz_in_Kempten_05.jpg/960px-Market_at_Hildegardplatz_in_Kempten_05.jpg",
+    "file_title": "File:Market at Hildegardplatz in Kempten 05.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kritzolina",
+    "resolved_via": "commons-search"
+  },
+  "mushroom": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Edible_fungi_in_basket_2012_G1.jpg/960px-Edible_fungi_in_basket_2012_G1.jpg",
+    "file_title": "File:Edible fungi in basket 2012 G1.jpg",
+    "license": "Public domain",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "fava-bean": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/-2019-05-17_Broad_bean_plants%2C_Trimingham.JPG/960px--2019-05-17_Broad_bean_plants%2C_Trimingham.JPG",
+    "file_title": "File:-2019-05-17 Broad bean plants, Trimingham.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.\n\n\n\n This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.\nYou are free:\nto share – to copy, distribute and transmit the work\nto remix – to adapt the work\nUnder the following conditions:\nattribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nshare alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue",
+    "resolved_via": "commons-search"
+  },
+  "green-bean": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Four_Different_Varieties_of_Green_Beans_%28Phaseolus_vulgaris%29.jpg/960px-Four_Different_Varieties_of_Green_Beans_%28Phaseolus_vulgaris%29.jpg",
+    "file_title": "File:Four Different Varieties of Green Beans (Phaseolus vulgaris).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Christopher Franz",
+    "resolved_via": "commons-search"
+  },
+  "mung-bean-sprout": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Young_mung_bean_sprouts.jpg/960px-Young_mung_bean_sprouts.jpg",
+    "file_title": "File:Young mung bean sprouts.jpg",
+    "license": "CC0",
+    "author": "pics_pd",
+    "resolved_via": "commons-search"
+  },
+  "sugar-snap-pea": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sugar_Snap_Pea.JPG/960px-Sugar_Snap_Pea.JPG",
+    "file_title": "File:Sugar Snap Pea.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Brianga",
+    "resolved_via": "commons-search"
+  },
+  "artichoke": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Globe_artichoke_Cynara_cardunculus_at_Riverside_Moorings%2C_Shoreham%2C_West_Sussex%2C_England.jpg/960px-Globe_artichoke_Cynara_cardunculus_at_Riverside_Moorings%2C_Shoreham%2C_West_Sussex%2C_England.jpg",
+    "file_title": "File:Globe artichoke Cynara cardunculus at Riverside Moorings, Shoreham, West Sussex, England.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Acabashi",
+    "resolved_via": "commons-search"
+  },
+  "apple": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/960px-Red_Apple.jpg",
+    "file_title": "File:Red Apple.jpg",
+    "license": "CC BY 2.0",
+    "author": "Abhijit Tembhekar from Mumbai, India",
+    "resolved_via": "commons-search"
+  },
+  "pear": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Four_pears.jpg/960px-Four_pears.jpg",
+    "file_title": "File:Four pears.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rhododendrites",
+    "resolved_via": "commons-search"
+  },
+  "lemon": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/960px-Lemon.jpg",
+    "file_title": "File:Lemon.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "André Karwath aka Aka",
+    "resolved_via": "commons-search"
+  },
+  "lime": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Lime_-_whole_and_halved.jpg/960px-Lime_-_whole_and_halved.jpg",
+    "file_title": "File:Lime - whole and halved.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "orange": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/960px-Oranges_-_whole-halved-segment.jpg",
+    "file_title": "File:Oranges - whole-halved-segment.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "blueberry": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Dish_of_blueberries.jpg/960px-Dish_of_blueberries.jpg",
+    "file_title": "File:Dish of blueberries.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Petar Milošević",
+    "resolved_via": "commons-search"
+  },
+  "strawberry": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_halved.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_halved.jpg",
+    "file_title": "File:Garden strawberry (Fragaria × ananassa) halved.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "blackcurrant": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Blackcurrant_in_basket_2021_G1.jpg/960px-Blackcurrant_in_basket_2021_G1.jpg",
+    "file_title": "File:Blackcurrant in basket 2021 G1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "cherry-fresh": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cherry_Stella444.jpg/960px-Cherry_Stella444.jpg",
+    "file_title": "File:Cherry Stella444.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Benjamint444, edited by Fir0002",
+    "resolved_via": "commons-search"
+  },
+  "fig-dried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Fig_%28Ficus_carica%29_fruit_halved.jpg/960px-Fig_%28Ficus_carica%29_fruit_halved.jpg",
+    "file_title": "File:Fig (Ficus carica) fruit halved.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "pomegranate": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg/960px-Pomegranate_fruit_-_whole_and_piece_with_arils.jpg",
+    "file_title": "File:Pomegranate fruit - whole and piece with arils.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "watermelon": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1.JPG/960px-%D8%A7%D9%84%D8%A8%D8%B7%D9%8A%D8%AE_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1.JPG",
+    "file_title": "File:البطيخ الأحمر.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "فارس البلغم",
+    "resolved_via": "commons-search"
+  },
+  "raisin": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Raisins_01.jpg/960px-Raisins_01.jpg",
+    "file_title": "File:Raisins 01.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Paweł Kuźniar (Jojo_1, Jojo)",
+    "resolved_via": "commons-search"
+  },
+  "cranberry-dried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cranberrys_beim_Ernten.jpeg/960px-Cranberrys_beim_Ernten.jpeg",
+    "file_title": "File:Cranberrys beim Ernten.jpeg",
+    "license": "Public domain",
+    "author": "Keith Weller, USDA-ARS",
+    "resolved_via": "commons-search"
+  },
+  "berries-mixed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mixed_berries_with_sour_cream_and_brown_sugar.jpg/960px-Mixed_berries_with_sour_cream_and_brown_sugar.jpg",
+    "file_title": "File:Mixed berries with sour cream and brown sugar.jpg",
+    "license": "CC BY 2.0",
+    "author": "Belinda Hankins Miller from U.S.A.",
+    "resolved_via": "commons-search"
+  },
+  "basil": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ocimum_Basilicum_leaf_lighted_by_the_left.jpg/960px-Ocimum_Basilicum_leaf_lighted_by_the_left.jpg",
+    "file_title": "File:Ocimum Basilicum leaf lighted by the left.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "BernaBotto",
+    "resolved_via": "commons-search"
+  },
+  "parsley": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Petroselinum_crispum_003.JPG/960px-Petroselinum_crispum_003.JPG",
+    "file_title": "File:Petroselinum crispum 003.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "resolved_via": "commons-search"
+  },
+  "cilantro": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Coriander_Seeds._Coriander_is_Both_an_Herb_and_a_Spice..jpg",
+    "file_title": "File:Coriander Seeds. Coriander is Both an Herb and a Spice..jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Home Cooking Secrets",
+    "resolved_via": "commons-search"
+  },
+  "mint": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mint_leaves_%28Mentha_spicata%29.jpg/960px-Mint_leaves_%28Mentha_spicata%29.jpg",
+    "file_title": "File:Mint leaves (Mentha spicata).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Commonists",
+    "resolved_via": "commons-search"
+  },
+  "rosemary-fresh": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rosmarinus_officinalis_%281%29.jpg/960px-Rosmarinus_officinalis_%281%29.jpg",
+    "file_title": "File:Rosmarinus officinalis (1).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "T137",
+    "resolved_via": "commons-search"
+  },
+  "sage": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Salvia_and_Celosia_in_the_flower_garden_of_the_Tumuli_Park_at_sunset_in_Gyeongju_South_Korea.jpg/960px-Red_Salvia_and_Celosia_in_the_flower_garden_of_the_Tumuli_Park_at_sunset_in_Gyeongju_South_Korea.jpg",
+    "file_title": "File:Red Salvia and Celosia in the flower garden of the Tumuli Park at sunset in Gyeongju South Korea.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Basile Morin",
+    "resolved_via": "commons-search"
+  },
+  "chickpea": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/India_-_Varanasi_green_peas_-_2714.jpg/960px-India_-_Varanasi_green_peas_-_2714.jpg",
+    "file_title": "File:India - Varanasi green peas - 2714.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Jorge Royan",
+    "resolved_via": "commons-search"
+  },
+  "lentil": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/3_types_of_lentil.jpg/960px-3_types_of_lentil.jpg",
+    "file_title": "File:3 types of lentil.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "User:Justinc",
+    "resolved_via": "commons-search"
+  },
+  "black-bean": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aphids_May_2010-3.jpg",
+    "file_title": "File:Aphids May 2010-3.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Alvesgaspar",
+    "resolved_via": "commons-search"
+  },
+  "dried-bean-mixed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Trocknung_von_Bohnen-25-gje.jpg/960px-Trocknung_von_Bohnen-25-gje.jpg",
+    "file_title": "File:Trocknung von Bohnen-25-gje.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gerd Eichmann",
+    "resolved_via": "commons-search"
+  },
+  "chestnut-dried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Castagne_secche_dried_chestnut_italy.JPG/960px-Castagne_secche_dried_chestnut_italy.JPG",
+    "file_title": "File:Castagne secche dried chestnut italy.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "G.steph.rocket",
+    "resolved_via": "commons-search"
+  },
+  "spelt": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kifli_made_with_spelt_flour_%28Serbian_cuisine%29.jpg/960px-Kifli_made_with_spelt_flour_%28Serbian_cuisine%29.jpg",
+    "file_title": "File:Kifli made with spelt flour (Serbian cuisine).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Petar Milošević",
+    "resolved_via": "commons-search"
+  },
+  "pasta-wheat": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Triticum-durum-ear.JPG/960px-Triticum-durum-ear.JPG",
+    "file_title": "File:Triticum-durum-ear.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Sten Porse",
+    "resolved_via": "commons-search"
+  },
+  "flour-wheat": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Wheat-flour.jpg",
+    "file_title": "File:Wheat-flour.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "هارون يحيى",
+    "resolved_via": "commons-search"
+  },
+  "flour-corn": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Corn_flour_%2820240709%29.jpg/960px-Corn_flour_%2820240709%29.jpg",
+    "file_title": "File:Corn flour (20240709).jpg",
+    "license": "CC0",
+    "author": "Fumikas Sagisavas",
+    "resolved_via": "commons-search"
+  },
+  "corn-starch": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Corn_Starch_mixture.jpg/960px-Corn_Starch_mixture.jpg",
+    "file_title": "File:Corn Starch mixture.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ayapici",
+    "resolved_via": "commons-search"
+  },
+  "semolina": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sa_semolina_far.jpg/960px-Sa_semolina_far.jpg",
+    "file_title": "File:Sa semolina far.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Sanjay ach",
+    "resolved_via": "commons-search"
+  },
+  "bread": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Breadcrumb.jpg/960px-Breadcrumb.jpg",
+    "file_title": "File:Breadcrumb.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Yvwv",
+    "resolved_via": "commons-search"
+  },
+  "taralli": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Taralli.jpg/960px-Taralli.jpg",
+    "file_title": "File:Taralli.jpg",
+    "license": "Public domain",
+    "author": "Marco Leogrande",
+    "resolved_via": "commons-search"
+  },
+  "milk-coconut": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Coconut_milk_from_can01.JPG/960px-Coconut_milk_from_can01.JPG",
+    "file_title": "File:Coconut milk from can01.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Meursault2004",
+    "resolved_via": "commons-search"
+  },
+  "milk-plant": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Lac_pegetabil%D0%B5.jpg/960px-Lac_pegetabil%D0%B5.jpg",
+    "file_title": "File:Lac pegetabilе.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Alon-De-Lon",
+    "resolved_via": "commons-search"
+  },
+  "broth-vegetable": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Yangroupaomo3.jpg/960px-Yangroupaomo3.jpg",
+    "file_title": "File:Yangroupaomo3.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "No machine-readable author provided. Pubuhan assumed (based on copyright claims).",
+    "resolved_via": "commons-search"
+  },
+  "egg": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Chicken_Egg_without_Eggshell_5859.jpg/960px-Chicken_Egg_without_Eggshell_5859.jpg",
+    "file_title": "File:Chicken Egg without Eggshell 5859.jpg",
+    "license": "CC BY 3.0",
+    "author": "Biswarup Ganguly",
+    "resolved_via": "commons-search"
+  },
+  "cheese-parmesan": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Zucchini_Chips_Ages_3-5_English_Rd3_%2852197009487%29.jpg/960px-Zucchini_Chips_Ages_3-5_English_Rd3_%2852197009487%29.jpg",
+    "file_title": "File:Zucchini Chips Ages 3-5 English Rd3 (52197009487).jpg",
+    "license": "Public domain",
+    "author": "USDAgov",
+    "resolved_via": "commons-search"
+  },
+  "cheese-ricotta-salata": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ricotta_salata_al_mercato_di_Siracusa.jpg/960px-Ricotta_salata_al_mercato_di_Siracusa.jpg",
+    "file_title": "File:Ricotta salata al mercato di Siracusa.jpg",
+    "license": "CC BY 2.0",
+    "author": "Joy",
+    "resolved_via": "commons-search"
+  },
+  "almond": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg/960px-Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg",
+    "file_title": "File:Almonds - in shell, shell cracked open, shelled, blanched.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "hazelnut": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hazelnuts.jpg/960px-Hazelnuts.jpg",
+    "file_title": "File:Hazelnuts.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Fir0002 at English Wikipedia",
+    "resolved_via": "commons-search"
+  },
+  "walnut": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Juglans_regia_2009_G2.jpg/960px-Juglans_regia_2009_G2.jpg",
+    "file_title": "File:Juglans regia 2009 G2.jpg",
+    "license": "Public domain",
+    "author": "George Chernilevsky",
+    "resolved_via": "commons-search"
+  },
+  "pine-nut": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ponte_dei_Pignoli_%28Venice%29.jpg/960px-Ponte_dei_Pignoli_%28Venice%29.jpg",
+    "file_title": "File:Ponte dei Pignoli (Venice).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Didier Descouens",
+    "resolved_via": "commons-search"
+  },
+  "pistachio": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pistacia_vera_L.1702.jpg/960px-Pistacia_vera_L.1702.jpg",
+    "file_title": "File:Pistacia vera L.1702.jpg",
+    "license": "Public domain",
+    "author": "Jebulon",
+    "resolved_via": "commons-search"
+  },
+  "chia-seed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Semillas_de_Ch%C3%ADa.jpg/960px-Semillas_de_Ch%C3%ADa.jpg",
+    "file_title": "File:Semillas de Chía.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Magister Mathematicae",
+    "resolved_via": "commons-search"
+  },
+  "flax-seed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Linum_usitatissimum_qtl1.jpg/960px-Linum_usitatissimum_qtl1.jpg",
+    "file_title": "File:Linum usitatissimum qtl1.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Quartl",
+    "resolved_via": "commons-search"
+  },
+  "hemp-seed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Hemp_milk_with_hemp_seeds_2.jpg/960px-Hemp_milk_with_hemp_seeds_2.jpg",
+    "file_title": "File:Hemp milk with hemp seeds 2.jpg",
+    "license": "CC0",
+    "author": "Mx. Granger",
+    "resolved_via": "commons-search"
+  },
+  "olive-oil": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2023_Oliwa_z_oliwek_Garda_DOP_%281%29.jpg/960px-2023_Oliwa_z_oliwek_Garda_DOP_%281%29.jpg",
+    "file_title": "File:2023 Oliwa z oliwek Garda DOP (1).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jacek Halicki",
+    "resolved_via": "commons-search"
+  },
+  "sunflower-oil": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sunflower_oil_and_sunflower.jpg/960px-Sunflower_oil_and_sunflower.jpg",
+    "file_title": "File:Sunflower oil and sunflower.jpg",
+    "license": "CC BY 4.0",
+    "author": "torange.biz",
+    "resolved_via": "commons-search"
+  },
+  "vinegar-balsamic": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/BALSAMIC_VINEGAR_WITH_PROTECTIVE_GEOGRAPHICAL_SIGN.%D7%97%D7%95%D7%9E%D7%A5_%D7%91%D7%9C%D7%A1%D7%9E%D7%99_%D7%A2%D7%9D_%D7%A1%D7%99%D7%9E%D7%95%D7%9F_%D7%94%D7%92%D7%A0%D7%94_%D7%92%D7%90%D7%95%D7%92%D7%A8%D7%A4%D7%99.jpg/960px-BALSAMIC_VINEGAR_WITH_PROTECTIVE_GEOGRAPHICAL_SIGN.%D7%97%D7%95%D7%9E%D7%A5_%D7%91%D7%9C%D7%A1%D7%9E%D7%99_%D7%A2%D7%9D_%D7%A1%D7%99%D7%9E%D7%95%D7%9F_%D7%94%D7%92%D7%A0%D7%94_%D7%92%D7%90%D7%95%D7%92%D7%A8%D7%A4%D7%99.jpg",
+    "file_title": "File:BALSAMIC VINEGAR WITH PROTECTIVE GEOGRAPHICAL SIGN.חומץ בלסמי עם סימון הגנה גאוגרפי.jpg",
+    "license": "CC0",
+    "author": "Avisadehh",
+    "resolved_via": "commons-search"
+  },
+  "vinegar-red-wine": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Red_wine_vinegar.jpg",
+    "file_title": "File:Red wine vinegar.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Susan Slater",
+    "resolved_via": "commons-search"
+  },
+  "vinegar-white-wine": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/White_wine_vinegar.jpg",
+    "file_title": "File:White wine vinegar.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Susan Slater",
+    "resolved_via": "commons-search"
+  },
+  "wine-cooking": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wangzhihe_Liaojiu_on_shelf_%2820250912180907%29.jpg/960px-Wangzhihe_Liaojiu_on_shelf_%2820250912180907%29.jpg",
+    "file_title": "File:Wangzhihe Liaojiu on shelf (20250912180907).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "N509FZ",
+    "resolved_via": "commons-search"
+  },
+  "anchovy": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Anchovy_closeup.jpg/960px-Anchovy_closeup.jpg",
+    "file_title": "File:Anchovy closeup.jpg",
+    "license": "Public domain",
+    "author": null,
+    "resolved_via": "commons-search"
+  },
+  "sardine": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2014_03_19_397_Eingelegte_Fische.jpg/960px-2014_03_19_397_Eingelegte_Fische.jpg",
+    "file_title": "File:2014 03 19 397 Eingelegte Fische.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Friedrich Haag",
+    "resolved_via": "commons-search"
+  },
+  "octopus": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Octopus_vulgaris_Merculiano.jpg/960px-Octopus_vulgaris_Merculiano.jpg",
+    "file_title": "File:Octopus vulgaris Merculiano.jpg",
+    "license": "Public domain",
+    "author": "Comingio Merculiano (1845-1915) in Jatta Giuseppe (1860-1903)",
+    "resolved_via": "commons-search"
+  },
+  "squid-cuttlefish": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Braised_squid_and_cuttlefish.jpg/960px-Braised_squid_and_cuttlefish.jpg",
+    "file_title": "File:Braised squid and cuttlefish.jpg",
+    "license": "CC0",
+    "author": "Fumikas Sagisavas",
+    "resolved_via": "commons-search"
+  },
+  "snapper": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Tumbler_Snapper_rope_tricks.jpg",
+    "file_title": "File:Tumbler Snapper rope tricks.jpg",
+    "license": "Public domain",
+    "author": "U.S. Air Force 1352nd Photographic Group, Lookout Mountain Station",
+    "resolved_via": "commons-search"
+  },
+  "fish-stew-mix": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Grilled_fish_on_mixed_salad%2C_Madrid.jpg/960px-Grilled_fish_on_mixed_salad%2C_Madrid.jpg",
+    "file_title": "File:Grilled fish on mixed salad, Madrid.jpg",
+    "license": "CC0",
+    "author": "Gerda Arendt",
+    "resolved_via": "commons-search"
+  },
+  "olive-table": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lun_olive_tree_1600_years.jpg/960px-Lun_olive_tree_1600_years.jpg",
+    "file_title": "File:Lun olive tree 1600 years.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Palauenc05",
+    "resolved_via": "commons-search"
+  },
+  "caper": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Capparis_spinosa_Ichkeul_National_Parc.jpg/960px-Capparis_spinosa_Ichkeul_National_Parc.jpg",
+    "file_title": "File:Capparis spinosa Ichkeul National Parc.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "IssamBarhoumi",
+    "resolved_via": "commons-search"
+  },
+  "chocolate-dark": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2023_Gorzka_czekolada.jpg/960px-2023_Gorzka_czekolada.jpg",
+    "file_title": "File:2023 Gorzka czekolada.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jacek Halicki",
+    "resolved_via": "commons-search"
+  },
+  "mustard-dijon": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dijon_mustard_on_a_spoon_-_20051218.jpg/960px-Dijon_mustard_on_a_spoon_-_20051218.jpg",
+    "file_title": "File:Dijon mustard on a spoon - 20051218.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Rainer Zenz.",
+    "resolved_via": "commons-search"
+  },
+  "tamari": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Saury_and_avocado_on_white_rice_with_tamari_soy_sauce_-_Massachusetts.jpg/960px-Saury_and_avocado_on_white_rice_with_tamari_soy_sauce_-_Massachusetts.jpg",
+    "file_title": "File:Saury and avocado on white rice with tamari soy sauce - Massachusetts.jpg",
+    "license": "CC0",
+    "author": "Daderot",
+    "resolved_via": "commons-search"
+  },
+  "honey": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/European_honey_bee_extracts_nectar.jpg/960px-European_honey_bee_extracts_nectar.jpg",
+    "file_title": "File:European honey bee extracts nectar.jpg",
+    "license": "Public domain",
+    "author": "John Severns (Severnjc)",
+    "resolved_via": "commons-search"
+  },
+  "maple-syrup": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Maple_syrup.jpg",
+    "file_title": "File:Maple syrup.jpg",
+    "license": "Public domain",
+    "author": "User:Miguel Andrade",
+    "resolved_via": "commons-search"
+  },
+  "sugar-cane": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Sugar_Land_Refinery_in_Sugar_Land%2C_TX.jpg/960px-The_Sugar_Land_Refinery_in_Sugar_Land%2C_TX.jpg",
+    "file_title": "File:The Sugar Land Refinery in Sugar Land, TX.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "i_am_jim",
+    "resolved_via": "commons-search"
+  },
+  "nutritional-yeast": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nutritional_Yeast_in_Bag_%2832664238868%29.jpg/960px-Nutritional_Yeast_in_Bag_%2832664238868%29.jpg",
+    "file_title": "File:Nutritional Yeast in Bag (32664238868).jpg",
+    "license": "CC BY 2.0",
+    "author": "Tony Webster from Minneapolis, Minnesota, United States",
+    "resolved_via": "commons-search"
+  },
+  "tahini": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tahini_with_oil.JPG/960px-Tahini_with_oil.JPG",
+    "file_title": "File:Tahini with oil.JPG",
+    "license": "CC0",
+    "author": "Miansari66",
+    "resolved_via": "commons-search"
+  },
+  "liquid-smoke": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Liquid_Smoke_Spoonful.jpg/960px-Liquid_Smoke_Spoonful.jpg",
+    "file_title": "File:Liquid Smoke Spoonful.jpg",
+    "license": "CC0",
+    "author": "Ll1324",
+    "resolved_via": "commons-search"
+  },
+  "ketchup-unsweetened": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/French_Fries_with_Ketchup_02.jpg/960px-French_Fries_with_Ketchup_02.jpg",
+    "file_title": "File:French Fries with Ketchup 02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kritzolina",
+    "resolved_via": "commons-search"
+  },
+  "pepper-pickled": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sandwich_of_peanut_butter_and_wild_orange_preserve_on_homemade_bread%2C_with_salad_of_mixed_greens%2C_pickled_quail_eggs%2C_etc%2C_with_olive_oil%2C_vinegar%2C_and_black_pepper_-_Massachusetts.jpg/960px-thumbnail.jpg",
+    "file_title": "File:Sandwich of peanut butter and wild orange preserve on homemade bread, with salad of mixed greens, pickled quail eggs, etc, with olive oil, vinegar, and black pepper - Massachusetts.jpg",
+    "license": "CC0",
+    "author": "Daderot",
+    "resolved_via": "commons-search"
+  },
+  "salt": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Marakkanam_Salt_Pans.JPG/960px-Marakkanam_Salt_Pans.JPG",
+    "file_title": "File:Marakkanam Salt Pans.JPG",
+    "license": "CC BY 3.0",
+    "author": "Dey.sandip",
+    "resolved_via": "commons-search"
+  },
+  "pepper-black": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Black_Pepper_%28Piper_nigrum%29_fruits.jpg/960px-Black_Pepper_%28Piper_nigrum%29_fruits.jpg",
+    "file_title": "File:Black Pepper (Piper nigrum) fruits.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "K Hari Krishnan",
+    "resolved_via": "commons-search"
+  },
+  "bay-leaf": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bumbu_Rawon.jpg/960px-Bumbu_Rawon.jpg",
+    "file_title": "File:Bumbu Rawon.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Herusutimbul",
+    "resolved_via": "commons-search"
+  },
+  "cinnamon": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Canelle_Cinnamomum_burmanni_Luc_Viatour.jpg/960px-Canelle_Cinnamomum_burmanni_Luc_Viatour.jpg",
+    "file_title": "File:Canelle Cinnamomum burmanni Luc Viatour.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Luc Viatour",
+    "resolved_via": "commons-search"
+  },
+  "cumin": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-198.jpg",
+    "file_title": "File:Cuminum cyminum - Köhler–s Medizinal-Pflanzen-198.jpg",
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "resolved_via": "commons-search"
+  },
+  "coriander-seed": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Coriander_Seeds.jpg/960px-Coriander_Seeds.jpg",
+    "file_title": "File:Coriander Seeds.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Sanjay Acharya",
+    "resolved_via": "commons-search"
+  },
+  "cardamom": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Elettaria_cardamomum_Capsules_and_seeds.jpg/960px-Elettaria_cardamomum_Capsules_and_seeds.jpg",
+    "file_title": "File:Elettaria cardamomum Capsules and seeds.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Didier Descouens",
+    "resolved_via": "commons-search"
+  },
+  "nutmeg": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Myristica_fragrans_by_kadavoor.jpg/960px-Myristica_fragrans_by_kadavoor.jpg",
+    "file_title": "File:Myristica fragrans by kadavoor.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jeevan Jose, Kerala, India",
+    "resolved_via": "commons-search"
+  },
+  "clove-spice": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gewuerze_004_2024_08_10.jpg/960px-Gewuerze_004_2024_08_10.jpg",
+    "file_title": "File:Gewuerze 004 2024 08 10.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Friedrich Haag",
+    "resolved_via": "commons-search"
+  },
+  "turmeric": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Curcuma_longa_roots.jpg/960px-Curcuma_longa_roots.jpg",
+    "file_title": "File:Curcuma longa roots.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Simon A. Eugster",
+    "resolved_via": "commons-search"
+  },
+  "paprika": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Capsicum_annuum_var._Fiesta_-_MHNT.jpg/960px-Capsicum_annuum_var._Fiesta_-_MHNT.jpg",
+    "file_title": "File:Capsicum annuum var. Fiesta - MHNT.jpg",
+    "license": "CC BY 3.0",
+    "author": "PierreSelim",
+    "resolved_via": "commons-search"
+  },
+  "chili": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Souk_Al_Milh%2C_Sana%2C_Yemen_%284324865585%29.jpg/960px-Souk_Al_Milh%2C_Sana%2C_Yemen_%284324865585%29.jpg",
+    "file_title": "File:Souk Al Milh, Sana, Yemen (4324865585).jpg",
+    "license": "CC BY 2.0",
+    "author": "yeowatzup",
+    "resolved_via": "commons-search"
+  },
+  "chipotle": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Capsicum_annuum_chipotle_dried.jpg/960px-Capsicum_annuum_chipotle_dried.jpg",
+    "file_title": "File:Capsicum annuum chipotle dried.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "User:Carstor",
+    "resolved_via": "commons-search"
+  },
+  "oregano": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Origanum_vulgare_inflorescence_-_Keila.jpg/960px-Origanum_vulgare_inflorescence_-_Keila.jpg",
+    "file_title": "File:Origanum vulgare inflorescence - Keila.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus",
+    "resolved_via": "commons-search"
+  },
+  "thyme-dried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eristalinus_aeneus_on_Thymus_vulgaris%2C_S%C3%A8te_03.jpg/960px-Eristalinus_aeneus_on_Thymus_vulgaris%2C_S%C3%A8te_03.jpg",
+    "file_title": "File:Eristalinus aeneus on Thymus vulgaris, Sète 03.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Christian Ferrer",
+    "resolved_via": "commons-search"
+  },
+  "rosemary-dried": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rosmarinus_officinalis_%281%29.jpg/960px-Rosmarinus_officinalis_%281%29.jpg",
+    "file_title": "File:Rosmarinus officinalis (1).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "T137",
+    "resolved_via": "commons-search"
+  },
+  "italian-seasoning": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pesteda_arpifood.jpg/960px-Pesteda_arpifood.jpg",
+    "file_title": "File:Pesteda arpifood.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Pini Ste",
+    "resolved_via": "commons-search"
+  },
+  "garam-masala": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Garam_Masala_1.jpg/960px-Garam_Masala_1.jpg",
+    "file_title": "File:Garam Masala 1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gaurav Dhwaj Khadka",
+    "resolved_via": "commons-search"
+  },
+  "vanilla-extract": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/VanillaExtract.png",
+    "file_title": "File:VanillaExtract.png",
+    "license": "Public domain",
+    "author": "Itineranttrader",
+    "resolved_via": "commons-search"
+  },
+  "zaatar": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ZaatarbyGassan.jpg/960px-ZaatarbyGassan.jpg",
+    "file_title": "File:ZaatarbyGassan.jpg",
+    "license": "CC BY 3.0",
+    "author": "Sjschen",
+    "resolved_via": "commons-search"
+  },
+  "butterfly-pea-flower": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Butterfly-pea_flower_tea_2.jpg/960px-Butterfly-pea_flower_tea_2.jpg",
+    "file_title": "File:Butterfly-pea flower tea 2.jpg",
+    "license": "CC0",
+    "author": "Mx. Granger",
+    "resolved_via": "commons-search"
+  },
+  "water": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Three_buffaloes_heads_above_water_in_Si_Phan_Don.jpg/960px-Three_buffaloes_heads_above_water_in_Si_Phan_Don.jpg",
+    "file_title": "File:Three buffaloes heads above water in Si Phan Don.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Basile Morin",
+    "resolved_via": "commons-search"
+  },
+  "lamon-bean": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Rosecoco_beans.jpg/960px-Rosecoco_beans.jpg",
+    "file_title": "File:Rosecoco beans.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Tiia Monto",
+    "resolved_via": "commons-search"
+  },
+  "rice-brown": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Rice_Case_Bearer_at_Chira_Padur.JPG",
+    "file_title": "File:Rice Case Bearer at Chira Padur.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "വരി വര",
+    "resolved_via": "commons-search"
+  }
+}

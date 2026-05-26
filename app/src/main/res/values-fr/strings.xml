@@ -47,6 +47,9 @@
 
     <string name="search_hint">Rechercher recettes ou tags</string>
     <string name="section_count_label">%d recettes</string>
+    <string name="recipes_empty_title">Aucun résultat</string>
+    <string name="recipes_empty_body">Essaie une autre recherche ou change de filtre.</string>
+    <string name="filter_all">Toutes</string>
 
     <string name="planning_title">Planifier</string>
     <string name="planning_today_badge">Aujourd\'hui</string>
@@ -82,4 +85,16 @@
     <string name="credits_longo_link_institute">USC Longevity Institute</string>
     <string name="credits_disclaimer">Idun est un projet indépendant, sans affiliation ni approbation d\'aucun des deux chercheurs.</string>
     <string name="credits_no_browser">Aucun navigateur disponible</string>
+
+    <string name="food_image_credit">Image : Wikimedia Commons</string>
+    <string name="learn_search_hint">Rechercher des ingrédients</string>
+    <string name="learn_empty_title">Aucun résultat</string>
+    <string name="learn_empty_body">Essaie une autre recherche.</string>
+    <string name="learn_title">Apprendre</string>
+    <string name="food_section_benefits">Bienfaits</string>
+    <string name="food_section_how_to_consume">Comment le consommer</string>
+    <string name="food_section_when_to_consume">Quand le consommer</string>
+    <string name="food_section_deficiency_signs">Signes de carence</string>
+    <string name="food_section_excess_signs">Signes d\'excès</string>
+    <string name="food_disclaimer">Informatif uniquement — pas un conseil médical. Consulte un professionnel pour diagnostic ou traitement.</string>
 </resources>

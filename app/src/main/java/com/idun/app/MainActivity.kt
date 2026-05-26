@@ -18,6 +18,7 @@ import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
 import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityMainBinding
+import com.idun.app.ui.setupBottomNav
 import java.util.Locale
 
 /**
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var adapter: RecipeListAdapter
     private var allRecipes: List<Recipe> = emptyList()
     private var query: String = ""
+    private var sourceFilter: RecipeSource? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,6 +61,16 @@ class MainActivity : AppCompatActivity() {
         )
         binding.recipeList.layoutManager = LinearLayoutManager(this)
         binding.recipeList.adapter = adapter
+
+        binding.filterChips.setOnCheckedStateChangeListener { _, checkedIds ->
+            sourceFilter = when (checkedIds.firstOrNull()) {
+                R.id.chip_filter_blueprint -> RecipeSource.BLUEPRINT
+                R.id.chip_filter_longo -> RecipeSource.LONGO
+                else -> null
+            }
+            applyFilter()
+        }
+
         applyFilter()
 
         binding.fabShoppingList.setOnClickListener {
@@ -71,16 +83,21 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
+        setupBottomNav(binding.bottomNav, R.id.nav_recipes)
         updateFab()
     }
 
     private fun applyFilter() {
         val q = query.trim().lowercase(Locale.getDefault())
-        val filtered = if (q.isEmpty()) allRecipes else allRecipes.filter { r ->
+        val bySource = sourceFilter?.let { src -> allRecipes.filter { it.source == src } } ?: allRecipes
+        val filtered = if (q.isEmpty()) bySource else bySource.filter { r ->
             r.searchableNames().any { it.lowercase(Locale.getDefault()).contains(q) } ||
                 r.tags.any { it.lowercase(Locale.getDefault()).contains(q) }
         }
         adapter.setRecipes(filtered)
+        val empty = filtered.isEmpty()
+        binding.emptyState.visibility = if (empty) View.VISIBLE else View.GONE
+        binding.recipeList.visibility = if (empty) View.GONE else View.VISIBLE
     }
 
     private fun Recipe.searchableNames(): Sequence<String> =
@@ -109,10 +126,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_planning -> {
-                startActivity(Intent(this, PlanningActivity::class.java))
-                true
-            }
             R.id.action_credits -> {
                 startActivity(Intent(this, CreditsActivity::class.java))
                 true

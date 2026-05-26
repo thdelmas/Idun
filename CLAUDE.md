@@ -44,6 +44,15 @@ When recipes are added, removed, or edited:
 
 Never edit the JSON in isolation — the KB is source of truth.
 
+### Ingredients pedagogy (Learn screen)
+
+The 145 canonical food entries in `app/src/main/assets/foods.json` are likewise generated from a KB doc:
+- `Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md`
+
+Pipeline: `scripts/foods/build_catalog.py` defines the canonical food IDs, regex patterns, and category, and maps the 466 recipe ingredient lines to them (must remain at zero unmatched). It writes `app/src/main/assets/foods_catalog.json`, which ships as an asset and is consumed by `FoodResolver` at runtime to power the recipe-ingredient → Food-detail jump. `scripts/foods/extract_foods_json.py` parses the KB markdown into `foods.json`. The KB doc is source of truth; never edit `foods.json` or `foods_catalog.json` directly. Editorial register is health-adjacent — see the doc's "Editorial register" section before touching content (no medical-diagnosis framing, no RDA tables; cite Blueprint/Longo). Bump versionCode on edits.
+
+Food images live at `app/src/main/assets/foods/images/<food_id>.jpg`, fetched by `scripts/foods/download_images.py` from Wikimedia Commons (preferred — every file there is free-licensed by policy) with a license-verified Wikipedia lead-image fallback. Provenance per image is recorded in `_manifest.json` alongside the JPGs. The Android side resolves `<id>.jpg` by convention and silently hides the ImageView when missing — no JSON pipeline change required, no runtime network. Re-run the script (idempotent) when foods are added; bump versionCode.
+
 ## Out-of-scope until further notice
 
 - Cost estimation (PreuJust dependency)

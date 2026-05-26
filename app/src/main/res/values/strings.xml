@@ -56,6 +56,9 @@
     <!-- Browse list -->
     <string name="search_hint">Search recipes or tags</string>
     <string name="section_count_label">%d recipes</string>
+    <string name="recipes_empty_title">No recipes match</string>
+    <string name="recipes_empty_body">Try a different search or switch filter.</string>
+    <string name="filter_all">All</string>
 
     <!-- Planning -->
     <string name="planning_title">Plan</string>
@@ -94,4 +97,17 @@
     <string name="credits_longo_link_institute">USC Longevity Institute</string>
     <string name="credits_disclaimer">Idun is an independent project, not affiliated with or endorsed by either researcher.</string>
     <string name="credits_no_browser">No browser available</string>
+
+    <!-- Learn -->
+    <string name="learn_title">Learn</string>
+    <string name="food_section_benefits">Benefits</string>
+    <string name="food_section_how_to_consume">How to consume</string>
+    <string name="food_section_when_to_consume">When to consume</string>
+    <string name="food_section_deficiency_signs">Deficiency signs</string>
+    <string name="food_section_excess_signs">Excess signs</string>
+    <string name="food_disclaimer">Informational only — not medical advice. Consult a clinician for diagnosis or treatment.</string>
+    <string name="food_image_credit">Image: Wikimedia Commons</string>
+    <string name="learn_search_hint">Search ingredients</string>
+    <string name="learn_empty_title">No matches</string>
+    <string name="learn_empty_body">Try a different search.</string>
 </resources>

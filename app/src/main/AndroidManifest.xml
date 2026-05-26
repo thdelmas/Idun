@@ -37,8 +37,7 @@
 
         <activity
             android:name=".ShoppingListActivity"
-            android:label="@string/shopping_list_title"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/shopping_list_title" />
 
         <activity
             android:name=".SettingsActivity"
@@ -47,8 +46,7 @@
 
         <activity
             android:name=".PlanningActivity"
-            android:label="@string/planning_title"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/planning_title" />
 
         <activity
             android:name=".PickRecipeActivity"
@@ -59,6 +57,14 @@
             android:name=".CreditsActivity"
             android:label="@string/credits_title"
             android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".LearnActivity"
+            android:label="@string/learn_title" />
+
+        <activity
+            android:name=".FoodDetailActivity"
+            android:parentActivityName=".LearnActivity" />
 
     </application>
 </manifest>

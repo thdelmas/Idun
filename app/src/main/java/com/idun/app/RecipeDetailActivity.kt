@@ -1,5 +1,6 @@
 package com.idun.app
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.chip.Chip
 import com.idun.app.bios.BiosClient
+import com.idun.app.data.FoodResolver
 import com.idun.app.data.IdunDatabase
 import com.idun.app.data.Ingredient
 import com.idun.app.data.MealLogEntry
@@ -97,6 +99,7 @@ class RecipeDetailActivity : AppCompatActivity() {
 
     private fun renderIngredients(ingredients: List<Ingredient>) {
         val inflater = LayoutInflater.from(this)
+        val resolver = FoodResolver(this)
         binding.ingredientsContainer.removeAllViews()
         for (ing in ingredients) {
             val row = inflater.inflate(
@@ -106,6 +109,16 @@ class RecipeDetailActivity : AppCompatActivity() {
             )
             row.findViewById<TextView>(R.id.ingredient_quantity).text = formatQuantity(ing)
             row.findViewById<TextView>(R.id.ingredient_name).text = formatName(ing)
+            val foodId = resolver.resolve(ing.nameEn)
+            if (foodId != null) {
+                row.isClickable = true
+                row.setOnClickListener {
+                    startActivity(
+                        Intent(this, FoodDetailActivity::class.java)
+                            .putExtra(FoodDetailActivity.EXTRA_FOOD_ID, foodId)
+                    )
+                }
+            }
             binding.ingredientsContainer.addView(row)
         }
     }
