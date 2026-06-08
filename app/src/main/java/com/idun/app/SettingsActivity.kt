@@ -36,6 +36,7 @@ class SettingsActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySettingsBinding
     private lateinit var biosClient: BiosClient
     private lateinit var reminderSettings: ReminderSettings
+    private lateinit var themeSettings: ThemeSettings
 
     private val notifPermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
@@ -56,7 +57,9 @@ class SettingsActivity : AppCompatActivity() {
 
         biosClient = BiosClient(this)
         reminderSettings = ReminderSettings(this)
+        themeSettings = ThemeSettings(this)
 
+        binding.themeRow.setOnClickListener { showThemePicker() }
         binding.languageRow.setOnClickListener { showLanguagePicker() }
 
         binding.remindersToggle.isChecked = reminderSettings.enabled
@@ -105,7 +108,26 @@ class SettingsActivity : AppCompatActivity() {
             .show()
     }
 
+    private fun showThemePicker() {
+        val labels = THEME_OPTIONS.map { (_, labelRes) -> getString(labelRes) }.toTypedArray()
+        val checked = THEME_OPTIONS.indexOfFirst { it.first == themeSettings.mode }.coerceAtLeast(0)
+
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle(R.string.settings_theme_dialog_title)
+            .setSingleChoiceItems(labels, checked) { dialog, which ->
+                themeSettings.mode = THEME_OPTIONS[which].first
+                themeSettings.apply() // recreates this activity under the new mode
+                dialog.dismiss()
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
     private fun refresh() {
+        binding.themeValue.setText(
+            THEME_OPTIONS.first { it.first == themeSettings.mode }.second
+        )
+
         val active = AppCompatDelegate.getApplicationLocales()
             .takeIf { !it.isEmpty }
             ?.get(0)
@@ -193,6 +215,13 @@ class SettingsActivity : AppCompatActivity() {
     }
 
     private companion object {
+        // Order is the order shown in the appearance picker.
+        val THEME_OPTIONS: List<Pair<ThemeSettings.Mode, Int>> = listOf(
+            ThemeSettings.Mode.SYSTEM to R.string.settings_theme_system,
+            ThemeSettings.Mode.LIGHT to R.string.settings_theme_light,
+            ThemeSettings.Mode.DARK to R.string.settings_theme_dark,
+        )
+
         // null tag = follow system. Order is the order shown in the picker.
         // Must stay in sync with res/xml/locales_config.xml.
         val LANGUAGE_OPTIONS: List<Pair<String?, Int>> = listOf(

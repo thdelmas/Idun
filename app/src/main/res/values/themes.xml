@@ -2,12 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!--
-        Locked to Light: the parchment / apple / cyan aesthetic is Idun's
-        identity. Bios-family resemblance to W2F lives in the cyan accent
-        (W2F's exact Flow #00BCD4) and the instrument-readout monospace
-        style below — not in palette inversion. Dark support deferred to v2.
+        Light is the home palette: the parchment / apple / cyan aesthetic is
+        Idun's identity, and Bios-family resemblance to W2F lives in the cyan
+        accent (W2F's exact Flow #00BCD4) and the instrument-readout monospace
+        style below — not in palette inversion. Dark mode (opt-in, via the
+        Appearance setting → AppCompatDelegate) is a *warm* dark: see
+        values-night/colors.xml, which keeps the orchard warmth rather than
+        flipping to a cold cockpit. Every colour role below resolves through a
+        named @color, so the night-qualified palette adapts this style as-is.
     -->
-    <style name="Base.Theme.Idun" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Base.Theme.Idun" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Primary — apple red, used for toolbars, the FAB, step circles, etc. -->
         <item name="colorPrimary">@color/accent_apple_red</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -29,9 +33,9 @@
         <item name="colorOutline">@color/divider</item>
         <item name="colorOutlineVariant">@color/divider</item>
 
-        <!-- Status bar matches the parchment surface; dark icons on light bar. -->
+        <!-- Status bar matches the surface; icon polarity flips for night (see bools.xml). -->
         <item name="android:statusBarColor">@color/background</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">@bool/window_light_status_bar</item>
     </style>
 
     <!--

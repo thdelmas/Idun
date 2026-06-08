@@ -28,7 +28,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 
 ## Design system
 
-Idun follows the [Bios Ecosystem Design System](../Bios/docs/DESIGN_SYSTEM.md). Identity palette = Apple-red `#B33A3A` + W2F-cyan `#00BCD4` on parchment `#FAF6EE`, locked Light. The W2F-cyan secondary is the ecosystem kinship marker — keep it. Don't invent color roles or component anatomy outside the canonical [design-tokens/](../Bios/docs/design-tokens/) 14-role set; raise it to the canonical doc instead.
+Idun follows the [Bios Ecosystem Design System](../Bios/docs/DESIGN_SYSTEM.md). Identity palette = Apple-red `#B33A3A` + W2F-cyan `#00BCD4` on parchment `#FAF6EE`. Light is the home palette; **dark mode is opt-in** (v0.7.0, Settings → Appearance → Light/Dark/System, persisted via `ThemeSettings`/`AppCompatDelegate`). Dark is a **warm** dark — espresso/dark-brown surfaces in `res/values-night/colors.xml` that retain the orchard warmth, **not** a navy/cockpit inversion (a cold reskin was rejected before for losing Idun's identity). Every theme color role resolves through a named `@color`, so the night-qualified palette adapts the single `Base.Theme.Idun` style as-is — keep it that way; don't fork the style per config. The W2F-cyan secondary is the ecosystem kinship marker — keep it. Don't invent color roles or component anatomy outside the canonical [design-tokens/](../Bios/docs/design-tokens/) 14-role set; raise it to the canonical doc instead.
 
 ## Bios integration
 

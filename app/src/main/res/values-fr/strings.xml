@@ -49,6 +49,12 @@
     <string name="reminder_channel_name">Rappels de repas</string>
     <string name="reminder_channel_desc">Notifications avant vos repas planifiés.</string>
     <string name="reminder_body">Prévu pour %1$s</string>
+    <string name="settings_appearance_section">Apparence</string>
+    <string name="settings_theme_label">Thème</string>
+    <string name="settings_theme_dialog_title">Choisir le thème</string>
+    <string name="settings_theme_system">Selon le système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
     <string name="settings_language_section">Langue</string>
     <string name="settings_language_label">Langue de l\'app</string>
     <string name="settings_language_dialog_title">Choisir la langue</string>
