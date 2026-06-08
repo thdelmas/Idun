@@ -5,4 +5,8 @@
         android:id="@+id/action_routines"
         android:title="@string/routines_title"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_household"
+        android:title="@string/household_title"
+        app:showAsAction="never" />
 </menu>

@@ -8,7 +8,8 @@ import androidx.room.RoomDatabase
 /**
  * Single Room database for the local-first store.
  *
- * v2 bump adds plan_entry, person, and routine — fallbackToDestructiveMigration
+ * v2 bump adds plan_entry, person, and routine; v4 adds the plan_attendee
+ * join table (named household attendees on a meal). fallbackToDestructiveMigration
  * is fine while v1 is still pre-release; once we ship to anything beyond
  * personal devices we'll need real migrations.
  */
@@ -18,8 +19,9 @@ import androidx.room.RoomDatabase
         PlanEntry::class,
         Person::class,
         Routine::class,
+        PlanAttendee::class,
     ],
-    version = 3,
+    version = 4,
     exportSchema = false,
 )
 abstract class IdunDatabase : RoomDatabase() {
@@ -27,6 +29,7 @@ abstract class IdunDatabase : RoomDatabase() {
     abstract fun planDao(): PlanDao
     abstract fun personDao(): PersonDao
     abstract fun routineDao(): RoutineDao
+    abstract fun planAttendeeDao(): PlanAttendeeDao
 
     companion object {
         @Volatile private var INSTANCE: IdunDatabase? = null

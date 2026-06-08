@@ -87,6 +87,18 @@
     <string name="routine_change_weekday">Día de la semana</string>
     <string name="routine_delete">Eliminar rutina</string>
 
+    <!-- Household / attendees -->
+    <string name="planning_who_eating">Quién come</string>
+    <string name="planning_no_household">Añade primero miembros del hogar y luego podrás asignarlos a las comidas.</string>
+    <string name="household_title">Hogar</string>
+    <string name="household_intro">Personas que puedes asignar a las comidas planificadas. Sus etiquetas dietéticas se muestran en cada comida a la que se unen.</string>
+    <string name="household_empty">Aún no hay miembros del hogar. Añade uno para asignarlo a las comidas.</string>
+    <string name="household_add">Añadir miembro</string>
+    <string name="household_edit">Editar</string>
+    <string name="household_delete">Eliminar</string>
+    <string name="household_name_hint">Nombre</string>
+    <string name="household_tags_hint">Etiquetas dietéticas (separadas por comas)</string>
+
     <string name="pick_recipe_title">Elegir receta</string>
 
     <string name="credits_title">Créditos</string>

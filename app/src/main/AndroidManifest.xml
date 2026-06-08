@@ -60,6 +60,11 @@
             android:parentActivityName=".PlanningActivity" />
 
         <activity
+            android:name=".HouseholdActivity"
+            android:label="@string/household_title"
+            android:parentActivityName=".PlanningActivity" />
+
+        <activity
             android:name=".PickRecipeActivity"
             android:label="@string/pick_recipe_title"
             android:parentActivityName=".MainActivity" />

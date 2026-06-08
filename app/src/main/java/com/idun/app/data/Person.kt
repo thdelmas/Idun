@@ -36,6 +36,9 @@ interface PersonDao {
     @Query("SELECT * FROM person WHERE is_household = 1 ORDER BY name")
     suspend fun household(): List<Person>
 
+    @Query("SELECT * FROM person ORDER BY name")
+    suspend fun all(): List<Person>
+
     @Query("SELECT * FROM person WHERE id = :id LIMIT 1")
     suspend fun byId(id: Long): Person?
 }

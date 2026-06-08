@@ -19,6 +19,7 @@ import androidx.lifecycle.lifecycleScope
 import com.idun.app.bios.BiosClient
 import com.idun.app.data.IdunDatabase
 import com.idun.app.data.MealLogEntry
+import com.idun.app.data.Person
 import com.idun.app.data.PlanEntry
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
@@ -26,6 +27,7 @@ import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityPlanningBinding
 import com.idun.app.reminders.ReminderScheduler
 import com.idun.app.ui.setupBottomNav
+import com.idun.app.util.Attendees
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -105,6 +107,10 @@ class PlanningActivity : AppCompatActivity() {
             startActivity(Intent(this, RoutineActivity::class.java))
             true
         }
+        R.id.action_household -> {
+            startActivity(Intent(this, HouseholdActivity::class.java))
+            true
+        }
         else -> super.onOptionsItemSelected(item)
     }
 
@@ -112,9 +118,14 @@ class PlanningActivity : AppCompatActivity() {
         lifecycleScope.launch {
             val from = today()
             val to = from.plusDays(DAYS_AHEAD - 1L)
-            val plans = withContext(Dispatchers.IO) {
-                IdunDatabase.get(this@PlanningActivity)
-                    .planDao().inRange(from.toString(), to.toString())
+            val db = IdunDatabase.get(this@PlanningActivity)
+            val (plans, attendeesByEntry) = withContext(Dispatchers.IO) {
+                val plans = db.planDao().inRange(from.toString(), to.toString())
+                val personById = db.personDao().all().associateBy { it.id }
+                val byEntry = db.planAttendeeDao().all()
+                    .groupBy { it.planEntryId }
+                    .mapValues { (_, links) -> links.mapNotNull { personById[it.personId] } }
+                plans to byEntry
             }
             val plansByDate = plans.groupBy { it.dateIso }
             val recipesById = recipeRepo.all().associateBy { it.id }
@@ -124,7 +135,7 @@ class PlanningActivity : AppCompatActivity() {
             for (i in 0 until DAYS_AHEAD) {
                 val date = from.plusDays(i.toLong())
                 val dayPlans = plansByDate[date.toString()].orEmpty().sortedBy { it.timeMinutes }
-                binding.daysContainer.addView(buildDayCard(inflater, date, dayPlans, recipesById))
+                binding.daysContainer.addView(buildDayCard(inflater, date, dayPlans, recipesById, attendeesByEntry))
             }
         }
     }
@@ -134,6 +145,7 @@ class PlanningActivity : AppCompatActivity() {
         date: LocalDate,
         meals: List<PlanEntry>,
         recipesById: Map<String, Recipe>,
+        attendeesByEntry: Map<Long, List<Person>>,
     ): View {
         val card = inflater.inflate(R.layout.item_plan_day, binding.daysContainer, false)
         val weekday = date.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault())
@@ -150,7 +162,9 @@ class PlanningActivity : AppCompatActivity() {
             slots.addView(makeAddMealRow(inflater, slots, date, isFirst = true, lastTime = null))
         } else {
             for (meal in meals) {
-                slots.addView(makeMealRow(inflater, slots, meal, recipesById[meal.recipeId]))
+                slots.addView(
+                    makeMealRow(inflater, slots, meal, recipesById[meal.recipeId], attendeesByEntry[meal.id].orEmpty())
+                )
             }
             slots.addView(
                 makeAddMealRow(
@@ -193,6 +207,7 @@ class PlanningActivity : AppCompatActivity() {
         parent: LinearLayout,
         entry: PlanEntry,
         recipe: Recipe?,
+        attendees: List<Person>,
     ): View {
         val row = inflater.inflate(R.layout.item_plan_meal, parent, false)
         row.findViewById<TextView>(R.id.meal_time).text = formatTimeOfDay(entry.timeMinutes)
@@ -207,6 +222,9 @@ class PlanningActivity : AppCompatActivity() {
         if (entry.guestCount > 0) {
             parts.add(resources.getQuantityString(R.plurals.guests_count, entry.guestCount, entry.guestCount))
         }
+        if (attendees.isNotEmpty()) parts.add(Attendees.names(attendees))
+        val dietary = Attendees.dietaryNote(attendees)
+        if (dietary.isNotEmpty()) parts.add(dietary)
         meta.text = parts.joinToString("  ·  ")
         meta.visibility = View.VISIBLE
         eatenCheck.visibility = if (entry.eatenAtMs != null) View.VISIBLE else View.GONE
@@ -287,6 +305,8 @@ class PlanningActivity : AppCompatActivity() {
         actions += { promptIntStepper(R.string.planning_change_guests, entry.guestCount, 0) {
             updateEntry(entry.copy(guestCount = it))
         } }
+        labels += getString(R.string.planning_who_eating)
+        actions += { promptAttendees(entry) }
         labels += getString(R.string.planning_change_recipe)
         actions += {
             pendingReplace = entry
@@ -299,6 +319,46 @@ class PlanningActivity : AppCompatActivity() {
             .setTitle(recipe?.displayName() ?: getString(R.string.planning_missing_recipe))
             .setItems(labels.toTypedArray()) { _, which -> actions[which]() }
             .show()
+    }
+
+    private fun promptAttendees(entry: PlanEntry) {
+        lifecycleScope.launch {
+            val db = IdunDatabase.get(this@PlanningActivity)
+            val (household, selectedIds) = withContext(Dispatchers.IO) {
+                db.personDao().household() to db.planAttendeeDao().personIdsForEntry(entry.id).toSet()
+            }
+            if (household.isEmpty()) {
+                AlertDialog.Builder(this@PlanningActivity)
+                    .setTitle(R.string.planning_who_eating)
+                    .setMessage(R.string.planning_no_household)
+                    .setPositiveButton(R.string.household_add) { _, _ ->
+                        startActivity(Intent(this@PlanningActivity, HouseholdActivity::class.java))
+                    }
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .show()
+                return@launch
+            }
+            val names = household.map { it.name }.toTypedArray()
+            val checked = BooleanArray(household.size) { household[it].id in selectedIds }
+            AlertDialog.Builder(this@PlanningActivity)
+                .setTitle(R.string.planning_who_eating)
+                .setMultiChoiceItems(names, checked) { _, which, isChecked -> checked[which] = isChecked }
+                .setPositiveButton(android.R.string.ok) { _, _ ->
+                    val chosen = household.filterIndexed { i, _ -> checked[i] }.map { it.id }
+                    setAttendees(entry.id, chosen)
+                }
+                .setNegativeButton(android.R.string.cancel, null)
+                .show()
+        }
+    }
+
+    private fun setAttendees(entryId: Long, personIds: List<Long>) {
+        lifecycleScope.launch {
+            withContext(Dispatchers.IO) {
+                IdunDatabase.get(this@PlanningActivity).planAttendeeDao().setAttendees(entryId, personIds)
+            }
+            render()
+        }
     }
 
     private fun promptIntStepper(
@@ -350,7 +410,9 @@ class PlanningActivity : AppCompatActivity() {
     private fun removeEntry(entry: PlanEntry) {
         lifecycleScope.launch {
             withContext(Dispatchers.IO) {
-                IdunDatabase.get(this@PlanningActivity).planDao().delete(entry)
+                val db = IdunDatabase.get(this@PlanningActivity)
+                db.planAttendeeDao().clearForEntry(entry.id)
+                db.planDao().delete(entry)
             }
             render()
             rescheduleReminders()
