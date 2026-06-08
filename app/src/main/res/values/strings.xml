@@ -97,6 +97,18 @@
     <string name="routine_change_weekday">Day of week</string>
     <string name="routine_delete">Delete routine</string>
 
+    <!-- Household / attendees -->
+    <string name="planning_who_eating">Who\'s eating</string>
+    <string name="planning_no_household">Add household members first, then you can assign them to meals.</string>
+    <string name="household_title">Household</string>
+    <string name="household_intro">People you can assign to planned meals. Their dietary tags are flagged on each meal they join.</string>
+    <string name="household_empty">No household members yet. Add one to assign them to meals.</string>
+    <string name="household_add">Add member</string>
+    <string name="household_edit">Edit</string>
+    <string name="household_delete">Delete</string>
+    <string name="household_name_hint">Name</string>
+    <string name="household_tags_hint">Dietary tags (comma-separated)</string>
+
     <!-- Pick recipe -->
     <string name="pick_recipe_title">Pick a recipe</string>
 

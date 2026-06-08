@@ -87,6 +87,18 @@
     <string name="routine_change_weekday">Jour de la semaine</string>
     <string name="routine_delete">Supprimer la routine</string>
 
+    <!-- Household / attendees -->
+    <string name="planning_who_eating">Qui mange</string>
+    <string name="planning_no_household">Ajoutez d\'abord des membres du foyer, vous pourrez ensuite les associer aux repas.</string>
+    <string name="household_title">Foyer</string>
+    <string name="household_intro">Personnes que vous pouvez associer aux repas planifiés. Leurs étiquettes alimentaires sont signalées sur chaque repas qu\'elles partagent.</string>
+    <string name="household_empty">Aucun membre du foyer pour l\'instant. Ajoutez-en un pour l\'associer aux repas.</string>
+    <string name="household_add">Ajouter un membre</string>
+    <string name="household_edit">Modifier</string>
+    <string name="household_delete">Supprimer</string>
+    <string name="household_name_hint">Nom</string>
+    <string name="household_tags_hint">Étiquettes alimentaires (séparées par des virgules)</string>
+
     <string name="pick_recipe_title">Choisir une recette</string>
 
     <string name="credits_title">Crédits</string>

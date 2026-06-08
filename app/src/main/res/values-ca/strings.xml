@@ -87,6 +87,18 @@
     <string name="routine_change_weekday">Dia de la setmana</string>
     <string name="routine_delete">Elimina rutina</string>
 
+    <!-- Household / attendees -->
+    <string name="planning_who_eating">Qui menja</string>
+    <string name="planning_no_household">Afegeix primer membres de la llar i després els podràs assignar als àpats.</string>
+    <string name="household_title">Llar</string>
+    <string name="household_intro">Persones que pots assignar als àpats planificats. Les seves etiquetes dietètiques es mostren a cada àpat al qual s\'afegeixen.</string>
+    <string name="household_empty">Encara no hi ha membres de la llar. Afegeix-ne un per assignar-lo als àpats.</string>
+    <string name="household_add">Afegeix membre</string>
+    <string name="household_edit">Edita</string>
+    <string name="household_delete">Elimina</string>
+    <string name="household_name_hint">Nom</string>
+    <string name="household_tags_hint">Etiquetes dietètiques (separades per comes)</string>
+
     <string name="pick_recipe_title">Triar recepta</string>
 
     <string name="credits_title">Crèdits</string>
