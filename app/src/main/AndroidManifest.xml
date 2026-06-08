@@ -6,12 +6,18 @@
     <uses-permission android:name="com.bios.app.permission.WRITE_COMPANION" />
     <uses-permission android:name="com.bios.app.permission.READ_HEALTH" />
 
+    <!-- Meal reminders: post notifications (33+), exact alarms, re-arm on boot. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <queries>
         <package android:name="com.bios.app" />
         <provider android:authorities="com.bios.app.health" />
     </queries>
 
     <application
+        android:name=".IdunApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -49,6 +55,11 @@
             android:label="@string/planning_title" />
 
         <activity
+            android:name=".RoutineActivity"
+            android:label="@string/routines_title"
+            android:parentActivityName=".PlanningActivity" />
+
+        <activity
             android:name=".PickRecipeActivity"
             android:label="@string/pick_recipe_title"
             android:parentActivityName=".MainActivity" />
@@ -65,6 +76,18 @@
         <activity
             android:name=".FoodDetailActivity"
             android:parentActivityName=".LearnActivity" />
+
+        <receiver
+            android:name=".reminders.MealReminderReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".reminders.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
     </application>
 </manifest>

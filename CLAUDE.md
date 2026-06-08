@@ -2,11 +2,11 @@
 
 Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for product framing.
 
-> **⚠️ Active work — commercial clearance:** before paid release, the recipe corpus is being
-> **re-derived** to remove third-party copyright/brand dependencies. Execution brief:
-> [docs/COMMERCIAL-CLEARANCE.md](docs/COMMERCIAL-CLEARANCE.md). Until that lands, do **not** add
-> verbatim upstream recipe prose, and the recipe-set labels move off "Blueprint"/"Longo" →
-> **"Protocol"/"Mediterranean"**.
+> **✅ Commercial clearance — landed (v0.3.1, 2026-06-08):** the recipe corpus has been
+> **re-derived** off third-party copyright/brand dependencies and the set labels de-branded to
+> **"Protocol"/"Mediterranean"**. Standing rules from that work: do **not** add verbatim upstream
+> recipe prose, and never restore "Blueprint"/"Longo" as user-facing *set labels* (name attribution
+> on Credits only). Record of the work: [docs/COMMERCIAL-CLEARANCE.md](docs/COMMERCIAL-CLEARANCE.md).
 
 ## Identity
 

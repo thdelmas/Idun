@@ -6,6 +6,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.format.DateFormat
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -22,6 +24,7 @@ import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityPlanningBinding
+import com.idun.app.reminders.ReminderScheduler
 import com.idun.app.ui.setupBottomNav
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -90,6 +93,19 @@ class PlanningActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         render()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_planning, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
+        R.id.action_routines -> {
+            startActivity(Intent(this, RoutineActivity::class.java))
+            true
+        }
+        else -> super.onOptionsItemSelected(item)
     }
 
     private fun render() {
@@ -317,6 +333,7 @@ class PlanningActivity : AppCompatActivity() {
                 )
             }
             render()
+            rescheduleReminders()
         }
     }
 
@@ -326,6 +343,7 @@ class PlanningActivity : AppCompatActivity() {
                 IdunDatabase.get(this@PlanningActivity).planDao().update(entry)
             }
             render()
+            rescheduleReminders()
         }
     }
 
@@ -335,6 +353,7 @@ class PlanningActivity : AppCompatActivity() {
                 IdunDatabase.get(this@PlanningActivity).planDao().delete(entry)
             }
             render()
+            rescheduleReminders()
         }
     }
 
@@ -355,6 +374,7 @@ class PlanningActivity : AppCompatActivity() {
                 BiosClient(this@PlanningActivity).pushMealIntake(now, servingsEaten)
             }
             render()
+            rescheduleReminders()
         }
     }
 
@@ -363,6 +383,11 @@ class PlanningActivity : AppCompatActivity() {
         val formatter = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)
             .withLocale(Locale.getDefault())
         return local.format(formatter)
+    }
+
+    /** Re-arm meal-reminder alarms after any change to the plan. No-op when reminders are off. */
+    private fun rescheduleReminders() {
+        lifecycleScope.launch { ReminderScheduler(applicationContext).reschedule() }
     }
 
     private fun today(): LocalDate = LocalDate.now()
