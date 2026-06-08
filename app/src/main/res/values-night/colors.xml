@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Warm dark — Idun's parchment after dusk, NOT a navy/cockpit inversion.
+        Surfaces are espresso/dark-brown (warm hue retained) so the orchard
+        identity survives the switch; the apple-red + W2F-cyan accents are only
+        lifted enough to clear contrast on the dark ground. See the design note
+        in values/themes.xml: family resemblance lives in warmth, not in
+        flipping to cold dark. black/white are intentionally NOT overridden —
+        white still reads on the (still reddish) apple-red badges/step circles.
+    -->
+
+    <!-- Apple red — brightened so it carries on dark ground. -->
+    <color name="accent_apple_red">#E06A6A</color>
+    <!-- onPrimaryContainer: container is now dark, so its "on" colour is light. -->
+    <color name="accent_apple_red_dark">#F4D5D5</color>
+    <!-- primaryContainer: a deep muted red, the dark-mode counterpart of the soft tint. -->
+    <color name="accent_apple_red_soft">#4A2424</color>
+
+    <!-- W2F flow cyan — lifted a touch for legibility. -->
+    <color name="accent_cyan">#26C6DA</color>
+    <!-- onSecondaryContainer: light cyan on the dark container. -->
+    <color name="accent_cyan_dark">#D6F0F4</color>
+    <!-- secondaryContainer: deep teal. -->
+    <color name="accent_cyan_soft">#123A40</color>
+
+    <color name="background">#1F1B16</color>
+    <color name="surface_variant">#2A251E</color>
+    <color name="text_primary">#F0E9DC</color>
+    <color name="text_secondary">#B8AE9E</color>
+    <color name="divider">#3A332A</color>
+
+    <color name="banner_pending">#3A3320</color>
+    <color name="card_background">#272219</color>
+</resources>

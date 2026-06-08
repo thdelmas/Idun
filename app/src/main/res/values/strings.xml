@@ -53,6 +53,12 @@
     <string name="reminder_channel_name">Meal reminders</string>
     <string name="reminder_channel_desc">Nudges before your planned meals.</string>
     <string name="reminder_body">Planned for %1$s</string>
+    <string name="settings_appearance_section">Appearance</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="settings_theme_dialog_title">Choose theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
     <string name="settings_language_section">Language</string>
     <string name="settings_language_label">App language</string>
     <string name="settings_language_dialog_title">Choose language</string>

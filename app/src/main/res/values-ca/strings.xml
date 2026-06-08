@@ -49,6 +49,12 @@
     <string name="reminder_channel_name">Recordatoris d\'àpats</string>
     <string name="reminder_channel_desc">Avisos abans dels teus àpats planificats.</string>
     <string name="reminder_body">Planificat per a les %1$s</string>
+    <string name="settings_appearance_section">Aparença</string>
+    <string name="settings_theme_label">Tema</string>
+    <string name="settings_theme_dialog_title">Tria el tema</string>
+    <string name="settings_theme_system">Segons el sistema</string>
+    <string name="settings_theme_light">Clar</string>
+    <string name="settings_theme_dark">Fosc</string>
     <string name="settings_language_section">Idioma</string>
     <string name="settings_language_label">Idioma de l\'app</string>
     <string name="settings_language_dialog_title">Tria l\'idioma</string>
