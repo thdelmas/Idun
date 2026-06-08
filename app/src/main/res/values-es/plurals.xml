@@ -16,4 +16,16 @@
         <item quantity="one">%d alimento</item>
         <item quantity="other">%d alimentos</item>
     </plurals>
+    <plurals name="routines_applied_count">
+        <item quantity="one">%d comida añadida a tu plan</item>
+        <item quantity="other">%d comidas añadidas a tu plan</item>
+    </plurals>
+    <plurals name="reminders_lead_minutes">
+        <item quantity="one">%d minuto antes</item>
+        <item quantity="other">%d minutos antes</item>
+    </plurals>
+    <plurals name="reminders_lead_hours">
+        <item quantity="one">%d hora antes</item>
+        <item quantity="other">%d horas antes</item>
+    </plurals>
 </resources>

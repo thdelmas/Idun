@@ -40,6 +40,15 @@
     <string name="settings_bios_status_connected">Connectat</string>
     <string name="settings_bios_pending_approval">Pendent d\'aprovació a Bios → Apps acompanyants</string>
     <string name="bios_open_app">Obrir Bios</string>
+    <string name="settings_reminders_section">Recordatoris d\'àpats</string>
+    <string name="settings_reminders_toggle">Recorda\'m els àpats planificats</string>
+    <string name="settings_reminders_lead_label">Avisa\'m</string>
+    <string name="settings_reminders_lead_at_time">A l\'hora de l\'àpat</string>
+    <string name="settings_reminders_blocked_hint">Les notificacions d\'Idun estan desactivades als ajustos del sistema, així que els recordatoris no apareixeran.</string>
+    <string name="settings_reminders_permission_denied">Els recordatoris necessiten permís de notificacions.</string>
+    <string name="reminder_channel_name">Recordatoris d\'àpats</string>
+    <string name="reminder_channel_desc">Avisos abans dels teus àpats planificats.</string>
+    <string name="reminder_body">Planificat per a les %1$s</string>
     <string name="settings_language_section">Idioma</string>
     <string name="settings_language_label">Idioma de l\'app</string>
     <string name="settings_language_dialog_title">Tria l\'idioma</string>
@@ -65,6 +74,18 @@
     <string name="planning_change_recipe">Canviar recepta</string>
     <string name="planning_remove">Eliminar</string>
     <string name="planning_window_summary">%1$s menjant · %2$s dejunant</string>
+
+    <!-- Routines -->
+    <string name="routines_title">Rutines</string>
+    <string name="routines_intro">Àpats recurrents que pots aplicar al teu pla. Aplicar-los mai no sobreescriu un àpat que ja hagis planificat.</string>
+    <string name="routines_empty">Encara no hi ha rutines. Afegeix-ne una per construir la teva setmana habitual.</string>
+    <string name="routines_add">Afegeix rutina</string>
+    <string name="routines_apply">Aplica al pla</string>
+    <string name="routines_apply_confirm">Vols afegir aquestes rutines als propers %1$d dies? Els àpats que ja has planificat es conserven.</string>
+    <string name="routines_apply_confirm_yes">Aplica</string>
+    <string name="routines_applied_none">No hi ha res a afegir: el teu pla ja les inclou.</string>
+    <string name="routine_change_weekday">Dia de la setmana</string>
+    <string name="routine_delete">Elimina rutina</string>
 
     <string name="pick_recipe_title">Triar recepta</string>
 

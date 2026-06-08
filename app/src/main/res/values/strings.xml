@@ -44,6 +44,15 @@
     <string name="settings_bios_status_connected">Connected</string>
     <string name="settings_bios_pending_approval">Pending approval in Bios → Companion Apps</string>
     <string name="bios_open_app">Open Bios</string>
+    <string name="settings_reminders_section">Meal reminders</string>
+    <string name="settings_reminders_toggle">Remind me about planned meals</string>
+    <string name="settings_reminders_lead_label">Remind me</string>
+    <string name="settings_reminders_lead_at_time">At meal time</string>
+    <string name="settings_reminders_blocked_hint">Notifications are turned off for Idun in system settings, so reminders won\'t appear.</string>
+    <string name="settings_reminders_permission_denied">Reminders need notification permission.</string>
+    <string name="reminder_channel_name">Meal reminders</string>
+    <string name="reminder_channel_desc">Nudges before your planned meals.</string>
+    <string name="reminder_body">Planned for %1$s</string>
     <string name="settings_language_section">Language</string>
     <string name="settings_language_label">App language</string>
     <string name="settings_language_dialog_title">Choose language</string>
@@ -75,6 +84,18 @@
     <string name="planning_change_recipe">Change recipe</string>
     <string name="planning_remove">Remove</string>
     <string name="planning_window_summary">%1$s eating · %2$s fasting</string>
+
+    <!-- Routines -->
+    <string name="routines_title">Routines</string>
+    <string name="routines_intro">Recurring meals that you can apply to your plan. Applying never overwrites a meal you already planned.</string>
+    <string name="routines_empty">No routines yet. Add one to build your usual week.</string>
+    <string name="routines_add">Add routine</string>
+    <string name="routines_apply">Apply to the plan</string>
+    <string name="routines_apply_confirm">Add these routines to the next %1$d days? Meals you already planned are kept.</string>
+    <string name="routines_apply_confirm_yes">Apply</string>
+    <string name="routines_applied_none">Nothing to add — your plan already covers these.</string>
+    <string name="routine_change_weekday">Day of week</string>
+    <string name="routine_delete">Delete routine</string>
 
     <!-- Pick recipe -->
     <string name="pick_recipe_title">Pick a recipe</string>

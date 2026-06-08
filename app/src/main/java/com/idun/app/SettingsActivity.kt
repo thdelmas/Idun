@@ -1,14 +1,24 @@
 package com.idun.app
 
+import android.Manifest
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
 import androidx.core.os.LocaleListCompat
+import androidx.lifecycle.lifecycleScope
 import com.idun.app.bios.BiosClient
 import com.idun.app.databinding.ActivitySettingsBinding
+import com.idun.app.reminders.ReminderScheduler
+import com.idun.app.reminders.ReminderSettings
+import kotlinx.coroutines.launch
 
 /**
  * Settings screen. Two sections:
@@ -25,6 +35,16 @@ class SettingsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySettingsBinding
     private lateinit var biosClient: BiosClient
+    private lateinit var reminderSettings: ReminderSettings
+
+    private val notifPermission =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            if (granted) enableReminders() else {
+                Toast.makeText(this, R.string.settings_reminders_permission_denied, Toast.LENGTH_SHORT).show()
+                binding.remindersToggle.isChecked = false
+            }
+            refresh()
+        }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,8 +55,15 @@ class SettingsActivity : AppCompatActivity() {
         binding.toolbar.setNavigationOnClickListener { finish() }
 
         biosClient = BiosClient(this)
+        reminderSettings = ReminderSettings(this)
 
         binding.languageRow.setOnClickListener { showLanguagePicker() }
+
+        binding.remindersToggle.isChecked = reminderSettings.enabled
+        binding.remindersToggle.setOnCheckedChangeListener { _, checked ->
+            if (checked) requestEnableReminders() else disableReminders()
+        }
+        binding.remindersLeadRow.setOnClickListener { showLeadPicker() }
 
         binding.biosToggle.isChecked = biosClient.isEnabled
         binding.biosToggle.setOnCheckedChangeListener { _, checked ->
@@ -99,6 +126,59 @@ class SettingsActivity : AppCompatActivity() {
 
         val installed = biosClient.status() != BiosClient.Status.NOT_INSTALLED
         binding.biosOpenApp.visibility = if (installed) View.VISIBLE else View.GONE
+
+        binding.remindersLeadRow.visibility = if (reminderSettings.enabled) View.VISIBLE else View.GONE
+        binding.remindersLeadValue.text = leadLabel(reminderSettings.leadMinutes)
+        // Enabled in-app but blocked at the OS level — tell the user why nothing fires.
+        val blocked = reminderSettings.enabled && !NotificationManagerCompat.from(this).areNotificationsEnabled()
+        binding.remindersHint.visibility = if (blocked) View.VISIBLE else View.GONE
+    }
+
+    private fun requestEnableReminders() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) {
+            notifPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+        } else {
+            enableReminders()
+            refresh()
+        }
+    }
+
+    private fun enableReminders() {
+        reminderSettings.enabled = true
+        reschedule()
+    }
+
+    private fun disableReminders() {
+        reminderSettings.enabled = false
+        reschedule()
+        refresh()
+    }
+
+    private fun showLeadPicker() {
+        val labels = ReminderSettings.LEAD_OPTIONS.map { leadLabel(it) }.toTypedArray()
+        val checked = ReminderSettings.LEAD_OPTIONS.indexOf(reminderSettings.leadMinutes).coerceAtLeast(0)
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle(R.string.settings_reminders_lead_label)
+            .setSingleChoiceItems(labels, checked) { dialog, which ->
+                reminderSettings.leadMinutes = ReminderSettings.LEAD_OPTIONS[which]
+                dialog.dismiss()
+                reschedule()
+                refresh()
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
+    private fun leadLabel(minutes: Int): String = when {
+        minutes == 0 -> getString(R.string.settings_reminders_lead_at_time)
+        minutes % 60 == 0 -> resources.getQuantityString(R.plurals.reminders_lead_hours, minutes / 60, minutes / 60)
+        else -> resources.getQuantityString(R.plurals.reminders_lead_minutes, minutes, minutes)
+    }
+
+    private fun reschedule() {
+        lifecycleScope.launch { ReminderScheduler(applicationContext).reschedule() }
     }
 
     private fun openBiosApp() {
