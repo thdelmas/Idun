@@ -4,8 +4,8 @@
 
     <!-- Main screen -->
     <string name="recipes_title">Recipes</string>
-    <string name="source_blueprint">Blueprint</string>
-    <string name="source_longo">Longo</string>
+    <string name="source_blueprint">Protocol</string>
+    <string name="source_longo">Mediterranean</string>
     <string name="fab_shopping_list">Shopping list</string>
 
     <!-- Recipe detail -->

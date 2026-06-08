@@ -3,8 +3,8 @@
     <string name="app_name">Idun</string>
 
     <string name="recipes_title">Recetas</string>
-    <string name="source_blueprint">Blueprint</string>
-    <string name="source_longo">Longo</string>
+    <string name="source_blueprint">Protocolo</string>
+    <string name="source_longo">Mediterránea</string>
     <string name="fab_shopping_list">Lista de la compra</string>
 
     <string name="recipe_detail_title">Receta</string>
