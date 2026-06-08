@@ -22,6 +22,7 @@ import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.displayName
 import com.idun.app.databinding.ActivityPlanningBinding
+import com.idun.app.ui.setupBottomNav
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -64,8 +65,6 @@ class PlanningActivity : AppCompatActivity() {
         binding = ActivityPlanningBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        binding.toolbar.setNavigationOnClickListener { finish() }
 
         recipeRepo = RecipeRepository(this)
 
@@ -84,14 +83,7 @@ class PlanningActivity : AppCompatActivity() {
             }
         }
 
-        binding.fabShoppingList.setOnClickListener {
-            startActivity(
-                Intent(this, ShoppingListActivity::class.java)
-                    .putExtra(ShoppingListActivity.EXTRA_FROM_ISO, today().toString())
-                    .putExtra(ShoppingListActivity.EXTRA_TO_ISO, today().plusDays(DAYS_AHEAD - 1L).toString())
-            )
-        }
-
+        setupBottomNav(binding.bottomNav, R.id.nav_plan)
         render()
     }
 

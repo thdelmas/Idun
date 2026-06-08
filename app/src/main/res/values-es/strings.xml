@@ -3,8 +3,8 @@
     <string name="app_name">Idun</string>
 
     <string name="recipes_title">Recetas</string>
-    <string name="source_blueprint">Blueprint</string>
-    <string name="source_longo">Longo</string>
+    <string name="source_blueprint">Protocolo</string>
+    <string name="source_longo">Mediterránea</string>
     <string name="fab_shopping_list">Lista de la compra</string>
 
     <string name="recipe_detail_title">Receta</string>
@@ -47,6 +47,9 @@
 
     <string name="search_hint">Buscar recetas o etiquetas</string>
     <string name="section_count_label">%d recetas</string>
+    <string name="recipes_empty_title">Sin coincidencias</string>
+    <string name="recipes_empty_body">Prueba otra búsqueda o cambia el filtro.</string>
+    <string name="filter_all">Todas</string>
 
     <string name="planning_title">Planificar</string>
     <string name="planning_today_badge">Hoy</string>
@@ -82,4 +85,16 @@
     <string name="credits_longo_link_institute">USC Longevity Institute</string>
     <string name="credits_disclaimer">Idun es un proyecto independiente, sin afiliación ni respaldo de ninguno de los dos investigadores.</string>
     <string name="credits_no_browser">No hay navegador disponible</string>
+
+    <string name="food_image_credit">Imagen: Wikimedia Commons</string>
+    <string name="learn_search_hint">Buscar ingredientes</string>
+    <string name="learn_empty_title">Sin coincidencias</string>
+    <string name="learn_empty_body">Prueba otra búsqueda.</string>
+    <string name="learn_title">Aprender</string>
+    <string name="food_section_benefits">Beneficios</string>
+    <string name="food_section_how_to_consume">Cómo consumirlo</string>
+    <string name="food_section_when_to_consume">Cuándo consumirlo</string>
+    <string name="food_section_deficiency_signs">Signos de carencia</string>
+    <string name="food_section_excess_signs">Signos de exceso</string>
+    <string name="food_disclaimer">Solo informativo — no es consejo médico. Consulta a un profesional para diagnóstico o tratamiento.</string>
 </resources>

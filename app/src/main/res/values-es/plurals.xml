@@ -12,4 +12,8 @@
         <item quantity="one">%d invitado</item>
         <item quantity="other">%d invitados</item>
     </plurals>
+    <plurals name="foods_count">
+        <item quantity="one">%d alimento</item>
+        <item quantity="other">%d alimentos</item>
+    </plurals>
 </resources>

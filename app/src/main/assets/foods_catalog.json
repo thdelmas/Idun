@@ -1,0 +1,1228 @@
+{
+  "_meta": {
+    "source_doc": "Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md",
+    "generated_by": "scripts/foods/build_catalog.py",
+    "notes": "Bundled as an Android asset and loaded by FoodResolver at runtime to map a recipe ingredient line to a food_id. Patterns are case-insensitive Python/Java-compatible regex; order matters (first match wins)."
+  },
+  "foods": [
+    {
+      "id": "garlic-powder",
+      "name_en": "Garlic powder",
+      "category": "SPICES",
+      "patterns": [
+        "garlic powder"
+      ]
+    },
+    {
+      "id": "onion-powder",
+      "name_en": "Onion powder",
+      "category": "SPICES",
+      "patterns": [
+        "onion powder"
+      ]
+    },
+    {
+      "id": "ginger-powder",
+      "name_en": "Ginger (powder)",
+      "category": "SPICES",
+      "patterns": [
+        "ginger powder"
+      ]
+    },
+    {
+      "id": "flour-chickpea",
+      "name_en": "Chickpea flour",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "chickpea flour"
+      ]
+    },
+    {
+      "id": "flour-almond",
+      "name_en": "Almond flour",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "almond flour"
+      ]
+    },
+    {
+      "id": "tomato-paste",
+      "name_en": "Tomato paste",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "tomato paste"
+      ]
+    },
+    {
+      "id": "tomato-sauce",
+      "name_en": "Tomato sauce (jarred)",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "tomato sauce"
+      ]
+    },
+    {
+      "id": "hummus-sundried",
+      "name_en": "Sun-dried tomato hummus",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "sun-dried tomato hummus"
+      ]
+    },
+    {
+      "id": "cavolo-nero",
+      "name_en": "Cavolo nero (Tuscan kale)",
+      "category": "PRODUCE",
+      "patterns": [
+        "cavolo nero"
+      ]
+    },
+    {
+      "id": "sweet-potato",
+      "name_en": "Sweet potato",
+      "category": "PRODUCE",
+      "patterns": [
+        "sweet potato"
+      ]
+    },
+    {
+      "id": "milk-almond",
+      "name_en": "Almond milk",
+      "category": "MILKS_BROTHS",
+      "patterns": [
+        "almond milk"
+      ]
+    },
+    {
+      "id": "milk-macadamia",
+      "name_en": "Macadamia nut milk",
+      "category": "MILKS_BROTHS",
+      "patterns": [
+        "macadamia nut milk"
+      ]
+    },
+    {
+      "id": "macadamia-nut",
+      "name_en": "Macadamia nut",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "macadamia nut"
+      ]
+    },
+    {
+      "id": "spring-onion",
+      "name_en": "Spring onion",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bspring onion\\b",
+        "\\bfresh onion\\b"
+      ]
+    },
+    {
+      "id": "shallot",
+      "name_en": "Shallot",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bshallot"
+      ]
+    },
+    {
+      "id": "leek",
+      "name_en": "Leek",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bleek"
+      ]
+    },
+    {
+      "id": "garlic",
+      "name_en": "Garlic",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bgarlic\\b",
+        "\\bgarlic clove"
+      ]
+    },
+    {
+      "id": "chive",
+      "name_en": "Chive bulb",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bchive bulb"
+      ]
+    },
+    {
+      "id": "chives",
+      "name_en": "Chives (herb)",
+      "category": "HERBS",
+      "patterns": [
+        "\\bchives\\b"
+      ]
+    },
+    {
+      "id": "onion",
+      "name_en": "Onion",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bonion"
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name_en": "Broccoli",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bbroccoli"
+      ]
+    },
+    {
+      "id": "cauliflower",
+      "name_en": "Cauliflower",
+      "category": "PRODUCE",
+      "patterns": [
+        "cauliflower",
+        "riced cauliflower"
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name_en": "Cabbage",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bcabbage",
+        "red cabbage",
+        "white cabbage"
+      ]
+    },
+    {
+      "id": "radish",
+      "name_en": "Radish",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bradish"
+      ]
+    },
+    {
+      "id": "carrot",
+      "name_en": "Carrot",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bcarrot"
+      ]
+    },
+    {
+      "id": "celery",
+      "name_en": "Celery",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bcelery"
+      ]
+    },
+    {
+      "id": "potato",
+      "name_en": "Potato",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bpotato(es)?\\b"
+      ]
+    },
+    {
+      "id": "butternut-squash",
+      "name_en": "Butternut squash",
+      "category": "PRODUCE",
+      "patterns": [
+        "butternut squash"
+      ]
+    },
+    {
+      "id": "acorn-squash",
+      "name_en": "Acorn squash",
+      "category": "PRODUCE",
+      "patterns": [
+        "acorn squash"
+      ]
+    },
+    {
+      "id": "spaghetti-squash",
+      "name_en": "Spaghetti squash",
+      "category": "PRODUCE",
+      "patterns": [
+        "spaghetti squash"
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "name_en": "Pumpkin",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bpumpkin"
+      ]
+    },
+    {
+      "id": "tomato",
+      "name_en": "Tomato",
+      "category": "PRODUCE",
+      "patterns": [
+        "tomato(es)?",
+        "cherry tomato",
+        "roma tomato",
+        "sauce tomato",
+        "salad tomato",
+        "firm tomato",
+        "small tomato",
+        "peeled tomato"
+      ]
+    },
+    {
+      "id": "bell-pepper",
+      "name_en": "Bell pepper",
+      "category": "PRODUCE",
+      "patterns": [
+        "bell pepper",
+        "red peppers?\\b",
+        "yellow peppers?\\b",
+        "large pepper",
+        "large yellow peppers?\\b",
+        "roasted bell pepper"
+      ]
+    },
+    {
+      "id": "eggplant",
+      "name_en": "Eggplant / aubergine",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\beggplant"
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name_en": "Zucchini / courgette",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bzucchini"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name_en": "Cucumber",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bcucumber"
+      ]
+    },
+    {
+      "id": "spinach",
+      "name_en": "Spinach",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bspinach"
+      ]
+    },
+    {
+      "id": "nettle",
+      "name_en": "Nettle",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bnettle"
+      ]
+    },
+    {
+      "id": "escarole-endive",
+      "name_en": "Escarole / endive",
+      "category": "PRODUCE",
+      "patterns": [
+        "escarole",
+        "\\bendive"
+      ]
+    },
+    {
+      "id": "radicchio",
+      "name_en": "Radicchio",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bradicchio"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "name_en": "Mushroom",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bmushroom",
+        "cremini mushroom",
+        "shiitake mushroom",
+        "porcini mushroom",
+        "oyster mushroom"
+      ]
+    },
+    {
+      "id": "fava-bean",
+      "name_en": "Fava bean (broad bean)",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bfava bean"
+      ]
+    },
+    {
+      "id": "lamon-bean",
+      "name_en": "Lamon / borlotti bean",
+      "category": "PRODUCE",
+      "patterns": [
+        "lamon bean"
+      ]
+    },
+    {
+      "id": "green-bean",
+      "name_en": "Green bean",
+      "category": "PRODUCE",
+      "patterns": [
+        "green bean",
+        "green string bean"
+      ]
+    },
+    {
+      "id": "mung-bean-sprout",
+      "name_en": "Mung bean sprout",
+      "category": "PRODUCE",
+      "patterns": [
+        "mung bean sprout"
+      ]
+    },
+    {
+      "id": "sugar-snap-pea",
+      "name_en": "Sugar snap pea",
+      "category": "PRODUCE",
+      "patterns": [
+        "sugar snap pea"
+      ]
+    },
+    {
+      "id": "artichoke",
+      "name_en": "Artichoke",
+      "category": "PRODUCE",
+      "patterns": [
+        "\\bartichoke"
+      ]
+    },
+    {
+      "id": "apple",
+      "name_en": "Apple",
+      "category": "FRUIT",
+      "patterns": [
+        "\\bapple"
+      ]
+    },
+    {
+      "id": "pear",
+      "name_en": "Pear",
+      "category": "FRUIT",
+      "patterns": [
+        "\\bpear"
+      ]
+    },
+    {
+      "id": "lemon",
+      "name_en": "Lemon",
+      "category": "FRUIT",
+      "patterns": [
+        "\\blemon"
+      ]
+    },
+    {
+      "id": "lime",
+      "name_en": "Lime",
+      "category": "FRUIT",
+      "patterns": [
+        "\\blime"
+      ]
+    },
+    {
+      "id": "orange",
+      "name_en": "Orange",
+      "category": "FRUIT",
+      "patterns": [
+        "\\borange"
+      ]
+    },
+    {
+      "id": "blueberry",
+      "name_en": "Blueberry",
+      "category": "FRUIT",
+      "patterns": [
+        "blueberr"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "name_en": "Strawberry",
+      "category": "FRUIT",
+      "patterns": [
+        "strawberr"
+      ]
+    },
+    {
+      "id": "blackcurrant",
+      "name_en": "Blackcurrant",
+      "category": "FRUIT",
+      "patterns": [
+        "black currant"
+      ]
+    },
+    {
+      "id": "cherry-fresh",
+      "name_en": "Cherry",
+      "category": "FRUIT",
+      "patterns": [
+        "dark cherr",
+        "\\bcherr"
+      ]
+    },
+    {
+      "id": "fig-dried",
+      "name_en": "Fig (dried)",
+      "category": "FRUIT",
+      "patterns": [
+        "dried fig"
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "name_en": "Pomegranate",
+      "category": "FRUIT",
+      "patterns": [
+        "pomegranate"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "name_en": "Watermelon",
+      "category": "FRUIT",
+      "patterns": [
+        "watermelon"
+      ]
+    },
+    {
+      "id": "raisin",
+      "name_en": "Raisin",
+      "category": "FRUIT",
+      "patterns": [
+        "\\braisin"
+      ]
+    },
+    {
+      "id": "cranberry-dried",
+      "name_en": "Cranberry (dried)",
+      "category": "FRUIT",
+      "patterns": [
+        "cranberr"
+      ]
+    },
+    {
+      "id": "berries-mixed",
+      "name_en": "Mixed berries",
+      "category": "FRUIT",
+      "patterns": [
+        "fresh berries"
+      ]
+    },
+    {
+      "id": "basil",
+      "name_en": "Basil",
+      "category": "HERBS",
+      "patterns": [
+        "\\bbasil"
+      ]
+    },
+    {
+      "id": "parsley",
+      "name_en": "Parsley",
+      "category": "HERBS",
+      "patterns": [
+        "\\bparsley"
+      ]
+    },
+    {
+      "id": "cilantro",
+      "name_en": "Cilantro / fresh coriander",
+      "category": "HERBS",
+      "patterns": [
+        "\\bcilantro"
+      ]
+    },
+    {
+      "id": "mint",
+      "name_en": "Mint",
+      "category": "HERBS",
+      "patterns": [
+        "\\bmint"
+      ]
+    },
+    {
+      "id": "rosemary-fresh",
+      "name_en": "Rosemary (fresh)",
+      "category": "HERBS",
+      "patterns": [
+        "^rosemary$",
+        "^(?!dried).*\\brosemary\\b"
+      ]
+    },
+    {
+      "id": "sage",
+      "name_en": "Sage",
+      "category": "HERBS",
+      "patterns": [
+        "\\bsage"
+      ]
+    },
+    {
+      "id": "herb-mix",
+      "name_en": "Mixed culinary herbs",
+      "category": "HERBS",
+      "patterns": [
+        "aromatic herbs mix",
+        "mixed herbs"
+      ]
+    },
+    {
+      "id": "chickpea",
+      "name_en": "Chickpea",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "\\bchickpea"
+      ]
+    },
+    {
+      "id": "lentil",
+      "name_en": "Lentil",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "\\blentil"
+      ]
+    },
+    {
+      "id": "black-bean",
+      "name_en": "Black bean",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "black bean"
+      ]
+    },
+    {
+      "id": "dried-bean-mixed",
+      "name_en": "Dried beans (mixed / cannellini-borlotti)",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "^dry beans$"
+      ]
+    },
+    {
+      "id": "chestnut-dried",
+      "name_en": "Dried chestnut",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "dry chestnut"
+      ]
+    },
+    {
+      "id": "spelt",
+      "name_en": "Spelt",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "\\bspelt"
+      ]
+    },
+    {
+      "id": "rice-brown",
+      "name_en": "Brown / semi-brown rice",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "semi-brown rice"
+      ]
+    },
+    {
+      "id": "pasta-wheat",
+      "name_en": "Wheat pasta",
+      "category": "LEGUMES_GRAINS_PASTA",
+      "patterns": [
+        "\\blinguine",
+        "rigatoni",
+        "maccheroni",
+        "tagliolini",
+        "ditalini"
+      ]
+    },
+    {
+      "id": "flour-wheat",
+      "name_en": "Wheat flour (00 / soft / whole)",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "wheat flour",
+        "italian 00 wheat flour",
+        "soft wheat flour"
+      ]
+    },
+    {
+      "id": "flour-corn",
+      "name_en": "Corn / maize flour",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "corn meal",
+        "maize flour",
+        "thin corn flour"
+      ]
+    },
+    {
+      "id": "corn-starch",
+      "name_en": "Corn starch",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "corn starch"
+      ]
+    },
+    {
+      "id": "semolina",
+      "name_en": "Durum-wheat semolina",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "semolina"
+      ]
+    },
+    {
+      "id": "bread",
+      "name_en": "Bread / breadcrumbs",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "sandwich bread",
+        "stale bread",
+        "toasted homemade bread",
+        "breadcrumb"
+      ]
+    },
+    {
+      "id": "taralli",
+      "name_en": "Taralli (Pugliese cracker)",
+      "category": "FLOURS_BREAD",
+      "patterns": [
+        "\\btaralli"
+      ]
+    },
+    {
+      "id": "milk-coconut",
+      "name_en": "Coconut milk",
+      "category": "MILKS_BROTHS",
+      "patterns": [
+        "coconut milk"
+      ]
+    },
+    {
+      "id": "milk-plant",
+      "name_en": "Plant-based milk (generic)",
+      "category": "MILKS_BROTHS",
+      "patterns": [
+        "plant-based milk"
+      ]
+    },
+    {
+      "id": "broth-vegetable",
+      "name_en": "Vegetable broth / stock",
+      "category": "MILKS_BROTHS",
+      "patterns": [
+        "vegetable broth",
+        "vegetable stock",
+        "water or vegetable broth"
+      ]
+    },
+    {
+      "id": "egg",
+      "name_en": "Egg",
+      "category": "DAIRY_EGGS",
+      "patterns": [
+        "\\begg"
+      ]
+    },
+    {
+      "id": "cheese-parmesan",
+      "name_en": "Aged parmesan (Grana Padano / Parmigiano)",
+      "category": "DAIRY_EGGS",
+      "patterns": [
+        "grana padano",
+        "parmigiano reggiano"
+      ]
+    },
+    {
+      "id": "cheese-ricotta-salata",
+      "name_en": "Ricotta salata",
+      "category": "DAIRY_EGGS",
+      "patterns": [
+        "ricotta salata"
+      ]
+    },
+    {
+      "id": "almond",
+      "name_en": "Almond",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "\\balmond\\b",
+        "peeled almond",
+        "roasted almond",
+        "shelled almond",
+        "shelled unpeeled almond"
+      ]
+    },
+    {
+      "id": "hazelnut",
+      "name_en": "Hazelnut",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "hazelnut"
+      ]
+    },
+    {
+      "id": "walnut",
+      "name_en": "Walnut",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "walnut"
+      ]
+    },
+    {
+      "id": "pine-nut",
+      "name_en": "Pine nut",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "pine nut"
+      ]
+    },
+    {
+      "id": "pistachio",
+      "name_en": "Pistachio",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "pistachio"
+      ]
+    },
+    {
+      "id": "chia-seed",
+      "name_en": "Chia seed",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "chia seed"
+      ]
+    },
+    {
+      "id": "flax-seed",
+      "name_en": "Flax seed",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "flax seed",
+        "ground flax"
+      ]
+    },
+    {
+      "id": "hemp-seed",
+      "name_en": "Hemp seed",
+      "category": "NUTS_SEEDS",
+      "patterns": [
+        "hemp seed"
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "name_en": "Olive oil (extra virgin)",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "olive oil",
+        "extra virgin olive oil"
+      ]
+    },
+    {
+      "id": "sunflower-oil",
+      "name_en": "Sunflower oil",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "sunflower oil"
+      ]
+    },
+    {
+      "id": "vinegar-balsamic",
+      "name_en": "Balsamic vinegar",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "balsamic vinegar"
+      ]
+    },
+    {
+      "id": "vinegar-red-wine",
+      "name_en": "Red wine vinegar",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "red wine vinegar"
+      ]
+    },
+    {
+      "id": "vinegar-white-wine",
+      "name_en": "White wine vinegar",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "white wine vinegar"
+      ]
+    },
+    {
+      "id": "wine-cooking",
+      "name_en": "Cooking wine",
+      "category": "OILS_VINEGARS_WINE",
+      "patterns": [
+        "red wine",
+        "dry white wine",
+        "^wine$"
+      ]
+    },
+    {
+      "id": "anchovy",
+      "name_en": "Anchovy",
+      "category": "SEAFOOD",
+      "patterns": [
+        "anchov"
+      ]
+    },
+    {
+      "id": "sardine",
+      "name_en": "Sardine",
+      "category": "SEAFOOD",
+      "patterns": [
+        "\\bsardine"
+      ]
+    },
+    {
+      "id": "octopus",
+      "name_en": "Octopus",
+      "category": "SEAFOOD",
+      "patterns": [
+        "\\boctopus"
+      ]
+    },
+    {
+      "id": "squid-cuttlefish",
+      "name_en": "Squid / cuttlefish",
+      "category": "SEAFOOD",
+      "patterns": [
+        "\\bsquid",
+        "cuttlefish"
+      ]
+    },
+    {
+      "id": "snapper",
+      "name_en": "Snapper",
+      "category": "SEAFOOD",
+      "patterns": [
+        "\\bsnapper"
+      ]
+    },
+    {
+      "id": "fish-stew-mix",
+      "name_en": "Mixed fish (for stew)",
+      "category": "SEAFOOD",
+      "patterns": [
+        "mixed fish for stew"
+      ]
+    },
+    {
+      "id": "olive-table",
+      "name_en": "Table olive",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "\\bolive"
+      ]
+    },
+    {
+      "id": "caper",
+      "name_en": "Caper",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "\\bcaper"
+      ]
+    },
+    {
+      "id": "chocolate-dark",
+      "name_en": "Dark chocolate / cacao",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "dark chocolate",
+        "blueprint cacao",
+        "\\bcacao"
+      ]
+    },
+    {
+      "id": "mustard-dijon",
+      "name_en": "Dijon mustard",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "dijon mustard"
+      ]
+    },
+    {
+      "id": "tamari",
+      "name_en": "Tamari / soy sauce",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "tamari"
+      ]
+    },
+    {
+      "id": "honey",
+      "name_en": "Honey",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "\\bhoney"
+      ]
+    },
+    {
+      "id": "maple-syrup",
+      "name_en": "Maple syrup",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "maple syrup"
+      ]
+    },
+    {
+      "id": "sugar-cane",
+      "name_en": "Cane / refined sugar",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "natural cane sugar",
+        "powdered sugar",
+        "^sugar$"
+      ]
+    },
+    {
+      "id": "nutritional-yeast",
+      "name_en": "Nutritional yeast",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "nutritional yeast"
+      ]
+    },
+    {
+      "id": "tahini",
+      "name_en": "Tahini (sesame paste)",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "tahini"
+      ]
+    },
+    {
+      "id": "liquid-smoke",
+      "name_en": "Liquid smoke",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "liquid smoke"
+      ]
+    },
+    {
+      "id": "umami-seasoning",
+      "name_en": "Umami seasoning",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "umami seasoning"
+      ]
+    },
+    {
+      "id": "ketchup-unsweetened",
+      "name_en": "Ketchup (unsweetened)",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "unsweetened ketchup"
+      ]
+    },
+    {
+      "id": "pepper-pickled",
+      "name_en": "Pickled / vinegar-preserved pepper",
+      "category": "PANTRY_SWEETS",
+      "patterns": [
+        "vinegar-preserved pepper"
+      ]
+    },
+    {
+      "id": "salt",
+      "name_en": "Salt",
+      "category": "SPICES",
+      "patterns": [
+        "\\bsalt\\b",
+        "kosher salt"
+      ]
+    },
+    {
+      "id": "pepper-black",
+      "name_en": "Black pepper",
+      "category": "SPICES",
+      "patterns": [
+        "black pepper",
+        "^pepper$"
+      ]
+    },
+    {
+      "id": "bay-leaf",
+      "name_en": "Bay leaf",
+      "category": "SPICES",
+      "patterns": [
+        "bay leaf",
+        "bay leaves"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name_en": "Cinnamon",
+      "category": "SPICES",
+      "patterns": [
+        "\\bcinnamon"
+      ]
+    },
+    {
+      "id": "cumin",
+      "name_en": "Cumin",
+      "category": "SPICES",
+      "patterns": [
+        "\\bcumin"
+      ]
+    },
+    {
+      "id": "coriander-seed",
+      "name_en": "Coriander (ground)",
+      "category": "SPICES",
+      "patterns": [
+        "coriander powder"
+      ]
+    },
+    {
+      "id": "cardamom",
+      "name_en": "Cardamom",
+      "category": "SPICES",
+      "patterns": [
+        "\\bcardamom"
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "name_en": "Nutmeg",
+      "category": "SPICES",
+      "patterns": [
+        "\\bnutmeg"
+      ]
+    },
+    {
+      "id": "clove-spice",
+      "name_en": "Clove (whole)",
+      "category": "SPICES",
+      "patterns": [
+        "whole cloves"
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name_en": "Turmeric",
+      "category": "SPICES",
+      "patterns": [
+        "\\bturmeric"
+      ]
+    },
+    {
+      "id": "paprika",
+      "name_en": "Paprika (incl. smoked)",
+      "category": "SPICES",
+      "patterns": [
+        "\\bpaprika"
+      ]
+    },
+    {
+      "id": "chili",
+      "name_en": "Chili / cayenne / peperoncino",
+      "category": "SPICES",
+      "patterns": [
+        "chili",
+        "peperoncino",
+        "red pepper flakes",
+        "dry red chili"
+      ]
+    },
+    {
+      "id": "chipotle",
+      "name_en": "Chipotle (smoked)",
+      "category": "SPICES",
+      "patterns": [
+        "chipotle"
+      ]
+    },
+    {
+      "id": "oregano",
+      "name_en": "Oregano",
+      "category": "SPICES",
+      "patterns": [
+        "\\boregano"
+      ]
+    },
+    {
+      "id": "thyme-dried",
+      "name_en": "Thyme (dried)",
+      "category": "SPICES",
+      "patterns": [
+        "dried thyme"
+      ]
+    },
+    {
+      "id": "rosemary-dried",
+      "name_en": "Rosemary (dried)",
+      "category": "SPICES",
+      "patterns": [
+        "dried rosemary"
+      ]
+    },
+    {
+      "id": "italian-seasoning",
+      "name_en": "Italian seasoning blend",
+      "category": "SPICES",
+      "patterns": [
+        "italian seasoning"
+      ]
+    },
+    {
+      "id": "garam-masala",
+      "name_en": "Garam masala",
+      "category": "SPICES",
+      "patterns": [
+        "garam masala"
+      ]
+    },
+    {
+      "id": "vanilla-extract",
+      "name_en": "Vanilla extract",
+      "category": "SPICES",
+      "patterns": [
+        "vanilla extract"
+      ]
+    },
+    {
+      "id": "zaatar",
+      "name_en": "Za'atar",
+      "category": "SPICES",
+      "patterns": [
+        "za'atar"
+      ]
+    },
+    {
+      "id": "butterfly-pea-flower",
+      "name_en": "Butterfly pea flower (powder)",
+      "category": "SPICES",
+      "patterns": [
+        "butterfly pea flower"
+      ]
+    },
+    {
+      "id": "water",
+      "name_en": "Water",
+      "category": "OTHER",
+      "patterns": [
+        "^water$"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:paddingVertical="8dp"
-    android:gravity="top">
+    android:gravity="top"
+    android:foreground="?attr/selectableItemBackground">
 
     <TextView
         android:id="@+id/ingredient_quantity"

@@ -1,5 +1,6 @@
 package com.idun.app
 
+import android.content.Intent
 import android.graphics.Paint
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,6 +14,7 @@ import com.idun.app.data.IngredientCategory
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.databinding.ActivityShoppingListBinding
+import com.idun.app.ui.setupBottomNav
 import com.idun.app.util.ShoppingListAggregator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -41,14 +43,24 @@ class ShoppingListActivity : AppCompatActivity() {
         binding = ActivityShoppingListBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        binding.toolbar.setNavigationOnClickListener { finish() }
 
         savedInstanceState?.getStringArrayList(STATE_TICKED)?.let {
             ticked.clear()
             ticked.addAll(it)
         }
 
+        setupBottomNav(binding.bottomNav, R.id.nav_shopping)
+        loadFromIntent(intent)
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        ticked.clear()
+        loadFromIntent(intent)
+    }
+
+    private fun loadFromIntent(intent: Intent) {
         val fromIso = intent.getStringExtra(EXTRA_FROM_ISO)
         val toIso = intent.getStringExtra(EXTRA_TO_ISO)
         if (fromIso != null && toIso != null) {

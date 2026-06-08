@@ -3,8 +3,8 @@
     <string name="app_name">Idun</string>
 
     <string name="recipes_title">Receptes</string>
-    <string name="source_blueprint">Blueprint</string>
-    <string name="source_longo">Longo</string>
+    <string name="source_blueprint">Protocol</string>
+    <string name="source_longo">Mediterrània</string>
     <string name="fab_shopping_list">Llista de la compra</string>
 
     <string name="recipe_detail_title">Recepta</string>
@@ -47,6 +47,9 @@
 
     <string name="search_hint">Cerca receptes o etiquetes</string>
     <string name="section_count_label">%d receptes</string>
+    <string name="recipes_empty_title">Cap coincidència</string>
+    <string name="recipes_empty_body">Prova una altra cerca o canvia el filtre.</string>
+    <string name="filter_all">Totes</string>
 
     <string name="planning_title">Planificar</string>
     <string name="planning_today_badge">Avui</string>
@@ -82,4 +85,16 @@
     <string name="credits_longo_link_institute">USC Longevity Institute</string>
     <string name="credits_disclaimer">Idun és un projecte independent, sense afiliació ni suport de cap dels dos investigadors.</string>
     <string name="credits_no_browser">No hi ha navegador disponible</string>
+
+    <string name="food_image_credit">Imatge: Wikimedia Commons</string>
+    <string name="learn_search_hint">Cerca ingredients</string>
+    <string name="learn_empty_title">Cap coincidència</string>
+    <string name="learn_empty_body">Prova una altra cerca.</string>
+    <string name="learn_title">Aprendre</string>
+    <string name="food_section_benefits">Beneficis</string>
+    <string name="food_section_how_to_consume">Com consumir-lo</string>
+    <string name="food_section_when_to_consume">Quan consumir-lo</string>
+    <string name="food_section_deficiency_signs">Signes de carència</string>
+    <string name="food_section_excess_signs">Signes d\'excés</string>
+    <string name="food_disclaimer">Només informatiu — no és consell mèdic. Consulta un professional per a diagnòstic o tractament.</string>
 </resources>

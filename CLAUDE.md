@@ -2,6 +2,12 @@
 
 Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for product framing.
 
+> **⚠️ Active work — commercial clearance:** before paid release, the recipe corpus is being
+> **re-derived** to remove third-party copyright/brand dependencies. Execution brief:
+> [docs/COMMERCIAL-CLEARANCE.md](docs/COMMERCIAL-CLEARANCE.md). Until that lands, do **not** add
+> verbatim upstream recipe prose, and the recipe-set labels move off "Blueprint"/"Longo" →
+> **"Protocol"/"Mediterranean"**.
+
 ## Identity
 
 - **Package:** `com.idun.app`
@@ -14,7 +20,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 
 - **No cloud, no auth, no sync.** Local-first. Bios is the only external integration.
 - **i18n from commit 1:** EN / ES / CA / FR in `res/values*/strings.xml`. Don't hardcode UI strings. Recipe data (ingredient names, notes, cooking steps) is localized via parallel `*_es` / `*_ca` / `*_fr` fields in the JSON corpus, with English as the canonical fallback when a locale's translation hasn't landed yet. Translations land KB-first (see seed-data discipline). FR replaced IT on 2026-05-24.
-- **Both recipe sets equal-weight in UI.** Blueprint and Longo are surfaced equally; don't lead with one.
+- **Both recipe sets equal-weight in UI.** The two sets — **Protocol** (ex-"Blueprint") and **Mediterranean** (ex-"Longo") — are surfaced equally; don't lead with one. Set labels are de-branded for commercial clearance; Johnson/Longo remain credited by name on the Credits screen only (nominative fair use). See [docs/COMMERCIAL-CLEARANCE.md](docs/COMMERCIAL-CLEARANCE.md).
 - **Shopping-list generation is the v1 lead feature.** Not cost estimation, not recipe authoring, not community.
 - **Planning is the v1.1 layer.** Week-view planner backed by a `plan_entry` table; the shopping list learns to aggregate from a date range alongside the existing multi-select path. Routines (recurring templates) and household/guest social land on top of the same plan table.
 - **No fixed meal slots.** A day holds 0..N meal entries at arbitrary times (`time_minutes` 0..1439), not breakfast / lunch / dinner. Longo's 12h-window guidance and Johnson's 1-2-meal patterns both need variable meal counts at arbitrary times — fixed slots would have made one of the two corpuses awkward to follow. The day card shows an eating-window summary when there are 2+ meals so the user can see their own time-restricted-eating pattern.
@@ -42,7 +48,20 @@ When recipes are added, removed, or edited:
 2. Regenerate the JSON assets here
 3. Bump versionCode
 
-Never edit the JSON in isolation — the KB is source of truth.
+Never edit the JSON in isolation — the KB is source of truth. **Note:** there is no recipe md→JSON
+generator (only i18n + foods scripts exist), so KB markdown and `recipes_*.json` must be edited in
+tandem with schema parity. **For commercial clearance, recipe methods are being re-derived** (original
+technique, not upstream prose) — see [docs/COMMERCIAL-CLEARANCE.md](docs/COMMERCIAL-CLEARANCE.md);
+do not restore verbatim valterlongo.com / Blueprint wording into the KB or JSON.
+
+### Ingredients pedagogy (Learn screen)
+
+The 145 canonical food entries in `app/src/main/assets/foods.json` are likewise generated from a KB doc:
+- `Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md`
+
+Pipeline: `scripts/foods/build_catalog.py` defines the canonical food IDs, regex patterns, and category, and maps the 466 recipe ingredient lines to them (must remain at zero unmatched). It writes `app/src/main/assets/foods_catalog.json`, which ships as an asset and is consumed by `FoodResolver` at runtime to power the recipe-ingredient → Food-detail jump. `scripts/foods/extract_foods_json.py` parses the KB markdown into `foods.json`. The KB doc is source of truth; never edit `foods.json` or `foods_catalog.json` directly. Editorial register is health-adjacent — see the doc's "Editorial register" section before touching content (no medical-diagnosis framing, no RDA tables; cite Blueprint/Longo). Bump versionCode on edits.
+
+Food images live at `app/src/main/assets/foods/images/<food_id>.jpg`, fetched by `scripts/foods/download_images.py` from Wikimedia Commons (preferred — every file there is free-licensed by policy) with a license-verified Wikipedia lead-image fallback. Provenance per image is recorded in `_manifest.json` alongside the JPGs. The Android side resolves `<id>.jpg` by convention and silently hides the ImageView when missing — no JSON pipeline change required, no runtime network. Re-run the script (idempotent) when foods are added; bump versionCode.
 
 ## Out-of-scope until further notice
 

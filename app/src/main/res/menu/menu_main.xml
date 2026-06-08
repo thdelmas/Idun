@@ -8,11 +8,6 @@
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="androidx.appcompat.widget.SearchView" />
     <item
-        android:id="@+id/action_planning"
-        android:title="@string/planning_title"
-        android:icon="@android:drawable/ic_menu_my_calendar"
-        app:showAsAction="ifRoom" />
-    <item
         android:id="@+id/action_credits"
         android:title="@string/credits_title"
         app:showAsAction="never" />

@@ -80,9 +80,9 @@ class ShoppingListAggregatorTest {
 
     @Test
     fun `total servings sums recipe servings ignoring nulls`() {
-        val r1 = recipe("r1", servings = 4, Ingredient("x", 1.0, "g", category = IngredientCategory.PRODUCE))
-        val r2 = recipe("r2", servings = null, Ingredient("y", 1.0, "g", category = IngredientCategory.PRODUCE))
-        val r3 = recipe("r3", servings = 6, Ingredient("z", 1.0, "g", category = IngredientCategory.PRODUCE))
+        val r1 = recipe("r1", Ingredient("x", 1.0, "g", category = IngredientCategory.PRODUCE), servings = 4)
+        val r2 = recipe("r2", Ingredient("y", 1.0, "g", category = IngredientCategory.PRODUCE), servings = null)
+        val r3 = recipe("r3", Ingredient("z", 1.0, "g", category = IngredientCategory.PRODUCE), servings = 6)
 
         val result = ShoppingListAggregator.aggregate(listOf(r1, r2, r3))
 
