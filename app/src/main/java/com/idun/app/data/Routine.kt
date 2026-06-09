@@ -10,14 +10,14 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 
 /**
- * Recurring meal templates. Stubbed for the routines follow-up.
+ * Recurring meal templates (shipped v0.5.0).
  *
  * weekday is ISO: 1 = Monday … 7 = Sunday. time_minutes is minutes from
  * midnight (same shape as PlanEntry.timeMinutes). A routine row says "on this
- * weekday at this time, plan this recipe by default". Apply-routine walks a
- * date range and inserts PlanEntry rows for any (date, time) without an
- * existing entry within ±30 minutes (collision rule lives in the apply
- * action when it ships).
+ * weekday at this time, plan this recipe by default". [RoutineScheduler.plan]
+ * walks a date range and inserts PlanEntry rows for any (date, time) without an
+ * existing entry within ±30 minutes (collision rule lives in [RoutineScheduler],
+ * which is unit-tested); [com.idun.app.RoutineActivity] is the manage + apply UI.
  */
 @Entity(tableName = "routine")
 data class Routine(

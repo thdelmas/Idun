@@ -10,12 +10,13 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 
 /**
- * Household members and guests. Stubbed for v1.1 — the planning round only
- * tracks guest *count* on each PlanEntry; the household-member UI and the
- * attendee picker on plan entries land in the social follow-up.
+ * Household members (shipped v0.6.0). [com.idun.app.HouseholdActivity] is the
+ * member-management UI; [com.idun.app.PlanningActivity] picks attendees per
+ * meal (linked through the PlanAttendee join table).
  *
- * Schema is in place now so adding the social UI later doesn't need a Room
- * migration.
+ * Two distinct notions of "who's eating" coexist on a PlanEntry: guest_count is
+ * an ad-hoc *count* of unnamed guests, while named household members are linked
+ * via PlanAttendee — used for per-meal dietary notes.
  */
 @Entity(tableName = "person")
 data class Person(

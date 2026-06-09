@@ -21,8 +21,8 @@ import androidx.room.Update
  * timezone drift. time_minutes is minutes from midnight, 0..1439, sorted
  * within a day to produce chronological ordering.
  *
- * guest_count tracks ad-hoc guests; the social follow-up adds household
- * attendees via the Person table.
+ * guest_count tracks ad-hoc (unnamed) guests; named household attendees are
+ * linked separately through the PlanAttendee join table (see Person).
  */
 @Entity(tableName = "plan_entry")
 data class PlanEntry(
