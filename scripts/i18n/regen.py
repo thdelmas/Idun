@@ -54,11 +54,27 @@ def load_pack(lang: str):
     return importlib.import_module(f"translations_{lang}")
 
 
+def pack_has_recipes(pack) -> bool:
+    """A pack may translate food pedagogy ahead of (or instead of) recipes.
+
+    When none of the recipe maps are present/non-empty, this is a
+    food-only pack and recipe processing is skipped rather than reported
+    as 53 'missing' recipes. Mirrors the optional-food-maps grace.
+    """
+    return any(
+        getattr(pack, attr, None)
+        for attr in ("RECIPE_NAMES", "INGREDIENT_NAMES", "STEPS")
+    )
+
+
 def apply_recipes(lang: str, pack) -> tuple[list[str], list[str], list[str], set[str]]:
     missing_ing: set[str] = set()
     missing_recipe: list[str] = []
     missing_steps: list[str] = []
     extra_steps: list[str] = []
+
+    if not pack_has_recipes(pack):
+        return missing_recipe, missing_steps, extra_steps, missing_ing
 
     for filename in RECIPE_FILES:
         path = ASSETS / filename
@@ -137,6 +153,7 @@ def report(
     extra_steps: list[str],
     missing_ing: set[str],
     missing_food: dict[str, set[str]],
+    recipes_skipped: bool = False,
 ) -> None:
     issues = 0
     if missing_recipe:
@@ -171,7 +188,10 @@ def report(
                 print(f"  - {field}: {len(ids)} missing")
 
     if issues == 0:
-        print(f"[{lang}] recipe translations OK")
+        if recipes_skipped:
+            print(f"[{lang}] food-only pack — recipe translations skipped")
+        else:
+            print(f"[{lang}] recipe translations OK")
     else:
         sys.exit(1)
 
@@ -183,9 +203,18 @@ def main() -> None:
     lang = sys.argv[1]
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     pack = load_pack(lang)
+    recipes_skipped = not pack_has_recipes(pack)
     missing_recipe, missing_steps, extra_steps, missing_ing = apply_recipes(lang, pack)
     missing_food = apply_foods(lang, pack)
-    report(lang, missing_recipe, missing_steps, extra_steps, missing_ing, missing_food)
+    report(
+        lang,
+        missing_recipe,
+        missing_steps,
+        extra_steps,
+        missing_ing,
+        missing_food,
+        recipes_skipped,
+    )
 
 
 if __name__ == "__main__":
