@@ -16,6 +16,7 @@ import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
 import com.idun.app.data.displayName
+import com.idun.app.data.labelRes
 import com.idun.app.databinding.ActivityMainBinding
 import java.util.Locale
 
@@ -42,6 +43,8 @@ class PickRecipeActivity : AppCompatActivity() {
         binding.toolbar.setNavigationOnClickListener { finish() }
         binding.toolbar.title = getString(R.string.pick_recipe_title)
         binding.fabShoppingList.hide()
+        // The picker reuses the browse layout but doesn't filter by set.
+        binding.filterChipScroll.visibility = View.GONE
 
         allRecipes = RecipeRepository(this).all()
         adapter = PickAdapter { recipe ->
@@ -140,11 +143,7 @@ private class PickAdapter(
         private val label: TextView = v.findViewById(R.id.section_label)
         private val count: TextView = v.findViewById(R.id.section_count)
         fun bind(row: PickRow.Header) {
-            val labelRes = when (row.source) {
-                RecipeSource.BLUEPRINT -> R.string.source_blueprint
-                RecipeSource.LONGO -> R.string.source_longo
-            }
-            label.text = label.context.getString(labelRes)
+            label.text = label.context.getString(row.source.labelRes())
             count.text = count.context.getString(R.string.section_count_label, row.count)
         }
     }

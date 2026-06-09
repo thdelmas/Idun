@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Filter chip inflated programmatically by MainActivity, one per
+  RecipeSource.values(), so adding a recipe set never touches a layout.
+  Carries the Material3 Filter style that a code-constructed Chip can't
+  pick up from its constructor.
+-->
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
