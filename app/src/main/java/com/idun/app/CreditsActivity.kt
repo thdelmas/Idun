@@ -22,8 +22,10 @@ import com.idun.app.databinding.ActivityCreditsBinding
  * are de-branded; see docs/COMMERCIAL-CLEARANCE.md.
  *
  * Equal-weight per the locked design constraints: one identical card per
- * [RecipeSource], none leads. Cards are built from the enum so adding a
- * recipe set never touches this layout — only [creditInfo] grows.
+ * recipe set that has a creditable figure, none leads. Cards are built from
+ * the enum so adding a set never touches this layout — only [creditInfo]
+ * grows. Sets organized purely by regime may have no figure and contribute
+ * no card (docs/RECIPE-SET-AXIS.md).
  */
 class CreditsActivity : AppCompatActivity() {
 
@@ -37,9 +39,13 @@ class CreditsActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding.toolbar.setNavigationOnClickListener { finish() }
 
+        // One card per recipe set that has a creditable figure. Sets organized
+        // purely by regime (no headline author) contribute none — see
+        // docs/RECIPE-SET-AXIS.md and RecipeSource.creditInfo().
         val inflater = LayoutInflater.from(this)
         for (source in RecipeSource.values()) {
-            binding.creditCards.addView(buildCard(inflater, source.creditInfo()))
+            val info = source.creditInfo() ?: continue
+            binding.creditCards.addView(buildCard(inflater, info))
         }
     }
 

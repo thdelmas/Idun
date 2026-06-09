@@ -67,7 +67,14 @@ data class CreditInfo(
     val links: List<CreditLink>,
 )
 
-fun RecipeSource.creditInfo(): CreditInfo = when (this) {
+/** Credit attribution for a recipe set, or `null` when the set has no single
+ *  creditable figure. Idun organizes sets by *dietary regime*, not by named
+ *  author (see docs/RECIPE-SET-AXIS.md): a regime like Mediterranean or a
+ *  heritage cuisine may have no headline person, in which case it contributes
+ *  no person card. Returning `null` here is a legitimate, expected case — not
+ *  a missing entry. (When the first person-less set ships, a "cited sources"
+ *  card can replace the silent skip; until then there are none.) */
+fun RecipeSource.creditInfo(): CreditInfo? = when (this) {
     RecipeSource.BLUEPRINT -> CreditInfo(
         nameRes = R.string.credits_johnson_name,
         roleRes = R.string.credits_johnson_role,
