@@ -72,4 +72,4 @@ Food images live at `app/src/main/assets/foods/images/<food_id>.jpg`, fetched by
 - Cloud sync / accounts
 - Nutrition scoring (Nutri-Score, NOVA) — deferred to v2
 
-Notifications / reminders are now in-scope for Idun (decision 2026-05-24, overrides the earlier "Smokeless owns reminder patterns" lock). Reminder wiring for planned meals lands in a follow-up; for now the planning data layer ships without notifications.
+Notifications / reminders are now in-scope for Idun (decision 2026-05-24, overrides the earlier "Smokeless owns reminder patterns" lock). **Shipped (v0.5.0):** planned-meal reminders are wired end-to-end — `reminders/` package (`ReminderScheduler`, `ReminderPlanner`, `ReminderNotifier`, `MealReminderReceiver`, `BootReceiver`) with user controls in Settings. `ReminderSettings` persists the opt-in.
