@@ -1,5 +1,7 @@
 package com.idun.app.data
 
+import androidx.annotation.StringRes
+import com.idun.app.R
 import java.util.Locale
 
 /**
@@ -36,6 +38,18 @@ data class Ingredient(
 )
 
 enum class RecipeSource { BLUEPRINT, LONGO }
+
+/**
+ * The user-facing (de-branded) set label for a recipe source. Single source
+ * of truth — adding a value to [RecipeSource] breaks this exhaustive `when`
+ * at compile time, which is the one site to update rather than the several
+ * label `when`s that used to be scattered across the activities.
+ */
+@StringRes
+fun RecipeSource.labelRes(): Int = when (this) {
+    RecipeSource.BLUEPRINT -> R.string.source_blueprint
+    RecipeSource.LONGO -> R.string.source_longo
+}
 
 /**
  * Categories used by the shopping-list aggregator to group ingredients.

@@ -15,11 +15,11 @@ import com.idun.app.data.Ingredient
 import com.idun.app.data.MealLogEntry
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
-import com.idun.app.data.RecipeSource
 import com.idun.app.data.displayName
 import com.idun.app.data.displayNote
 import com.idun.app.data.displayNotes
 import com.idun.app.data.displaySteps
+import com.idun.app.data.labelRes
 import com.idun.app.databinding.ActivityRecipeDetailBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -62,12 +62,7 @@ class RecipeDetailActivity : AppCompatActivity() {
     }
 
     private fun buildMeta(recipe: Recipe): String {
-        val source = getString(
-            when (recipe.source) {
-                RecipeSource.BLUEPRINT -> R.string.source_blueprint
-                RecipeSource.LONGO -> R.string.source_longo
-            }
-        )
+        val source = getString(recipe.source.labelRes())
         val parts = mutableListOf(source)
         recipe.servings?.let {
             parts.add(resources.getQuantityString(R.plurals.servings_count, it, it))

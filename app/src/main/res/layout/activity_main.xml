@@ -22,6 +22,7 @@
                 app:title="@string/recipes_title" />
 
             <HorizontalScrollView
+                android:id="@+id/filter_chip_scroll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="none"
@@ -38,6 +39,12 @@
                     app:singleLine="true"
                     app:chipSpacingHorizontal="6dp">
 
+                    <!--
+                      The "All" chip is declarative (default selection); one
+                      filter chip per RecipeSource is appended at runtime from
+                      RecipeSource.values() in MainActivity, so adding a recipe
+                      set never edits this layout.
+                    -->
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_filter_all"
                         style="@style/Widget.Material3.Chip.Filter"
@@ -45,20 +52,6 @@
                         android:layout_height="wrap_content"
                         android:text="@string/filter_all"
                         android:checked="true" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_filter_blueprint"
-                        style="@style/Widget.Material3.Chip.Filter"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/source_blueprint" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_filter_longo"
-                        style="@style/Widget.Material3.Chip.Filter"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/source_longo" />
                 </com.google.android.material.chip.ChipGroup>
             </HorizontalScrollView>
         </com.google.android.material.appbar.AppBarLayout>

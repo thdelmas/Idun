@@ -13,10 +13,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.chip.Chip
 import com.idun.app.data.Recipe
 import com.idun.app.data.RecipeRepository
 import com.idun.app.data.RecipeSource
 import com.idun.app.data.displayName
+import com.idun.app.data.labelRes
 import com.idun.app.databinding.ActivityMainBinding
 import com.idun.app.ui.setupBottomNav
 import java.util.Locale
@@ -62,12 +64,22 @@ class MainActivity : AppCompatActivity() {
         binding.recipeList.layoutManager = LinearLayoutManager(this)
         binding.recipeList.adapter = adapter
 
-        binding.filterChips.setOnCheckedStateChangeListener { _, checkedIds ->
-            sourceFilter = when (checkedIds.firstOrNull()) {
-                R.id.chip_filter_blueprint -> RecipeSource.BLUEPRINT
-                R.id.chip_filter_longo -> RecipeSource.LONGO
-                else -> null
-            }
+        // One filter chip per recipe set, built from the enum so adding a set
+        // never touches the layout. The "All" chip (no tag) stays declarative.
+        val chipInflater = LayoutInflater.from(this)
+        for (source in RecipeSource.values()) {
+            val chip = chipInflater.inflate(
+                R.layout.item_filter_chip, binding.filterChips, false,
+            ) as Chip
+            chip.id = View.generateViewId()
+            chip.text = getString(source.labelRes())
+            chip.tag = source
+            binding.filterChips.addView(chip)
+        }
+
+        binding.filterChips.setOnCheckedStateChangeListener { group, checkedIds ->
+            sourceFilter = checkedIds.firstOrNull()
+                ?.let { group.findViewById<Chip>(it)?.tag as? RecipeSource }
             applyFilter()
         }
 
@@ -195,11 +207,7 @@ private class RecipeListAdapter(
         private val label: TextView = view.findViewById(R.id.section_label)
         private val count: TextView = view.findViewById(R.id.section_count)
         fun bind(row: Row.Header) {
-            val labelRes = when (row.source) {
-                RecipeSource.BLUEPRINT -> R.string.source_blueprint
-                RecipeSource.LONGO -> R.string.source_longo
-            }
-            label.text = label.context.getString(labelRes)
+            label.text = label.context.getString(row.source.labelRes())
             count.text = count.context.getString(R.string.section_count_label, row.count)
         }
     }
