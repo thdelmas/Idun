@@ -51,6 +51,46 @@ fun RecipeSource.labelRes(): Int = when (this) {
     RecipeSource.LONGO -> R.string.source_longo
 }
 
+/** One outbound link on a credits card. The first link in a card's list is the
+ *  primary CTA (rendered tonal); the rest render as outlined buttons. */
+data class CreditLink(@StringRes val labelRes: Int, val url: String)
+
+/** Everything the Credits screen needs to render one source's card. Keyed off
+ *  [RecipeSource] so a new recipe set adds its card by extending this `when`
+ *  rather than hand-editing `activity_credits.xml`. Names stay attributed here
+ *  (nominative fair use) even though set *labels* are de-branded — see
+ *  docs/COMMERCIAL-CLEARANCE.md. */
+data class CreditInfo(
+    @StringRes val nameRes: Int,
+    @StringRes val roleRes: Int,
+    @StringRes val bioRes: Int,
+    val links: List<CreditLink>,
+)
+
+fun RecipeSource.creditInfo(): CreditInfo = when (this) {
+    RecipeSource.BLUEPRINT -> CreditInfo(
+        nameRes = R.string.credits_johnson_name,
+        roleRes = R.string.credits_johnson_role,
+        bioRes = R.string.credits_johnson_bio,
+        links = listOf(
+            CreditLink(R.string.credits_johnson_link_protocol, "https://blueprint.bryanjohnson.com/"),
+            CreditLink(R.string.credits_johnson_link_website, "https://www.bryanjohnson.com/"),
+            CreditLink(R.string.credits_johnson_link_youtube, "https://www.youtube.com/@BryanJohnson"),
+            CreditLink(R.string.credits_johnson_link_x, "https://x.com/bryan_johnson"),
+        ),
+    )
+    RecipeSource.LONGO -> CreditInfo(
+        nameRes = R.string.credits_longo_name,
+        roleRes = R.string.credits_longo_role,
+        bioRes = R.string.credits_longo_bio,
+        links = listOf(
+            CreditLink(R.string.credits_longo_link_website, "https://www.valterlongo.com/"),
+            CreditLink(R.string.credits_longo_link_foundation, "https://www.createcuresfoundation.org/"),
+            CreditLink(R.string.credits_longo_link_institute, "https://gero.usc.edu/longevityinstitute/"),
+        ),
+    )
+}
+
 /**
  * Categories used by the shopping-list aggregator to group ingredients.
  * Order matters: groups render in the UI in declaration order.
