@@ -7,6 +7,15 @@ Usage:
     python3 scripts/i18n/regen.py ca
     python3 scripts/i18n/regen.py fr
 
+    # Apply only one corpus, leaving the other untouched:
+    python3 scripts/i18n/regen.py es --foods-only
+    python3 scripts/i18n/regen.py es --recipes-only
+
+By default both corpuses are regenerated. The --foods-only /
+--recipes-only flags scope a run to a single corpus, so an
+unrelated drift in the other can't be clobbered (and a foods-only
+change never rewrites recipes). The two flags are mutually exclusive.
+
 Reads:
   - app/src/main/assets/recipes_*.json — recipe corpus
   - app/src/main/assets/foods.json     — ingredient-pedagogy corpus
@@ -31,6 +40,7 @@ the run.
 
 from __future__ import annotations
 
+import argparse
 import importlib
 import json
 import sys
@@ -153,8 +163,10 @@ def report(
     extra_steps: list[str],
     missing_ing: set[str],
     missing_food: dict[str, set[str]],
-    recipes_skipped: bool = False,
+    recipes_skipped: str | None = None,
 ) -> None:
+    # recipes_skipped is None when recipes were processed, otherwise a short
+    # human reason ("--foods-only run" vs "food-only pack") for the skip.
     issues = 0
     if missing_recipe:
         issues += len(missing_recipe)
@@ -189,23 +201,66 @@ def report(
 
     if issues == 0:
         if recipes_skipped:
-            print(f"[{lang}] food-only pack — recipe translations skipped")
+            print(f"[{lang}] {recipes_skipped} — recipe translations skipped")
         else:
             print(f"[{lang}] recipe translations OK")
     else:
         sys.exit(1)
 
 
+def parse_args(argv: list[str]) -> tuple[str, bool, bool]:
+    """Returns (lang, do_recipes, do_foods). Exits on bad input.
+
+    --foods-only / --recipes-only scope a run to a single corpus even
+    for a pack that translates both, so an unrelated drift in the other
+    corpus can't be clobbered. This is run-level scoping; pack_has_recipes
+    is the orthogonal pack-level grace for food-only packs.
+    """
+    parser = argparse.ArgumentParser(
+        prog="regen.py",
+        description="Apply a language pack to the recipe and food JSON assets.",
+    )
+    parser.add_argument("lang", choices=["es", "ca", "fr"])
+    scope = parser.add_mutually_exclusive_group()
+    scope.add_argument(
+        "--foods-only",
+        action="store_true",
+        help="apply only foods.json, leaving recipes untouched",
+    )
+    scope.add_argument(
+        "--recipes-only",
+        action="store_true",
+        help="apply only recipes_*.json, leaving foods untouched",
+    )
+    ns = parser.parse_args(argv)
+    return ns.lang, not ns.foods_only, not ns.recipes_only
+
+
 def main() -> None:
-    if len(sys.argv) != 2 or sys.argv[1] not in {"es", "ca", "fr"}:
-        print(__doc__)
-        sys.exit(2)
-    lang = sys.argv[1]
+    lang, do_recipes, do_foods = parse_args(sys.argv[1:])
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     pack = load_pack(lang)
-    recipes_skipped = not pack_has_recipes(pack)
-    missing_recipe, missing_steps, extra_steps, missing_ing = apply_recipes(lang, pack)
-    missing_food = apply_foods(lang, pack)
+
+    missing_recipe: list[str] = []
+    missing_steps: list[str] = []
+    extra_steps: list[str] = []
+    missing_ing: set[str] = set()
+    missing_food: dict[str, set[str]] = {}
+
+    # Recipes are skipped either because the run is scoped to foods, or
+    # because the pack carries no recipe maps at all (food-only pack).
+    if not do_recipes:
+        recipes_skipped = "--foods-only run"
+    elif not pack_has_recipes(pack):
+        recipes_skipped = "food-only pack"
+    else:
+        recipes_skipped = None
+
+    if do_recipes:
+        missing_recipe, missing_steps, extra_steps, missing_ing = apply_recipes(lang, pack)
+    if do_foods:
+        missing_food = apply_foods(lang, pack)
+
     report(
         lang,
         missing_recipe,
