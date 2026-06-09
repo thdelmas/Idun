@@ -1,0 +1,50 @@
+name: i18n regen idempotency
+
+# The translation packs (scripts/i18n/translations_*.py) are the canonical
+# source for the localized recipe/food assets. Re-running regen.py must
+# reproduce the committed JSON byte-for-byte. This gate fails the moment a
+# pack and its committed assets drift apart — e.g. a hand-edit to a
+# steps_<lang> field in recipes_*.json that was never folded back into the
+# pack — so the divergence is caught in the PR that introduces it instead of
+# surfacing months later on an unrelated branch.
+
+on:
+  pull_request:
+    paths:
+      - "scripts/i18n/**"
+      - "app/src/main/assets/recipes_*.json"
+      - "app/src/main/assets/foods.json"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/i18n/**"
+      - "app/src/main/assets/recipes_*.json"
+      - "app/src/main/assets/foods.json"
+
+jobs:
+  regen-is-idempotent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate all language packs
+        run: |
+          for lang in es ca fr; do
+            echo "::group::regen $lang"
+            python3 scripts/i18n/regen.py "$lang"
+            echo "::endgroup::"
+          done
+      - name: Fail on any drift between packs and committed assets
+        run: |
+          if ! git diff --exit-code -- app/src/main/assets/; then
+            echo ""
+            echo "::error::regen.py produced assets that differ from the committed JSON."
+            echo "A translation pack and its committed assets have drifted apart."
+            echo "Reconcile them: fold the asset changes back into the canonical"
+            echo "scripts/i18n/translations_<lang>.py pack, then re-run regen so the"
+            echo "committed JSON matches the pack. See CLAUDE.md seed-data discipline."
+            exit 1
+          fi
+          echo "Packs and committed assets are in sync."
