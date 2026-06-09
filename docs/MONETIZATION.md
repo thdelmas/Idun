@@ -1,6 +1,7 @@
 # Idun — Monetization Groundwork (paid-build scoping brief)
 
-**Status:** scoping — decisions open, no code yet. **Owner:** delegated agent. **Created:** 2026-06-09.
+**Status:** decided — pricing locked, implementation pending. **Owner:** delegated agent.
+**Created:** 2026-06-09. **Decisions made:** 2026-06-09.
 **Goal:** turn Idun into a sellable paid Android app. Commercial clearance has landed (v0.3.1), so this
 workstream — the one named as "the real gap" in [COMMERCIAL-CLEARANCE.md](COMMERCIAL-CLEARANCE.md) — is
 now **unblocked**.
@@ -30,9 +31,14 @@ Idun is **local-first: no cloud, no auth, no sync** (CLAUDE.md). That shapes bil
 
 ---
 
-## The two decisions that gate everything
+## The two decisions that gate everything — ✅ DECIDED 2026-06-09
 
-These are **yours to make** — implementation can't start without them.
+- **Decision 1 — Pricing model:** **Freemium + one-time unlock.** Free install + free core; a single
+  one-time IAP (non-consumable) unlocks the premium tier. Delivered as free-on-store, *not* paid-upfront.
+- **Decision 2 — Free/paid line:** **the planning suite is premium, soft-gated.** Free users get a
+  *taste* of planning; depth and automation are behind the unlock. Spec below.
+
+The original analysis that led here is retained for the record.
 
 ### Decision 1 — Pricing model
 
@@ -60,6 +66,29 @@ A local-first app has to pick what's gated. Candidate boundaries (pick one, or c
 clearly-premium capability bundle, it doesn't touch the equal-weight recipe-set lock, and the core
 shopping-list lead feature stays free as a funnel.
 
+### Soft-gate spec (DECIDED: soft gate)
+
+Free users **taste** planning; the unlock removes the limits and adds the automation. Proposed
+boundary (tunable before launch — these numbers are the starting point, not a lock):
+
+| Capability | Free (taste) | Premium (unlock) |
+|---|---|---|
+| **Planner / plan entries** | **current week only** (the Mon–Sun window containing today) | any week, past and future; plan-ahead |
+| **Date-range shopping aggregation** | current week only | any range |
+| **Routines** (recurring templates) | — locked | full |
+| **Household + attendees** | self only | add members + per-entry attendees |
+| **Planned-meal reminders** | — locked | full |
+| Recipes, shopping list, Learn, Bios writes, dark mode | **free** | (same) |
+
+Rationale: "plan this week free; unlock to plan ahead, automate with routines, coordinate your
+household, and get reminders." A real taste of the headline feature at a natural high-intent upgrade
+moment, while the depth that engaged users want is the paid value.
+
+**Enforcement layer (new work this implies):** a single `entitlement` check + a thin
+`PlanningLimits` gate (is-current-week? / is-self-only? / routines-and-reminders-allowed?) consulted
+at the planner, routine, household, and reminder entry points. Keep it centralized so the boundary
+is one place to tune, mirroring how `RecipeSource` centralizes the set logic.
+
 ---
 
 ## Workstream (ordered; start after Decisions 1–2)
@@ -71,9 +100,12 @@ shopping-list lead feature stays free as a funnel.
       `queryPurchasesAsync` on launch for restore.
 - [ ] Local entitlement store (e.g. a `BillingSettings` mirroring `ReminderSettings`/`ThemeSettings`)
       — cache the verified entitlement; source of truth stays Play.
-- [ ] Entitlement gate at the chosen free/paid boundary (Decision 2). Gate UX: a clean upsell screen,
-      not a nag. i18n the paywall strings ×4 locales from commit 1, per the i18n lock.
-- [ ] Product IDs configured in Play Console (account action — not code).
+- [ ] **`PlanningLimits` gate** (centralized) consulted at the planner, routine, household, and reminder
+      entry points — enforces the soft-gate spec above (current-week / self-only / routines+reminders).
+- [ ] Entitlement gate wiring + upsell screen at the soft-gate boundaries. Gate UX: a clean upsell at
+      the high-intent moment (plan-ahead / add-routine / add-member / enable-reminder), not a nag.
+      i18n the paywall strings ×4 locales from commit 1, per the i18n lock.
+- [ ] One non-consumable product ID configured in Play Console (account action — not code).
 
 ### B. Legal + store assets (mostly non-code)
 - [ ] **Privacy policy** — *easy here*: local-first means "Idun collects nothing, stores nothing off
@@ -101,9 +133,18 @@ Legal/listing can proceed in parallel the moment Decision 1 is made; billing cod
 
 ---
 
-## Open decisions (blocking)
+## Decisions — resolved
 
-1. **Pricing model** — one-time unlock vs subscription vs freemium. *(Lean: freemium one-time.)*
-2. **Free/paid line** — what's gated. *(Lean: the planning layer.)*
+1. ✅ **Pricing model** — **freemium + one-time unlock** (free install, single non-consumable IAP).
+2. ✅ **Free/paid line** — **planning suite is premium, soft-gated** (free = current-week planning,
+   self only; unlock = plan-ahead + routines + household/attendees + reminders). See soft-gate spec.
 
-Everything in §A/§B is mechanical once these two are set.
+Both gating decisions are made; everything in §A/§B is now mechanical. Only tunable detail left is the
+exact free-taste numbers (week window vs entry count), which can be adjusted before launch without
+reopening the model.
+
+## Next step
+
+Implementation (§A). Suggested order: `BillingManager` + local entitlement → `PlanningLimits` gate →
+upsell screen + paywall strings ×4 locales → Play Console product + closed testing. Legal/listing (§B)
+can run in parallel now that the model is fixed.
