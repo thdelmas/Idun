@@ -52,6 +52,17 @@ interface PlanDao {
     @Query("SELECT * FROM plan_entry WHERE date_iso BETWEEN :fromIso AND :toIso ORDER BY date_iso, time_minutes")
     suspend fun inRange(fromIso: String, toIso: String): List<PlanEntry>
 
+    /**
+     * How many *upcoming* meals are planned: dated today-or-later and not yet
+     * eaten. This is the count the free/paid soft cap consumes
+     * ([com.idun.app.billing.PlanningLimits.canAddPlanEntry]) — counting only
+     * upcoming, uneaten entries means a free user's capacity renews as days
+     * pass and meals are checked off, so they're never permanently wedged.
+     * Pass today's ISO date as [fromIso].
+     */
+    @Query("SELECT COUNT(*) FROM plan_entry WHERE date_iso >= :fromIso AND eaten_at_ms IS NULL")
+    suspend fun countUpcoming(fromIso: String): Int
+
     @Query("SELECT * FROM plan_entry WHERE id = :id LIMIT 1")
     suspend fun byId(id: Long): PlanEntry?
 
