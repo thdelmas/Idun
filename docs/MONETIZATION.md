@@ -73,16 +73,22 @@ boundary (tunable before launch — these numbers are the starting point, not a 
 
 | Capability | Free (taste) | Premium (unlock) |
 |---|---|---|
-| **Planner / plan entries** | **current week only** (the Mon–Sun window containing today) | any week, past and future; plan-ahead |
-| **Date-range shopping aggregation** | current week only | any range |
+| **Plan entries** | up to **`FREE_UPCOMING_PLAN_ENTRIES`** (6) upcoming | unlimited |
 | **Routines** (recurring templates) | — locked | full |
 | **Household + attendees** | self only | add members + per-entry attendees |
 | **Planned-meal reminders** | — locked | full |
 | Recipes, shopping list, Learn, Bios writes, dark mode | **free** | (same) |
 
-Rationale: "plan this week free; unlock to plan ahead, automate with routines, coordinate your
-household, and get reminders." A real taste of the headline feature at a natural high-intent upgrade
-moment, while the depth that engaged users want is the paid value.
+Rationale: "plan freely, automate with routines, coordinate your household, and get reminders" — a
+real taste of planning at a natural high-intent upgrade moment, while the depth that engaged users
+want is the paid value.
+
+> **Boundary reconciled to the real UI (2026-06-09).** The planner is a *rolling 7-day window from
+> today* with no multi-week navigation (`PlanningActivity.DAYS_AHEAD = 7`), so the original
+> "current week vs plan-ahead" line had nothing to gate. The faithful translation of the *taste*
+> intent is a cap on **upcoming** plan entries (renews as days pass, so a free user is never
+> permanently wedged), plus the automation/coordination features as premium depth. Encoded in
+> `billing/PlanningLimits` (pure, unit-tested); the number is tunable.
 
 **Enforcement layer (new work this implies):** a single `entitlement` check + a thin
 `PlanningLimits` gate (is-current-week? / is-self-only? / routines-and-reminders-allowed?) consulted
