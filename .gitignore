@@ -33,3 +33,6 @@ release.keystore
 
 # Claude Code session artifacts
 .claude/
+
+# Claude Code local config — never ship to auditors
+.claude/
