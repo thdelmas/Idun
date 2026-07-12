@@ -12,6 +12,30 @@ now **unblocked**.
 
 ---
 
+## Doctrine alignment
+
+This plan is a *down-reference* of the portfolio
+[monetization-doctrine](../../Miam/miam-knowledge-base/docs/monetization-doctrine.md) — it **inherits**
+the philosophy rather than re-deriving it.
+
+- **Archetype: 2 — Consumer product** (doctrine §3, where Idun is named in the Archetype-2 row). Idun is
+  an honest app the *individual* pays to use; here, **freemium + one-time unlock** (below).
+- **Values inherited (universal, non-negotiable):** no ads, no surveillance, no dark patterns, no selling
+  the user; free-to-the-person where possible; owner/user decides. The local-first "collects nothing"
+  posture (§B) is this doctrine made literal — a selling point, not a cost.
+- **Mechanism follows nature (§2).** Idun is a recipe/longevity *tool you buy*, so it earns as a consumer
+  Pro app. It does **not** carry a data-consent / federated-learning rail — that is **Archetype 1
+  (instrument / B2B)**, the lane of **Bios / Fil / W2F**, where an *institution* pays and the person
+  consents free of charge. §2 forbids cargo-culting that model onto a recipe app: **don't.**
+- **Privacy is never a price.** Sovereignty (§1) means privacy is the default for *every* user, free —
+  never a paid tier, never a discount-for-data lever. The unlock gates *planning depth*, never privacy.
+- **Not (currently) open-core.** This is a Play-Store paid build. If F-Droid / de-Googled distribution is
+  pursued later, that is the doctrine's open-core delivery modifier (free Apache code + paid Pro) — a
+  **separate, unmade decision**; record and decide it before acting, don't drift into it.
+- **Funnel:** Open Roots (content brand) → Idun, per the doctrine's content/audience meta-layer.
+
+---
+
 ## Where we are
 
 - **Clearance:** done. Recipes re-derived, set labels de-branded, attribution + disclaimer in place.
@@ -100,12 +124,14 @@ is one place to tune, mirroring how `RecipeSource` centralizes the set logic.
 ## Workstream (ordered; start after Decisions 1–2)
 
 ### A. Play Billing integration (code)
-- [ ] Add Play Billing Library dependency.
-- [ ] `billing/BillingManager` wrapper: connect + retry, `queryProductDetails`, `launchBillingFlow`,
+- [x] Add Play Billing Library dependency. *(`com.android.billingclient:billing-ktx:7.1.1`, 2026-06-09.)*
+- [x] `billing/BillingManager` wrapper: connect + retry, `queryProductDetails`, `launchBillingFlow`,
       purchase listener, **acknowledge** (mandatory within 3 days or Play auto-refunds), and
-      `queryPurchasesAsync` on launch for restore.
-- [ ] Local entitlement store (e.g. a `BillingSettings` mirroring `ReminderSettings`/`ThemeSettings`)
-      — cache the verified entitlement; source of truth stays Play.
+      `queryPurchasesAsync` on launch for restore. *(Done 2026-06-09; writes [Entitlement]; exposes a
+      `premiumUnlocked` StateFlow for the upsell UI. Product ID = `BillingManager.PREMIUM_PRODUCT_ID`
+      = `idun_premium_unlock` — must match Play Console.)*
+- [x] Local entitlement store — `billing/Entitlement` (mirrors `ReminderSettings`/`ThemeSettings` in the
+      shared `IdunPrefs`); caches the verified flag, source of truth stays Play.
 - [ ] **`PlanningLimits` gate** (centralized) consulted at the planner, routine, household, and reminder
       entry points — enforces the soft-gate spec above (current-week / self-only / routines+reminders).
 - [ ] Entitlement gate wiring + upsell screen at the soft-gate boundaries. Gate UX: a clean upsell at

@@ -82,6 +82,10 @@ dependencies {
     // Kotlin coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
+    // Google Play Billing — one-time premium unlock (see docs/MONETIZATION.md §A).
+    // -ktx adds the suspend query extensions used by BillingManager.
+    implementation 'com.android.billingclient:billing-ktx:7.1.1'
+
     // Testing
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.json:json:20231013'
