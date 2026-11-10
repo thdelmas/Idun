@@ -12,7 +12,6 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 
 - **Package:** `com.idun.app`
 - **Repo:** `git@github.com-thdelmas:thdelmas/Idun.git`
-- **Local path:** `/home/mia/Idun`
 - **Pattern:** Bios-ecosystem specialist (Smokeless / Fil / W2F / Virgil / SoulRadio family)
 - **Platform:** Android-only Kotlin
 
@@ -28,7 +27,7 @@ Longevity meal app, Bios-ecosystem specialist. See [README.md](README.md) for pr
 
 ## Design system
 
-Idun follows the [Bios Ecosystem Design System](../Bios/docs/DESIGN_SYSTEM.md). Identity palette = Apple-red `#B33A3A` + W2F-cyan `#00BCD4` on parchment `#FAF6EE`. Light is the home palette; **dark mode is opt-in** (v0.7.0, Settings → Appearance → Light/Dark/System, persisted via `ThemeSettings`/`AppCompatDelegate`). Dark is a **warm** dark — espresso/dark-brown surfaces in `res/values-night/colors.xml` that retain the orchard warmth, **not** a navy/cockpit inversion (a cold reskin was rejected before for losing Idun's identity). Every theme color role resolves through a named `@color`, so the night-qualified palette adapts the single `Base.Theme.Idun` style as-is — keep it that way; don't fork the style per config. The W2F-cyan secondary is the ecosystem kinship marker — keep it. Don't invent color roles or component anatomy outside the canonical [design-tokens/](../Bios/docs/design-tokens/) 14-role set; raise it to the canonical doc instead.
+Idun follows the [Bios Ecosystem Design System](https://github.com/thdelmas/Bios/blob/main/docs/DESIGN_SYSTEM.md). Identity palette = Apple-red `#B33A3A` + W2F-cyan `#00BCD4` on parchment `#FAF6EE`. Light is the home palette; **dark mode is opt-in** (v0.7.0, Settings → Appearance → Light/Dark/System, persisted via `ThemeSettings`/`AppCompatDelegate`). Dark is a **warm** dark — espresso/dark-brown surfaces in `res/values-night/colors.xml` that retain the orchard warmth, **not** a navy/cockpit inversion (a cold reskin was rejected before for losing Idun's identity). Every theme color role resolves through a named `@color`, so the night-qualified palette adapts the single `Base.Theme.Idun` style as-is — keep it that way; don't fork the style per config. The W2F-cyan secondary is the ecosystem kinship marker — keep it. Don't invent color roles or component anatomy outside the canonical [design-tokens/](https://github.com/thdelmas/Bios/tree/main/docs/design-tokens) 14-role set; raise it to the canonical doc instead.
 
 ## Bios integration
 
@@ -39,9 +38,8 @@ Idun follows the [Bios Ecosystem Design System](../Bios/docs/DESIGN_SYSTEM.md). 
 
 ## Seed-data discipline
 
-The 53 recipes in `app/src/main/assets/recipes_*.json` are mirrored from the Miam knowledge base:
-- `Miam/miam-knowledge-base/docs/life/blueprint-recipes.md`
-- `Miam/miam-knowledge-base/docs/life/longo-recipes.md`
+The 53 recipes in `app/src/main/assets/recipes_*.json` are mirrored from a curated recipe set
+maintained outside this repo (one markdown doc per set: Protocol and Mediterranean).
 
 When recipes are added, removed, or edited:
 1. Update the canonical markdown in Miam KB first
@@ -56,8 +54,9 @@ do not restore verbatim valterlongo.com / Blueprint wording into the KB or JSON.
 
 ### Ingredients pedagogy (Learn screen)
 
-The 145 canonical food entries in `app/src/main/assets/foods.json` are likewise generated from a KB doc:
-- `Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md`
+The 145 canonical food entries in `app/src/main/assets/foods.json` are likewise generated from a curated
+ingredients-pedagogy markdown doc maintained outside this repo (point `IDUN_FOODS_SOURCE` at it, see
+`scripts/foods/extract_foods_json.py`).
 
 Pipeline: `scripts/foods/build_catalog.py` defines the canonical food IDs, regex patterns, and category, and maps the 466 recipe ingredient lines to them (must remain at zero unmatched). It writes `app/src/main/assets/foods_catalog.json`, which ships as an asset and is consumed by `FoodResolver` at runtime to power the recipe-ingredient → Food-detail jump. `scripts/foods/extract_foods_json.py` parses the KB markdown into `foods.json`. The KB doc is source of truth; never edit `foods.json` or `foods_catalog.json` directly. Editorial register is health-adjacent — see the doc's "Editorial register" section before touching content (no medical-diagnosis framing, no RDA tables; cite Blueprint/Longo). Bump versionCode on edits.
 

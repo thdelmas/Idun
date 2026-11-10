@@ -98,12 +98,12 @@ Recipes are **KB-first** (see [CLAUDE.md](../CLAUDE.md) seed-data discipline) an
 recipe md→JSON generator** — so edit the KB source **and** the app JSON in tandem, keeping schema parity.
 
 ### 1. KB source of truth (rewrite here first)
-- `Miam/miam-knowledge-base/docs/life/longo-recipes.md` — re-derive all 39 `**Method:**` blocks.
+- Mediterranean (Longo) recipe source doc (curated set, outside this repo) — re-derive all 39 `**Method:**` blocks.
   **Also replace** the "Method-step provenance (added 2026-05-24)" disclaimer (it currently admits
   verbatim copying) with a re-derivation note, e.g.: *"Methods are re-derived from traditional
   technique for each dish; dishes are public-domain Mediterranean cooking, cited to Longo's research
   as inspiration only."*
-- `Miam/miam-knowledge-base/docs/life/blueprint-recipes.md` — re-derive the #10 + #14 methods;
+- Protocol (Blueprint) recipe source doc (curated set, outside this repo) — re-derive the #10 + #14 methods;
   spot-check the other 12 are locally authored.
 
 ### 2. App JSON (keep schema identical: `id, source, name_en, servings, ingredients, steps, name_es, steps_es`)

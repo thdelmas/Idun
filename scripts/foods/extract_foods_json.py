@@ -4,7 +4,8 @@ Extract the 145 canonical food entries from the KB markdown into a JSON
 asset the Android app reads at runtime.
 
 Reads:
-    /home/mia/Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md
+    the curated ingredients-pedagogy markdown doc: $IDUN_FOODS_SOURCE if set,
+    else scripts/foods/ingredients-pedagogy.md (place or symlink the doc there)
 
 Writes:
     app/src/main/assets/foods.json
@@ -19,13 +20,16 @@ The KB doc is source of truth — never edit foods.json directly.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-KB = Path("/home/mia/Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md")
+KB = Path(
+    os.environ.get("IDUN_FOODS_SOURCE", ROOT / "scripts" / "foods" / "ingredients-pedagogy.md")
+).expanduser()
 CATALOG = json.loads((ROOT / "scripts" / "foods" / "foods_catalog.json").read_text(encoding="utf-8"))
 OUT = ROOT / "app" / "src" / "main" / "assets" / "foods.json"
 
@@ -95,7 +99,7 @@ def main() -> int:
 
     out = {
         "_meta": {
-            "source_doc": "Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md",
+            "source": "curated ingredient pedagogy set",
             "generated": date.today().isoformat(),
             "food_count": len(foods),
         },

@@ -33,9 +33,9 @@ import java.util.Locale
  * across English (so "garlic" still matches Spanish "ajo en polvo"). An
  * empty result swaps the list for an empty-state pane.
  *
- * Source-of-truth for the entry text is the Miam KB markdown at
- * `docs/life/ingredients-pedagogy.md`; the bundled `foods.json` asset is a
- * derived artifact (see `scripts/foods/extract_foods_json.py`).
+ * Source-of-truth for the entry text is a curated ingredients-pedagogy
+ * markdown doc maintained outside this repo; the bundled `foods.json` asset
+ * is a derived artifact (see `scripts/foods/extract_foods_json.py`).
  */
 class LearnActivity : AppCompatActivity() {
 

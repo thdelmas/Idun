@@ -4,6 +4,10 @@ Merge the 6 batch files (drafts/batch-{A..F}.md) and the 2 proof entries
 already present in the canonical KB doc into a single ordered set of
 145 entries, emitted in catalog order, and rewrite the KB doc.
 
+The KB doc is the curated ingredients-pedagogy markdown: $IDUN_FOODS_SOURCE
+if set, else scripts/foods/ingredients-pedagogy.md (same default as
+extract_foods_json.py).
+
 Run after authoring is complete:
     python3 scripts/foods/merge_entries.py
 """
@@ -11,11 +15,12 @@ Run after authoring is complete:
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-KB = Path("/home/mia/Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md")
+KB = Path(os.environ.get("IDUN_FOODS_SOURCE", ROOT / "ingredients-pedagogy.md")).expanduser()
 CATALOG = json.loads((ROOT / "foods_catalog.json").read_text(encoding="utf-8"))
 
 ENTRY_RE = re.compile(r"^### (\S+)\s*$", re.MULTILINE)

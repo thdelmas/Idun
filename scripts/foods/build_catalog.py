@@ -278,7 +278,7 @@ def main(write: bool) -> int:
     if write:
         out = {
             "_meta": {
-                "source_doc": "Miam/miam-knowledge-base/docs/life/ingredients-pedagogy.md",
+                "source": "curated ingredient pedagogy set",
                 "generated_by": "scripts/foods/build_catalog.py",
                 "notes": (
                     "Bundled as an Android asset and loaded by FoodResolver "

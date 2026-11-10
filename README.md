@@ -40,10 +40,8 @@ app/src/main/
 
 ## Seed-data source
 
-Recipes mirrored from the Miam knowledge base:
-- `/home/mia/Miam/miam-knowledge-base/docs/life/blueprint-recipes.md`
-- `/home/mia/Miam/miam-knowledge-base/docs/life/longo-recipes.md`
-- `/home/mia/Miam/miam-knowledge-base/docs/life/longevity-meal-plan.md`
+Recipes are mirrored from a curated recipe set maintained outside this repo: one markdown doc per
+recipe set (Protocol, Mediterranean) plus a longevity meal-plan doc.
 
 JSON assets are derived from those markdown sources — keep them in sync when the canonical docs change.
 

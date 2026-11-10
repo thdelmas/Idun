@@ -15,7 +15,7 @@ now **unblocked**.
 ## Doctrine alignment
 
 This plan is a *down-reference* of the portfolio
-[monetization-doctrine](../../Miam/miam-knowledge-base/docs/monetization-doctrine.md) — it **inherits**
+monetization doctrine — it **inherits**
 the philosophy rather than re-deriving it.
 
 - **Archetype: 2 — Consumer product** (doctrine §3, where Idun is named in the Archetype-2 row). Idun is

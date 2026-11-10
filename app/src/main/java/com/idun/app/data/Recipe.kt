@@ -6,7 +6,7 @@ import java.util.Locale
 
 /**
  * One recipe loaded from the bundled JSON assets. Source-of-truth for the
- * recipe corpus lives in the Miam knowledge base under `docs/life/` —
+ * recipe corpus is a curated recipe set maintained outside this repo —
  * the JSON here is derived. See CLAUDE.md for the sync discipline.
  *
  * EN is the canonical fallback. Per-locale overrides live in the
